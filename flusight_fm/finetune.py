@@ -1,7 +1,6 @@
 """Fine-tuning on long flu histories.
 
-Only Chronos-2 is fine-tuned locally (`Chronos2Pipeline.fit`). TimeGPT fine-tunes
-per request (the `timegpt_ft` model, TIMEGPT_FINETUNE_STEPS). See TUNING.md for
+Only Chronos-2 is fine-tuned here (`Chronos2Pipeline.fit`). See TUNING.md for
 the other models.
 
 The training corpus is:

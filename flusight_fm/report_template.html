@@ -116,7 +116,7 @@ tbody tr.click { cursor: pointer; } tbody tr.click:hover { background: var(--pag
 const D = JSON.parse(document.getElementById("report-data").textContent);
 const $ = (s) => document.querySelector(s);
 const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"}[c]));
-const SLOTS = {chronos2: 2, timesfm: 3, moirai2: 4, timestral: 5, timegpt: 6, chronos2_ft: 7, timegpt_ft: 8};
+const SLOTS = {chronos2: 2, timesfm: 3, moirai2: 4, timestral: 5, chronos2_ft: 6};
 const modelColor = (m) => `var(--series-${SLOTS[m] || 8})`;
 const state = {key: "hosp", loc: D.locations.length ? D.locations[0].code : null, hidden: new Set()};
 const names = Object.fromEntries(D.locations.map((l) => [l.code, l.name]));

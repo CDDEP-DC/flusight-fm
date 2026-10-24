@@ -1,6 +1,6 @@
 # CPU image for Linux servers and cloud batch jobs.
 #   docker build -t flusight-fm .
-#   docker run --rm -e NIXTLA_API_KEY \
+#   docker run --rm \
 #     -v "$PWD/forecasts:/app/forecasts" -v "$PWD/cache:/app/cache" -v hf:/root/.cache/huggingface \
 #     flusight-fm forecast
 FROM python:3.11-slim

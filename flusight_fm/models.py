@@ -51,10 +51,8 @@ def _long_frame(series: dict[str, pd.Series], id_col: str, time_col: str, target
     )
 
 
-def _match_columns(df: pd.DataFrame, levels, fmt=None) -> list[str]:
+def _match_columns(df: pd.DataFrame, levels) -> list[str]:
     """Find the output column for each quantile level, tolerating '0.1' vs '0.10' style names."""
-    if fmt is not None:
-        return [fmt(q) for q in levels]
     by_value = {}
     for c in df.columns:
         try:
@@ -183,52 +181,12 @@ class Timestral:
         return levels, {loc: q[i, :horizon] for i, loc in enumerate(locs)}
 
 
-class TimeGPT:
-    """Nixtla TimeGPT via API. Needs NIXTLA_API_KEY in the environment."""
-
-    levels = LEVELS_21
-    finetune_steps = 0
-
-    def __init__(self, model_name: str | None = None):
-        from nixtla import NixtlaClient
-
-        self.client = NixtlaClient(api_key=os.environ["NIXTLA_API_KEY"])
-        self.model_name = model_name or os.environ.get("TIMEGPT_MODEL", "timegpt-1")
-
-    def predict(self, series, horizon):
-        df = _long_frame(series, "unique_id", "ds", "y")
-        extra = {"finetune_steps": self.finetune_steps} if self.finetune_steps else {}
-        fc = self.client.forecast(
-            df=df,
-            h=horizon,
-            freq=FREQ,
-            quantiles=[float(q) for q in self.levels],
-            id_col="unique_id",
-            time_col="ds",
-            target_col="y",
-            model=self.model_name,
-            **extra,
-        ).sort_values(["unique_id", "ds"])
-        cols = _match_columns(fc, self.levels, fmt=lambda q: f"TimeGPT-q-{int(round(q * 100))}")
-        return self.levels, {loc: g[cols].to_numpy(float) for loc, g in fc.groupby("unique_id")}
-
-
-class TimeGPTFineTuned(TimeGPT):
-    """TimeGPT fine-tuned on the fly on each location's own history (TIMEGPT_FINETUNE_STEPS)."""
-
-    @property
-    def finetune_steps(self):
-        return C.TIMEGPT_FINETUNE_STEPS
-
-
 MODELS = {
     "chronos2": Chronos2,
     "chronos2_ft": Chronos2FineTuned,
     "timesfm": TimesFM,
     "moirai2": Moirai2,
     "timestral": Timestral,
-    "timegpt": TimeGPT,
-    "timegpt_ft": TimeGPTFineTuned,
 }
 
 

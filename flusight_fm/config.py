@@ -62,7 +62,7 @@ SEASON_START = dt.date(2026, 10, 10)  # first and last Saturdays eligible for th
 SEASON_END = dt.date(2027, 5, 29)
 
 # ---------------------------------------------------------------------- models
-MODELS = ["chronos2", "timesfm", "moirai2", "timestral", "timegpt"]
+MODELS = ["chronos2", "timesfm", "moirai2", "timestral"]
 MIN_MODELS = 2              # need this many successful component models per target
 ENSEMBLE_METHOD = "median"  # "median", "mean" or "weighted"
 ENSEMBLE_WEIGHTS: dict = {} # model -> weight, used when ENSEMBLE_METHOD = "weighted"
@@ -91,7 +91,6 @@ SEED = 20261010
 
 # ----------------------------------------------------------------- fine-tuning
 CHRONOS2_FINETUNED = str(MODELS_DIR / "chronos2-ft" / "finetuned-ckpt")
-TIMEGPT_FINETUNE_STEPS = 20
 
 
 def model_id() -> str:

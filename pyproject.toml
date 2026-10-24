@@ -22,9 +22,8 @@ chronos = ["chronos-forecasting>=2.1"]
 timesfm = ["timesfm[torch]"]
 moirai = ["uni2ts @ git+https://github.com/SalesforceAIResearch/uni2ts.git"]
 timestral = ["timestral @ git+https://github.com/mistralai/timestral.git"]
-timegpt = ["nixtla"]
 finetune = ["chronos-forecasting>=2.1", "peft", "accelerate"]
-all = ["flusight-fm[chronos,timesfm,moirai,timestral,timegpt]"]
+all = ["flusight-fm[chronos,timesfm,moirai,timestral]"]
 
 [project.scripts]
 flusight = "flusight_fm.cli:main"

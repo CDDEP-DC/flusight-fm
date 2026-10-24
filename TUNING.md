@@ -43,13 +43,12 @@ flusight backtest --start 2024-11-23 --end 2025-05-31 --name zs-2425
 flusight backtest --start 2025-11-22 --end 2026-05-30 --name zs-2526   # run now, but don't look until step 6
 ```
 
-These zero-shot runs, with all five models and default settings, are the
+These zero-shot runs, with all four models and default settings, are the
 reference every later experiment is compared with. Each week's component
 forecasts are saved, so steps 1-2 need **no model reruns**.
 
-Cost: one run is about 5 models x 53 locations x ~28 weeks. On CPU, budget a few
+Cost: one run is about 4 models x 53 locations x ~28 weeks. On CPU, budget a few
 hours per season. Use a cloud Linux machine and `--every 2` for quick passes.
-TimeGPT calls cost API credits, so use `--models` to leave it out of exploratory runs.
 
 Before starting, check how far back the hub's history goes. Data versions are
 only rebuilt from `revision_start` (2024-11-01) onward. The first weeks of
@@ -139,7 +138,6 @@ flusight backtest --start 2024-11-23 --end 2025-05-31 --name ft-2425 --models ch
 | `--lr` | 1e-5, 3e-5 (LoRA); 1e-6 (full) | |
 | `--no-ilinet` | with / without ILINet | ILINet adds 25+ seasons of epidemic shapes, but it is a different signal. |
 | `--prediction-length` | 4, 8 | |
-| `timegpt_finetune_steps` (model `timegpt_ft`) | 0, 10, 50 | TimeGPT fine-tunes per request on each series' own history. |
 
 Compare `chronos2_ft` against `chronos2` as components, and the ensemble with
 each. Hardware: LoRA fine-tuning on CPU is slow but possible. A cloud GPU, even

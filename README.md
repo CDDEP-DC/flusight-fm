@@ -1,9 +1,9 @@
 # OHTJHU-BM: FluSight foundation-model ensemble
 
 Weekly forecasts for the [FluSight 2026-27 hub](https://github.com/cdcepi/FluSight-forecast-hub).
-They come from a zero-shot ensemble of Chronos-2, TimesFM 2.5, Moirai 2.0, Timestral and
-TimeGPT, with a backfill nowcast, a pre-submission review report, backtesting and
-optional fine-tuning.
+They come from a zero-shot ensemble of Chronos-2, TimesFM 2.5, Moirai 2.0 and Timestral,
+with a backfill nowcast, a pre-submission review report, backtesting and optional
+fine-tuning. All models run locally from open weights; no forecasting API keys are needed.
 
 ## Weekly workflow
 
@@ -107,7 +107,6 @@ To fine-tune, also install `uv pip install -e ".[finetune]"`.
 
 | variable | needed for |
 |---|---|
-| `NIXTLA_API_KEY` | TimeGPT (from dashboard.nixtla.io). Without it, TimeGPT is just left out. |
 | `FLUSIGHT_HUB_DIR` | `flusight submit`: path to your clone of your fork of the hub |
 | `GITHUB_TOKEN` | optional; raises GitHub API limits when downloading data versions |
 | `DELPHI_API_KEY` | optional; for `fetch-history` (ILINet) |
@@ -141,7 +140,6 @@ git -C ~/code/FluSight-forecast-hub remote add upstream https://github.com/cdcep
   - Runs `flusight forecast` every Wednesday at 19:00 UTC on GitHub's Linux runners.
   - Commits `forecasts/` back to the repo and uploads the report as a downloadable artifact.
   - Doesn't submit. Pull, review the report, then run `flusight submit` locally.
-  - Add `NIXTLA_API_KEY` under repo Settings, Secrets.
   - A private repo gets 2,000 free runner minutes a month; this uses roughly 30-60 per week.
 - **macOS/Linux cron**:
   `0 14 * * 3 bash ~/code/flusight-fm/scripts/weekly.sh`
