@@ -9,6 +9,7 @@ Occasionally:
     flusight evaluate        score past forecasts (or a backtest) against current data
     flusight season-test     replay last season week by week and tabulate the weekly results
     flusight backtest        rerun the pipeline on past weeks, using the data as it was then
+    flusight revisions       analyze how the target data get revised and test the nowcast models
     flusight fetch-history   download NHSN (2020-) and ILINet (1997-) histories
     flusight finetune        fine-tune Chronos-2 on those histories
 """
@@ -115,6 +116,14 @@ def cmd_season_test(args) -> int:
     return 0
 
 
+def cmd_revisions(args) -> int:
+    from . import revisions
+
+    out = revisions.run(args.out, keys=args.targets)
+    print(f"\nRevision report: {out.resolve().as_uri()}")
+    return 0
+
+
 def cmd_fetch_history(args) -> int:
     from . import data
 
@@ -202,6 +211,11 @@ def main(argv=None) -> int:
     st.add_argument("--targets", nargs="+", choices=C.ALL_TARGETS, help="default: hosp rate_change")
     st.add_argument("--every", type=int, default=1, help="run every Nth week (2 = quick pass)")
     st.set_defaults(func=cmd_season_test)
+
+    v = sub.add_parser("revisions", help="analyze how the hub's target data get revised; test nowcast models")
+    v.add_argument("--out", type=Path, default=C.FORECAST_DIR, help="writes <out>/revisions/ (default: forecasts/)")
+    v.add_argument("--targets", nargs="+", choices=["hosp", "ed"], default=["hosp", "ed"])
+    v.set_defaults(func=cmd_revisions)
 
     h = sub.add_parser("fetch-history", help="download long NHSN and ILINet histories")
     h.set_defaults(func=cmd_fetch_history)

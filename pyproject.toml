@@ -33,4 +33,4 @@ flusight = "flusight_fm.cli:main"
 packages = ["flusight_fm"]
 
 [tool.setuptools.package-data]
-flusight_fm = ["report_template.html"]
+flusight_fm = ["report_template.html", "revisions_template.html"]

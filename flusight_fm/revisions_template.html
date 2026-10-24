@@ -1,0 +1,443 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Data Revisions</title>
+<style>
+:root {
+  color-scheme: light;
+  --page: #f9f9f7; --surface-1: #fcfcfb;
+  --text-primary: #0b0b0b; --text-secondary: #52514e; --text-muted: #898781;
+  --grid: #e1e0d9; --axis: #c3c2b7; --border: rgba(11,11,11,0.10);
+  --series-1: #2a78d6; --series-2: #eb6834; --series-3: #1baf7a; --series-4: #eda100;
+  --series-5: #e87ba4; --series-6: #008300; --series-7: #6250d6; --series-8: #e34948;
+  --good: #0ca30c; --critical: #d03b3b; --highlight: rgba(42,120,214,0.08);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --page: #0d0d0d; --surface-1: #1a1a19;
+    --text-primary: #f0efec; --text-secondary: #c3c2b7; --text-muted: #898781;
+    --grid: #2c2c2a; --axis: #383835; --border: rgba(255,255,255,0.10);
+    --series-1: #3987e5; --series-2: #d95926; --series-3: #199e70; --series-4: #c98500;
+    --series-5: #d55181; --series-6: #008300; --series-7: #9085e9; --series-8: #e66767;
+    --highlight: rgba(57,135,229,0.14);
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --page: #0d0d0d; --surface-1: #1a1a19;
+  --text-primary: #f0efec; --text-secondary: #c3c2b7; --text-muted: #898781;
+  --grid: #2c2c2a; --axis: #383835; --border: rgba(255,255,255,0.10);
+  --series-1: #3987e5; --series-2: #d95926; --series-3: #199e70; --series-4: #c98500;
+  --series-5: #d55181; --series-6: #008300; --series-7: #9085e9; --series-8: #e66767;
+  --highlight: rgba(57,135,229,0.14);
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--page); color: var(--text-primary);
+  font: 14px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
+main { max-width: 1180px; margin: 0 auto; padding: 24px 16px 64px; }
+h1 { font-size: 22px; margin: 0 0 4px; }
+h2 { font-size: 17px; margin: 36px 0 6px; }
+h3 { font-size: 14px; margin: 18px 0 8px; }
+p.lead { color: var(--text-secondary); margin: 0 0 12px; max-width: 80ch; }
+.meta { color: var(--text-secondary); font-size: 13px; }
+.card { background: var(--surface-1); border: 1px solid var(--border); border-radius: 8px; padding: 16px; }
+.row { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 16px; }
+.grid2 > * { min-width: 0; }
+@media (max-width: 760px) { .grid2 { grid-template-columns: 1fr; } }
+select, button { font: inherit; color: var(--text-primary); background: var(--surface-1);
+  border: 1px solid var(--axis); border-radius: 6px; padding: 4px 8px; }
+.seg button[aria-pressed="true"] { background: var(--series-1); border-color: var(--series-1); color: #fff; }
+label { color: var(--text-secondary); }
+.findings { margin: 0; padding-left: 20px; }
+.findings li { margin: 6px 0; max-width: 95ch; }
+.chart { position: relative; width: 100%; }
+.chart svg { display: block; overflow: visible; }
+.chart text { fill: var(--text-muted); font-size: 11px; font-variant-numeric: tabular-nums; }
+.tip { position: absolute; pointer-events: none; background: var(--surface-1); border: 1px solid var(--border);
+  border-radius: 6px; padding: 6px 8px; font-size: 12px; box-shadow: 0 2px 8px rgba(0,0,0,.15);
+  white-space: nowrap; z-index: 2; }
+.tip b { display: block; margin-bottom: 2px; }
+.sw { display: inline-block; width: 10px; height: 3px; border-radius: 2px; margin-right: 6px; vertical-align: middle; }
+.dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 6px; vertical-align: middle; }
+.legend { display: flex; flex-wrap: wrap; gap: 4px 16px; margin: 8px 0 0; color: var(--text-secondary); font-size: 12px; }
+table { border-collapse: collapse; width: 100%; font-size: 13px; }
+th, td { padding: 5px 8px; border-bottom: 1px solid var(--grid); text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+th:first-child, td:first-child { text-align: left; }
+th { color: var(--text-secondary); font-weight: 600; vertical-align: bottom; white-space: normal; }
+td.l, th.l { text-align: left; }
+tr.best td { background: var(--highlight); font-weight: 600; }
+.scroll { overflow-x: auto; }
+.tall { max-height: 460px; overflow-y: auto; }
+.tall thead th { position: sticky; top: 0; background: var(--surface-1); }
+.pos { color: var(--series-2); } .neg { color: var(--series-1); }
+.note { color: var(--text-muted); font-size: 12px; margin-top: 8px; }
+.empty { color: var(--text-muted); }
+</style>
+</head>
+<body>
+<main>
+  <h1>How FluSight target data get revised</h1>
+  <div class="meta" id="meta"></div>
+  <div class="row" style="margin-top:12px"><span class="seg" id="dataset"></span></div>
+
+  <h2>Key findings</h2>
+  <div class="card"><ul class="findings" id="findings"></ul></div>
+
+  <h2>Every week's revisions</h2>
+  <p class="lead">Each week's data release reports a new week and revises earlier ones. The chart compares each week's first report, the same week one release later, and its value in the latest data.</p>
+  <div class="card">
+    <div class="row"><label>Location <select id="loc"></select></label></div>
+    <div class="chart" id="traj" style="margin-top:12px"></div>
+    <div class="legend">
+      <span><span class="sw" style="background:var(--series-2)"></span>First report</span>
+      <span><span class="sw" style="background:var(--series-4)"></span>One week later</span>
+      <span><span class="sw" style="background:var(--text-primary)"></span>Latest data</span>
+    </div>
+    <h3>Revision of the first report (latest ÷ first − 1), by week</h3>
+    <div class="chart" id="revbars"></div>
+  </div>
+  <div class="card" style="margin-top:16px">
+    <b>Release by release (national)</b>
+    <p class="note" style="margin:4px 0 8px">“Previous newest week” is the week that was newest in the prior release; its revision is the change between its first and second reports. “Older weeks” sums the national changes to all earlier weeks. States revised counts states whose previous newest week (or any older week) changed.</p>
+    <div class="scroll tall"><table id="weekly"></table></div>
+  </div>
+
+  <h2>How long revisions take</h2>
+  <p class="lead">How far a report is from the latest data, by how many weeks old it is when reported (lag 0 = the newest week). Positive means the report was later revised up.</p>
+  <div class="grid2">
+    <div class="card"><b>Nation: report vs latest, by lag</b><div class="chart" id="comp-us"></div><div class="legend" id="comp-legend"></div></div>
+    <div class="card"><b>States combined: report vs latest, by lag</b><div class="chart" id="comp-st"></div></div>
+  </div>
+  <div class="card scroll" style="margin-top:16px"><table id="comp"></table></div>
+
+  <h2>Is revision size linear in the count?</h2>
+  <p class="lead">Newest-week reports from states since the current reporting period began. If revisions were proportional to the count, points would follow a line of slope 1 on this log-log chart; if they were pure count noise, slope ½.</p>
+  <div class="grid2">
+    <div class="card"><b>Size of revision vs size of report</b><div class="chart" id="scatter"></div><div class="legend" id="scatter-legend"></div></div>
+    <div class="card">
+      <b>Which form fits the spread of revisions?</b>
+      <p class="note" style="margin:4px 0 8px">Fitted to log-scale revisions after removing the size+growth shift. Proportional: a fixed share of the count. Count noise: grows like √count. Power law: grows like count<sup>1−k</sup>. Lower AIC is better.</p>
+      <div class="scroll"><table id="varmodels"></table></div>
+      <div id="power"></div>
+    </div>
+  </div>
+  <div class="card scroll" style="margin-top:16px"><b>By report size</b><table id="sizebins" style="margin-top:8px"></table></div>
+
+  <h2>Epidemic size and phase</h2>
+  <div class="grid2">
+    <div class="card"><b>Nation: newest-week revision vs national level</b><div class="chart" id="natsize"></div><div class="note" id="natsize-note"></div></div>
+    <div class="card">
+      <b>By week-over-week change shown in the report</b><div class="scroll"><table id="growth"></table></div>
+      <h3>By level relative to the location's peak in the past year</h3><div class="scroll"><table id="intensity"></table></div>
+    </div>
+  </div>
+
+  <h2>Nowcast models, replayed week by week</h2>
+  <p class="lead">For each past release, each model was fit using only data versions available at that time, used to nowcast that release's two newest weeks, and scored against the latest data. Lower is better for errors and WIS; coverage should be near 50% and 90%. The highlighted row has the lowest WIS.</p>
+  <div class="card">
+    <div class="row"><label>Season <select id="season"></select></label></div>
+    <div class="scroll" style="margin-top:8px"><table id="replay"></table></div>
+    <p class="note">none: report kept, revision uncertainty only. constant (previous model): fixed shift and fixed s.d. per lag. size: shift depends on report size. size+growth: also on the week-over-week change. Unless marked “constant s.d.”, the s.d. follows the power law in report size. Error and CRPS are on the log scale; WIS is on the data's own scale, from 23 quantiles.</p>
+  </div>
+
+  <h2>The model now in use</h2>
+  <div class="card scroll"><div id="fitted-title" class="meta" style="margin-bottom:8px"></div><table id="fitted"></table></div>
+</main>
+<script type="application/json" id="report-data">__DATA__</script>
+<script>
+"use strict";
+const D = JSON.parse(document.getElementById("report-data").textContent);
+const $ = (s) => document.querySelector(s);
+const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"}[c]));
+const state = {key: Object.keys(D.datasets)[0], loc: "US", season: "all"};
+const DS = () => D.datasets[state.key];
+const isCount = () => DS().unit === "count";
+const fmtV = (v) => v == null ? "–" : isCount() ? Math.round(v).toLocaleString() : (v * 100).toFixed(2) + "%";
+const fmtD = (v) => v == null ? "–" : isCount() ? (v > 0 ? "+" : "") + Math.round(v).toLocaleString() : (v > 0 ? "+" : "") + (v * 100).toFixed(3) + " pts";
+const pct = (v, d = 1) => v == null ? "–" : (v > 0 ? "+" : "") + v.toFixed(d) + "%";
+const sgn = (v) => v == null || v === 0 ? "" : v > 0 ? "pos" : "neg";
+const fmtDate = (d) => new Date(d + "T00:00:00").toLocaleDateString(undefined, {month: "short", day: "numeric", year: "2-digit"});
+const names = () => Object.fromEntries(DS().locations.map((l) => [l.code, l.name]));
+const SEASON_COLORS = ["var(--text-muted)", "var(--series-3)", "var(--series-2)", "var(--series-1)", "var(--series-7)"];
+
+function niceTicks(lo, hi, n) {
+  const raw = (hi - lo) / n || 1, p = Math.pow(10, Math.floor(Math.log10(raw)));
+  const step = [1, 2, 2.5, 5, 10].map((m) => m * p).find((s) => s >= raw) || p;
+  const out = [];
+  for (let v = Math.floor(lo / step) * step; v <= hi + step * 0.999; v += step) out.push(+v.toFixed(10));
+  return out;
+}
+
+// Line chart over dates or numbers. spec: {series:[{name,x,y,color,dash,dots}], height, xType:"date"|"num", fmtY, fmtX, zero}
+function lineChart(el, spec) {
+  const W = el.clientWidth || 600, H = spec.height || 300, m = {t: 12, r: 16, b: 30, l: 64};
+  const xs = [], ys = spec.zero ? [0] : [];
+  const X = (v) => spec.xType === "num" ? v : Date.parse(v);
+  for (const s of spec.series) s.x.forEach((x, i) => { if (s.y[i] != null) { xs.push(X(x)); ys.push(s.y[i]); } });
+  if (!xs.length) { el.innerHTML = '<p class="empty">No data</p>'; return; }
+  const x0 = Math.min(...xs), x1 = Math.max(...xs);
+  const yt = niceTicks(Math.min(...ys), Math.max(...ys), 4), y0 = yt[0], y1 = yt[yt.length - 1];
+  const sx = (t) => m.l + (t - x0) / ((x1 - x0) || 1) * (W - m.l - m.r);
+  const sy = (v) => H - m.b - (v - y0) / ((y1 - y0) || 1) * (H - m.t - m.b);
+  let g = "";
+  for (const t of yt) g += `<line x1="${m.l}" x2="${W - m.r}" y1="${sy(t)}" y2="${sy(t)}" style="stroke:${t === 0 ? "var(--axis)" : "var(--grid)"}"/>` +
+    `<text x="${m.l - 8}" y="${sy(t) + 4}" text-anchor="end">${esc(spec.fmtY(t))}</text>`;
+  if (spec.xType === "num") {
+    for (let v = Math.ceil(x0); v <= x1; v++) g += `<text x="${sx(v)}" y="${H - 10}" text-anchor="middle">${esc(spec.fmtX ? spec.fmtX(v) : v)}</text>`;
+  } else {
+    const months = [];
+    for (let d = new Date(new Date(x0).getFullYear(), new Date(x0).getMonth() + 1, 1); +d <= x1; d.setMonth(d.getMonth() + 1)) months.push(new Date(d));
+    const every = Math.ceil(months.length / Math.max(2, Math.floor((W - m.l) / 70)));
+    months.forEach((d, i) => { if (i % every === 0) g += `<text x="${sx(+d)}" y="${H - 10}" text-anchor="middle">${d.toLocaleDateString(undefined, {month: "short", year: "2-digit"})}</text>`; });
+  }
+  for (const s of spec.series) {
+    let d = "", pen = false;
+    s.x.forEach((x, i) => { const v = s.y[i]; if (v == null) { pen = false; return; } d += (pen ? "L" : "M") + sx(X(x)) + "," + sy(v); pen = true; });
+    if (d) g += `<path d="${d}" style="fill:none;stroke:${s.color};stroke-width:${s.width || 2};stroke-linejoin:round;stroke-linecap:round${s.dash ? ";stroke-dasharray:" + s.dash : ""}"/>`;
+    if (s.dots) s.x.forEach((x, i) => { if (s.y[i] != null) g += `<circle cx="${sx(X(x))}" cy="${sy(s.y[i])}" r="3" style="fill:${s.color}"/>`; });
+  }
+  g += `<line class="xh" y1="${m.t}" y2="${H - m.b}" style="stroke:var(--axis);visibility:hidden"/>`;
+  el.innerHTML = `<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(spec.label || "chart")}">${g}</svg><div class="tip" hidden></div>`;
+  const svg = el.querySelector("svg"), tip = el.querySelector(".tip"), xh = el.querySelector(".xh");
+  const all = [...new Set(xs)].sort((a, b) => a - b);
+  svg.addEventListener("mousemove", (ev) => {
+    const px = ev.clientX - svg.getBoundingClientRect().left;
+    let t = all[0];
+    for (const c of all) if (Math.abs(sx(c) - px) < Math.abs(sx(t) - px)) t = c;
+    xh.setAttribute("x1", sx(t)); xh.setAttribute("x2", sx(t)); xh.style.visibility = "visible";
+    let html = `<b>${esc(spec.xType === "num" ? (spec.fmtX ? spec.fmtX(t) : t) : "Week ending " + fmtDate(new Date(t).toISOString().slice(0, 10)))}</b>`;
+    for (const s of spec.series) {
+      const i = s.x.findIndex((x) => X(x) === t);
+      if (i >= 0 && s.y[i] != null) html += `<div><span class="sw" style="background:${s.color}"></span>${esc(s.name)}: ${esc(spec.fmtY(s.y[i]))}</div>`;
+    }
+    tip.innerHTML = html; tip.hidden = false;
+    tip.style.left = (sx(t) + 12 + tip.offsetWidth > W ? sx(t) - tip.offsetWidth - 12 : sx(t) + 12) + "px"; tip.style.top = m.t + "px";
+  });
+  svg.addEventListener("mouseleave", () => { tip.hidden = true; xh.style.visibility = "hidden"; });
+}
+
+// Signed bars by date. spec: {dates, values (percent), height}
+function signedBars(el, spec) {
+  const W = el.clientWidth || 600, H = spec.height || 170, m = {t: 8, r: 16, b: 24, l: 64};
+  const vals = spec.values.filter((v) => v != null);
+  if (!vals.length) { el.innerHTML = '<p class="empty">No data</p>'; return; }
+  const lim = Math.min(Math.max(...vals.map(Math.abs), 1), 100);
+  const yt = niceTicks(Math.min(0, ...vals.map((v) => Math.max(v, -lim))), Math.max(0, ...vals.map((v) => Math.min(v, lim))), 3);
+  const y0 = yt[0], y1 = yt[yt.length - 1], n = spec.dates.length, bw = (W - m.l - m.r) / n;
+  const sy = (v) => H - m.b - (Math.max(Math.min(v, y1), y0) - y0) / ((y1 - y0) || 1) * (H - m.t - m.b);
+  let g = "";
+  for (const t of yt) g += `<line x1="${m.l}" x2="${W - m.r}" y1="${sy(t)}" y2="${sy(t)}" style="stroke:${t === 0 ? "var(--axis)" : "var(--grid)"}"/><text x="${m.l - 8}" y="${sy(t) + 4}" text-anchor="end">${t}%</text>`;
+  let lastMonth = "", lastX = -Infinity;
+  spec.values.forEach((v, i) => {
+    const x = m.l + i * bw + 0.5, w = Math.max(bw - 1, 1);
+    if (v != null) { const a = sy(Math.max(v, 0)), b = sy(Math.min(v, 0)); g += `<rect x="${x}" y="${a}" width="${w}" height="${Math.max(b - a, 0.5)}" style="fill:${v >= 0 ? "var(--series-2)" : "var(--series-1)"}"/>`; }
+    const mo = spec.dates[i].slice(0, 7);
+    if (mo !== lastMonth) {
+      lastMonth = mo;
+      if (x - lastX >= 70) { g += `<text x="${x}" y="${H - 6}">${esc(new Date(spec.dates[i] + "T00:00:00").toLocaleDateString(undefined, {month: "short", year: "2-digit"}))}</text>`; lastX = x; }
+    }
+  });
+  el.innerHTML = `<svg width="${W}" height="${H}" role="img" aria-label="Revision by week">${g}</svg><div class="tip" hidden></div>`;
+  const svg = el.querySelector("svg"), tip = el.querySelector(".tip");
+  svg.addEventListener("mousemove", (ev) => {
+    const i = Math.floor((ev.clientX - svg.getBoundingClientRect().left - m.l) / bw);
+    if (i < 0 || i >= n || spec.values[i] == null) { tip.hidden = true; return; }
+    tip.innerHTML = `<b>Week ending ${esc(fmtDate(spec.dates[i]))}</b>${esc(spec.tip(i))}`;
+    tip.hidden = false; tip.style.left = Math.min(m.l + i * bw + 8, W - tip.offsetWidth) + "px"; tip.style.top = "0px";
+  });
+  svg.addEventListener("mouseleave", () => { tip.hidden = true; });
+}
+
+// Log-log scatter with reference lines. spec: {x, y, lines:[{name, color, dash, f}], height}
+function logScatter(el, spec) {
+  const W = el.clientWidth || 500, H = spec.height || 340, m = {t: 12, r: 16, b: 34, l: 64};
+  const pts = spec.x.map((x, i) => [x, spec.y[i]]).filter((p) => p[0] > 0 && p[1] > 0);
+  if (!pts.length) { el.innerHTML = '<p class="empty">No data</p>'; return; }
+  const lx = pts.map((p) => Math.log10(p[0])), ly = pts.map((p) => Math.log10(p[1]));
+  const x0 = Math.floor(Math.min(...lx)), x1 = Math.ceil(Math.max(...lx)), y0 = Math.floor(Math.min(...ly)), y1 = Math.ceil(Math.max(...ly));
+  const sx = (v) => m.l + (v - x0) / (x1 - x0 || 1) * (W - m.l - m.r), sy = (v) => H - m.b - (v - y0) / (y1 - y0 || 1) * (H - m.t - m.b);
+  const lab = (e) => isCount() ? Number(Math.pow(10, e).toPrecision(1)).toLocaleString() : (Math.pow(10, e) * 100).toPrecision(1) + "%";
+  let g = "";
+  for (let e = y0; e <= y1; e++) g += `<line x1="${m.l}" x2="${W - m.r}" y1="${sy(e)}" y2="${sy(e)}" style="stroke:var(--grid)"/><text x="${m.l - 8}" y="${sy(e) + 4}" text-anchor="end">${esc(lab(e))}</text>`;
+  for (let e = x0; e <= x1; e++) g += `<line x1="${sx(e)}" x2="${sx(e)}" y1="${m.t}" y2="${H - m.b}" style="stroke:var(--grid)"/><text x="${sx(e)}" y="${H - 16}" text-anchor="middle">${esc(lab(e))}</text>`;
+  g += `<text x="${(m.l + W - m.r) / 2}" y="${H - 2}" text-anchor="middle">first report</text>`;
+  g += `<text transform="translate(12 ${(m.t + H - m.b) / 2}) rotate(-90)" text-anchor="middle">|revision|</text>`;
+  for (let i = 0; i < pts.length; i++) g += `<circle cx="${sx(lx[i]).toFixed(1)}" cy="${sy(ly[i]).toFixed(1)}" r="2" style="fill:var(--series-1);opacity:.25"/>`;
+  for (const L of spec.lines) {
+    // a line is a function f(x), or sampled points {x, y}
+    const xs = L.f ? Array.from({length: 61}, (_, k) => Math.pow(10, x0 + (x1 - x0) * k / 60)) : L.x;
+    const vs = L.f ? xs.map(L.f) : L.y;
+    let d = "";
+    xs.forEach((x, k) => { const v = vs[k]; if (x > 0 && v > 0) { const ex = Math.log10(x), yy = Math.log10(v); if (yy >= y0 && yy <= y1 && ex >= x0 && ex <= x1) d += (d ? "L" : "M") + sx(ex) + "," + sy(yy); } });
+    if (d) g += `<path d="${d}" style="fill:none;stroke:${L.color};stroke-width:${L.width || 2}${L.dash ? ";stroke-dasharray:" + L.dash : ""}"/>`;
+  }
+  el.innerHTML = `<svg width="${W}" height="${H}" role="img" aria-label="Revision size vs report size">${g}</svg>`;
+}
+
+function table(el, cols, rows, opts = {}) {
+  let t = "<thead><tr>" + cols.map((c) => `<th class="${c.l ? "l" : ""}">${esc(c.h)}</th>`).join("") + "</tr></thead><tbody>";
+  for (const r of rows) t += `<tr class="${opts.rowClass ? opts.rowClass(r) : ""}">` + cols.map((c) => {
+    const v = c.f ? c.f(r) : r[c.k];
+    return `<td class="${c.l ? "l " : ""}${c.cls ? c.cls(r) : ""}">${v == null ? "–" : c.html ? v : esc(v)}</td>`;
+  }).join("") + "</tr>";
+  el.innerHTML = t + "</tbody>";
+}
+
+function renderTraj() {
+  const T = DS().trajectories[state.loc];
+  if (!T) { $("#traj").innerHTML = $("#revbars").innerHTML = '<p class="empty">No data</p>'; return; }
+  lineChart($("#traj"), {height: 320, fmtY: fmtV, zero: true, label: "First report vs latest data", series: [
+    {name: "Latest data", x: T.dates, y: T.final, color: "var(--text-primary)", width: 1.5},
+    {name: "One week later", x: T.dates, y: T.second, color: "var(--series-4)", width: 1.5},
+    {name: "First report", x: T.dates, y: T.first, color: "var(--series-2)", width: 1.5}]});
+  const vals = T.dates.map((d, i) => T.first[i] != null && T.final[i] != null && T.first[i] > 0 ? 100 * (T.final[i] / T.first[i] - 1) : null);
+  signedBars($("#revbars"), {dates: T.dates, values: vals, height: 160,
+    tip: (i) => `${fmtV(T.first[i])} first → ${fmtV(T.final[i])} latest (${pct(vals[i])})`});
+}
+
+function renderWeekly() {
+  const N = names();
+  const rows = DS().weekly.slice().reverse();
+  table($("#weekly"), [
+    {h: "Release (forecast week)", k: "ref", f: (r) => fmtDate(r.ref) + (r.commits > 1 ? ` · ${r.commits} commits` : "") + (r.weeks_since_previous > 1 ? ` · ${r.weeks_since_previous} wk gap` : "")},
+    {h: "Newest week", f: (r) => fmtDate(r.newest_week)},
+    {h: "Nation, newest week", f: (r) => fmtV(r.us_newest)},
+    {h: "Previous newest week", f: (r) => fmtDate(r.previous_newest_week)},
+    {h: "First → second report", f: (r) => `${fmtV(r.us_first)} → ${fmtV(r.us_revised)}`},
+    {h: "Change", f: (r) => fmtD(r.us_change), cls: (r) => sgn(r.us_change)},
+    {h: "%", f: (r) => r.us_change_pct == null ? "–" : pct(100 * r.us_change_pct), cls: (r) => sgn(r.us_change_pct)},
+    {h: "Older weeks, net change", f: (r) => fmtD(r.us_older_revision), cls: (r) => sgn(r.us_older_revision)},
+    {h: "States revised (previous / older weeks)", f: (r) => `${r.locations_revised} / ${r.locations_revised_older}`},
+    {h: "Largest state revision", l: true, f: (r) => r.largest_location ? `${N[r.largest_location] || r.largest_location} ${fmtD(r.largest_change)}` + (r.largest_change_pct != null ? ` (${pct(100 * r.largest_change_pct, 0)})` : "") : "–"},
+  ], rows);
+}
+
+function renderCompleteness() {
+  const C = DS().completeness, seasons = [...new Set(C.map((r) => r.season))];
+  const color = (s) => SEASON_COLORS[(SEASON_COLORS.length - seasons.length + seasons.indexOf(s)) % SEASON_COLORS.length];
+  const series = (k) => seasons.map((s) => { const rs = C.filter((r) => r.season === s); return {name: s, x: rs.map((r) => r.lag), y: rs.map((r) => r[k]), color: color(s), dots: true}; });
+  const opts = {height: 240, xType: "num", fmtY: (v) => pct(v), fmtX: (v) => `lag ${v}`, zero: true};
+  lineChart($("#comp-us"), {...opts, series: series("us_median_pct"), label: "Nation"});
+  lineChart($("#comp-st"), {...opts, series: series("states_aggregate_pct"), label: "States combined"});
+  $("#comp-legend").innerHTML = seasons.map((s) => `<span><span class="sw" style="background:${color(s)}"></span>${esc(s)}</span>`).join("");
+  table($("#comp"), [
+    {h: "Season", k: "season"}, {h: "Lag (weeks)", k: "lag"}, {h: "State reports", k: "n"},
+    {h: "Median state", f: (r) => pct(r.states_median_pct), cls: (r) => sgn(r.states_median_pct)},
+    {h: "States combined", f: (r) => pct(r.states_aggregate_pct), cls: (r) => sgn(r.states_aggregate_pct)},
+    {h: "Share of state reports revised", f: (r) => (100 * r.states_revised_share).toFixed(0) + "%"},
+    {h: "Nation, median", f: (r) => pct(r.us_median_pct), cls: (r) => sgn(r.us_median_pct)},
+    {h: "Nation, mean", f: (r) => pct(r.us_mean_pct), cls: (r) => sgn(r.us_mean_pct)}], C);
+}
+
+function renderSize() {
+  const S = DS(), P = S.power, V = S.variance_models, VD = S.variance_detail;
+  const best = V.length ? V.reduce((a, b) => (a.aic < b.aic ? a : b)) : null;
+  const mid = S.scatter.rep.length ? [...S.scatter.rep].sort((a, b) => a - b)[Math.floor(S.scatter.rep.length / 2)] : 1;
+  const at = P && P.a != null ? Math.exp(P.a) * Math.pow(mid, P.b) : 1;
+  const FORM_COLORS = {"power law": "var(--series-3)", "proportional + count noise": "var(--series-7)", "proportional (linear in count)": "var(--text-secondary)", "count noise (√count)": "var(--text-muted)"};
+  const lines = [];
+  for (const name of ["power law", "proportional + count noise"]) if (VD.curves[name])
+    lines.push({name: `${name} model (median |revision|)`, color: FORM_COLORS[name], width: name === "power law" ? 2.5 : 1.5, ...VD.curves[name]});
+  lines.push({name: "Proportional (slope 1)", color: "var(--text-secondary)", dash: "5 4", f: (x) => at * x / mid});
+  lines.push({name: "√count (slope ½)", color: "var(--text-muted)", dash: "2 3", f: (x) => at * Math.sqrt(x / mid)});
+  logScatter($("#scatter"), {x: S.scatter.rep, y: S.scatter.rev, lines});
+  $("#scatter-legend").innerHTML = `<span><span class="dot" style="background:var(--series-1);opacity:.5"></span>Revised newest-week state reports</span>` +
+    lines.map((L) => `<span><span class="sw" style="background:${L.color}"></span>${esc(L.name)}</span>`).join("");
+  table($("#varmodels"), [{h: "Form", k: "model", l: true}, {h: "Fitted", k: "fit", l: true},
+    {h: "Log-likelihood", f: (r) => r.loglik.toFixed(0)}, {h: "ΔAIC", f: (r) => r.delta_aic.toFixed(0)}], V,
+    {rowClass: (r) => r === best ? "best" : ""});
+  const forms = V.map((r) => r.model);
+  let t = "<table style=\"margin-top:8px\"><thead><tr><th>First report</th><th>Typical</th><th>Observed s.d.</th>" + forms.map((n) => `<th>${esc(n)}</th>`).join("") + "</tr></thead><tbody>";
+  for (const r of VD.by_size) t += `<tr><td>${esc(r.bin)}</td><td>${esc(fmtV(r.size))}</td><td><b>${r.sd.toFixed(3)}</b></td>` + forms.map((n) => `<td>${r[n] == null ? "–" : r[n].toFixed(3)}</td>`).join("") + "</tr>";
+  const k = VD.power_k;
+  $("#power").innerHTML = `<p>Spread of revisions on the log scale, by report size: observed vs each form's prediction.</p><div class="scroll">${t}</tbody></table></div>` +
+    (k != null ? `<p>The power law has the spread of revisions growing like count<sup>${(1 - k).toFixed(2)}</sup>, between √count (0.5) and proportional (1): a 10× larger report has ${(100 * (1 - Math.pow(10, -k))).toFixed(0)}% smaller relative revisions. ` : "<p>") +
+    (P && P.b != null ? `Among reports that were revised at all, |revision| ∝ report<sup>${P.b.toFixed(2)}</sup> (95% CI ${P.b_lo.toFixed(2)}–${P.b_hi.toFixed(2)}, ${P.n.toLocaleString()} reports); that slope is lower because small reports are often not revised at all.</p>` : "</p>");
+  table($("#sizebins"), [{h: "First report", k: "size"}, {h: "Reports", k: "n"},
+    {h: "Share revised", f: (r) => (100 * r.revised_share).toFixed(0) + "%"},
+    {h: "Median revision", f: (r) => pct(r.median_pct), cls: (r) => sgn(r.median_pct)},
+    {h: "Combined revision", f: (r) => pct(r.aggregate_pct), cls: (r) => sgn(r.aggregate_pct)},
+    {h: "S.d. (log scale)", f: (r) => r.sd_log.toFixed(3)},
+    {h: "Median |revision|", f: (r) => isCount() ? r.median_abs_revision.toFixed(0) : (100 * r.median_abs_revision).toFixed(3) + " pts"},
+    {h: "Mean |revision|", f: (r) => isCount() ? r.mean_abs_revision.toFixed(1) : (100 * r.mean_abs_revision).toFixed(3) + " pts"}], S.size_bins);
+}
+
+function renderPhase() {
+  const S = DS(), ns = S.national_size;
+  if (ns && ns.points) {
+    const p = ns.points, order = p.rep.map((_, i) => i).sort((a, b) => p.rep[a] - p.rep[b]);
+    const el = $("#natsize"), W = el.clientWidth || 500, H = 260, m = {t: 12, r: 16, b: 34, l: 56};
+    const lx = order.map((i) => Math.log10(p.rep[i])), ys = order.map((i) => p.pct[i]);
+    const x0 = Math.floor(Math.min(...lx)), x1 = Math.ceil(Math.max(...lx)), yt = niceTicks(Math.min(0, ...ys), Math.max(...ys), 4);
+    const sx = (v) => m.l + (v - x0) / (x1 - x0 || 1) * (W - m.l - m.r), sy = (v) => H - m.b - (v - yt[0]) / (yt[yt.length - 1] - yt[0]) * (H - m.t - m.b);
+    let g = "";
+    for (const t of yt) g += `<line x1="${m.l}" x2="${W - m.r}" y1="${sy(t)}" y2="${sy(t)}" style="stroke:${t === 0 ? "var(--axis)" : "var(--grid)"}"/><text x="${m.l - 8}" y="${sy(t) + 4}" text-anchor="end">${t}%</text>`;
+    for (let e = x0; e <= x1; e++) g += `<text x="${sx(e)}" y="${H - 16}" text-anchor="middle">${esc(isCount() ? Math.pow(10, e).toLocaleString() : (Math.pow(10, e) * 100).toPrecision(1) + "%")}</text>`;
+    g += `<text x="${(m.l + W - m.r) / 2}" y="${H - 2}" text-anchor="middle">national first report (log scale)</text>`;
+    order.forEach((i, k) => { g += `<circle cx="${sx(lx[k])}" cy="${sy(ys[k])}" r="4" style="fill:var(--series-2);opacity:.8"><title>${esc(fmtDate(p.date[i]))}: ${esc(fmtV(p.rep[i]))}, ${esc(pct(p.pct[i]))}</title></circle>`; });
+    el.innerHTML = `<svg width="${W}" height="${H}" role="img" aria-label="National revision vs national level">${g}</svg>`;
+    $("#natsize-note").textContent = `Each point is one week's newest national report (hover for details). Slope of the log revision on log level: ${ns.slope.toFixed(3)} (95% CI ${ns.lo.toFixed(3)} to ${ns.hi.toFixed(3)}, ${ns.n} weeks). Near zero means the national revision is a roughly constant share of the count.`;
+  } else $("#natsize").innerHTML = '<p class="empty">Not enough data</p>';
+  const cols = (h) => [{h, k: "bin", l: true}, {h: "Reports", k: "n"},
+    {h: "Median revision", f: (r) => pct(r.median_pct), cls: (r) => sgn(r.median_pct)},
+    {h: "S.d. (log)", f: (r) => r.sd_log.toFixed(3)}];
+  table($("#growth"), cols("Newest report vs the week before"), S.growth);
+  table($("#intensity"), cols("Report as share of past-year peak"), S.intensity);
+}
+
+function renderReplay() {
+  const R = DS().replay, seasons = [...new Set(R.map((r) => r.season))];
+  if (!seasons.includes(state.season)) state.season = "all";
+  $("#season").innerHTML = seasons.map((s) => `<option value="${esc(s)}"${s === state.season ? " selected" : ""}>${s === "all" ? "All replayed weeks" : esc(s)}</option>`).join("");
+  const rows = R.filter((r) => r.season === state.season).sort((a, b) => a.lag - b.lag || (a.model === "report as-is") - (b.model === "report as-is"));
+  const best = {};
+  for (const r of rows) if (r.wis != null && (best[r.lag] == null || r.wis < best[r.lag].wis)) best[r.lag] = r;
+  const fw = (v) => v == null ? "–" : isCount() ? v.toFixed(1) : (v * 100).toFixed(4);
+  table($("#replay"), [{h: "Lag", k: "lag"}, {h: "Model", f: (r) => r.model + (r.model === DS().model ? " (in use)" : ""), l: true}, {h: "Nowcasts", k: "n"},
+    {h: "Median error (log)", f: (r) => r.abs_err_log.toFixed(4)}, {h: "CRPS (log)", f: (r) => r.crps_log == null ? "–" : r.crps_log.toFixed(4)},
+    {h: isCount() ? "WIS (admissions)" : "WIS (pct points)", f: (r) => fw(r.wis)},
+    {h: "50% cov.", f: (r) => r.cov50 == null ? "–" : (100 * r.cov50).toFixed(0) + "%"}, {h: "90% cov.", f: (r) => r.cov90 == null ? "–" : (100 * r.cov90).toFixed(0) + "%"},
+    {h: "Nation, mean abs. error", f: (r) => r.us_abs_err == null ? "–" : fmtV(r.us_abs_err)}], rows,
+    {rowClass: (r) => best[r.lag] === r ? "best" : ""});
+}
+
+function renderFitted() {
+  const F = DS().fitted;
+  if (!F.length) { $("#fitted").innerHTML = '<tr><td class="empty">No model fitted</td></tr>'; return; }
+  $("#fitted-title").textContent = `Model "${DS().model}" (${DS().variance} s.d.), fitted on all data versions since ${D.meta.revision_start}; a week counts as settled after ${D.meta.settle_weeks} weeks. Shift = median nowcast vs the report; s.d. is on the log scale, so 0.10 ≈ ±10%.`;
+  const trends = [...new Set(F.map((r) => r.trend))], keys = [...new Set(F.map((r) => r.lag + "|" + r.report))];
+  const cols = [{h: "Lag", f: (r) => r.lag}, {h: "Report", f: (r) => fmtV(r.report)}]
+    .concat(trends.map((t) => ({h: `Shift if ${t}`, f: (r) => pct(r[t]), cls: (r) => sgn(r[t])})), [{h: "S.d. (log)", f: (r) => r.sd.toFixed(3)}, {h: "Fitted on", f: (r) => r.n.toLocaleString()}]);
+  const rows = keys.map((k) => { const rs = F.filter((r) => r.lag + "|" + r.report === k), o = {lag: rs[0].lag, report: rs[0].report, sd: rs[0].sd_log, n: rs[0].n}; for (const r of rs) o[r.trend] = r.median_shift_pct; return o; });
+  table($("#fitted"), cols, rows);
+}
+
+function renderAll() {
+  const S = DS();
+  $("#findings").innerHTML = S.findings.map((f) => `<li>${esc(f)}</li>`).join("");
+  $("#loc").innerHTML = S.locations.map((l) => `<option value="${esc(l.code)}"${l.code === state.loc ? " selected" : ""}>${esc(l.name)}</option>`).join("");
+  if (!S.trajectories[state.loc]) state.loc = S.locations[0].code;
+  $("#meta").textContent = `Generated ${D.meta.generated} from ${D.meta.hub} git history · ${S.label}: ${S.versions} committed versions, ` +
+    `${S.weeks} forecast weeks (${fmtDate(S.first_version)} – ${fmtDate(S.last_version)}) · reports compared with the latest data once ${D.meta.final_weeks}+ weeks old`;
+  renderTraj(); renderWeekly(); renderCompleteness(); renderSize(); renderPhase(); renderReplay(); renderFitted();
+}
+
+(function init() {
+  $("#dataset").innerHTML = Object.entries(D.datasets).map(([k, S]) => `<button data-k="${esc(k)}" aria-pressed="${k === state.key}">${esc(S.label)}</button>`).join(" ");
+  $("#dataset").querySelectorAll("button").forEach((b) => b.onclick = () => {
+    state.key = b.dataset.k;
+    $("#dataset").querySelectorAll("button").forEach((x) => x.setAttribute("aria-pressed", x === b));
+    renderAll();
+  });
+  $("#loc").onchange = (e) => { state.loc = e.target.value; renderTraj(); };
+  $("#season").onchange = (e) => { state.season = e.target.value; renderReplay(); };
+  renderAll();
+  let rt; window.addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(renderAll, 150); });
+})();
+</script>
+</body>
+</html>

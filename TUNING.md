@@ -91,19 +91,33 @@ worthwhile next step.
 The nowcast affects two things: the horizon -1 submission, and the inputs to
 every model. Judge it directly first.
 
-- **Direct accuracy.** Compare `backtests/<run>/nowcasts/*-hosp.csv` with the
-  current data. Columns are `median` (revised) and `reported`; the current data
-  is the "truth". Report the mean absolute log error of `median` vs `reported`.
-  A nowcast that doesn't beat "use the report as-is" should be turned off.
+- **Revision model replay.** `flusight revisions` replays the nowcast's revision
+  step week by week, with every model in `nowcast.py`, using only the data
+  versions available at the time, and scores it against final data (WIS,
+  coverage, national error). This needs no model runs and takes under a minute.
+  As of Oct 2026 it chose `size+growth` with `power` variance for hospital
+  admissions (newest-week WIS -13% vs the previous fixed shift) and `none` for
+  ED visits (any shift made it worse).
+- **Direct accuracy in a backtest.** Compare `backtests/<run>/nowcasts/*-hosp.csv`
+  with the current data. Columns are `median` (revised) and `reported`. This
+  also covers the `prior_weight` blend with last week's forecast, which the
+  replay above does not.
 - **Horizon -1 WIS** in the `by_horizon` table.
 
 | Knob | Values | Notes |
 |---|---|---|
 | `nowcast` | true / false | false = the report as-is, with a fixed band |
-| `nowcast_weeks` | 1, 2, 3 | How many recent weeks get revised |
+| `nowcast_model` | per dataset: `none`, `constant`, `size`, `size+growth` | Compare in `flusight revisions` |
+| `nowcast_variance` | `power`, `constant` | Power: s.d. shrinks with report size |
+| `nowcast_weeks` | 1, 2, 3 | The replay found no gain from revising weeks 2+ in a typical state |
 | `prior_weight` | 0, 0.5, 1 | Weight on our previous forecast |
 | `revision_shrink` | 2, 5, 20 | Low = trust each location's own revision history |
+| `revision_settle_weeks` | 4, 8, 12 | 4 scored best in the replay |
 | `revision_start` | 2024-11-01, 2025-08-01 | Use only the current reporting regime? |
+
+Known gap: at lag 1 the national nowcast's intervals are too narrow (about 71%
+of 90% intervals covered in the replay), because the nation's late revisions are
+larger than a state of the same size would have.
 
 Then confirm the downstream effect with one rerun of the best nowcast setting:
 horizon 0-3 WIS should not get worse.

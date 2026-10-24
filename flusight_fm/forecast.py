@@ -335,10 +335,11 @@ def run(ref_date: dt.date, frames: dict, locations: pd.DataFrame, models, target
         if lo < pd.Timestamp(ref_date) - pd.Timedelta(weeks=1):
             warnings.append(f"{key}: data ends {lo.date()}; this week's update may not be posted yet")
         offset = C.LOG_OFFSET[key]
-        stats = nc.revision_stats((vintages or {}).get(key, {}), ref_date, offset) if C.NOWCAST else {}
+        rev_models = nc.fit_revisions((vintages or {}).get(key, {}), ref_date, offset,
+                                      C.NOWCAST_MODEL.get(key, "constant")) if C.NOWCAST else {}
         dates = [lo - pd.Timedelta(weeks=k) for k in range(C.NOWCAST_WEEKS)]
         prior = nc.prior_forecasts(prior_dir, C.TARGET_NAMES[key], dates, offset) if C.NOWCAST else {}
-        revised[key], nowcasts[key] = nc.nowcast(series, stats, prior, offset, adjust=C.NOWCAST)
+        revised[key], nowcasts[key] = nc.nowcast(series, rev_models, prior, offset, adjust=C.NOWCAST)
         reported[key], last_obs[key] = series, lo
         n_steps = weeks_between(lo, last_target_week)
         if key == "hosp" and "peak" in targets:

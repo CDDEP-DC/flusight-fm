@@ -101,34 +101,41 @@ def availability_date(committed_utc: str) -> dt.date:
     return reference_date_for(eastern + dt.timedelta(days=3))
 
 
-def load_vintages(key: str) -> dict[dt.date, pd.DataFrame]:
-    """One version of a target data file per reference date: the last one committed before that week's deadline."""
+def load_versions(key: str, since: str | None = None) -> list[tuple[str, pd.Timestamp, pd.DataFrame]]:
+    """Every committed version of a target data file since `since` (default VERSIONS_START):
+    [(sha, commit time UTC, data)], oldest first."""
+    since = since or C.VERSIONS_START
     path = C.TARGET_PATHS[key]
-    d = C.CACHE_DIR / "vintages" / key
+    d = C.CACHE_DIR / "versions" / key
     d.mkdir(parents=True, exist_ok=True)
     index = d / "commits.json"
     try:
-        commits = _commits(path, C.REVISION_START)
+        commits = _commits(path, since)
         index.write_text(json.dumps(commits))
     except requests.RequestException as e:
         log.warning("Could not list hub commits for %s (%s); using cached list", path, e)
         commits = json.loads(index.read_text()) if index.exists() else []
 
-    by_ref: dict[dt.date, str] = {}
+    out = []
     for sha, when in sorted(commits, key=lambda c: c[1]):
-        by_ref[availability_date(when)] = sha
-    out = {}
-    for ref, sha in sorted(by_ref.items()):
-        f = d / f"{ref}_{sha[:10]}.csv.gz"
+        if when[:10] < since:
+            continue
+        f = d / f"{sha[:12]}.csv.gz"
         if not f.exists():
             try:
                 _read_target_csv(_get(C.hub_raw(path, sha)).text).to_csv(f, index=False)
             except (requests.RequestException, ValueError, KeyError) as e:
                 log.warning("Skipping %s version %s: %s", key, sha[:10], e)
                 continue
-        out[ref] = _read_target_csv(f)
-    log.info("Loaded %d versions of %s target data", len(out), key)
+        out.append((sha, pd.Timestamp(when), _read_target_csv(f)))
     return out
+
+
+def load_vintages(key: str, since: str | None = None) -> dict[dt.date, pd.DataFrame]:
+    """One version of a target data file per reference date: the last one committed before that week's deadline."""
+    out = {availability_date(str(when)): df for _, when, df in load_versions(key, since or C.REVISION_START)}
+    log.info("Loaded %d versions of %s target data", len(out), key)
+    return dict(sorted(out.items()))
 
 
 def vintage_for(vintages: dict[dt.date, pd.DataFrame], ref_date: dt.date) -> pd.DataFrame | None:

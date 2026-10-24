@@ -12,6 +12,10 @@ models/
 backtests/*/*
 !backtests/*/evaluation/
 
+# revision analysis: row-level tables are large; rebuild with `flusight revisions`
+forecasts/revisions/*-replay_rows.csv
+forecasts/revisions/*-report_vs_final.csv
+
 # local settings you don't want to share
 flusight.local.toml
 .env

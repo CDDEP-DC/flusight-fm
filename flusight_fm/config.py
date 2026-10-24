@@ -76,7 +76,12 @@ DEVICE = os.environ.get("FLUSIGHT_DEVICE", "auto")  # "auto" (CUDA if available,
 # --------------------------------------------------------------------- nowcast
 NOWCAST = True              # revise the latest weeks for expected backfill before forecasting
 NOWCAST_WEEKS = 2           # how many of the most recent reported weeks to revise
+# Revision model per dataset: "none", "constant", "size" or "size+growth" (see nowcast.py).
+# Chosen by out-of-sample tests in `flusight revisions`: for ED visits no shift beat the alternatives.
+NOWCAST_MODEL = {"hosp": "size+growth", "ed": "none"}
+NOWCAST_VARIANCE = "power"  # revision s.d. shrinks as a power of the report's size; "constant" = one s.d. per lag
 REVISION_START = "2024-11-01"  # earliest data version used to learn revision patterns
+VERSIONS_START = "2023-08-01"  # earliest data version downloaded for the revision analysis
 REVISION_SETTLE_WEEKS = 4   # a week counts as "final" once it is this many weeks old
 REVISION_SHRINK = 5.0       # pseudo-count pulling each location's revision stats toward all locations
 REVISION_MIN_SD = 0.01      # floor on revision s.d. (log scale)

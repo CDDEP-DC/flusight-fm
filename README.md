@@ -32,12 +32,16 @@ Wednesday around midday, so run after that.
    from the hub's git history (cached under `cache/`).
 2. **Nowcast** (`nowcast.py`). The last 2 reported weeks are usually revised
    upward later. Each is estimated from two sources:
-   - the report, shifted by how reports at that lag have historically been
-     revised (learned from the past data versions), and
+   - the report, adjusted by a revision model learned from every past version of
+     the hub's data. For hospital admissions, the expected revision depends on the
+     report's size and on its week-over-week change: a sharp apparent drop is
+     usually an incomplete report. The uncertainty shrinks as a power of the
+     report's size. ED visit reports are kept as they are, with uncertainty only.
    - last week's forecast for that week.
 
    The models then see the nowcast-adjusted series, and horizon -1 is submitted
-   from the nowcast distribution.
+   from the nowcast distribution. `flusight revisions` produces the analysis
+   behind these choices (see below).
 3. **Models** (`models.py`). Each model forecasts every location. A model that
    fails is logged and left out.
 4. **Ensemble** (`forecast.py`). Quantiles are mapped onto FluSight's 23 levels,
@@ -175,6 +179,25 @@ so expect a few hours on CPU.
 Pretraining caveat: the foundation models' training data may overlap the test season. That
 would make zero-shot results look better than they would have in real time, especially for
 models released after the season (Timestral, Oct 2026).
+
+## How the data get revised
+
+```bash
+flusight revisions        # -> forecasts/revisions/revisions.html (+ CSV tables)
+```
+
+This downloads every committed version of the hub's target data files (since
+2023) and reports:
+- each weekly release's revisions to earlier weeks, nationally and by state
+- how far reports are from final, by lag and season
+- whether revision size is linear in the count (it isn't: it grows like
+  count^0.8 for hospital admissions)
+- how revisions depend on epidemic size and phase
+- a week-by-week replay of the nowcast with each revision model, scored
+  against final data
+
+The nowcast settings in `config.py` (`NOWCAST_MODEL`, `NOWCAST_VARIANCE`) were
+chosen from that replay. Re-run it each season, or when NHSN reporting changes.
 
 ## Other commands
 
