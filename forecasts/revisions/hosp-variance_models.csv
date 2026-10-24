@@ -1,0 +1,5 @@
+model,params,fit,loglik,aic,n,delta_aic
+proportional (linear in count),1,s.d. 0.173,1185.7803,-2369.5606,3536,854.4059
+count noise (√count),1,s.d. 0.387 × √(offset / (report + offset)),-17138.3027,34278.6054,3536,37502.5718
+proportional + count noise,2,"s0 0.140, s1 0.331",1493.2457,-2982.4915,3536,241.475
+power law,2,"s.d. 0.318 × size^−0.19, so |revision| ∝ count^0.81",1613.9832,-3223.9665,3536,0.0

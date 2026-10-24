@@ -1,0 +1,5 @@
+target,reference_date,model,n,wis,wis_log,rel_wis,rel_wis_log,cov50,cov95
+wk inc flu hosp,2026-10-24,FluSight-baseline,53,0.0,0.0,,,1.0,1.0
+wk inc flu prop ed visits,2026-10-24,FluSight-baseline,49,0.0,0.0,,,1.0,1.0
+wk inc flu hosp,2026-10-24,OHTJHU-BM,53,9.897530762920427,0.05035757935110636,,,0.7169811320754716,0.9811320754716981
+wk inc flu prop ed visits,2026-10-24,OHTJHU-BM,49,9.729254658385092e-05,0.013312807239213244,,,1.0,1.0

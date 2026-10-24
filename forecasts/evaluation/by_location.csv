@@ -1,0 +1,205 @@
+target,location,model,n,wis,wis_log,rel_wis,rel_wis_log,cov50,cov95
+wk inc flu hosp,01,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu hosp,02,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu hosp,04,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu hosp,05,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu hosp,06,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu hosp,08,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu hosp,09,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu hosp,10,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu hosp,11,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu hosp,12,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu hosp,13,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu hosp,15,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu hosp,16,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu hosp,17,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu hosp,18,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu hosp,19,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu hosp,20,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu hosp,21,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu hosp,22,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu hosp,23,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu hosp,24,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu hosp,25,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu hosp,26,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu hosp,27,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu hosp,28,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu hosp,29,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu hosp,30,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu hosp,31,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu hosp,32,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu hosp,33,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu hosp,34,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu hosp,35,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu hosp,36,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu hosp,37,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu hosp,38,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu hosp,39,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu hosp,40,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu hosp,41,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu hosp,42,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu hosp,44,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu hosp,45,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu hosp,46,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu hosp,47,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu hosp,48,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu hosp,49,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu hosp,50,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu hosp,51,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu hosp,53,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu hosp,54,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu hosp,55,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu hosp,56,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu hosp,72,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu hosp,US,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu prop ed visits,01,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu prop ed visits,02,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu prop ed visits,04,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu prop ed visits,05,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu prop ed visits,06,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu prop ed visits,08,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu prop ed visits,09,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu prop ed visits,11,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu prop ed visits,12,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu prop ed visits,15,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu prop ed visits,16,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu prop ed visits,17,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu prop ed visits,18,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu prop ed visits,20,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu prop ed visits,21,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu prop ed visits,22,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu prop ed visits,23,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu prop ed visits,24,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu prop ed visits,25,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu prop ed visits,26,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu prop ed visits,27,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu prop ed visits,28,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu prop ed visits,29,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu prop ed visits,30,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu prop ed visits,31,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu prop ed visits,32,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu prop ed visits,33,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu prop ed visits,34,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu prop ed visits,35,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu prop ed visits,36,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu prop ed visits,37,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu prop ed visits,38,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu prop ed visits,39,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu prop ed visits,40,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu prop ed visits,41,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu prop ed visits,42,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu prop ed visits,44,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu prop ed visits,45,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu prop ed visits,46,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu prop ed visits,47,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu prop ed visits,48,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu prop ed visits,49,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu prop ed visits,50,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu prop ed visits,51,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu prop ed visits,53,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu prop ed visits,54,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu prop ed visits,55,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu prop ed visits,56,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu prop ed visits,US,FluSight-baseline,1,0.0,0.0,,,1.0,1.0
+wk inc flu hosp,01,OHTJHU-BM,1,2.073478260869565,0.03059480892214306,,,1.0,1.0
+wk inc flu hosp,02,OHTJHU-BM,1,2.5495652173913044,0.11431836286482958,,,0.0,1.0
+wk inc flu hosp,04,OHTJHU-BM,1,1.9721739130434783,0.033619947825065034,,,1.0,1.0
+wk inc flu hosp,05,OHTJHU-BM,1,2.131304347826087,0.0961017349367055,,,0.0,1.0
+wk inc flu hosp,06,OHTJHU-BM,1,33.974347826086955,0.04885658976410726,,,0.0,1.0
+wk inc flu hosp,08,OHTJHU-BM,1,1.2991304347826087,0.02665635400828956,,,1.0,1.0
+wk inc flu hosp,09,OHTJHU-BM,1,1.3921739130434785,0.026037526772961127,,,1.0,1.0
+wk inc flu hosp,10,OHTJHU-BM,1,0.32869565217391306,0.035591777572403505,,,1.0,1.0
+wk inc flu hosp,11,OHTJHU-BM,1,0.3230434782608696,0.09132063440597171,,,1.0,1.0
+wk inc flu hosp,12,OHTJHU-BM,1,66.93695652173913,0.07267263243351085,,,0.0,1.0
+wk inc flu hosp,13,OHTJHU-BM,1,4.731304347826088,0.05667883689412251,,,0.0,1.0
+wk inc flu hosp,15,OHTJHU-BM,1,2.4217391304347826,0.028163563193399833,,,1.0,1.0
+wk inc flu hosp,16,OHTJHU-BM,1,1.4265217391304348,0.057389372571210184,,,1.0,1.0
+wk inc flu hosp,17,OHTJHU-BM,1,4.481304347826088,0.046824382709479216,,,0.0,1.0
+wk inc flu hosp,18,OHTJHU-BM,1,2.1060869565217395,0.03705414871441647,,,1.0,1.0
+wk inc flu hosp,19,OHTJHU-BM,1,0.7830434782608696,0.04320803133386631,,,1.0,1.0
+wk inc flu hosp,20,OHTJHU-BM,1,0.7808695652173914,0.045654879501800985,,,1.0,1.0
+wk inc flu hosp,21,OHTJHU-BM,1,7.379130434782609,0.10985378534735349,,,0.0,1.0
+wk inc flu hosp,22,OHTJHU-BM,1,4.243478260869566,0.031688461895366234,,,1.0,1.0
+wk inc flu hosp,23,OHTJHU-BM,1,0.5008695652173913,0.03216484115795679,,,1.0,1.0
+wk inc flu hosp,24,OHTJHU-BM,1,1.9530434782608697,0.037046581459523484,,,1.0,1.0
+wk inc flu hosp,25,OHTJHU-BM,1,1.2639130434782608,0.03974300876296851,,,1.0,1.0
+wk inc flu hosp,26,OHTJHU-BM,1,3.742173913043479,0.06216156522666995,,,0.0,1.0
+wk inc flu hosp,27,OHTJHU-BM,1,0.5726086956521739,0.03662680583446088,,,1.0,1.0
+wk inc flu hosp,28,OHTJHU-BM,1,2.6795652173913043,0.046522429536797395,,,1.0,1.0
+wk inc flu hosp,29,OHTJHU-BM,1,8.158695652173913,0.15714904068327282,,,0.0,1.0
+wk inc flu hosp,30,OHTJHU-BM,1,1.0239130434782608,0.04784969363694403,,,1.0,1.0
+wk inc flu hosp,31,OHTJHU-BM,1,0.5760869565217391,0.04186337034658853,,,1.0,1.0
+wk inc flu hosp,32,OHTJHU-BM,1,2.3282608695652174,0.05997203410850997,,,0.0,1.0
+wk inc flu hosp,33,OHTJHU-BM,1,0.4069565217391305,0.03569681616017721,,,1.0,1.0
+wk inc flu hosp,34,OHTJHU-BM,1,2.1691304347826086,0.02371387398120612,,,1.0,1.0
+wk inc flu hosp,35,OHTJHU-BM,1,0.9991304347826088,0.04910486651745631,,,1.0,1.0
+wk inc flu hosp,36,OHTJHU-BM,1,11.527826086956521,0.050830934781020694,,,0.0,1.0
+wk inc flu hosp,37,OHTJHU-BM,1,2.617826086956522,0.024397796515502744,,,1.0,1.0
+wk inc flu hosp,38,OHTJHU-BM,1,0.17391304347826086,0.03456465836091043,,,1.0,1.0
+wk inc flu hosp,39,OHTJHU-BM,1,2.1621739130434783,0.029388343653054896,,,1.0,1.0
+wk inc flu hosp,40,OHTJHU-BM,1,6.413043478260869,0.1926029350859894,,,0.0,0.0
+wk inc flu hosp,41,OHTJHU-BM,1,7.107826086956522,0.11483056983297152,,,0.0,1.0
+wk inc flu hosp,42,OHTJHU-BM,1,5.796521739130435,0.02073178693018409,,,1.0,1.0
+wk inc flu hosp,44,OHTJHU-BM,1,0.19260869565217395,0.0433009212930703,,,1.0,1.0
+wk inc flu hosp,45,OHTJHU-BM,1,1.6543478260869566,0.0262335475578803,,,1.0,1.0
+wk inc flu hosp,46,OHTJHU-BM,1,0.23782608695652177,0.032825150172340944,,,1.0,1.0
+wk inc flu hosp,47,OHTJHU-BM,1,2.245217391304348,0.024416776678317983,,,1.0,1.0
+wk inc flu hosp,48,OHTJHU-BM,1,23.613478260869567,0.041750384269593065,,,0.0,1.0
+wk inc flu hosp,49,OHTJHU-BM,1,1.181304347826087,0.027289632107171283,,,1.0,1.0
+wk inc flu hosp,50,OHTJHU-BM,1,0.32869565217391306,0.035591777572403505,,,1.0,1.0
+wk inc flu hosp,51,OHTJHU-BM,1,2.1673913043478263,0.041677927635775595,,,1.0,1.0
+wk inc flu hosp,53,OHTJHU-BM,1,3.4913043478260875,0.02124683496339666,,,1.0,1.0
+wk inc flu hosp,54,OHTJHU-BM,1,0.41,0.034274352131519394,,,1.0,1.0
+wk inc flu hosp,55,OHTJHU-BM,1,1.0530434782608697,0.04293908592999891,,,1.0,1.0
+wk inc flu hosp,56,OHTJHU-BM,1,0.1482608695652174,0.03578417341435708,,,1.0,1.0
+wk inc flu hosp,72,OHTJHU-BM,1,6.6747826086956525,0.03589710642030738,,,1.0,1.0
+wk inc flu hosp,US,OHTJHU-BM,1,277.6630434782609,0.05647625122333665,,,0.0,1.0
+wk inc flu prop ed visits,01,OHTJHU-BM,1,0.00015170652173913043,0.011754380561065042,,,1.0,1.0
+wk inc flu prop ed visits,02,OHTJHU-BM,1,0.00018460217391304365,0.011320096591989922,,,1.0,1.0
+wk inc flu prop ed visits,04,OHTJHU-BM,1,7.185782608695653e-05,0.01354945980782222,,,1.0,1.0
+wk inc flu prop ed visits,05,OHTJHU-BM,1,8.085086956521743e-05,0.013246026635256165,,,1.0,1.0
+wk inc flu prop ed visits,06,OHTJHU-BM,1,0.0001555704347826087,0.011691266998043163,,,1.0,1.0
+wk inc flu prop ed visits,08,OHTJHU-BM,1,8.417304347826084e-05,0.013143919370277967,,,1.0,1.0
+wk inc flu prop ed visits,09,OHTJHU-BM,1,6.49895652173913e-05,0.01381805499899998,,,1.0,1.0
+wk inc flu prop ed visits,11,OHTJHU-BM,1,6.144217391304346e-05,0.013954662267215921,,,1.0,1.0
+wk inc flu prop ed visits,12,OHTJHU-BM,1,0.00024384913043478266,0.010737933464286574,,,1.0,1.0
+wk inc flu prop ed visits,15,OHTJHU-BM,1,0.0005408086956521738,0.009226037748929111,,,1.0,1.0
+wk inc flu prop ed visits,16,OHTJHU-BM,1,8.527217391304349e-05,0.013110627945947907,,,1.0,1.0
+wk inc flu prop ed visits,17,OHTJHU-BM,1,5.1904782608695646e-05,0.014407506697215824,,,1.0,1.0
+wk inc flu prop ed visits,18,OHTJHU-BM,1,6.49895652173913e-05,0.01381805499899998,,,1.0,1.0
+wk inc flu prop ed visits,20,OHTJHU-BM,1,4.078608695652172e-05,0.015093161254703136,,,1.0,1.0
+wk inc flu prop ed visits,21,OHTJHU-BM,1,9.838521739130434e-05,0.012770102387514306,,,1.0,1.0
+wk inc flu prop ed visits,22,OHTJHU-BM,1,0.00018076695652173919,0.01136378610932478,,,1.0,1.0
+wk inc flu prop ed visits,23,OHTJHU-BM,1,6.952956521739129e-05,0.013624169732883558,,,1.0,1.0
+wk inc flu prop ed visits,24,OHTJHU-BM,1,7.30078260869565e-05,0.013511061638562276,,,1.0,1.0
+wk inc flu prop ed visits,25,OHTJHU-BM,1,6.26713043478261e-05,0.013917200796782459,,,1.0,1.0
+wk inc flu prop ed visits,26,OHTJHU-BM,1,4.078608695652172e-05,0.015093161254703136,,,1.0,1.0
+wk inc flu prop ed visits,27,OHTJHU-BM,1,4.9466521739130425e-05,0.014538181920286422,,,1.0,1.0
+wk inc flu prop ed visits,28,OHTJHU-BM,1,9.409695652173914e-05,0.01288236112091653,,,1.0,1.0
+wk inc flu prop ed visits,29,OHTJHU-BM,1,4.078608695652172e-05,0.015093161254703136,,,1.0,1.0
+wk inc flu prop ed visits,30,OHTJHU-BM,1,7.185782608695653e-05,0.01354945980782222,,,1.0,1.0
+wk inc flu prop ed visits,31,OHTJHU-BM,1,5.559521739130436e-05,0.014244407085006364,,,1.0,1.0
+wk inc flu prop ed visits,32,OHTJHU-BM,1,0.00011103782608695657,0.01246939311759464,,,1.0,1.0
+wk inc flu prop ed visits,33,OHTJHU-BM,1,6.952956521739129e-05,0.013624169732883558,,,1.0,1.0
+wk inc flu prop ed visits,34,OHTJHU-BM,1,7.975826086956521e-05,0.013284627003307485,,,1.0,1.0
+wk inc flu prop ed visits,35,OHTJHU-BM,1,6.952956521739129e-05,0.013624169732883558,,,1.0,1.0
+wk inc flu prop ed visits,36,OHTJHU-BM,1,6.26713043478261e-05,0.013917200796782459,,,1.0,1.0
+wk inc flu prop ed visits,37,OHTJHU-BM,1,0.00014873913043478258,0.011799012249231461,,,1.0,1.0
+wk inc flu prop ed visits,38,OHTJHU-BM,1,3.56604347826087e-05,0.015491365363662914,,,1.0,1.0
+wk inc flu prop ed visits,39,OHTJHU-BM,1,4.584913043478263e-05,0.014779166924432258,,,1.0,1.0
+wk inc flu prop ed visits,40,OHTJHU-BM,1,8.527217391304349e-05,0.013110627945947907,,,1.0,1.0
+wk inc flu prop ed visits,41,OHTJHU-BM,1,0.00011309956521739136,0.012421655846508067,,,1.0,1.0
+wk inc flu prop ed visits,42,OHTJHU-BM,1,4.9466521739130425e-05,0.014538181920286422,,,1.0,1.0
+wk inc flu prop ed visits,44,OHTJHU-BM,1,5.559521739130436e-05,0.014244407085006364,,,1.0,1.0
+wk inc flu prop ed visits,45,OHTJHU-BM,1,7.752217391304349e-05,0.013357593134083965,,,1.0,1.0
+wk inc flu prop ed visits,46,OHTJHU-BM,1,3.167260869565217e-05,0.0158218599808956,,,1.0,1.0
+wk inc flu prop ed visits,47,OHTJHU-BM,1,8.749434782608697e-05,0.013050954421185423,,,1.0,1.0
+wk inc flu prop ed visits,48,OHTJHU-BM,1,0.00017122782608695644,0.011486422924903854,,,1.0,1.0
+wk inc flu prop ed visits,49,OHTJHU-BM,1,0.00011210782608695655,0.01244958045157654,,,1.0,1.0
+wk inc flu prop ed visits,50,OHTJHU-BM,1,7.30078260869565e-05,0.013511061638562276,,,1.0,1.0
+wk inc flu prop ed visits,51,OHTJHU-BM,1,8.749434782608697e-05,0.013050954421185423,,,1.0,1.0
+wk inc flu prop ed visits,53,OHTJHU-BM,1,0.00019039043478260873,0.011260643831862267,,,1.0,1.0
+wk inc flu prop ed visits,54,OHTJHU-BM,1,4.078608695652172e-05,0.015093161254703136,,,1.0,1.0
+wk inc flu prop ed visits,55,OHTJHU-BM,1,3.823521739130435e-05,0.015280639021311264,,,1.0,1.0
+wk inc flu prop ed visits,56,OHTJHU-BM,1,9.616913043478262e-05,0.0128149205606886,,,1.0,1.0
+wk inc flu prop ed visits,US,OHTJHU-BM,1,0.00011526565217391312,0.012387542912705352,,,1.0,1.0
