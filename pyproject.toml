@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "flusight-fm"
+version = "0.2.0"
+description = "OHTJHU-BM: FluSight forecasts from an ensemble of time-series foundation models"
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+classifiers = ["License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication"]
+dependencies = [
+    "numpy",
+    "pandas>=2.0",
+    "pyarrow",
+    "requests",
+    "torch>=2.4",
+]
+
+[project.optional-dependencies]
+chronos = ["chronos-forecasting>=2.1"]
+timesfm = ["timesfm[torch]"]
+moirai = ["uni2ts @ git+https://github.com/SalesforceAIResearch/uni2ts.git"]
+timestral = ["timestral @ git+https://github.com/mistralai/timestral.git"]
+timegpt = ["nixtla"]
+finetune = ["chronos-forecasting>=2.1", "peft", "accelerate"]
+all = ["flusight-fm[chronos,timesfm,moirai,timestral,timegpt]"]
+
+[project.scripts]
+flusight = "flusight_fm.cli:main"
+
+[tool.setuptools]
+packages = ["flusight_fm"]
+
+[tool.setuptools.package-data]
+flusight_fm = ["report_template.html"]

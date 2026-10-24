@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Forecast Review</title>
+<style>
+:root {
+  color-scheme: light;
+  --page: #f9f9f7; --surface-1: #fcfcfb;
+  --text-primary: #0b0b0b; --text-secondary: #52514e; --text-muted: #898781;
+  --grid: #e1e0d9; --axis: #c3c2b7; --border: rgba(11,11,11,0.10);
+  --series-1: #2a78d6; --series-2: #eb6834; --series-3: #1baf7a; --series-4: #eda100;
+  --series-5: #e87ba4; --series-6: #008300; --series-7: #6250d6; --series-8: #e34948;
+  --good: #0ca30c; --warning: #fab219; --serious: #ec835a; --critical: #d03b3b;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --page: #0d0d0d; --surface-1: #1a1a19;
+    --text-primary: #f0efec; --text-secondary: #c3c2b7; --text-muted: #898781;
+    --grid: #2c2c2a; --axis: #383835; --border: rgba(255,255,255,0.10);
+    --series-1: #3987e5; --series-2: #d95926; --series-3: #199e70; --series-4: #c98500;
+    --series-5: #d55181; --series-6: #008300; --series-7: #9085e9; --series-8: #e66767;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --page: #0d0d0d; --surface-1: #1a1a19;
+  --text-primary: #f0efec; --text-secondary: #c3c2b7; --text-muted: #898781;
+  --grid: #2c2c2a; --axis: #383835; --border: rgba(255,255,255,0.10);
+  --series-1: #3987e5; --series-2: #d95926; --series-3: #199e70; --series-4: #c98500;
+  --series-5: #d55181; --series-6: #008300; --series-7: #9085e9; --series-8: #e66767;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--page); color: var(--text-primary);
+  font: 14px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif; }
+main { max-width: 1180px; margin: 0 auto; padding: 24px 16px 64px; }
+h1 { font-size: 22px; margin: 0 0 4px; }
+h2 { font-size: 16px; margin: 32px 0 12px; }
+.meta { color: var(--text-secondary); font-size: 13px; }
+.card { background: var(--surface-1); border: 1px solid var(--border); border-radius: 8px; padding: 16px; }
+.row { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 16px; }
+@media (max-width: 760px) { .grid2 { grid-template-columns: 1fr; } }
+select, button { font: inherit; color: var(--text-primary); background: var(--surface-1);
+  border: 1px solid var(--axis); border-radius: 6px; padding: 4px 8px; }
+label { color: var(--text-secondary); }
+.checks { list-style: none; margin: 0; padding: 0; }
+.checks li { display: flex; gap: 8px; align-items: baseline; padding: 4px 0; border-bottom: 1px solid var(--grid); }
+.checks li:last-child { border-bottom: 0; }
+.badge { font-size: 12px; font-weight: 600; white-space: nowrap; }
+.badge::before { content: ""; display: inline-block; width: 8px; height: 8px; border-radius: 50%;
+  margin-right: 6px; background: var(--dot); }
+.lvl-error { --dot: var(--critical); } .lvl-warning { --dot: var(--warning); }
+.lvl-info { --dot: var(--text-muted); } .lvl-good { --dot: var(--good); }
+.chart { position: relative; width: 100%; }
+.chart svg { display: block; overflow: visible; }
+.chart text { fill: var(--text-muted); font-size: 11px; font-variant-numeric: tabular-nums; }
+.tip { position: absolute; pointer-events: none; background: var(--surface-1); border: 1px solid var(--border);
+  border-radius: 6px; padding: 6px 8px; font-size: 12px; box-shadow: 0 2px 8px rgba(0,0,0,.15);
+  white-space: nowrap; z-index: 2; }
+.tip b { display: block; margin-bottom: 2px; }
+.sw { display: inline-block; width: 10px; height: 3px; border-radius: 2px; margin-right: 6px; vertical-align: middle; }
+.legend { display: flex; flex-wrap: wrap; gap: 4px 16px; margin: 8px 0 0; color: var(--text-secondary); font-size: 12px; }
+.legend button { border: 0; padding: 0; background: none; color: inherit; cursor: pointer; }
+.legend button[aria-pressed="false"] { opacity: .4; }
+.multiples { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 8px; }
+.mini { text-align: left; cursor: pointer; padding: 8px; }
+.mini.sel { outline: 2px solid var(--series-1); }
+.mini .nm { font-size: 12px; color: var(--text-secondary); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+table { border-collapse: collapse; width: 100%; font-size: 13px; }
+th, td { padding: 6px 8px; border-bottom: 1px solid var(--grid); text-align: right; font-variant-numeric: tabular-nums; }
+th:first-child, td:first-child { text-align: left; }
+th { color: var(--text-secondary); font-weight: 600; }
+tbody tr.click { cursor: pointer; } tbody tr.click:hover { background: var(--page); }
+.scroll { overflow-x: auto; }
+.pi { color: var(--text-muted); font-size: 11px; }
+.empty { color: var(--text-muted); }
+</style>
+</head>
+<body>
+<main>
+  <h1 id="title"></h1>
+  <div class="meta" id="meta"></div>
+
+  <h2>Checks</h2>
+  <div class="card"><ul class="checks" id="checks"></ul></div>
+
+  <h2>Explore</h2>
+  <div class="card">
+    <div class="row">
+      <label>Target <select id="target"></select></label>
+      <label>Location <select id="loc"></select></label>
+    </div>
+    <div class="chart" id="detail" style="margin-top:12px"></div>
+    <div class="legend" id="legend"></div>
+  </div>
+  <div class="grid2" id="hosp-extras">
+    <div class="card"><b>Rate change probabilities</b><div class="scroll" id="rate"></div></div>
+    <div class="card"><b>Peak week</b> <span class="meta" id="peak-size"></span><div class="chart" id="peak"></div></div>
+  </div>
+
+  <h2>All locations</h2>
+  <div class="multiples" id="multiples"></div>
+
+  <h2>Forecast table</h2>
+  <div class="card scroll"><table id="table"></table></div>
+
+  <h2>Evaluation of past forecasts</h2>
+  <div class="card" id="eval"></div>
+</main>
+<script type="application/json" id="report-data">__DATA__</script>
+<script>
+"use strict";
+const D = JSON.parse(document.getElementById("report-data").textContent);
+const $ = (s) => document.querySelector(s);
+const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"}[c]));
+const SLOTS = {chronos2: 2, timesfm: 3, moirai2: 4, timestral: 5, timegpt: 6, chronos2_ft: 7, timegpt_ft: 8};
+const modelColor = (m) => `var(--series-${SLOTS[m] || 8})`;
+const state = {key: "hosp", loc: D.locations.length ? D.locations[0].code : null, hidden: new Set()};
+const names = Object.fromEntries(D.locations.map((l) => [l.code, l.name]));
+const fmt = (v, key = state.key) => v == null ? "–" :
+  key === "ed" ? (v * 100).toFixed(2) + "%" : Math.round(v).toLocaleString();
+const fmtDate = (d) => new Date(d + "T00:00:00").toLocaleDateString(undefined, {month: "short", day: "numeric", year: "2-digit"});
+
+function niceTicks(max, n) {
+  const raw = max / n, p = Math.pow(10, Math.floor(Math.log10(raw || 1)));
+  const step = [1, 2, 2.5, 5, 10].map((m) => m * p).find((s) => s >= raw) || p;
+  const out = [];
+  for (let v = 0; v <= max + step * 0.999; v += step) out.push(v);
+  return out;
+}
+
+// Line/band chart with optional crosshair tooltip. spec: {height, mini, series, bands, fmt}
+function lineChart(el, spec) {
+  const W = el.clientWidth || 600, H = spec.height || 320, mini = !!spec.mini;
+  const m = mini ? {t: 4, r: 2, b: 2, l: 2} : {t: 12, r: 16, b: 28, l: 64};
+  const xs = [], ys = [0];
+  for (const s of spec.series) s.dates.forEach((d, i) => { if (s.values[i] != null) { xs.push(Date.parse(d)); ys.push(s.values[i]); } });
+  for (const b of spec.bands || []) b.dates.forEach((d, i) => { if (b.hi[i] != null) { xs.push(Date.parse(d)); ys.push(b.hi[i]); } });
+  if (!xs.length) { el.innerHTML = '<p class="empty">No data</p>'; return; }
+  const x0 = Math.min(...xs), x1 = Math.max(...xs);
+  const ticks = niceTicks(Math.max(...ys) * 1.05 || 1, mini ? 2 : 4), y1 = ticks[ticks.length - 1] || 1;
+  const sx = (t) => m.l + (t - x0) / ((x1 - x0) || 1) * (W - m.l - m.r);
+  const sy = (v) => H - m.b - v / y1 * (H - m.t - m.b);
+  let g = "";
+  if (!mini) {
+    for (const t of ticks) g += `<line x1="${m.l}" x2="${W - m.r}" y1="${sy(t)}" y2="${sy(t)}" style="stroke:var(--grid)"/>` +
+      `<text x="${m.l - 8}" y="${sy(t) + 4}" text-anchor="end">${esc(spec.fmt(t))}</text>`;
+    const start = new Date(x0), months = [];
+    for (let d = new Date(start.getFullYear(), start.getMonth() + 1, 1); +d <= x1; d.setMonth(d.getMonth() + 1)) months.push(new Date(d));
+    const every = Math.ceil(months.length / Math.max(2, Math.floor((W - m.l) / 70)));
+    months.forEach((d, i) => { if (i % every === 0) g += `<text x="${sx(+d)}" y="${H - 8}" text-anchor="middle">${d.toLocaleDateString(undefined, {month: "short", year: "2-digit"})}</text>`; });
+    g += `<line x1="${m.l}" x2="${W - m.r}" y1="${sy(0)}" y2="${sy(0)}" style="stroke:var(--axis)"/>`;
+  }
+  for (const b of spec.bands || []) {
+    const pts = b.dates.map((d, i) => [Date.parse(d), b.lo[i], b.hi[i]]).filter((p) => p[1] != null);
+    if (!pts.length) continue;
+    const top = pts.map((p) => `${sx(p[0])},${sy(p[2])}`), bot = pts.slice().reverse().map((p) => `${sx(p[0])},${sy(p[1])}`);
+    g += `<polygon points="${top.concat(bot).join(" ")}" style="fill:${b.color};opacity:${b.opacity}"/>`;
+  }
+  for (const s of spec.series) {
+    let d = "", pen = false;
+    s.dates.forEach((dt, i) => {
+      const v = s.values[i];
+      if (v == null) { pen = false; return; }
+      d += (pen ? "L" : "M") + sx(Date.parse(dt)) + "," + sy(v); pen = true;
+    });
+    if (s.line !== false && d) g += `<path d="${d}" style="fill:none;stroke:${s.color};stroke-width:${s.width || 2};stroke-linejoin:round;stroke-linecap:round${s.dash ? ";stroke-dasharray:" + s.dash : ""}"/>`;
+    if (s.dots) s.dates.forEach((dt, i) => { if (s.values[i] != null) g += `<circle cx="${sx(Date.parse(dt))}" cy="${sy(s.values[i])}" r="4" style="fill:${s.hollow ? "var(--surface-1)" : s.color};stroke:${s.hollow ? s.color : "var(--surface-1)"};stroke-width:2"/>`; });
+  }
+  if (!mini) g += `<line class="xh" y1="${m.t}" y2="${H - m.b}" style="stroke:var(--axis);visibility:hidden"/>`;
+  el.innerHTML = `<svg width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(spec.label || "chart")}">${g}</svg>` + (mini ? "" : '<div class="tip" hidden></div>');
+  if (mini) return;
+  const svg = el.querySelector("svg"), tip = el.querySelector(".tip"), xh = el.querySelector(".xh");
+  const all = [...new Set(xs)].sort((a, b) => a - b);
+  svg.addEventListener("mousemove", (ev) => {
+    const r = svg.getBoundingClientRect(), px = ev.clientX - r.left;
+    let t = all[0];
+    for (const c of all) if (Math.abs(sx(c) - px) < Math.abs(sx(t) - px)) t = c;
+    xh.setAttribute("x1", sx(t)); xh.setAttribute("x2", sx(t)); xh.style.visibility = "visible";
+    const iso = new Date(t).toISOString().slice(0, 10);
+    let html = `<b>Week ending ${esc(fmtDate(iso))}</b>`;
+    for (const s of spec.series) {
+      const i = s.dates.indexOf(iso);
+      if (i >= 0 && s.values[i] != null) html += `<div><span class="sw" style="background:${s.color}"></span>${esc(s.name)}: ${esc(spec.fmt(s.values[i]))}</div>`;
+    }
+    for (const b of spec.bands || []) {
+      const i = b.dates.indexOf(iso);
+      if (i >= 0 && b.lo[i] != null) html += `<div><span class="sw" style="background:${b.color};opacity:${b.opacity * 2}"></span>${esc(b.name)}: ${esc(spec.fmt(b.lo[i]))} – ${esc(spec.fmt(b.hi[i]))}</div>`;
+    }
+    tip.innerHTML = html; tip.hidden = false;
+    const left = sx(t) + 12 + tip.offsetWidth > W ? sx(t) - tip.offsetWidth - 12 : sx(t) + 12;
+    tip.style.left = left + "px"; tip.style.top = m.t + "px";
+  });
+  svg.addEventListener("mouseleave", () => { tip.hidden = true; xh.style.visibility = "hidden"; });
+}
+
+// Bar chart with hover tooltip. spec: {dates, values, fmt, height}
+function barChart(el, spec) {
+  const W = el.clientWidth || 400, H = spec.height || 160, m = {t: 8, r: 8, b: 24, l: 40};
+  const n = spec.values.length, max = Math.max(...spec.values, 0.01);
+  const ticks = niceTicks(max, 2), y1 = ticks[ticks.length - 1];
+  const bw = (W - m.l - m.r) / n, sy = (v) => H - m.b - v / y1 * (H - m.t - m.b);
+  let g = "";
+  for (const t of ticks) g += `<line x1="${m.l}" x2="${W - m.r}" y1="${sy(t)}" y2="${sy(t)}" style="stroke:var(--grid)"/><text x="${m.l - 6}" y="${sy(t) + 4}" text-anchor="end">${Math.round(t * 100)}%</text>`;
+  spec.values.forEach((v, i) => {
+    const x = m.l + i * bw + 1, w = Math.max(bw - 2, 1), y = sy(v), h = sy(0) - y;
+    if (h > 0) g += `<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="${Math.min(2, w / 2)}" style="fill:var(--series-1)"/>`;
+    if (i % Math.ceil(n / 6) === 0) g += `<text x="${x + w / 2}" y="${H - 6}" text-anchor="middle">${esc(fmtDate(spec.dates[i]).replace(/, \d+$/, ""))}</text>`;
+  });
+  el.innerHTML = `<svg width="${W}" height="${H}" role="img" aria-label="Peak week probabilities">${g}</svg><div class="tip" hidden></div>`;
+  const svg = el.querySelector("svg"), tip = el.querySelector(".tip");
+  svg.addEventListener("mousemove", (ev) => {
+    const i = Math.floor((ev.clientX - svg.getBoundingClientRect().left - m.l) / bw);
+    if (i < 0 || i >= n) { tip.hidden = true; return; }
+    tip.innerHTML = `<b>Week ending ${esc(fmtDate(spec.dates[i]))}</b>${(spec.values[i] * 100).toFixed(1)}% chance of peak`;
+    tip.hidden = false;
+    tip.style.left = Math.min(m.l + i * bw + 8, W - tip.offsetWidth) + "px"; tip.style.top = "0px";
+  });
+  svg.addEventListener("mouseleave", () => { tip.hidden = true; });
+}
+
+function detailSpec(key, loc, height) {
+  const T = D.targets[key], s = T.series[loc], f = T.forecast[loc], series = [], bands = [];
+  if (!s) return null;
+  series.push({name: "Reported", dates: s.dates, values: s.reported, color: "var(--text-primary)", width: 1.5});
+  if (s.nowcast.dates.length) series.push({name: "Nowcast (backfill-adjusted)", dates: s.nowcast.dates, values: s.nowcast.median, color: "var(--text-primary)", dots: true, hollow: true, line: false});
+  if (f) {
+    bands.push({name: "95% interval", dates: f.dates, lo: f.q025, hi: f.q975, color: "var(--series-1)", opacity: 0.15});
+    bands.push({name: "50% interval", dates: f.dates, lo: f.q25, hi: f.q75, color: "var(--series-1)", opacity: 0.3});
+    series.push({name: "Ensemble median", dates: f.dates, values: f.q50, color: "var(--series-1)", dots: true});
+    for (const [mname, vals] of Object.entries(T.comps[loc] || {}))
+      if (!state.hidden.has(mname)) series.push({name: mname, dates: f.dates, values: vals, color: modelColor(mname), width: 1.5});
+    const p = T.prev[loc];
+    if (p && !state.hidden.has("prev")) series.push({name: "Last week's forecast", dates: p.dates, values: p.q50, color: "var(--text-secondary)", dash: "4 3", width: 1.5});
+  }
+  return {series, bands, height, fmt: (v) => fmt(v, key), label: `${T.label}, ${names[loc]}`};
+}
+
+function renderDetail() {
+  const spec = detailSpec(state.key, state.loc, 340);
+  if (!spec) { $("#detail").innerHTML = '<p class="empty">No data for this location.</p>'; $("#legend").innerHTML = ""; return; }
+  // Show the last 26 weeks plus the forecast so the horizon is readable.
+  const cutoff = spec.series[0].dates[Math.max(0, spec.series[0].dates.length - 26)];
+  spec.series[0] = {...spec.series[0], dates: spec.series[0].dates.filter((d) => d >= cutoff), values: spec.series[0].values.slice(-spec.series[0].dates.filter((d) => d >= cutoff).length)};
+  lineChart($("#detail"), spec);
+  const T = D.targets[state.key];
+  let leg = `<span><span class="sw" style="background:var(--text-primary)"></span>Reported (○ nowcast)</span>` +
+    `<span><span class="sw" style="background:var(--series-1)"></span>Ensemble median, 50% / 95% intervals</span>`;
+  for (const mname of T.models) leg += `<button aria-pressed="${!state.hidden.has(mname)}" data-m="${esc(mname)}"><span class="sw" style="background:${modelColor(mname)}"></span>${esc(mname)}</button>`;
+  leg += `<button aria-pressed="${!state.hidden.has("prev")}" data-m="prev"><span class="sw" style="background:var(--text-secondary)"></span>Last week's forecast</button>`;
+  $("#legend").innerHTML = leg;
+  $("#legend").querySelectorAll("button").forEach((b) => b.onclick = () => {
+    const mname = b.dataset.m;
+    state.hidden.has(mname) ? state.hidden.delete(mname) : state.hidden.add(mname);
+    renderDetail();
+  });
+}
+
+function renderHospExtras() {
+  const show = state.key === "hosp";
+  $("#hosp-extras").style.display = show ? "" : "none";
+  if (!show) return;
+  const r = D.rate[state.loc];
+  if (r) {
+    let t = "<table><thead><tr><th>Horizon</th>" + D.categories.map((c) => `<th>${esc(c.replace("_", " "))}</th>`).join("") + "</tr></thead><tbody>";
+    for (const h of Object.keys(r)) {
+      const ps = r[h], top = Math.max(...ps);
+      t += `<tr><td>${h}</td>` + ps.map((p) => `<td${p === top ? ' style="font-weight:700"' : ""}>${(p * 100).toFixed(0)}%</td>`).join("") + "</tr>";
+    }
+    $("#rate").innerHTML = t + "</tbody></table>";
+  } else $("#rate").innerHTML = '<p class="empty">Not submitted.</p>';
+  const p = D.peak[state.loc];
+  if (p) {
+    $("#peak-size").textContent = `· peak size median ${fmt(p.size[1], "hosp")} (95%: ${fmt(p.size[0], "hosp")}–${fmt(p.size[2], "hosp")})`;
+    barChart($("#peak"), {dates: p.weeks, values: p.probs, height: 170});
+  } else { $("#peak-size").textContent = ""; $("#peak").innerHTML = '<p class="empty">Not submitted.</p>'; }
+}
+
+function renderMultiples() {
+  const T = D.targets[state.key];
+  $("#multiples").innerHTML = D.locations.filter((l) => T.series[l.code]).map((l) =>
+    `<button class="card mini${l.code === state.loc ? " sel" : ""}" data-loc="${esc(l.code)}"><div class="nm">${esc(l.name)}</div><div class="chart" style="height:64px"></div></button>`).join("");
+  $("#multiples").querySelectorAll(".mini").forEach((el) => {
+    const loc = el.dataset.loc, s = T.series[loc], f = T.forecast[loc];
+    const n = Math.min(26, s.dates.length);
+    const series = [{name: "Reported", dates: s.dates.slice(-n), values: s.reported.slice(-n), color: "var(--text-primary)", width: 1.5}];
+    const bands = [];
+    if (f) { series.push({name: "Median", dates: f.dates, values: f.q50, color: "var(--series-1)"}); bands.push({dates: f.dates, lo: f.q025, hi: f.q975, color: "var(--series-1)", opacity: 0.2}); }
+    lineChart(el.querySelector(".chart"), {series, bands, mini: true, height: 64, fmt});
+    el.onclick = () => { select(loc); $("#detail").scrollIntoView({behavior: "smooth", block: "center"}); };
+  });
+}
+
+function renderTable() {
+  const T = D.targets[state.key], hs = [0, 1, 2, 3];
+  let t = "<thead><tr><th>Location</th><th>Last reported</th><th>Nowcast</th>" + hs.map((h) => `<th>h${h} median <span class="pi">(95%)</span></th>`).join("") +
+    (state.key === "hosp" ? "<th>Most likely change (h1)</th><th>Likeliest peak week</th>" : "") + "</tr></thead><tbody>";
+  for (const l of D.locations) {
+    const s = T.series[l.code], f = T.forecast[l.code];
+    if (!s || !f) continue;
+    const nc = s.nowcast.median.length ? s.nowcast.median[s.nowcast.median.length - 1] : null;
+    t += `<tr class="click" data-loc="${esc(l.code)}"><td>${esc(l.name)}</td><td>${fmt(s.reported[s.reported.length - 1])}</td><td>${fmt(nc)}</td>`;
+    for (const h of hs) { const i = h + 1; t += `<td>${fmt(f.q50[i])} <span class="pi">(${fmt(f.q025[i])}–${fmt(f.q975[i])})</span></td>`; }
+    if (state.key === "hosp") {
+      const r = (D.rate[l.code] || {})[1], p = D.peak[l.code];
+      if (r) { const i = r.indexOf(Math.max(...r)); t += `<td>${esc(D.categories[i].replace("_", " "))} <span class="pi">${(r[i] * 100).toFixed(0)}%</span></td>`; } else t += "<td>–</td>";
+      if (p) { const i = p.probs.indexOf(Math.max(...p.probs)); t += `<td>${esc(fmtDate(p.weeks[i]))} <span class="pi">${(p.probs[i] * 100).toFixed(0)}%</span></td>`; } else t += "<td>–</td>";
+    }
+    t += "</tr>";
+  }
+  $("#table").innerHTML = t + "</tbody>";
+  $("#table").querySelectorAll("tr.click").forEach((tr) => tr.onclick = () => { select(tr.dataset.loc); $("#detail").scrollIntoView({behavior: "smooth", block: "center"}); });
+}
+
+function renderEval() {
+  const E = D.eval;
+  if (!E || !E.by_horizon.length) { $("#eval").innerHTML = '<p class="empty">No past forecasts with observed data yet. Scores appear here once earlier submissions can be compared with reported data.</p>'; return; }
+  const rows = E.by_horizon.filter((r) => r.target === "wk inc flu hosp");
+  const models = [...new Set(rows.map((r) => r.model))].sort((a, b) => (a === D.meta.model_id ? -1 : b === D.meta.model_id ? 1 : a.localeCompare(b)));
+  const hs = [...new Set(rows.map((r) => r.horizon))].sort((a, b) => a - b);
+  const cell = (r, k, pct) => r && r[k] != null ? (pct ? (r[k] * 100).toFixed(0) + "%" : r[k].toFixed(2)) : "–";
+  let t = "<p class=\"meta\">Weekly hospital admissions. Relative WIS below 1 beats the FluSight baseline (computed on the forecasts both made). Coverage targets: 50% and 95%.</p>" +
+    "<div class=\"scroll\"><table><thead><tr><th>Model</th><th>Horizon</th><th>n</th><th>Rel. WIS</th><th>Rel. WIS (log)</th><th>50% cov.</th><th>95% cov.</th></tr></thead><tbody>";
+  for (const mname of models) for (const h of hs) {
+    const r = rows.find((x) => x.model === mname && x.horizon === h);
+    if (!r) continue;
+    t += `<tr><td>${esc(mname)}</td><td>${h}</td><td>${r.n}</td><td>${cell(r, "rel_wis")}</td><td>${cell(r, "rel_wis_log")}</td><td>${cell(r, "cov50", true)}</td><td>${cell(r, "cov95", true)}</td></tr>`;
+  }
+  t += "</tbody></table></div><p style=\"margin-top:16px\"><b>Mean WIS by reference date</b></p><div class=\"chart\" id=\"eval-chart\"></div><div class=\"legend\">" +
+    `<span><span class="sw" style="background:var(--series-1)"></span>${esc(D.meta.model_id)}</span><span><span class="sw" style="background:var(--text-secondary)"></span>FluSight-baseline</span></div>`;
+  $("#eval").innerHTML = t;
+  const wk = E.by_week.filter((r) => r.target === "wk inc flu hosp");
+  const line = (mname) => { const rs = wk.filter((r) => r.model === mname); return {dates: rs.map((r) => r.reference_date.slice(0, 10)), values: rs.map((r) => r.wis)}; };
+  lineChart($("#eval-chart"), {height: 220, fmt: (v) => v.toFixed(0), series: [
+    {name: D.meta.model_id, ...line(D.meta.model_id), color: "var(--series-1)", dots: true},
+    {name: "FluSight-baseline", ...line("FluSight-baseline"), color: "var(--text-secondary)", dash: "4 3"}]});
+}
+
+function select(loc) {
+  state.loc = loc; $("#loc").value = loc;
+  renderDetail(); renderHospExtras();
+  document.querySelectorAll(".mini").forEach((el) => el.classList.toggle("sel", el.dataset.loc === loc));
+}
+
+function renderAll() { renderDetail(); renderHospExtras(); renderMultiples(); renderTable(); }
+
+(function init() {
+  const M = D.meta;
+  document.title = `${M.model_id} review ${M.ref_date}`;
+  $("#title").textContent = `${M.model_id} forecast review · reference date ${M.ref_date}`;
+  $("#meta").textContent = `Generated ${M.generated} on ${M.machine} · data through ${Object.entries(M.data_through).map(([k, v]) => `${k} ${v}`).join(", ")} · ` +
+    `ensemble ${M.settings.ensemble}, nowcast ${M.settings.nowcast ? "on" : "off"} · ` + (M.submission_written ? "submission file written" : "NO submission file written");
+  $("#checks").innerHTML = D.checks.map((c) => `<li><span class="badge lvl-${esc(c.level)}">${esc(c.level)}</span><span>${esc(c.text)}</span></li>`).join("");
+  $("#target").innerHTML = Object.entries(D.targets).map(([k, T]) => `<option value="${esc(k)}">${esc(T.label)}</option>`).join("");
+  $("#loc").innerHTML = D.locations.map((l) => `<option value="${esc(l.code)}">${esc(l.name)}</option>`).join("");
+  $("#target").onchange = (e) => { state.key = e.target.value; renderAll(); };
+  $("#loc").onchange = (e) => select(e.target.value);
+  if (!D.targets.hosp) { $("#detail").innerHTML = '<p class="empty">No forecast was produced; see Checks.</p>'; renderEval(); return; }
+  renderAll(); renderEval();
+  let rt; window.addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(() => { renderAll(); renderEval(); }, 150); });
+})();
+</script>
+</body>
+</html>

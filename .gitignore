@@ -1,0 +1,17 @@
+# environments and caches
+.venv/
+__pycache__/
+*.egg-info/
+cache/
+logs/
+
+# fine-tuned checkpoints (large; rebuild with `flusight finetune`)
+models/
+
+# backtests: keep only the evaluation tables
+backtests/*/*
+!backtests/*/evaluation/
+
+# local settings you don't want to share
+flusight.local.toml
+.env
