@@ -141,8 +141,8 @@ def relative_summary(scores: pd.DataFrame, by=("target", "horizon")) -> pd.DataF
                 "n": len(gg),
                 "wis": gg["wis"].mean(),
                 "wis_log": gg["wis_log"].mean(),
-                "rel_wis": both["wis"].sum() / both["wis_base"].sum() if len(both) else np.nan,
-                "rel_wis_log": both["wis_log"].sum() / both["wis_log_base"].sum() if len(both) else np.nan,
+                "rel_wis": _ratio(both["wis"].sum(), both["wis_base"].sum()),
+                "rel_wis_log": _ratio(both["wis_log"].sum(), both["wis_log_base"].sum()),
                 "cov50": gg["cov50"].mean(),
                 "cov95": gg["cov95"].mean(),
             })
@@ -186,6 +186,18 @@ def combination_scores(components: pd.DataFrame, truth: pd.DataFrame, baseline_s
     return pd.DataFrame(rows).sort_values(["target", "rel_wis_log"])
 
 
+def _ratio(a: float, b: float) -> float:
+    """Relative score; undefined when the baseline scores 0 (e.g. horizon -1 before any revision)."""
+    return a / b if b > 0 else np.nan
+
+
+def _stack(frames: list[pd.DataFrame]) -> pd.DataFrame:
+    """pd.concat with dates at one resolution: pandas < 2.2 (pinned by Moirai's gluonts) fails to
+    concat datetime64[s] and datetime64[ns] columns."""
+    dates = ["reference_date", "target_end_date"]
+    return pd.concat([f.astype({c: "datetime64[ns]" for c in dates if c in f}) for f in frames], ignore_index=True)
+
+
 def evaluate(root: Path, combinations: bool = False) -> dict[str, pd.DataFrame]:
     """Score everything under `root` (forecasts/ or a backtest folder); writes CSVs to root/evaluation/."""
     root = Path(root)
@@ -196,7 +208,7 @@ def evaluate(root: Path, combinations: bool = False) -> dict[str, pd.DataFrame]:
     truth = truth_table()
     base = load_baseline(subs["reference_date"].unique())
     comps = load_components(root)
-    all_fc = pd.concat([subs, base] + ([comps] if not comps.empty else []), ignore_index=True)
+    all_fc = _stack([f for f in (subs, base, comps) if not f.empty])
     scores = score_quantiles(all_fc, truth)
     out = {
         "scores": scores,

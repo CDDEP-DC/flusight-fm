@@ -100,14 +100,22 @@ class TimesFM:
     """Google TimesFM 2.5 (Apache-2.0 weights). TimesFM 3.0 weights are non-commercial/non-production."""
 
     levels = LEVELS_9
+    patch = 32
+    max_context = 1024
 
     def __init__(self, model_id: str = "google/timesfm-2.5-200m-pytorch"):
         import timesfm
 
+        self.timesfm = timesfm
         self.model = timesfm.TimesFM_2p5_200M_torch.from_pretrained(model_id)
+        self.context = None
+
+    def _compile(self, context: int):
+        if context == self.context:
+            return
         self.model.compile(
-            timesfm.ForecastConfig(
-                max_context=1024,
+            self.timesfm.ForecastConfig(
+                max_context=context,
                 max_horizon=128,
                 normalize_inputs=True,
                 use_continuous_quantile_head=True,
@@ -116,13 +124,23 @@ class TimesFM:
                 fix_quantile_crossing=True,
             )
         )
+        self.context = context
 
     def predict(self, series, horizon):
-        locs = list(series)
-        inputs = [series[loc].to_numpy(np.float32)[-1024:] for loc in locs]
-        _, quant = self.model.forecast(horizon=horizon, inputs=inputs)
-        quant = _to_numpy(quant)  # (n, horizon, 10): mean, then 0.1 ... 0.9
-        return self.levels, {loc: quant[i, :horizon, 1:] for i, loc in enumerate(locs)}
+        # A context window with a whole patch of padding gives all-NaN output on torch < 2.5
+        # (which Moirai's uni2ts pins), so size the window to each series, rounded up to a patch.
+        groups: dict[int, list[str]] = {}
+        for loc, s in series.items():
+            n = min(len(s), self.max_context)
+            groups.setdefault(-(-n // self.patch) * self.patch, []).append(loc)
+        out = {}
+        for context, locs in sorted(groups.items()):
+            self._compile(context)
+            inputs = [series[loc].to_numpy(np.float32)[-context:] for loc in locs]
+            _, quant = self.model.forecast(horizon=horizon, inputs=inputs)
+            quant = _to_numpy(quant)  # (n, horizon, 10): mean, then 0.1 ... 0.9
+            out.update({loc: quant[i, :horizon, 1:] for i, loc in enumerate(locs)})
+        return self.levels, out
 
 
 class Moirai2:

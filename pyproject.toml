@@ -18,11 +18,12 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-chronos = ["chronos-forecasting>=2.1"]
+# transformers 5 needs torch >= 2.6, but uni2ts (Moirai) pins torch < 2.5.
+chronos = ["chronos-forecasting>=2.1", "transformers>=4.41,<5"]
 timesfm = ["timesfm[torch]"]
 moirai = ["uni2ts @ git+https://github.com/SalesforceAIResearch/uni2ts.git"]
 timestral = ["timestral @ git+https://github.com/mistralai/timestral.git"]
-finetune = ["chronos-forecasting>=2.1", "peft", "accelerate"]
+finetune = ["chronos-forecasting>=2.1", "transformers>=4.41,<5", "peft", "accelerate"]
 all = ["flusight-fm[chronos,timesfm,moirai,timestral]"]
 
 [project.scripts]

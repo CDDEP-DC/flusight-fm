@@ -122,8 +122,10 @@ def _predict(model, series, n_steps):
     out = {}
     for loc in series:
         q = np.asarray(preds[loc], float)
-        if q.shape != (n_steps, len(levels)) or not np.isfinite(q).all():
-            raise RuntimeError(f"bad forecast for {loc}: shape {q.shape}")
+        if q.shape != (n_steps, len(levels)):
+            raise RuntimeError(f"bad forecast for {loc}: shape {q.shape}, expected {(n_steps, len(levels))}")
+        if not np.isfinite(q).all():
+            raise RuntimeError(f"bad forecast for {loc}: {np.size(q) - np.isfinite(q).sum()} non-finite values")
         out[loc] = inv(to_flusight_levels(levels, q))
     return out
 
