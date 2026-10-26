@@ -9,10 +9,12 @@ description = "OHTJHU-BM: FluSight forecasts from an ensemble of time-series fou
 readme = "README.md"
 requires-python = ">=3.11,<3.13"
 classifiers = ["License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication"]
+# pyarrow >= 24 needs numpy 2, but the model packages (gluonts via Moirai) hold
+# numpy at 1.x; pip can't see the clash because pyarrow doesn't declare numpy.
 dependencies = [
     "numpy",
     "pandas>=2.0",
-    "pyarrow",
+    "pyarrow>=14,<24",
     "requests",
     "torch>=2.4",
 ]
