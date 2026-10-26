@@ -13,8 +13,10 @@ flusight forecast     # nowcast + models + ensemble -> submission file + review 
 flusight submit       # opens a pull request to the hub (asks for confirmation)
 ```
 
-Submissions are due **Wednesdays by 11 PM ET**. The hub's target data updates
-Wednesday around midday, so run after that.
+Submissions are due **Wednesdays by 11 PM ET**. The hub's target data usually
+updates Wednesday between noon and 2 PM ET, but in 2025-26 it was as late as
+4 PM, and a few holiday weeks slipped to Thursday or Friday. Run after 4 PM ET,
+and check that the newest data week is the Saturday just past.
 
 ## What it produces
 
@@ -141,15 +143,17 @@ git -C ~/code/FluSight-forecast-hub remote add upstream https://github.com/cdcep
 ## Running it automatically
 
 - **GitHub Actions** (`.github/workflows/weekly.yml`), the most reliable option.
-  - Runs `flusight forecast` every Wednesday at 19:00 UTC on GitHub's Linux runners.
+  - Runs `flusight forecast` every Wednesday at 21:30 UTC (4:30 PM EST / 5:30 PM EDT) on GitHub's Linux runners.
   - Commits `forecasts/` back to the repo and uploads the report as a downloadable artifact.
   - Doesn't submit. Pull, review the report, then run `flusight submit` locally.
   - A private repo gets 2,000 free runner minutes a month; this uses roughly 30-60 per week.
 - **macOS/Linux cron**:
-  `0 14 * * 3 bash ~/code/flusight-fm/scripts/weekly.sh`
+  `30 16 * * 3 bash ~/code/flusight-fm/scripts/weekly.sh`
   On macOS, give the terminal Full Disk Access, or use a launchd agent.
 - **Windows Task Scheduler**:
-  `schtasks /Create /TN FluSight /SC WEEKLY /D WED /ST 14:00 /TR "powershell -File C:\path\to\flusight-fm\scripts\weekly.ps1"`
+  `schtasks /Create /TN FluSight /SC WEEKLY /D WED /ST 16:30 /TR "powershell -File C:\path\to\flusight-fm\scripts\weekly.ps1"`
+
+The cron and Task Scheduler times are the machine's local time; 16:30 assumes it is set to Eastern.
 
 `scripts/weekly.*` pull the repo, build the forecast and write a log under `logs/`. Pass
 `--submit` (`-Submit` on Windows) to also open the PR without confirmation.

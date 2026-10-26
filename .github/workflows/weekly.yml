@@ -5,7 +5,7 @@ name: weekly-forecast
 
 on:
   schedule:
-    - cron: "0 19 * * 3"   # Wednesdays 19:00 UTC (2-3 PM Eastern), after the target data update
+    - cron: "30 21 * * 3"  # Wednesdays 21:30 UTC (4:30-5:30 PM Eastern); the hub's data update lands by about 4 PM ET
   workflow_dispatch:
     inputs:
       reference_date:
