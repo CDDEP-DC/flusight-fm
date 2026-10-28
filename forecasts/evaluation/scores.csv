@@ -1,205 +1,1021 @@
 model,reference_date,target,horizon,location,wis,wis_log,truth,median,cov50,cov95
-FluSight-baseline,2026-10-24,wk inc flu hosp,-1,01,0.0,0.0,64.0,64.0,1.0,1.0
-FluSight-baseline,2026-10-24,wk inc flu hosp,-1,02,0.0,0.0,19.0,19.0,1.0,1.0
-FluSight-baseline,2026-10-24,wk inc flu hosp,-1,04,0.0,0.0,55.0,55.0,1.0,1.0
-FluSight-baseline,2026-10-24,wk inc flu hosp,-1,05,0.0,0.0,19.0,19.0,1.0,1.0
-FluSight-baseline,2026-10-24,wk inc flu hosp,-1,06,0.0,0.0,660.0,660.0,1.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,-1,01,3.0,0.04512043528047016,67.0,64.0,0.0,0.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,-1,02,3.0,0.13976194237515882,22.0,19.0,0.0,0.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,-1,04,8.0,0.13353139262452274,63.0,55.0,0.0,0.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,-1,05,5.0,0.2231435513142097,24.0,19.0,0.0,0.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,-1,06,52.0,0.07572758056261009,712.0,660.0,0.0,0.0
 FluSight-baseline,2026-10-24,wk inc flu hosp,-1,08,0.0,0.0,47.0,47.0,1.0,1.0
-FluSight-baseline,2026-10-24,wk inc flu hosp,-1,09,0.0,0.0,53.0,53.0,1.0,1.0
-FluSight-baseline,2026-10-24,wk inc flu hosp,-1,10,0.0,0.0,8.0,8.0,1.0,1.0
-FluSight-baseline,2026-10-24,wk inc flu hosp,-1,11,0.0,0.0,2.0,2.0,1.0,1.0
-FluSight-baseline,2026-10-24,wk inc flu hosp,-1,12,0.0,0.0,866.0,866.0,1.0,1.0
-FluSight-baseline,2026-10-24,wk inc flu hosp,-1,13,0.0,0.0,77.0,77.0,1.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,-1,09,2.0,0.03636764417087468,55.0,53.0,0.0,0.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,-1,10,5.0,0.4418327522790393,13.0,8.0,0.0,0.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,-1,11,1.0,0.287682072451781,3.0,2.0,0.0,0.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,-1,12,16.0,0.01828622382341827,882.0,866.0,0.0,0.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,-1,13,2.0,0.02531780798428951,79.0,77.0,0.0,0.0
 FluSight-baseline,2026-10-24,wk inc flu hosp,-1,15,0.0,0.0,82.0,82.0,1.0,1.0
 FluSight-baseline,2026-10-24,wk inc flu hosp,-1,16,0.0,0.0,22.0,22.0,1.0,1.0
-FluSight-baseline,2026-10-24,wk inc flu hosp,-1,17,0.0,0.0,89.0,89.0,1.0,1.0
-FluSight-baseline,2026-10-24,wk inc flu hosp,-1,18,0.0,0.0,53.0,53.0,1.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,-1,17,5.0,0.054067221270275745,94.0,89.0,0.0,0.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,-1,18,10.0,0.16989903679539742,63.0,53.0,0.0,0.0
 FluSight-baseline,2026-10-24,wk inc flu hosp,-1,19,0.0,0.0,16.0,16.0,1.0,1.0
-FluSight-baseline,2026-10-24,wk inc flu hosp,-1,20,0.0,0.0,15.0,15.0,1.0,1.0
-FluSight-baseline,2026-10-24,wk inc flu hosp,-1,21,0.0,0.0,60.0,60.0,1.0,1.0
-FluSight-baseline,2026-10-24,wk inc flu hosp,-1,22,0.0,0.0,127.0,127.0,1.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,-1,20,2.0,0.11778303565638337,17.0,15.0,0.0,0.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,-1,21,13.0,0.19319122903085795,73.0,60.0,0.0,0.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,-1,22,12.0,0.08961215868968697,139.0,127.0,0.0,0.0
 FluSight-baseline,2026-10-24,wk inc flu hosp,-1,23,0.0,0.0,14.0,14.0,1.0,1.0
-FluSight-baseline,2026-10-24,wk inc flu hosp,-1,24,0.0,0.0,49.0,49.0,1.0,1.0
-FluSight-baseline,2026-10-24,wk inc flu hosp,-1,25,0.0,0.0,29.0,29.0,1.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,-1,24,2.0,0.03922071315328113,51.0,49.0,0.0,0.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,-1,25,8.0,0.23638877806423023,37.0,29.0,0.0,0.0
 FluSight-baseline,2026-10-24,wk inc flu hosp,-1,26,0.0,0.0,55.0,55.0,1.0,1.0
-FluSight-baseline,2026-10-24,wk inc flu hosp,-1,27,0.0,0.0,14.0,14.0,1.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,-1,27,2.0,0.1251631429540061,16.0,14.0,0.0,0.0
 FluSight-baseline,2026-10-24,wk inc flu hosp,-1,28,0.0,0.0,53.0,53.0,1.0,1.0
 FluSight-baseline,2026-10-24,wk inc flu hosp,-1,29,0.0,0.0,45.0,45.0,1.0,1.0
 FluSight-baseline,2026-10-24,wk inc flu hosp,-1,30,0.0,0.0,19.0,19.0,1.0,1.0
-FluSight-baseline,2026-10-24,wk inc flu hosp,-1,31,0.0,0.0,12.0,12.0,1.0,1.0
-FluSight-baseline,2026-10-24,wk inc flu hosp,-1,32,0.0,0.0,35.0,35.0,1.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,-1,31,1.0,0.07410797215372167,13.0,12.0,0.0,0.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,-1,32,26.0,0.5436154465889818,61.0,35.0,0.0,0.0
 FluSight-baseline,2026-10-24,wk inc flu hosp,-1,33,0.0,0.0,10.0,10.0,1.0,1.0
 FluSight-baseline,2026-10-24,wk inc flu hosp,-1,34,0.0,0.0,91.0,91.0,1.0,1.0
 FluSight-baseline,2026-10-24,wk inc flu hosp,-1,35,0.0,0.0,18.0,18.0,1.0,1.0
-FluSight-baseline,2026-10-24,wk inc flu hosp,-1,36,0.0,0.0,213.0,213.0,1.0,1.0
-FluSight-baseline,2026-10-24,wk inc flu hosp,-1,37,0.0,0.0,104.0,104.0,1.0,1.0
-FluSight-baseline,2026-10-24,wk inc flu hosp,-1,38,0.0,0.0,4.0,4.0,1.0,1.0
-FluSight-baseline,2026-10-24,wk inc flu hosp,-1,39,0.0,0.0,70.0,70.0,1.0,1.0
-FluSight-baseline,2026-10-24,wk inc flu hosp,-1,40,0.0,0.0,28.0,28.0,1.0,1.0
-FluSight-baseline,2026-10-24,wk inc flu hosp,-1,41,0.0,0.0,55.0,55.0,1.0,1.0
-FluSight-baseline,2026-10-24,wk inc flu hosp,-1,42,0.0,0.0,273.0,273.0,1.0,1.0
-FluSight-baseline,2026-10-24,wk inc flu hosp,-1,44,0.0,0.0,3.0,3.0,1.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,-1,36,13.0,0.05897400245955087,226.0,213.0,0.0,0.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,-1,37,8.0,0.07342746855481774,112.0,104.0,0.0,0.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,-1,38,2.0,0.33647223662121295,6.0,4.0,0.0,0.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,-1,39,12.0,0.15616073075528192,82.0,70.0,0.0,0.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,-1,40,1.0,0.03390155167568176,29.0,28.0,0.0,0.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,-1,41,6.0,0.10178269430994291,61.0,55.0,0.0,0.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,-1,42,1.0,0.003656311203110718,272.0,273.0,0.0,0.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,-1,44,1.0,0.2231435513142097,4.0,3.0,0.0,0.0
 FluSight-baseline,2026-10-24,wk inc flu hosp,-1,45,0.0,0.0,61.0,61.0,1.0,1.0
 FluSight-baseline,2026-10-24,wk inc flu hosp,-1,46,0.0,0.0,6.0,6.0,1.0,1.0
-FluSight-baseline,2026-10-24,wk inc flu hosp,-1,47,0.0,0.0,89.0,89.0,1.0,1.0
-FluSight-baseline,2026-10-24,wk inc flu hosp,-1,48,0.0,0.0,538.0,538.0,1.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,-1,47,10.0,0.10536051565782589,99.0,89.0,0.0,0.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,-1,48,9.0,0.01655971603901829,547.0,538.0,0.0,0.0
 FluSight-baseline,2026-10-24,wk inc flu hosp,-1,49,0.0,0.0,42.0,42.0,1.0,1.0
 FluSight-baseline,2026-10-24,wk inc flu hosp,-1,50,0.0,0.0,8.0,8.0,1.0,1.0
-FluSight-baseline,2026-10-24,wk inc flu hosp,-1,51,0.0,0.0,48.0,48.0,1.0,1.0
-FluSight-baseline,2026-10-24,wk inc flu hosp,-1,53,0.0,0.0,161.0,161.0,1.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,-1,51,10.0,0.1857171457950932,58.0,48.0,0.0,0.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,-1,53,3.0,0.018692133012152112,158.0,161.0,0.0,0.0
 FluSight-baseline,2026-10-24,wk inc flu hosp,-1,54,0.0,0.0,11.0,11.0,1.0,1.0
 FluSight-baseline,2026-10-24,wk inc flu hosp,-1,55,0.0,0.0,22.0,22.0,1.0,1.0
 FluSight-baseline,2026-10-24,wk inc flu hosp,-1,56,0.0,0.0,3.0,3.0,1.0,1.0
-FluSight-baseline,2026-10-24,wk inc flu hosp,-1,72,0.0,0.0,176.0,176.0,1.0,1.0
-FluSight-baseline,2026-10-24,wk inc flu hosp,-1,US,0.0,0.0,4698.0,4698.0,1.0,1.0
-FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,01,0.0,0.0,0.0128,0.0128,1.0,1.0
-FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,02,0.0,0.0,0.0162,0.0162,1.0,1.0
-FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,04,0.0,0.0,0.0052,0.0052,1.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,-1,72,4.0,0.022347298691996365,180.0,176.0,0.0,0.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,-1,US,250.0,0.0518358158490706,4948.0,4698.0,0.0,0.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,0,01,9.515652173913043,0.15542180115955495,79.0,64.0,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,0,02,7.939565217391305,0.6246361510581473,7.0,19.0,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,0,04,26.013043478260872,0.3973366555409823,97.0,55.0,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,0,05,10.354782608695654,0.43026598498785795,36.0,19.0,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,0,06,274.05434782608694,0.3412983064052942,1054.0,660.0,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,0,08,4.011304347826088,0.10302574979868248,50.0,47.0,1.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,0,09,16.797826086956523,0.4356682318194004,27.0,53.0,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,0,10,5.032173913043478,0.4185724881387792,16.0,8.0,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,0,11,0.8617391304347828,0.23905420310851583,3.0,2.0,1.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,0,12,110.46260869565216,0.1180347174951687,1041.0,866.0,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,0,13,15.39304347826087,0.19863451093234535,101.0,77.0,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,0,15,13.074782608695653,0.1806139638308144,63.0,82.0,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,0,16,6.224782608695653,0.3570543420472179,12.0,22.0,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,0,17,19.963478260869568,0.24337679148802974,119.0,89.0,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,0,18,26.50739130434783,0.40657308908299367,94.0,53.0,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,0,19,8.849130434782609,0.4040424508271124,30.0,16.0,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,0,20,4.745652173913044,0.3729752173845479,8.0,15.0,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,0,21,12.092608695652174,0.20058980080497482,78.0,60.0,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,0,22,24.122608695652175,0.17962309640088953,165.0,127.0,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,0,23,1.6778260869565218,0.11772287724596911,16.0,14.0,1.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,0,24,6.336521739130435,0.1561870167089807,41.0,49.0,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,0,25,12.752608695652174,0.35613401627688157,48.0,29.0,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,0,26,7.127826086956523,0.16355903782317047,55.0,55.0,1.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,0,27,14.431739130434783,0.6178025880025503,37.0,14.0,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,0,28,3.6317391304347835,0.08747492249218015,56.0,53.0,1.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,0,29,6.020434782608697,0.15776309050533813,40.0,45.0,1.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,0,30,2.671304347826087,0.15735088217420062,15.0,19.0,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,0,31,1.6560869565217393,0.14214752209675127,11.0,12.0,1.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,0,32,12.437826086956521,0.2955245594584773,55.0,35.0,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,0,33,3.6691304347826086,0.2889270192679647,16.0,10.0,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,0,34,40.70739130434783,0.3898664061459315,154.0,91.0,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,0,35,18.208695652173912,0.6116291035769088,46.0,18.0,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,0,36,23.91347826086957,0.13889514193347996,243.0,213.0,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,0,37,7.491739130434784,0.09538953032856144,104.0,104.0,1.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,0,38,2.230434782608696,0.373543599549,8.0,4.0,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,0,39,20.158695652173915,0.283064964756797,98.0,70.0,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,0,40,17.887391304347826,0.47681881203329757,57.0,28.0,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,0,41,5.940000000000001,0.11865010104415348,63.0,55.0,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,0,42,31.785652173913046,0.14007361763767023,320.0,273.0,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,0,44,7.137826086956522,0.8507022669602758,14.0,3.0,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,0,45,29.64304347826087,0.37981130943641955,106.0,61.0,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,0,46,1.1695652173913047,0.18044034576795379,5.0,6.0,1.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,0,47,18.165652173913042,0.20168940560005308,118.0,89.0,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,0,48,47.53739130434783,0.0938462453820251,611.0,538.0,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,0,49,1.6343478260869566,0.04590349496925445,42.0,42.0,1.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,0,50,2.4156521739130437,0.3517041019945977,4.0,8.0,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,0,51,15.566521739130437,0.30165487056803214,73.0,48.0,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,0,53,4.290434782608696,0.03199669203713681,160.0,161.0,1.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,0,54,3.4969565217391305,0.2743361828293481,16.0,11.0,1.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,0,55,17.823478260869564,0.5380091033345734,50.0,22.0,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,0,56,2.983913043478261,0.5051737747864848,8.0,3.0,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,0,72,38.27304347826087,0.1886390746344313,236.0,176.0,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu hosp,0,US,845.4260869565217,0.21399030790079318,6006.0,4698.0,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,01,0.0006999999999999992,0.05284248137438041,0.0135,0.0128,0.0,0.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,02,0.00030000000000000165,0.01823758754978133,0.0165,0.0162,0.0,0.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,04,0.00020000000000000052,0.03704127168034965,0.0054,0.0052,0.0,0.0
 FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,05,0.0,0.0,0.006,0.006,1.0,1.0
-FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,06,0.0,0.0,0.0132,0.0132,1.0,1.0
-FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,08,0.0,0.0,0.0063,0.0063,1.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,06,0.0002999999999999999,0.02230575751429864,0.0135,0.0132,0.0,0.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,08,0.00010000000000000026,0.015504186535965303,0.0064,0.0063,0.0,0.0
 FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,09,0.0,0.0,0.0046,0.0046,1.0,1.0
-FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,11,0.0,0.0,0.0043,0.0043,1.0,1.0
-FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,12,0.0,0.0,0.0226,0.0226,1.0,1.0
-FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,15,0.0,0.0,0.0585,0.0585,1.0,1.0
-FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,16,0.0,0.0,0.0064,0.0064,1.0,1.0
-FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,17,0.0,0.0,0.0035,0.0035,1.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,11,0.00019999999999999966,0.04445176257083361,0.0045,0.0043,0.0,0.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,12,0.00030000000000000165,0.013129291441792645,0.0229,0.0226,0.0,0.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,15,0.0002999999999999947,0.005106394074574361,0.0588,0.0585,0.0,0.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,16,0.0003999999999999993,0.05971923470162199,0.0068,0.0064,0.0,0.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,17,0.00020000000000000006,0.054067221270275745,0.0037,0.0035,0.0,0.0
 FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,18,0.0,0.0,0.0046,0.0046,1.0,1.0
 FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,20,0.0,0.0,0.0026,0.0026,1.0,1.0
-FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,21,0.0,0.0,0.0076,0.0076,1.0,1.0
-FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,22,0.0,0.0,0.0158,0.0158,1.0,1.0
-FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,23,0.0,0.0,0.005,0.005,1.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,21,0.00010000000000000026,0.012903404835907573,0.0077,0.0076,0.0,0.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,22,0.0002999999999999982,0.018692133012153,0.0161,0.0158,0.0,0.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,23,0.0007999999999999995,0.14571181118139354,0.0058,0.005,0.0,0.0
 FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,24,0.0,0.0,0.0053,0.0053,1.0,1.0
-FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,25,0.0,0.0,0.0044,0.0044,1.0,1.0
-FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,26,0.0,0.0,0.0026,0.0026,1.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,25,9.99999999999994e-05,0.02197890671877545,0.0045,0.0044,0.0,0.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,26,0.00010000000000000026,0.036367644170875124,0.0027,0.0026,0.0,0.0
 FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,27,0.0,0.0,0.0033,0.0033,1.0,1.0
-FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,28,0.0,0.0,0.0072,0.0072,1.0,1.0
-FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,29,0.0,0.0,0.0026,0.0026,1.0,1.0
-FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,30,0.0,0.0,0.0052,0.0052,1.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,28,0.00020000000000000052,0.02702867238792006,0.0074,0.0072,0.0,0.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,29,0.0002999999999999999,0.10536051565782589,0.0029,0.0026,0.0,0.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,30,0.00010000000000000026,0.018692133012153,0.0053,0.0052,0.0,0.0
 FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,31,0.0,0.0,0.0038,0.0038,1.0,1.0
-FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,32,0.0,0.0,0.0088,0.0088,1.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,32,0.0004999999999999987,0.05465841253786419,0.0093,0.0088,0.0,0.0
 FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,33,0.0,0.0,0.005,0.005,1.0,1.0
-FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,34,0.0,0.0,0.0059,0.0059,1.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,34,0.00020000000000000052,0.032789822822991255,0.0061,0.0059,0.0,0.0
 FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,35,0.0,0.0,0.005,0.005,1.0,1.0
-FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,36,0.0,0.0,0.0044,0.0044,1.0,1.0
-FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,37,0.0,0.0,0.0125,0.0125,1.0,1.0
-FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,38,0.0,0.0,0.0022,0.0022,1.0,1.0
-FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,39,0.0,0.0,0.003,0.003,1.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,36,9.99999999999994e-05,0.02197890671877545,0.0045,0.0044,0.0,0.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,37,0.0002999999999999999,0.023530497410193973,0.0128,0.0125,0.0,0.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,38,9.999999999999983e-05,0.04255961441879563,0.0023,0.0022,0.0,0.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,39,9.999999999999983e-05,0.031748698314580714,0.0031,0.003,0.0,0.0
 FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,40,0.0,0.0,0.0064,0.0064,1.0,1.0
-FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,41,0.0,0.0,0.009,0.009,1.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,41,0.00010000000000000113,0.010929070532190721,0.0091,0.009,0.0,0.0
 FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,42,0.0,0.0,0.0033,0.0033,1.0,1.0
 FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,44,0.0,0.0,0.0038,0.0038,1.0,1.0
-FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,45,0.0,0.0,0.0057,0.0057,1.0,1.0
-FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,46,0.0,0.0,0.0019,0.0019,1.0,1.0
-FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,47,0.0,0.0,0.0066,0.0066,1.0,1.0
-FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,48,0.0,0.0,0.0148,0.0148,1.0,1.0
-FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,49,0.0,0.0,0.0089,0.0089,1.0,1.0
-FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,50,0.0,0.0,0.0053,0.0053,1.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,45,9.99999999999994e-05,0.01709443335929972,0.0058,0.0057,0.0,0.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,46,0.00010000000000000003,0.04879016416943216,0.002,0.0019,0.0,0.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,47,0.0005999999999999998,0.08576682175742434,0.0072,0.0066,0.0,0.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,48,0.0001999999999999988,0.013333530869465093,0.015,0.0148,0.0,0.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,49,9.99999999999994e-05,0.011049836186584727,0.009,0.0089,0.0,0.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,50,0.0008000000000000003,0.13815033848081715,0.0061,0.0053,0.0,0.0
 FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,51,0.0,0.0,0.0066,0.0066,1.0,1.0
-FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,53,0.0,0.0,0.0168,0.0168,1.0,1.0
-FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,54,0.0,0.0,0.0026,0.0026,1.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,53,0.00020000000000000226,0.011764841579586793,0.017,0.0168,0.0,0.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,54,0.00020000000000000006,0.07145896398214457,0.0028,0.0026,0.0,0.0
 FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,55,0.0,0.0,0.0024,0.0024,1.0,1.0
-FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,56,0.0,0.0,0.0074,0.0074,1.0,1.0
-FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,US,0.0,0.0,0.0092,0.0092,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,01,2.073478260869565,0.03059480892214306,64.0,67.0,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,02,2.5495652173913044,0.11431836286482958,19.0,23.0,0.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,04,1.9721739130434783,0.033619947825065034,55.0,58.0,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,05,2.131304347826087,0.0961017349367055,19.0,23.0,0.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,06,33.974347826086955,0.04885658976410726,660.0,721.0,0.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,08,1.2991304347826087,0.02665635400828956,47.0,48.0,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,09,1.3921739130434785,0.026037526772961127,53.0,52.0,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,10,0.32869565217391306,0.035591777572403505,8.0,8.0,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,11,0.3230434782608696,0.09132063440597171,2.0,3.0,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,12,66.93695652173913,0.07267263243351085,866.0,977.0,0.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,13,4.731304347826088,0.05667883689412251,77.0,86.0,0.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,15,2.4217391304347826,0.028163563193399833,82.0,85.0,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,16,1.4265217391304348,0.057389372571210184,22.0,25.0,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,17,4.481304347826088,0.046824382709479216,89.0,97.0,0.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,18,2.1060869565217395,0.03705414871441647,53.0,57.0,1.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,56,0.0003999999999999993,0.051959738930710486,0.0078,0.0074,0.0,0.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,-1,US,9.99999999999994e-05,0.010695289116747553,0.0093,0.0092,0.0,0.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,0,01,0.00184228760694129,0.1606026281345223,0.0155,0.0128,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,0,02,0.0008147172487159749,0.0636311173166076,0.0161,0.0162,1.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,0,04,0.0009833621704043252,0.19303194620219483,0.0067,0.0052,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,0,05,0.0010890170973557641,0.20733804984407148,0.0075,0.006,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,0,06,0.005138063916552221,0.3112741281950431,0.0207,0.0132,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,0,08,0.0010329467391304386,0.17102675192493857,0.0079,0.0063,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,0,09,0.0005097902173913068,0.1393069634744136,0.005,0.0046,1.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,0,11,0.0015878956521739125,0.33191990872400134,0.0069,0.0043,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,0,12,0.0015870971756674359,0.06813571521410847,0.0252,0.0226,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,0,15,0.0008868066643275113,0.015196455429848637,0.0587,0.0585,1.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,0,16,0.002193227387795628,0.2963568531378429,0.0099,0.0064,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,0,17,0.00048231398784640114,0.17579333405561895,0.0037,0.0035,1.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,0,18,0.0017510532608695677,0.3468308523897341,0.0073,0.0046,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,0,20,0.0003880847826086893,0.17231391307645288,0.0026,0.0026,1.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,0,21,0.0031786815217391346,0.3707559153509469,0.0125,0.0076,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,0,22,0.0033495226034325615,0.2028900794040549,0.0211,0.0158,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,0,23,0.0007020368139333589,0.16644716023871284,0.0059,0.005,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,0,24,0.000933381521739128,0.19922587867487493,0.0065,0.0053,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,0,25,0.0009865024590898074,0.23177007045950934,0.0058,0.0044,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,0,26,0.0008045770313246755,0.29646916917779703,0.0037,0.0026,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,0,27,0.0006077965965420532,0.19924630524139994,0.0038,0.0033,1.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,0,28,0.003452521739130455,0.4039888060395135,0.0126,0.0072,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,0,29,0.0006276652173913192,0.22858014727181009,0.0035,0.0026,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,0,30,0.0016998591321891725,0.3078070779353034,0.0079,0.0052,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,0,31,0.0009961282608695677,0.2590826314680068,0.0053,0.0038,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,0,32,0.003187012170404314,0.29778829599854306,0.0136,0.0088,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,0,33,0.0012804406539282916,0.25796799864429465,0.007,0.005,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,0,34,0.0014414273965674582,0.2526981444889872,0.0081,0.0059,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,0,35,0.0028033628295957,0.43882863104762454,0.0094,0.005,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,0,36,0.000780834640020313,0.1845233776845241,0.0055,0.0044,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,0,37,0.0012759976834985874,0.12230116816631224,0.0141,0.0125,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,0,38,0.0010919619565217449,0.40303078596965475,0.0039,0.0022,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,0,39,0.0010016315217391471,0.32017527725046285,0.0044,0.003,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,0,40,0.000978460869565216,0.167461022009519,0.0077,0.0064,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,0,41,0.002008069351334835,0.2151637066349969,0.0121,0.009,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,0,42,0.0010043958660564914,0.30425023963059816,0.0048,0.0033,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,0,44,0.000489525000000005,0.15450819288080372,0.0043,0.0038,1.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,0,45,0.0027404710799390653,0.39690344402957856,0.0099,0.0057,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,0,46,0.002430986742639188,0.7275670856382527,0.0059,0.0019,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,0,47,0.0014459804347826222,0.2335523329875608,0.0087,0.0066,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,0,48,0.0024313365287565976,0.16635392134692725,0.0186,0.0148,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,0,49,0.0011535597826086963,0.1438566399857561,0.0106,0.0089,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,0,50,0.0006938934782608686,0.16793431051084412,0.0045,0.0053,1.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,0,51,0.0014763513008391096,0.23617806223710708,0.0088,0.0066,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,0,53,0.0015418054347826208,0.09865946334310478,0.0192,0.0168,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,0,54,0.0008784113061022029,0.3158042081343177,0.0038,0.0026,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,0,55,0.0007350989130435001,0.2964136337221534,0.0034,0.0024,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,0,56,0.0034197049982456393,0.3693916647415972,0.0128,0.0074,0.0,1.0
+FluSight-baseline,2026-10-24,wk inc flu prop ed visits,0,US,0.0014725899947369118,0.16862619745285623,0.0115,0.0092,0.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu hosp,-1,01,0.0,0.0,79.0,79.0,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu hosp,-1,02,0.0,0.0,7.0,7.0,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu hosp,-1,04,0.0,0.0,97.0,97.0,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu hosp,-1,05,0.0,0.0,36.0,36.0,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu hosp,-1,06,0.0,0.0,1054.0,1054.0,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu hosp,-1,08,0.0,0.0,50.0,50.0,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu hosp,-1,09,0.0,0.0,27.0,27.0,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu hosp,-1,10,0.0,0.0,16.0,16.0,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu hosp,-1,11,0.0,0.0,3.0,3.0,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu hosp,-1,12,0.0,0.0,1041.0,1041.0,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu hosp,-1,13,0.0,0.0,101.0,101.0,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu hosp,-1,15,0.0,0.0,63.0,63.0,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu hosp,-1,16,0.0,0.0,12.0,12.0,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu hosp,-1,17,0.0,0.0,119.0,119.0,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu hosp,-1,18,0.0,0.0,94.0,94.0,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu hosp,-1,19,0.0,0.0,30.0,30.0,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu hosp,-1,20,0.0,0.0,8.0,8.0,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu hosp,-1,21,0.0,0.0,78.0,78.0,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu hosp,-1,22,0.0,0.0,165.0,165.0,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu hosp,-1,23,0.0,0.0,16.0,16.0,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu hosp,-1,24,0.0,0.0,41.0,41.0,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu hosp,-1,25,0.0,0.0,48.0,48.0,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu hosp,-1,26,0.0,0.0,55.0,55.0,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu hosp,-1,27,0.0,0.0,37.0,37.0,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu hosp,-1,28,0.0,0.0,56.0,56.0,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu hosp,-1,29,0.0,0.0,40.0,40.0,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu hosp,-1,30,0.0,0.0,15.0,15.0,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu hosp,-1,31,0.0,0.0,11.0,11.0,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu hosp,-1,32,0.0,0.0,55.0,55.0,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu hosp,-1,33,0.0,0.0,16.0,16.0,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu hosp,-1,34,0.0,0.0,154.0,154.0,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu hosp,-1,35,0.0,0.0,46.0,46.0,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu hosp,-1,36,0.0,0.0,243.0,243.0,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu hosp,-1,37,0.0,0.0,104.0,104.0,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu hosp,-1,38,0.0,0.0,8.0,8.0,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu hosp,-1,39,0.0,0.0,98.0,98.0,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu hosp,-1,40,0.0,0.0,57.0,57.0,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu hosp,-1,41,0.0,0.0,63.0,63.0,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu hosp,-1,42,0.0,0.0,320.0,320.0,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu hosp,-1,44,0.0,0.0,14.0,14.0,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu hosp,-1,45,0.0,0.0,106.0,106.0,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu hosp,-1,46,0.0,0.0,5.0,5.0,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu hosp,-1,47,0.0,0.0,118.0,118.0,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu hosp,-1,48,0.0,0.0,611.0,611.0,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu hosp,-1,49,0.0,0.0,42.0,42.0,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu hosp,-1,50,0.0,0.0,4.0,4.0,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu hosp,-1,51,0.0,0.0,73.0,73.0,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu hosp,-1,53,0.0,0.0,160.0,160.0,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu hosp,-1,54,0.0,0.0,16.0,16.0,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu hosp,-1,55,0.0,0.0,50.0,50.0,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu hosp,-1,56,0.0,0.0,8.0,8.0,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu hosp,-1,72,0.0,0.0,236.0,236.0,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu hosp,-1,US,0.0,0.0,6006.0,6006.0,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu prop ed visits,-1,01,0.0,0.0,0.0155,0.0155,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu prop ed visits,-1,02,0.0,0.0,0.0161,0.0161,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu prop ed visits,-1,04,0.0,0.0,0.0067,0.0067,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu prop ed visits,-1,05,0.0,0.0,0.0075,0.0075,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu prop ed visits,-1,06,0.0,0.0,0.0207,0.0207,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu prop ed visits,-1,08,0.0,0.0,0.0079,0.0079,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu prop ed visits,-1,09,0.0,0.0,0.005,0.005,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu prop ed visits,-1,11,0.0,0.0,0.0069,0.0069,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu prop ed visits,-1,12,0.0,0.0,0.0252,0.0252,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu prop ed visits,-1,15,0.0,0.0,0.0587,0.0587,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu prop ed visits,-1,16,0.0,0.0,0.0099,0.0099,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu prop ed visits,-1,17,0.0,0.0,0.0037,0.0037,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu prop ed visits,-1,18,0.0,0.0,0.0073,0.0073,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu prop ed visits,-1,20,0.0,0.0,0.0026,0.0026,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu prop ed visits,-1,21,0.0,0.0,0.0125,0.0125,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu prop ed visits,-1,22,0.0,0.0,0.0211,0.0211,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu prop ed visits,-1,23,0.0,0.0,0.0059,0.0059,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu prop ed visits,-1,24,0.0,0.0,0.0065,0.0065,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu prop ed visits,-1,25,0.0,0.0,0.0058,0.0058,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu prop ed visits,-1,26,0.0,0.0,0.0037,0.0037,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu prop ed visits,-1,27,0.0,0.0,0.0038,0.0038,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu prop ed visits,-1,28,0.0,0.0,0.0126,0.0126,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu prop ed visits,-1,29,0.0,0.0,0.0035,0.0035,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu prop ed visits,-1,30,0.0,0.0,0.0079,0.0079,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu prop ed visits,-1,31,0.0,0.0,0.0053,0.0053,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu prop ed visits,-1,32,0.0,0.0,0.0136,0.0136,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu prop ed visits,-1,33,0.0,0.0,0.007,0.007,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu prop ed visits,-1,34,0.0,0.0,0.0081,0.0081,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu prop ed visits,-1,35,0.0,0.0,0.0094,0.0094,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu prop ed visits,-1,36,0.0,0.0,0.0055,0.0055,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu prop ed visits,-1,37,0.0,0.0,0.0141,0.0141,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu prop ed visits,-1,38,0.0,0.0,0.0039,0.0039,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu prop ed visits,-1,39,0.0,0.0,0.0044,0.0044,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu prop ed visits,-1,40,0.0,0.0,0.0077,0.0077,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu prop ed visits,-1,41,0.0,0.0,0.0121,0.0121,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu prop ed visits,-1,42,0.0,0.0,0.0048,0.0048,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu prop ed visits,-1,44,0.0,0.0,0.0043,0.0043,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu prop ed visits,-1,45,0.0,0.0,0.0099,0.0099,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu prop ed visits,-1,46,0.0,0.0,0.0059,0.0059,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu prop ed visits,-1,47,0.0,0.0,0.0087,0.0087,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu prop ed visits,-1,48,0.0,0.0,0.0186,0.0186,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu prop ed visits,-1,49,0.0,0.0,0.0106,0.0106,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu prop ed visits,-1,50,0.0,0.0,0.0045,0.0045,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu prop ed visits,-1,51,0.0,0.0,0.0088,0.0088,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu prop ed visits,-1,53,0.0,0.0,0.0192,0.0192,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu prop ed visits,-1,54,0.0,0.0,0.0038,0.0038,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu prop ed visits,-1,55,0.0,0.0,0.0034,0.0034,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu prop ed visits,-1,56,0.0,0.0,0.0128,0.0128,1.0,1.0
+FluSight-baseline,2026-10-31,wk inc flu prop ed visits,-1,US,0.0,0.0,0.0115,0.0115,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,01,1.682173913043478,0.02467019681202542,67.0,67.0,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,02,0.9408695652173913,0.038810600737325396,22.0,23.0,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,04,2.667826086956522,0.044214194941384274,63.0,58.0,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,05,0.8704347826086957,0.03622137515234429,24.0,23.0,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,06,12.148260869565219,0.01680973223750547,712.0,721.0,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,08,1.2991304347826087,0.026656354008289574,47.0,48.0,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,09,1.7400000000000002,0.032347959099829786,55.0,52.0,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,10,3.4156521739130437,0.29301637734066904,13.0,8.0,0.0,0.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,11,0.1926086956521739,0.05379688582530467,3.0,3.0,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,12,54.85,0.05885635961897651,882.0,977.0,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,13,3.6878260869565223,0.0434625786601205,79.0,86.0,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,15,2.4217391304347826,0.028163563193400055,82.0,85.0,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,16,1.4265217391304348,0.05738937257121007,22.0,25.0,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,17,2.698695652173913,0.02747718061165272,94.0,97.0,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,18,3.4104347826086956,0.05694881838501841,63.0,57.0,0.0,1.0
 OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,19,0.7830434782608696,0.04320803133386631,16.0,17.0,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,20,0.7808695652173914,0.045654879501800985,15.0,16.0,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,21,7.379130434782609,0.10985378534735349,60.0,72.0,0.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,22,4.243478260869566,0.031688461895366234,127.0,134.0,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,20,0.6069565217391305,0.03496076231735635,17.0,16.0,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,21,1.9443478260869564,0.026404297292449874,73.0,72.0,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,22,3.547826086956522,0.02610557855458067,139.0,134.0,1.0,1.0
 OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,23,0.5008695652173913,0.03216484115795679,14.0,14.0,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,24,1.9530434782608697,0.037046581459523484,49.0,52.0,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,25,1.2639130434782608,0.03974300876296851,29.0,31.0,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,26,3.742173913043479,0.06216156522666995,55.0,62.0,0.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,27,0.5726086956521739,0.03662680583446088,14.0,15.0,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,28,2.6795652173913043,0.046522429536797395,53.0,58.0,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,29,8.158695652173913,0.15714904068327282,45.0,58.0,0.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,30,1.0239130434782608,0.04784969363694403,19.0,21.0,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,31,0.5760869565217391,0.04186337034658853,12.0,13.0,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,32,2.3282608695652174,0.05997203410850997,35.0,39.0,0.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,33,0.4069565217391305,0.03569681616017721,10.0,10.0,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,34,2.1691304347826086,0.02371387398120612,91.0,90.0,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,35,0.9991304347826088,0.04910486651745631,18.0,20.0,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,36,11.527826086956521,0.050830934781020694,213.0,234.0,0.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,37,2.617826086956522,0.024397796515502744,104.0,106.0,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,38,0.17391304347826086,0.03456465836091043,4.0,4.0,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,39,2.1621739130434783,0.029388343653054896,70.0,73.0,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,40,6.413043478260869,0.1926029350859894,28.0,38.0,0.0,0.0
-OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,41,7.107826086956522,0.11483056983297152,55.0,67.0,0.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,42,5.796521739130435,0.02073178693018409,273.0,279.0,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,44,0.19260869565217395,0.0433009212930703,3.0,3.0,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,24,1.431304347826087,0.026798371878707507,51.0,52.0,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,25,3.263913043478261,0.09399601374241644,37.0,31.0,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,26,3.742173913043479,0.06216156522667045,55.0,62.0,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,27,0.7465217391304348,0.0470000487885741,16.0,15.0,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,28,2.6795652173913043,0.04652242953679754,53.0,58.0,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,29,8.158695652173913,0.15714904068327265,45.0,58.0,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,30,1.0239130434782608,0.04784969363694398,19.0,21.0,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,31,0.44565217391304346,0.03219711310914658,13.0,13.0,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,32,17.19782608695652,0.33237055095898194,61.0,39.0,0.0,0.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,33,0.4069565217391305,0.03569681616017726,10.0,10.0,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,34,2.1691304347826086,0.023713873981206095,91.0,90.0,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,35,0.9991304347826088,0.04910486651745626,18.0,20.0,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,36,5.745217391304348,0.024501823502346202,226.0,234.0,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,37,3.400434782608696,0.0313719567623594,112.0,106.0,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,38,1.2173913043478262,0.20399128682269624,6.0,4.0,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,39,4.857826086956522,0.06267195219221305,82.0,73.0,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,40,5.5,0.16164934442558465,29.0,38.0,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,41,3.281739130434783,0.049664379968531194,61.0,67.0,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,42,5.92695652173913,0.021208697087111584,272.0,279.0,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,44,0.32304347826086954,0.07240660189927157,4.0,3.0,1.0,1.0
 OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,45,1.6543478260869566,0.0262335475578803,61.0,62.0,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,46,0.23782608695652177,0.032825150172340944,6.0,6.0,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,47,2.245217391304348,0.024416776678317983,89.0,91.0,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,48,23.613478260869567,0.041750384269593065,538.0,582.0,0.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,49,1.181304347826087,0.027289632107171283,42.0,42.0,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,50,0.32869565217391306,0.035591777572403505,8.0,8.0,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,51,2.1673913043478263,0.041677927635775595,48.0,52.0,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,53,3.4913043478260875,0.02124683496339666,161.0,163.0,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,54,0.41,0.034274352131519394,11.0,11.0,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,55,1.0530434782608697,0.04293908592999891,22.0,24.0,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,56,0.1482608695652174,0.03578417341435708,3.0,3.0,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,72,6.6747826086956525,0.03589710642030738,176.0,188.0,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,US,277.6630434782609,0.05647625122333665,4698.0,5150.0,0.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,01,0.00015170652173913043,0.011754380561065042,0.0128,0.0128,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,02,0.00018460217391304365,0.011320096591989922,0.0162,0.0162,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,04,7.185782608695653e-05,0.01354945980782222,0.0052,0.0052,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,05,8.085086956521743e-05,0.013246026635256165,0.006,0.006,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,06,0.0001555704347826087,0.011691266998043163,0.0132,0.0132,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,08,8.417304347826084e-05,0.013143919370277967,0.0063,0.0063,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,09,6.49895652173913e-05,0.01381805499899998,0.0046,0.0046,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,11,6.144217391304346e-05,0.013954662267215921,0.0043,0.0043,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,12,0.00024384913043478266,0.010737933464286574,0.0226,0.0226,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,15,0.0005408086956521738,0.009226037748929111,0.0585,0.0585,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,16,8.527217391304349e-05,0.013110627945947907,0.0064,0.0064,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,17,5.1904782608695646e-05,0.014407506697215824,0.0035,0.0035,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,18,6.49895652173913e-05,0.01381805499899998,0.0046,0.0046,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,20,4.078608695652172e-05,0.015093161254703136,0.0026,0.0026,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,21,9.838521739130434e-05,0.012770102387514306,0.0076,0.0076,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,22,0.00018076695652173919,0.01136378610932478,0.0158,0.0158,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,23,6.952956521739129e-05,0.013624169732883558,0.005,0.005,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,24,7.30078260869565e-05,0.013511061638562276,0.0053,0.0053,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,25,6.26713043478261e-05,0.013917200796782459,0.0044,0.0044,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,26,4.078608695652172e-05,0.015093161254703136,0.0026,0.0026,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,27,4.9466521739130425e-05,0.014538181920286422,0.0033,0.0033,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,28,9.409695652173914e-05,0.01288236112091653,0.0072,0.0072,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,29,4.078608695652172e-05,0.015093161254703136,0.0026,0.0026,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,30,7.185782608695653e-05,0.01354945980782222,0.0052,0.0052,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,31,5.559521739130436e-05,0.014244407085006364,0.0038,0.0038,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,32,0.00011103782608695657,0.01246939311759464,0.0088,0.0088,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,33,6.952956521739129e-05,0.013624169732883558,0.005,0.005,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,34,7.975826086956521e-05,0.013284627003307485,0.0059,0.0059,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,35,6.952956521739129e-05,0.013624169732883558,0.005,0.005,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,36,6.26713043478261e-05,0.013917200796782459,0.0044,0.0044,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,37,0.00014873913043478258,0.011799012249231461,0.0125,0.0125,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,38,3.56604347826087e-05,0.015491365363662914,0.0022,0.0022,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,39,4.584913043478263e-05,0.014779166924432258,0.003,0.003,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,40,8.527217391304349e-05,0.013110627945947907,0.0064,0.0064,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,41,0.00011309956521739136,0.012421655846508067,0.009,0.009,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,42,4.9466521739130425e-05,0.014538181920286422,0.0033,0.0033,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,44,5.559521739130436e-05,0.014244407085006364,0.0038,0.0038,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,45,7.752217391304349e-05,0.013357593134083965,0.0057,0.0057,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,46,3.167260869565217e-05,0.0158218599808956,0.0019,0.0019,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,47,8.749434782608697e-05,0.013050954421185423,0.0066,0.0066,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,48,0.00017122782608695644,0.011486422924903854,0.0148,0.0148,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,49,0.00011210782608695655,0.01244958045157654,0.0089,0.0089,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,50,7.30078260869565e-05,0.013511061638562276,0.0053,0.0053,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,51,8.749434782608697e-05,0.013050954421185423,0.0066,0.0066,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,53,0.00019039043478260873,0.011260643831862267,0.0168,0.0168,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,54,4.078608695652172e-05,0.015093161254703136,0.0026,0.0026,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,55,3.823521739130435e-05,0.015280639021311264,0.0024,0.0024,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,56,9.616913043478262e-05,0.0128149205606886,0.0074,0.0074,1.0,1.0
-OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,US,0.00011526565217391312,0.012387542912705352,0.0092,0.0092,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,46,0.23782608695652177,0.03282515017234093,6.0,6.0,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,47,4.332173913043478,0.0458497319410592,99.0,91.0,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,48,18.700434782608696,0.032708484873896986,547.0,582.0,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,49,1.181304347826087,0.027289632107171325,42.0,42.0,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,50,0.32869565217391306,0.035591777572403484,8.0,8.0,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,51,3.210869565217391,0.05821589560674907,58.0,52.0,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,53,3.9695652173913047,0.024230123009642026,158.0,163.0,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,54,0.41,0.03427435213151942,11.0,11.0,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,55,1.0530434782608697,0.04293908592999885,22.0,24.0,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,56,0.1482608695652174,0.03578417341435709,3.0,3.0,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,72,5.196521739130435,0.027634266095231824,180.0,188.0,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,-1,US,108.3586956521739,0.021299573083473806,4948.0,5150.0,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,0,01,5.810434782608696,0.07475629956255805,79.0,72.0,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,0,02,9.97913043478261,0.7242510841838294,7.0,22.0,0.0,0.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,0,04,15.48391304347826,0.19187468457177329,97.0,66.0,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,0,05,4.841739130434783,0.15348512617882915,36.0,27.0,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,0,06,95.97217391304348,0.10118264858232752,1054.0,875.0,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,0,08,6.518695652173913,0.10752222699524551,50.0,59.0,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,0,09,23.05695652173913,0.5332003184546206,27.0,62.0,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,0,10,4.277826086956522,0.34008967046730004,16.0,8.0,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,0,11,0.5365217391304349,0.10673729569239244,3.0,3.0,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,0,12,102.37695652173913,0.08770866583183023,1041.0,1216.0,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,0,13,7.377391304347826,0.07272915944192411,101.0,93.0,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,0,15,14.18304347826087,0.18281878004539492,63.0,89.0,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,0,16,8.06608695652174,0.42002194484752936,12.0,25.0,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,0,17,11.145652173913044,0.09900571370729021,119.0,105.0,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,0,18,20.919565217391305,0.2770648872822341,94.0,59.0,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,0,19,6.777391304347826,0.28541711525283825,30.0,17.0,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,0,20,6.095217391304348,0.4635006452705599,8.0,17.0,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,0,21,6.601739130434782,0.07696597988974184,78.0,82.0,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,0,22,13.507826086956522,0.08906999908308397,165.0,142.0,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,0,23,1.647391304347826,0.09092694044222545,16.0,17.0,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,0,24,13.690434782608696,0.25471933766294136,41.0,61.0,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,0,25,6.081739130434784,0.10886582682056387,48.0,47.0,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,0,26,6.601739130434782,0.10016027320558918,55.0,65.0,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,0,27,11.597391304347827,0.46145085847327677,37.0,15.0,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,0,28,7.156521739130436,0.10691292590233663,56.0,64.0,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,0,29,12.370869565217392,0.23163785897159883,40.0,60.0,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,0,30,3.6269565217391304,0.17284679057470392,15.0,20.0,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,0,31,1.5369565217391306,0.11375134879159943,11.0,12.0,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,0,32,10.364782608695652,0.22931082368192895,55.0,36.0,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,0,33,2.6656521739130437,0.1949860234144804,16.0,11.0,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,0,34,29.160434782608696,0.2292999633986595,154.0,103.0,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,0,35,15.23304347826087,0.4518929583665781,46.0,21.0,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,0,36,35.32260869565218,0.12311489878636199,243.0,300.0,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,0,37,15.180434782608698,0.1182166541760158,104.0,126.0,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,0,38,2.8969565217391304,0.44174706238028827,8.0,3.0,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,0,39,12.298260869565217,0.13849304723268066,98.0,77.0,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,0,40,9.350434782608696,0.19651148243456848,57.0,39.0,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,0,41,10.030869565217392,0.12743200603399943,63.0,79.0,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,0,42,17.38826086956522,0.052639442927441514,320.0,317.0,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,0,44,6.49,0.6883411586506666,14.0,4.0,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,0,45,20.312173913043477,0.23162104978215278,106.0,69.0,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,0,46,0.6165217391304348,0.09319748847557888,5.0,5.0,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,0,47,12.407826086956522,0.11692966079322634,118.0,95.0,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,0,48,52.751304347826085,0.07652755512577386,611.0,698.0,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,0,49,3.370434782608696,0.0723190570799269,42.0,45.0,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,0,50,2.347391304347826,0.3335348800483441,4.0,8.0,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,0,51,8.390869565217391,0.129106475957536,73.0,57.0,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,0,53,22.80652173913044,0.1218215907219134,160.0,200.0,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,0,54,2.3282608695652174,0.1496232727151909,16.0,12.0,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,0,55,16.43608695652174,0.4568993968696248,50.0,24.0,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,0,56,2.2091304347826086,0.34033891272881733,8.0,4.0,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,0,72,19.090434782608696,0.08974792679128693,236.0,201.0,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu hosp,0,US,230.90608695652173,0.036298585395197536,6006.0,6134.0,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,01,0.00037083695652173897,0.028161384211082722,0.0135,0.0128,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,02,0.00022112391304347846,0.013534176657939392,0.0165,0.0162,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,04,0.00011185782608695664,0.020914184800535404,0.0054,0.0052,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,05,8.085086956521743e-05,0.01324602663525611,0.006,0.006,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,06,0.00019800521739130435,0.014835615115840282,0.0135,0.0132,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,08,9.286869565217395e-05,0.014489496706094802,0.0064,0.0063,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,09,6.49895652173913e-05,0.01381805499900004,0.0046,0.0046,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,11,0.00010709434782608678,0.02403171407673869,0.0045,0.0043,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,12,0.00027115347826086976,0.011930824546017904,0.0229,0.0226,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,15,0.0005538521739130431,0.00944805488260626,0.0588,0.0585,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,16,0.0002119678260869563,0.03185273733365778,0.0068,0.0064,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,17,0.00010529608695652183,0.028719529379156068,0.0037,0.0035,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,18,6.49895652173913e-05,0.01381805499900004,0.0046,0.0046,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,20,4.078608695652172e-05,0.015093161254703146,0.0026,0.0026,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,21,0.00010638521739130439,0.013800612569751212,0.0077,0.0076,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,22,0.00021789739130434777,0.01367073020402847,0.0161,0.0158,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,23,0.0005421382608695649,0.0981198657646428,0.0058,0.005,0.0,0.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,24,7.30078260869565e-05,0.01351106163856226,0.0053,0.0053,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,25,7.467130434782602e-05,0.016545840878536815,0.0045,0.0044,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,26,5.8351304347826134e-05,0.021445572468628434,0.0027,0.0026,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,27,4.9466521739130425e-05,0.014538181920286442,0.0033,0.0033,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,28,0.00012531434782608704,0.01708315890157364,0.0074,0.0072,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,29,0.00017461217391304332,0.061389027631600084,0.0029,0.0026,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,30,8.237956521739131e-05,0.015510649919256311,0.0053,0.0052,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,31,5.559521739130436e-05,0.01424440708500627,0.0038,0.0038,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,32,0.0002644291304347821,0.029095597147633042,0.0093,0.0088,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,33,6.952956521739129e-05,0.013624169732883551,0.005,0.005,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,34,0.00011558434782608712,0.01912875983045384,0.0061,0.0059,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,35,6.952956521739129e-05,0.013624169732883551,0.005,0.005,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,36,7.467130434782602e-05,0.016545840878536815,0.0045,0.0044,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,37,0.00019326086956521747,0.01527824407925321,0.0128,0.0125,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,38,5.5834347826086944e-05,0.024019328800138413,0.0023,0.0022,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,39,6.184913043478259e-05,0.01983359615254674,0.0031,0.003,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,40,8.527217391304349e-05,0.013110627945947894,0.0064,0.0064,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,41,0.00012031695652173925,0.013209302832721214,0.0091,0.009,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,42,4.9466521739130425e-05,0.014538181920286442,0.0033,0.0033,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,44,5.559521739130436e-05,0.01424440708500627,0.0038,0.0038,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,45,8.717434782608681e-05,0.015003597130446357,0.0058,0.0057,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,46,5.393347826086959e-05,0.026600254814222447,0.002,0.0019,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,47,0.0003432334782608693,0.049152637389593516,0.0072,0.0066,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,48,0.00018853217391304335,0.012638131073500217,0.015,0.0148,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,49,0.00011941217391304342,0.013255509068745066,0.009,0.0089,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,50,0.0005328339130434785,0.09150991873494238,0.0061,0.0053,0.0,0.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,51,8.749434782608697e-05,0.013050954421185436,0.0066,0.0066,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,53,0.00020665130434782626,0.012215698318680236,0.017,0.0168,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,54,0.00010617739130434783,0.03820364874379869,0.0028,0.0026,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,55,3.823521739130435e-05,0.015280639021311196,0.0024,0.0024,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,56,0.00021016913043478237,0.027504725489772893,0.0078,0.0074,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,-1,US,0.0001223960869565217,0.013149082698698028,0.0093,0.0092,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,0,01,0.0010346108695652174,0.07068694122874604,0.0155,0.013885,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,0,02,0.000898487391304348,0.05121356955400873,0.0161,0.016526,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,0,04,0.0004753756521739132,0.07608692303424604,0.0067,0.005852,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,0,05,0.0006321078260869565,0.09101511687171776,0.0075,0.006418,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,0,06,0.003308657826086956,0.18336250231301846,0.0207,0.015354,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,0,08,0.0003296056521739131,0.0416243960129737,0.0079,0.007747,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,0,09,0.0008196717391304348,0.1355575144917422,0.005,0.006458,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,0,11,0.0009111695652173913,0.15069732982309036,0.0069,0.005253,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,0,12,0.0011428530434782608,0.0424893542239245,0.0252,0.026783,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,0,15,0.0027872356521739124,0.04457334725033153,0.0587,0.062811,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,0,16,0.0013274534782608698,0.1553337335852519,0.0099,0.007453,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,0,17,0.0002714830434782609,0.07410869606554152,0.0037,0.003402,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,0,18,0.0011365034782608696,0.18032157103822055,0.0073,0.00531,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,0,20,0.00023018260869565223,0.08501121828964674,0.0026,0.002735,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,0,21,0.0020030143478260874,0.189377207575566,0.0125,0.008865,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,0,22,0.001732757826086957,0.09034074483454708,0.0211,0.01814,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,0,23,0.0004001852173913044,0.06969473221132545,0.0059,0.005567,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,0,24,0.0007111726086956523,0.09417158001329337,0.0065,0.007644,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,0,25,0.0003563756521739129,0.06380491701946353,0.0058,0.005269,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,0,26,0.0004879121739130436,0.14844483050351664,0.0037,0.002914,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,0,27,0.00030043347826086956,0.0776575300898854,0.0038,0.003916,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,0,28,0.0032758169565217394,0.3267562299739225,0.0126,0.007348,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,0,29,0.000427284347826087,0.13061839799153918,0.0035,0.002746,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,0,30,0.0014798482608695657,0.22776956448307106,0.0079,0.005291,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,0,31,0.00046428782608695657,0.09792126928042863,0.0053,0.004692,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,0,32,0.0029113408695652164,0.2573207025345564,0.0136,0.009002,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,0,33,0.0007250913043478261,0.11668192046126939,0.007,0.005733,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,0,34,0.00045140739130434783,0.056042017931279255,0.0081,0.007662,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,0,35,0.0018784830434782612,0.2484469730604461,0.0094,0.005902,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,0,36,0.0003190800000000001,0.052860402415226056,0.0055,0.005833,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,0,37,0.0006862108695652173,0.05045175402574221,0.0141,0.013209,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,0,38,0.0010849808695652173,0.3607088932116206,0.0039,0.002116,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,0,39,0.0006007539130434785,0.15132844217776026,0.0044,0.003346,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,0,40,0.0006181139130434783,0.08773037576991785,0.0077,0.006889,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,0,41,0.0008600139130434782,0.06958967721098368,0.0121,0.011704,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,0,42,0.00043137521739130413,0.09709327320555615,0.0048,0.004072,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,0,44,0.00031006565217391307,0.06598563868198835,0.0043,0.004322,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,0,45,0.0018991873913043484,0.23347690868276838,0.0099,0.00652,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,0,46,0.0027125360869565216,0.7198721659265321,0.0059,0.002057,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,0,47,0.0007156404347826084,0.08567710324803893,0.0087,0.007478,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,0,48,0.0011011460869565213,0.06331647486747907,0.0186,0.016862,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,0,49,0.000626177391304348,0.05789170234814125,0.0106,0.010487,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,0,50,0.0008133721739130437,0.1459425681096846,0.0045,0.005813,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,0,51,0.0006177243478260871,0.0746227239874055,0.0088,0.007887,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,0,53,0.0005631152173913042,0.02973805623462876,0.0192,0.018873,1.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,0,54,0.0005955673913043479,0.18664742618867142,0.0038,0.002675,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,0,55,0.0005887782608695651,0.20638363085690517,0.0034,0.002402,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,0,56,0.0030153443478260875,0.2931254148710975,0.0128,0.007742,0.0,1.0
+OHTJHU-BM,2026-10-24,wk inc flu prop ed visits,0,US,0.00038568086956521737,0.03393587568788812,0.0115,0.011135,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu hosp,-1,01,2.0130434782608697,0.024423388258950973,79.0,81.0,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu hosp,-1,02,3.116521739130435,0.3192630361655873,7.0,11.0,0.0,0.0
+OHTJHU-BM,2026-10-31,wk inc flu hosp,-1,04,2.1634782608695655,0.02204544809862719,97.0,97.0,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu hosp,-1,05,2.5034782608695654,0.06280856372028032,36.0,41.0,0.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu hosp,-1,06,30.36304347826087,0.02777841000063858,1054.0,1111.0,0.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu hosp,-1,08,1.4252173913043478,0.02703633779081247,50.0,52.0,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu hosp,-1,09,2.358695652173913,0.07731031401568397,27.0,31.0,0.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu hosp,-1,10,0.5573913043478261,0.03386992814537995,16.0,15.0,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu hosp,-1,11,0.19260869565217395,0.0433009212930703,3.0,3.0,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu hosp,-1,12,88.50652173913043,0.07992297077026245,1041.0,1181.0,0.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu hosp,-1,13,4.19,0.03901994116728437,101.0,109.0,0.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu hosp,-1,15,4.21304347826087,0.06144915320290249,63.0,71.0,0.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu hosp,-1,16,2.1095652173913044,0.14362374578894574,12.0,15.0,0.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu hosp,-1,17,3.6395652173913047,0.029096268606782497,119.0,125.0,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu hosp,-1,18,2.1534782608695653,0.023048291538119173,94.0,92.0,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu hosp,-1,19,0.8352173913043479,0.027085346970771685,30.0,30.0,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu hosp,-1,20,1.6969565217391305,0.16447649840784126,8.0,11.0,0.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu hosp,-1,21,8.966956521739132,0.10381398493653923,78.0,93.0,0.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu hosp,-1,22,4.153478260869565,0.02424491012241999,165.0,171.0,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu hosp,-1,23,0.5008695652173913,0.028480861312003322,16.0,16.0,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu hosp,-1,24,3.670434782608696,0.0805206505070043,41.0,48.0,0.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu hosp,-1,25,1.6817391304347826,0.03278866543516584,48.0,51.0,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu hosp,-1,26,3.4982608695652178,0.05838215226926758,55.0,61.0,0.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu hosp,-1,27,1.0921739130434782,0.029547157997861232,37.0,36.0,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu hosp,-1,28,2.9991304347826087,0.04940644721703403,56.0,62.0,0.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu hosp,-1,29,8.993478260869566,0.19228998652043344,40.0,53.0,0.0,0.0
+OHTJHU-BM,2026-10-31,wk inc flu hosp,-1,30,0.7756521739130434,0.04529717354068024,15.0,16.0,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu hosp,-1,31,0.5360869565217391,0.04178588572340667,11.0,12.0,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu hosp,-1,32,1.5660869565217392,0.027127355191695103,55.0,57.0,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu hosp,-1,33,0.5030434782608696,0.030092143080906908,16.0,16.0,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu hosp,-1,34,4.572173913043478,0.030736208801742906,154.0,146.0,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu hosp,-1,35,1.2930434782608697,0.02700866766851853,46.0,47.0,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu hosp,-1,36,16.44086956521739,0.0633784596117997,243.0,272.0,0.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu hosp,-1,37,3.2291304347826086,0.029492845076494276,104.0,109.0,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu hosp,-1,38,0.3508695652173913,0.04155714887588393,8.0,7.0,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu hosp,-1,39,2.23304347826087,0.022287941334954736,98.0,99.0,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu hosp,-1,40,8.93304347826087,0.13847261669526933,57.0,71.0,0.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu hosp,-1,41,9.030434782608696,0.127621239907405,63.0,77.0,0.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu hosp,-1,42,5.936521739130436,0.018196885688649297,320.0,325.0,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu hosp,-1,44,0.6295652173913043,0.04453674359822481,14.0,13.0,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu hosp,-1,45,2.769130434782609,0.02675021838310199,106.0,102.0,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu hosp,-1,46,0.18913043478260871,0.030161811473228172,5.0,5.0,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu hosp,-1,47,2.492608695652174,0.0210611320699746,118.0,117.0,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu hosp,-1,48,30.560434782608695,0.047566379282466584,611.0,666.0,0.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu hosp,-1,49,1.1113043478260871,0.025395425204435523,42.0,43.0,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu hosp,-1,50,0.5043478260869566,0.08900311726421765,4.0,5.0,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu hosp,-1,51,1.8843478260869566,0.024744720212111767,73.0,75.0,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu hosp,-1,53,4.3704347826086964,0.0261702762006554,160.0,167.0,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu hosp,-1,54,0.5291304347826087,0.031775756675800064,16.0,16.0,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu hosp,-1,55,1.3430434782608696,0.026885623174404353,50.0,49.0,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu hosp,-1,56,0.31043478260869567,0.03533957370661115,8.0,8.0,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu hosp,-1,72,5.227826086956522,0.02148862894988152,236.0,243.0,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu hosp,-1,US,336.0008695652174,0.0536334539876242,6006.0,6547.0,0.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu prop ed visits,-1,01,0.00017434086956521743,0.011244955218079085,0.0155,0.015396,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu prop ed visits,-1,02,0.000178344347826087,0.010990181123714571,0.0161,0.016121,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu prop ed visits,-1,04,8.837826086956526e-05,0.013125862561081706,0.0067,0.006627,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu prop ed visits,-1,05,9.638565217391297e-05,0.012781710719345725,0.0075,0.007436,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu prop ed visits,-1,06,0.000363112608695652,0.0178717397219237,0.0207,0.020022,0.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu prop ed visits,-1,08,9.582695652173912e-05,0.0119957973213896,0.0079,0.007884,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu prop ed visits,-1,09,7.446652173913046e-05,0.014385775126913976,0.005,0.005078,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu prop ed visits,-1,11,9.382956521739125e-05,0.013563239880842059,0.0069,0.00681,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu prop ed visits,-1,12,0.000259194347826087,0.010182014151318303,0.0252,0.025349,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu prop ed visits,-1,15,0.0005350239130434782,0.009043727654054779,0.0587,0.059052,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu prop ed visits,-1,16,0.00012745565217391308,0.012894801310287678,0.0099,0.009773,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu prop ed visits,-1,17,5.2589565217391304e-05,0.013902867368507474,0.0037,0.00368,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu prop ed visits,-1,18,0.00010239826086956525,0.014042966987217185,0.0073,0.007179,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu prop ed visits,-1,20,3.985695652173912e-05,0.01472238726974776,0.0026,0.002605,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu prop ed visits,-1,21,0.0001578965217391306,0.012690519348403465,0.0125,0.012326,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu prop ed visits,-1,22,0.00023583739130434786,0.011236016889005164,0.0211,0.020871,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu prop ed visits,-1,23,7.765521739130435e-05,0.012966907092877332,0.0059,0.005885,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu prop ed visits,-1,24,9.291869565217396e-05,0.013864233095230999,0.0065,0.006607,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu prop ed visits,-1,25,7.628869565217389e-05,0.013002478018616911,0.0058,0.005764,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu prop ed visits,-1,26,5.581217391304351e-05,0.014882149575082248,0.0037,0.003645,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu prop ed visits,-1,27,5.4119130434782585e-05,0.013851500625357893,0.0038,0.003805,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu prop ed visits,-1,28,0.00023414391304347822,0.018905684731207347,0.0126,0.012167,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu prop ed visits,-1,29,5.135347826086956e-05,0.01434368207236691,0.0035,0.003477,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu prop ed visits,-1,30,0.00010533260869565226,0.01331408229846225,0.0079,0.007803,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu prop ed visits,-1,31,7.179173913043479e-05,0.013333770935854998,0.0053,0.005281,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu prop ed visits,-1,32,0.00022801260869565192,0.017027596495342183,0.0136,0.013194,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu prop ed visits,-1,33,9.075565217391305e-05,0.012858327430507332,0.007,0.006954,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu prop ed visits,-1,34,0.00010006130434782613,0.012239991022815864,0.0081,0.008071,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu prop ed visits,-1,35,0.00012156478260869575,0.012930304889187418,0.0094,0.009292,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu prop ed visits,-1,36,7.264652173913045e-05,0.012895789665528078,0.0055,0.00553,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu prop ed visits,-1,37,0.00015831217391304347,0.011204023884441233,0.0141,0.014023,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu prop ed visits,-1,38,5.82526086956521e-05,0.01472049570054833,0.0039,0.003853,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu prop ed visits,-1,39,6.622130434782619e-05,0.014941461427319723,0.0044,0.004324,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu prop ed visits,-1,40,9.740043478260873e-05,0.012538668780150685,0.0077,0.007664,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu prop ed visits,-1,41,0.00014133956521739135,0.011591620974524897,0.0121,0.012088,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu prop ed visits,-1,42,6.803478260869563e-05,0.014049068258634619,0.0048,0.004737,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu prop ed visits,-1,44,5.950173913043475e-05,0.013511488443114785,0.0043,0.004301,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu prop ed visits,-1,45,0.00013036434782608724,0.013208503798749617,0.0099,0.009756,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu prop ed visits,-1,46,8.71521739130434e-05,0.014750296195770037,0.0059,0.005798,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu prop ed visits,-1,47,0.00011007478260869561,0.01262109373191718,0.0087,0.008614,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu prop ed visits,-1,48,0.0002024791304347825,0.010883552574753206,0.0186,0.018496,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu prop ed visits,-1,49,0.0001253308695652174,0.011713452680085931,0.0106,0.010595,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu prop ed visits,-1,50,6.39717391304348e-05,0.01381856024823163,0.0045,0.004527,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu prop ed visits,-1,51,0.0001083569565217392,0.012251703026995736,0.0088,0.008739,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu prop ed visits,-1,53,0.00019698260869565202,0.010226728784323551,0.0192,0.019154,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu prop ed visits,-1,54,5.5448260869565196e-05,0.014331947671105915,0.0038,0.003766,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu prop ed visits,-1,55,5.246521739130432e-05,0.015188224005906957,0.0034,0.00335,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu prop ed visits,-1,56,0.0001830286956521741,0.014451103034750163,0.0128,0.012522,1.0,1.0
+OHTJHU-BM,2026-10-31,wk inc flu prop ed visits,-1,US,0.00012824217391304348,0.011104462217598114,0.0115,0.011443,1.0,1.0
+chronos2,2026-10-24,wk inc flu hosp,0,01,6.45770131329575,0.08289737928648216,79.0,70.47216033935547,1.0,1.0
+chronos2,2026-10-24,wk inc flu hosp,0,02,10.29441823397389,0.7458177868801543,7.0,22.141448974609375,0.0,0.0
+chronos2,2026-10-24,wk inc flu hosp,0,04,20.67716453359093,0.25462705456683093,97.0,63.64270782470703,0.0,1.0
+chronos2,2026-10-24,wk inc flu hosp,0,05,6.699154073704235,0.21419349836388463,36.0,24.400943756103516,0.0,1.0
+chronos2,2026-10-24,wk inc flu hosp,0,06,141.7033230456885,0.15039184564666466,1054.0,834.053955078125,0.0,1.0
+chronos2,2026-10-24,wk inc flu hosp,0,08,2.8691725996306383,0.050508445409656606,50.0,51.67766571044922,1.0,1.0
+chronos2,2026-10-24,wk inc flu hosp,0,09,23.57851837383233,0.5430085823557241,27.0,61.324581146240234,0.0,0.0
+chronos2,2026-10-24,wk inc flu hosp,0,10,4.784593456808239,0.37671032051997655,16.0,7.788484573364258,0.0,1.0
+chronos2,2026-10-24,wk inc flu hosp,0,11,0.5132283119182433,0.09742643070481556,3.0,2.7494325637817383,1.0,1.0
+chronos2,2026-10-24,wk inc flu hosp,0,12,115.35708622019612,0.09693167620756761,1041.0,1238.6842041015625,0.0,1.0
+chronos2,2026-10-24,wk inc flu hosp,0,13,7.869901824046335,0.07871502045098362,101.0,89.92488098144531,1.0,1.0
+chronos2,2026-10-24,wk inc flu hosp,0,15,13.796045937204198,0.17657055309692113,63.0,88.1800308227539,0.0,1.0
+chronos2,2026-10-24,wk inc flu hosp,0,16,6.4727730174166584,0.36735377759250043,12.0,22.112407684326172,0.0,1.0
+chronos2,2026-10-24,wk inc flu hosp,0,17,9.343433377463658,0.07060147913659841,119.0,109.81983947753906,1.0,1.0
+chronos2,2026-10-24,wk inc flu hosp,0,18,28.555733057289746,0.39598102136541125,94.0,50.314697265625,0.0,1.0
+chronos2,2026-10-24,wk inc flu hosp,0,19,8.844146999350787,0.37366194971371447,30.0,16.188465118408203,0.0,1.0
+chronos2,2026-10-24,wk inc flu hosp,0,20,5.330259987374647,0.41679310341528647,8.0,16.553569793701172,0.0,1.0
+chronos2,2026-10-24,wk inc flu hosp,0,21,7.0466065614783995,0.0755519882656699,78.0,81.36778259277344,1.0,1.0
+chronos2,2026-10-24,wk inc flu hosp,0,22,13.624470434472226,0.08994335096902657,165.0,142.14111328125,1.0,1.0
+chronos2,2026-10-24,wk inc flu hosp,0,23,1.5749048702518849,0.07679982111652657,16.0,18.129417419433594,1.0,1.0
+chronos2,2026-10-24,wk inc flu hosp,0,24,10.790524601833772,0.20217074636696583,41.0,58.700687408447266,0.0,1.0
+chronos2,2026-10-24,wk inc flu hosp,0,25,6.260772213688555,0.077568353974076,48.0,45.76045227050781,1.0,1.0
+chronos2,2026-10-24,wk inc flu hosp,0,26,5.4111325438378985,0.08193262616835013,55.0,63.54517364501953,1.0,1.0
+chronos2,2026-10-24,wk inc flu hosp,0,27,12.063115866661121,0.4498708369067361,37.0,17.603858947753906,0.0,1.0
+chronos2,2026-10-24,wk inc flu hosp,0,28,8.004467302811552,0.11617268772140552,56.0,60.99102020263672,1.0,1.0
+chronos2,2026-10-24,wk inc flu hosp,0,29,9.056377364377594,0.17668022954637724,40.0,55.634918212890625,0.0,1.0
+chronos2,2026-10-24,wk inc flu hosp,0,30,3.0622913925158928,0.1448550805376804,15.0,18.237674713134766,1.0,1.0
+chronos2,2026-10-24,wk inc flu hosp,0,31,0.9593489641825185,0.07542005680028095,11.0,11.026216506958008,1.0,1.0
+chronos2,2026-10-24,wk inc flu hosp,0,32,11.314156715746567,0.247679586905672,55.0,35.014610290527344,0.0,1.0
+chronos2,2026-10-24,wk inc flu hosp,0,33,3.145024473931958,0.2238473299771841,16.0,10.4739990234375,0.0,1.0
+chronos2,2026-10-24,wk inc flu hosp,0,34,29.51898474237818,0.22586868328745344,154.0,105.134765625,0.0,1.0
+chronos2,2026-10-24,wk inc flu hosp,0,35,17.878286213552258,0.5582742775829564,46.0,17.6796932220459,0.0,1.0
+chronos2,2026-10-24,wk inc flu hosp,0,36,25.846218518838718,0.09302965028667724,243.0,285.947509765625,0.0,1.0
+chronos2,2026-10-24,wk inc flu hosp,0,37,12.21834489454479,0.09453632918412798,104.0,122.43724060058594,0.0,1.0
+chronos2,2026-10-24,wk inc flu hosp,0,38,3.1131565050076317,0.4817587326140386,8.0,3.1777734756469727,0.0,1.0
+chronos2,2026-10-24,wk inc flu hosp,0,39,16.754434495972067,0.18800925105527028,98.0,71.58953857421875,0.0,1.0
+chronos2,2026-10-24,wk inc flu hosp,0,40,11.963484437717517,0.24745925456033935,57.0,36.062538146972656,0.0,1.0
+chronos2,2026-10-24,wk inc flu hosp,0,41,7.371484181835302,0.09967053527566419,63.0,75.94512939453125,0.0,1.0
+chronos2,2026-10-24,wk inc flu hosp,0,42,15.068304012738674,0.04237890116702285,320.0,309.2053527832031,1.0,1.0
+chronos2,2026-10-24,wk inc flu hosp,0,44,6.4711348668930295,0.6546615137734897,14.0,4.672512054443359,0.0,1.0
+chronos2,2026-10-24,wk inc flu hosp,0,45,23.20524634965984,0.2661664597872869,106.0,67.6815414428711,0.0,1.0
+chronos2,2026-10-24,wk inc flu hosp,0,46,0.5570510213237728,0.08009821600810044,5.0,5.323208808898926,1.0,1.0
+chronos2,2026-10-24,wk inc flu hosp,0,47,12.31498247809283,0.11420946886862829,118.0,95.64048767089844,0.0,1.0
+chronos2,2026-10-24,wk inc flu hosp,0,48,63.656843635627865,0.09141515724818934,611.0,719.6727294921875,0.0,1.0
+chronos2,2026-10-24,wk inc flu hosp,0,49,1.8388860035033192,0.041617255904622986,42.0,42.962501525878906,1.0,1.0
+chronos2,2026-10-24,wk inc flu hosp,0,50,2.5946906154108698,0.3719670376727434,4.0,8.128087043762207,0.0,1.0
+chronos2,2026-10-24,wk inc flu hosp,0,51,8.902515833502287,0.13151713953574576,73.0,58.381690979003906,0.0,1.0
+chronos2,2026-10-24,wk inc flu hosp,0,53,28.354026143801725,0.1482489940594296,160.0,210.3290557861328,0.0,1.0
+chronos2,2026-10-24,wk inc flu hosp,0,54,3.556520502894909,0.24398781059108743,16.0,9.638626098632812,0.0,1.0
+chronos2,2026-10-24,wk inc flu hosp,0,55,22.86834325940159,0.69229610145708,50.0,18.25383758544922,0.0,1.0
+chronos2,2026-10-24,wk inc flu hosp,0,56,2.4997262649138294,0.38212202898398395,8.0,3.5205116271972656,0.0,1.0
+chronos2,2026-10-24,wk inc flu hosp,0,72,18.033639347117493,0.08383779072901434,236.0,202.33279418945312,0.0,1.0
+chronos2,2026-10-24,wk inc flu hosp,0,US,175.30872706617996,0.02761423549825089,6006.0,6146.2880859375,1.0,1.0
+chronos2,2026-10-24,wk inc flu prop ed visits,0,01,0.0010618258075659787,0.07193756662903841,0.0155,0.013753014616668224,0.0,1.0
+chronos2,2026-10-24,wk inc flu prop ed visits,0,02,0.0015188977504845176,0.08350975759366967,0.0161,0.018743177875876427,0.0,1.0
+chronos2,2026-10-24,wk inc flu prop ed visits,0,04,0.00043164776705017133,0.0670184385671864,0.0067,0.00604627002030611,0.0,1.0
+chronos2,2026-10-24,wk inc flu prop ed visits,0,05,0.0006705944961256743,0.09223727121390135,0.0075,0.006411024369299412,1.0,1.0
+chronos2,2026-10-24,wk inc flu prop ed visits,0,06,0.0035778897919307513,0.19758114730391826,0.0207,0.015430794097483158,0.0,1.0
+chronos2,2026-10-24,wk inc flu prop ed visits,0,08,0.0003526549307252903,0.0448021613843626,0.0079,0.0075806365348398685,1.0,1.0
+chronos2,2026-10-24,wk inc flu prop ed visits,0,09,0.0018603454091186613,0.29691751850229814,0.005,0.00754573754966259,0.0,0.0
+chronos2,2026-10-24,wk inc flu prop ed visits,0,11,0.0008784520586005177,0.1387962551156088,0.0069,0.005401373375207186,0.0,1.0
+chronos2,2026-10-24,wk inc flu prop ed visits,0,12,0.0012305519209395838,0.04570763680442327,0.0252,0.027201738208532333,0.0,1.0
+chronos2,2026-10-24,wk inc flu prop ed visits,0,15,0.006545554679927469,0.10032767292621575,0.0587,0.07008075714111328,0.0,1.0
+chronos2,2026-10-24,wk inc flu prop ed visits,0,16,0.0008041769115380606,0.08418959085522464,0.0099,0.008898832835257053,1.0,1.0
+chronos2,2026-10-24,wk inc flu prop ed visits,0,17,0.00034904776147532643,0.09266772035540137,0.0037,0.003245847299695015,0.0,1.0
+chronos2,2026-10-24,wk inc flu prop ed visits,0,18,0.0012896671942622432,0.2005587440150519,0.0073,0.0052077677100896835,0.0,1.0
+chronos2,2026-10-24,wk inc flu prop ed visits,0,20,0.0001779677398037726,0.05549708630287902,0.0026,0.002712956629693508,1.0,1.0
+chronos2,2026-10-24,wk inc flu prop ed visits,0,21,0.0020026030903370962,0.18470477805737526,0.0125,0.009035581722855568,0.0,1.0
+chronos2,2026-10-24,wk inc flu prop ed visits,0,22,0.0018745003141782256,0.09686293776821703,0.0211,0.018059873953461647,0.0,1.0
+chronos2,2026-10-24,wk inc flu prop ed visits,0,23,0.0002075328489885532,0.030474645295958665,0.0059,0.006027285009622574,1.0,1.0
+chronos2,2026-10-24,wk inc flu prop ed visits,0,24,0.001403516973000874,0.18150952314867866,0.0065,0.00872755516320467,0.0,1.0
+chronos2,2026-10-24,wk inc flu prop ed visits,0,25,0.0005191846030449246,0.07838176163990142,0.0058,0.006673732772469521,0.0,1.0
+chronos2,2026-10-24,wk inc flu prop ed visits,0,26,0.0006818688535612365,0.20462841309915822,0.0037,0.0027719028294086456,0.0,1.0
+chronos2,2026-10-24,wk inc flu prop ed visits,0,27,0.0003063137038614281,0.08665105061893963,0.0038,0.0033552562817931175,0.0,1.0
+chronos2,2026-10-24,wk inc flu prop ed visits,0,28,0.003781715157780524,0.3908399109132477,0.0126,0.006767395883798599,0.0,1.0
+chronos2,2026-10-24,wk inc flu prop ed visits,0,29,0.0006195857067095891,0.20887819307590208,0.0035,0.0025812191888689995,0.0,1.0
+chronos2,2026-10-24,wk inc flu prop ed visits,0,30,0.001609780724142663,0.24608984409398377,0.0079,0.005147191695868969,0.0,1.0
+chronos2,2026-10-24,wk inc flu prop ed visits,0,31,0.0002919426830282855,0.053054268866688716,0.0053,0.004980044439435005,1.0,1.0
+chronos2,2026-10-24,wk inc flu prop ed visits,0,32,0.0028757734850473103,0.2544094673137354,0.0136,0.008945868350565434,0.0,1.0
+chronos2,2026-10-24,wk inc flu prop ed visits,0,33,0.0004560919344895541,0.05348549922156562,0.007,0.007043555844575167,1.0,1.0
+chronos2,2026-10-24,wk inc flu prop ed visits,0,34,0.0005279652293773822,0.05844804556450999,0.0081,0.008966716006398201,0.0,1.0
+chronos2,2026-10-24,wk inc flu prop ed visits,0,35,0.001719391093616864,0.21256037022576604,0.0094,0.006236649118363857,0.0,1.0
+chronos2,2026-10-24,wk inc flu prop ed visits,0,36,0.0003041863754221125,0.05037550161249242,0.0055,0.006055817939341068,1.0,1.0
+chronos2,2026-10-24,wk inc flu prop ed visits,0,37,0.0008260795128597869,0.059793419768001115,0.0141,0.012845026329159737,0.0,1.0
+chronos2,2026-10-24,wk inc flu prop ed visits,0,38,0.0013855080544440618,0.48821461497253543,0.0039,0.0016794390976428986,0.0,1.0
+chronos2,2026-10-24,wk inc flu prop ed visits,0,39,0.0006834822796806181,0.16832905093116513,0.0044,0.0033533982932567596,0.0,1.0
+chronos2,2026-10-24,wk inc flu prop ed visits,0,40,0.0004380809372392918,0.055008137200499393,0.0077,0.00716206943616271,1.0,1.0
+chronos2,2026-10-24,wk inc flu prop ed visits,0,41,0.0007555519028324824,0.06446225018036418,0.0121,0.010988662950694561,1.0,1.0
+chronos2,2026-10-24,wk inc flu prop ed visits,0,42,0.00035014873460928946,0.07231144236262468,0.0048,0.004304312635213137,0.0,1.0
+chronos2,2026-10-24,wk inc flu prop ed visits,0,44,0.0003864078224127598,0.07356701973554232,0.0043,0.004819098860025406,1.0,1.0
+chronos2,2026-10-24,wk inc flu prop ed visits,0,45,0.0022883248069930466,0.27880515194774946,0.0099,0.0065770503133535385,0.0,1.0
+chronos2,2026-10-24,wk inc flu prop ed visits,0,46,0.0025358476276267834,0.6401793288054837,0.0059,0.0021657366305589676,0.0,1.0
+chronos2,2026-10-24,wk inc flu prop ed visits,0,47,0.0007380709297796769,0.0838161055308223,0.0087,0.0076422677375376225,1.0,1.0
+chronos2,2026-10-24,wk inc flu prop ed visits,0,48,0.001497255349717907,0.08641986645306694,0.0186,0.016008475795388222,1.0,1.0
+chronos2,2026-10-24,wk inc flu prop ed visits,0,49,0.0007982139175480762,0.07437198490345164,0.0106,0.010362090542912483,1.0,1.0
+chronos2,2026-10-24,wk inc flu prop ed visits,0,50,0.0012724087207893924,0.21033655515959923,0.0045,0.006648856680840254,0.0,1.0
+chronos2,2026-10-24,wk inc flu prop ed visits,0,51,0.0005619985560131901,0.06366574106316851,0.0088,0.008037906140089035,0.0,1.0
+chronos2,2026-10-24,wk inc flu prop ed visits,0,53,0.00039656976736325117,0.01991309852291732,0.0192,0.019499411806464195,1.0,1.0
+chronos2,2026-10-24,wk inc flu prop ed visits,0,54,0.001080310169875859,0.35653643781302574,0.0038,0.0020473236218094826,0.0,1.0
+chronos2,2026-10-24,wk inc flu prop ed visits,0,55,0.0006818404305150496,0.22969900429942938,0.0034,0.002290349453687668,0.0,1.0
+chronos2,2026-10-24,wk inc flu prop ed visits,0,56,0.003613030567382734,0.3561865516310206,0.0128,0.007572787348181009,0.0,1.0
+chronos2,2026-10-24,wk inc flu prop ed visits,0,US,0.00028163179576055886,0.023912879110982686,0.0115,0.01139026042073965,1.0,1.0
+moirai2,2026-10-24,wk inc flu hosp,0,01,6.205966076045355,0.0855902027424653,79.0,71.32351684570312,1.0,1.0
+moirai2,2026-10-24,wk inc flu hosp,0,02,9.94549180727126,0.7144527021822533,7.0,22.565868377685547,0.0,1.0
+moirai2,2026-10-24,wk inc flu hosp,0,04,15.801441249234104,0.1984375179329396,97.0,66.08528900146484,0.0,1.0
+moirai2,2026-10-24,wk inc flu hosp,0,05,5.5060577750147806,0.18484526112389055,36.0,25.376476287841797,0.0,1.0
+moirai2,2026-10-24,wk inc flu hosp,0,06,100.83158625554937,0.10845141284671664,1054.0,869.6151733398438,0.0,1.0
+moirai2,2026-10-24,wk inc flu hosp,0,08,7.855049294643966,0.12819912921034932,50.0,62.023406982421875,1.0,1.0
+moirai2,2026-10-24,wk inc flu hosp,0,09,21.15966039727069,0.48544481149819524,27.0,62.723289489746094,0.0,1.0
+moirai2,2026-10-24,wk inc flu hosp,0,10,4.538178961852382,0.3740068038784346,16.0,7.723755836486816,0.0,1.0
+moirai2,2026-10-24,wk inc flu hosp,0,11,0.631437887744223,0.12810975148691248,3.0,3.02736759185791,1.0,1.0
+moirai2,2026-10-24,wk inc flu hosp,0,12,84.42179213577036,0.07494855818776194,1041.0,1185.5906982421875,1.0,1.0
+moirai2,2026-10-24,wk inc flu hosp,0,13,8.817708466515356,0.0981890278393482,101.0,86.21022033691406,1.0,1.0
+moirai2,2026-10-24,wk inc flu hosp,0,15,13.877136430463178,0.18138752699729227,63.0,89.3913803100586,0.0,1.0
+moirai2,2026-10-24,wk inc flu hosp,0,16,7.139262756923681,0.3756677232565423,12.0,24.138206481933594,0.0,1.0
+moirai2,2026-10-24,wk inc flu hosp,0,17,13.236419552939285,0.13614213761903524,119.0,98.99699401855469,1.0,1.0
+moirai2,2026-10-24,wk inc flu hosp,0,18,17.547458855231913,0.23417759873493504,94.0,61.10857391357422,0.0,1.0
+moirai2,2026-10-24,wk inc flu hosp,0,19,7.136210127995425,0.31690480313382197,30.0,16.92197036743164,0.0,1.0
+moirai2,2026-10-24,wk inc flu hosp,0,20,4.911049322543553,0.3670252587137693,8.0,16.382339477539062,0.0,1.0
+moirai2,2026-10-24,wk inc flu hosp,0,21,7.535231979155292,0.09372846764168002,78.0,83.70508575439453,1.0,1.0
+moirai2,2026-10-24,wk inc flu hosp,0,22,13.88908027637704,0.09700636236143988,165.0,140.3618927001953,1.0,1.0
+moirai2,2026-10-24,wk inc flu hosp,0,23,1.6873473892028912,0.10114465789360487,16.0,16.084354400634766,1.0,1.0
+moirai2,2026-10-24,wk inc flu hosp,0,24,8.539699277105287,0.16103280374925738,41.0,54.375389099121094,1.0,1.0
+moirai2,2026-10-24,wk inc flu hosp,0,25,6.764008902267524,0.14487808922644888,48.0,57.26153564453125,1.0,1.0
+moirai2,2026-10-24,wk inc flu hosp,0,26,10.359749477677035,0.15035463425916093,55.0,69.09788513183594,1.0,1.0
+moirai2,2026-10-24,wk inc flu hosp,0,27,7.845960495418962,0.3093162832059691,37.0,24.08472442626953,0.0,1.0
+moirai2,2026-10-24,wk inc flu hosp,0,28,4.456200681440146,0.07685739443336324,56.0,58.46159744262695,1.0,1.0
+moirai2,2026-10-24,wk inc flu hosp,0,29,10.073386733333638,0.19119290789744084,40.0,57.750465393066406,1.0,1.0
+moirai2,2026-10-24,wk inc flu hosp,0,30,2.9304312396716026,0.15526438651480926,15.0,19.39986801147461,1.0,1.0
+moirai2,2026-10-24,wk inc flu hosp,0,31,1.5675238755228451,0.12037177556584724,11.0,12.221231460571289,1.0,1.0
+moirai2,2026-10-24,wk inc flu hosp,0,32,9.169846656921223,0.19908773498848356,55.0,38.7081413269043,0.0,1.0
+moirai2,2026-10-24,wk inc flu hosp,0,33,2.808879414390058,0.2162363411808728,16.0,10.650753021240234,0.0,1.0
+moirai2,2026-10-24,wk inc flu hosp,0,34,30.439453059090095,0.24751002355041116,154.0,99.35377502441406,0.0,1.0
+moirai2,2026-10-24,wk inc flu hosp,0,35,16.479142900177784,0.503990176178213,46.0,19.88245391845703,0.0,1.0
+moirai2,2026-10-24,wk inc flu hosp,0,36,35.30913952884164,0.12409860637062531,243.0,299.8431091308594,1.0,1.0
+moirai2,2026-10-24,wk inc flu hosp,0,37,10.215262048568071,0.09543808391529505,104.0,101.84776306152344,1.0,1.0
+moirai2,2026-10-24,wk inc flu hosp,0,38,3.046559104613999,0.4560959115851059,8.0,3.3592605590820312,0.0,0.0
+moirai2,2026-10-24,wk inc flu hosp,0,39,13.153220462146868,0.16071075137919066,98.0,77.11964416503906,1.0,1.0
+moirai2,2026-10-24,wk inc flu hosp,0,40,10.764220446471278,0.23726942075327226,57.0,36.640907287597656,0.0,1.0
+moirai2,2026-10-24,wk inc flu hosp,0,41,11.919885960018323,0.15978699288610174,63.0,81.52520751953125,1.0,1.0
+moirai2,2026-10-24,wk inc flu hosp,0,42,21.045601841562405,0.06383788113186908,320.0,324.5312805175781,1.0,1.0
+moirai2,2026-10-24,wk inc flu hosp,0,44,6.584267695756161,0.7332742620096682,14.0,3.3053884506225586,0.0,1.0
+moirai2,2026-10-24,wk inc flu hosp,0,45,29.530674763798697,0.36820069610145784,106.0,57.80070495605469,0.0,1.0
+moirai2,2026-10-24,wk inc flu hosp,0,46,0.6215162987705759,0.09904273538687025,5.0,5.2274322509765625,1.0,1.0
+moirai2,2026-10-24,wk inc flu hosp,0,47,14.355292041582674,0.14049833232859557,118.0,91.22482299804688,0.0,1.0
+moirai2,2026-10-24,wk inc flu hosp,0,48,40.77162276687825,0.06313416726082333,611.0,672.9383544921875,1.0,1.0
+moirai2,2026-10-24,wk inc flu hosp,0,49,5.884843288070303,0.12135538636387302,42.0,49.221824645996094,1.0,1.0
+moirai2,2026-10-24,wk inc flu hosp,0,50,2.020226046213708,0.28911490317134375,4.0,7.615621566772461,0.0,1.0
+moirai2,2026-10-24,wk inc flu hosp,0,51,10.125775928532338,0.16623317384830597,73.0,53.988914489746094,0.0,1.0
+moirai2,2026-10-24,wk inc flu hosp,0,53,20.526288738071763,0.11316683453571798,160.0,196.40133666992188,0.0,1.0
+moirai2,2026-10-24,wk inc flu hosp,0,54,2.4949602660694667,0.19002501353043866,16.0,10.670333862304688,1.0,1.0
+moirai2,2026-10-24,wk inc flu hosp,0,55,14.672716364738127,0.41735797737797276,50.0,24.882789611816406,0.0,1.0
+moirai2,2026-10-24,wk inc flu hosp,0,56,2.279092201884239,0.34705556591260595,8.0,3.6173219680786133,0.0,1.0
+moirai2,2026-10-24,wk inc flu hosp,0,72,17.592090281040033,0.08194654635521158,236.0,202.4490203857422,0.0,1.0
+moirai2,2026-10-24,wk inc flu hosp,0,US,336.2956501630972,0.05842569456261912,6006.0,5991.025390625,1.0,1.0
+moirai2,2026-10-24,wk inc flu prop ed visits,0,01,0.001074548693506001,0.07627532566033308,0.0155,0.014017008244991302,1.0,1.0
+moirai2,2026-10-24,wk inc flu prop ed visits,0,02,0.0006552196880679851,0.038809578844060166,0.0161,0.01655440963804722,1.0,1.0
+moirai2,2026-10-24,wk inc flu prop ed visits,0,04,0.00048605708223273985,0.07993754299987663,0.0067,0.005811147857457399,1.0,1.0
+moirai2,2026-10-24,wk inc flu prop ed visits,0,05,0.0006599678172454626,0.10226672942270376,0.0075,0.006393983028829098,1.0,1.0
+moirai2,2026-10-24,wk inc flu prop ed visits,0,06,0.0026742159121386014,0.14667404526113395,0.0207,0.01624150574207306,0.0,1.0
+moirai2,2026-10-24,wk inc flu prop ed visits,0,08,0.00036901324836058867,0.04553821204694192,0.0079,0.008151178248226643,1.0,1.0
+moirai2,2026-10-24,wk inc flu prop ed visits,0,09,0.0005384063261360212,0.09392124921905351,0.005,0.005721319001168013,1.0,1.0
+moirai2,2026-10-24,wk inc flu prop ed visits,0,11,0.0009499917399310801,0.16196065881626429,0.0069,0.0051036495715379715,0.0,1.0
+moirai2,2026-10-24,wk inc flu prop ed visits,0,12,0.0009424771734444258,0.036006088555288945,0.0252,0.026335474103689194,1.0,1.0
+moirai2,2026-10-24,wk inc flu prop ed visits,0,15,0.0022340830178262244,0.036819011452590276,0.0587,0.062302395701408386,1.0,1.0
+moirai2,2026-10-24,wk inc flu prop ed visits,0,16,0.0011271752296776404,0.1318327127909261,0.0099,0.007837934419512749,0.0,1.0
+moirai2,2026-10-24,wk inc flu prop ed visits,0,17,0.00040930824669623206,0.10615227427226082,0.0037,0.004126264713704586,1.0,1.0
+moirai2,2026-10-24,wk inc flu prop ed visits,0,18,0.0009326869683725315,0.15474545640843076,0.0073,0.005502689629793167,0.0,1.0
+moirai2,2026-10-24,wk inc flu prop ed visits,0,20,0.00042898469449603564,0.1618469152729267,0.0026,0.0031047165393829346,1.0,1.0
+moirai2,2026-10-24,wk inc flu prop ed visits,0,21,0.0020374997515250617,0.20098946666273043,0.0125,0.00869517307728529,0.0,1.0
+moirai2,2026-10-24,wk inc flu prop ed visits,0,22,0.0016163911949361415,0.08624866308576079,0.0211,0.018220562487840652,1.0,1.0
+moirai2,2026-10-24,wk inc flu prop ed visits,0,23,0.0005042757410058119,0.1003429144617585,0.0059,0.005443244706839323,1.0,1.0
+moirai2,2026-10-24,wk inc flu prop ed visits,0,24,0.0005014943731610678,0.07484746335701688,0.0065,0.006487630773335695,1.0,1.0
+moirai2,2026-10-24,wk inc flu prop ed visits,0,25,0.0005021565894675298,0.10097760351723907,0.0058,0.005000620149075985,1.0,1.0
+moirai2,2026-10-24,wk inc flu prop ed visits,0,26,0.00039893623184625884,0.1251813045172945,0.0037,0.003630157560110092,1.0,1.0
+moirai2,2026-10-24,wk inc flu prop ed visits,0,27,0.000481634906499195,0.12272034251231145,0.0038,0.004442661069333553,1.0,1.0
+moirai2,2026-10-24,wk inc flu prop ed visits,0,28,0.002923908263465455,0.2867306568044123,0.0126,0.007814590819180012,0.0,1.0
+moirai2,2026-10-24,wk inc flu prop ed visits,0,29,0.000542595539103077,0.1657501179069465,0.0035,0.0026850937865674496,1.0,1.0
+moirai2,2026-10-24,wk inc flu prop ed visits,0,30,0.0013805228112923854,0.21955004937575004,0.0079,0.005434793885797262,0.0,1.0
+moirai2,2026-10-24,wk inc flu prop ed visits,0,31,0.0005409292359016827,0.13491997312931955,0.0053,0.004617688711732626,1.0,1.0
+moirai2,2026-10-24,wk inc flu prop ed visits,0,32,0.0028947696987785764,0.252833704208834,0.0136,0.00934029370546341,0.0,0.0
+moirai2,2026-10-24,wk inc flu prop ed visits,0,33,0.0009214611079927784,0.16319472810124336,0.007,0.00527456309646368,0.0,1.0
+moirai2,2026-10-24,wk inc flu prop ed visits,0,34,0.0005467923650541096,0.0749791185651717,0.0081,0.0073482743464410305,1.0,1.0
+moirai2,2026-10-24,wk inc flu prop ed visits,0,35,0.0024699607420575562,0.3411516787084831,0.0094,0.005311989225447178,0.0,1.0
+moirai2,2026-10-24,wk inc flu prop ed visits,0,36,0.0003955809117267791,0.07156094474490014,0.0055,0.0056545608676970005,1.0,1.0
+moirai2,2026-10-24,wk inc flu prop ed visits,0,37,0.0006725112370010569,0.049628749436816194,0.0141,0.013573859818279743,1.0,1.0
+moirai2,2026-10-24,wk inc flu prop ed visits,0,38,0.000909162060099014,0.29000687849602186,0.0039,0.002405294217169285,0.0,0.0
+moirai2,2026-10-24,wk inc flu prop ed visits,0,39,0.0005088146067706693,0.15353060965694465,0.0044,0.0036848224699497223,1.0,1.0
+moirai2,2026-10-24,wk inc flu prop ed visits,0,40,0.000788792161153988,0.12433983008487327,0.0077,0.006387457717210054,1.0,1.0
+moirai2,2026-10-24,wk inc flu prop ed visits,0,41,0.0010637717341472949,0.08754856634284404,0.0121,0.012370630167424679,1.0,1.0
+moirai2,2026-10-24,wk inc flu prop ed visits,0,42,0.00048357287709428347,0.12276282949703136,0.0048,0.003945299424231052,1.0,1.0
+moirai2,2026-10-24,wk inc flu prop ed visits,0,44,0.00037582059925636937,0.09536647065318783,0.0043,0.004080512560904026,1.0,1.0
+moirai2,2026-10-24,wk inc flu prop ed visits,0,45,0.0019359240267957493,0.24420109865605025,0.0099,0.006463233381509781,0.0,1.0
+moirai2,2026-10-24,wk inc flu prop ed visits,0,46,0.0034773371968838673,0.9411574105191767,0.0059,0.0019490132108330727,0.0,0.0
+moirai2,2026-10-24,wk inc flu prop ed visits,0,47,0.0008532327698201803,0.11278804680434953,0.0087,0.007132178638130426,1.0,1.0
+moirai2,2026-10-24,wk inc flu prop ed visits,0,48,0.0010319623793411414,0.06081297271349383,0.0186,0.01706746593117714,1.0,1.0
+moirai2,2026-10-24,wk inc flu prop ed visits,0,49,0.0006586094447093871,0.06303497553897958,0.0106,0.010611951351165771,1.0,1.0
+moirai2,2026-10-24,wk inc flu prop ed visits,0,50,0.0006036644276218793,0.15415491910713866,0.0045,0.004766991827636957,1.0,1.0
+moirai2,2026-10-24,wk inc flu prop ed visits,0,51,0.000646398700662533,0.08213286872342934,0.0088,0.007816391065716743,1.0,1.0
+moirai2,2026-10-24,wk inc flu prop ed visits,0,53,0.0007228656157807851,0.03823505555660644,0.0192,0.01950075477361679,1.0,1.0
+moirai2,2026-10-24,wk inc flu prop ed visits,0,54,0.0005142727294057875,0.16975513509913673,0.0038,0.0027969377115368843,1.0,1.0
+moirai2,2026-10-24,wk inc flu prop ed visits,0,55,0.00041774529297816725,0.1749543774842033,0.0034,0.0027251876890659332,1.0,1.0
+moirai2,2026-10-24,wk inc flu prop ed visits,0,56,0.0024455931814426975,0.2330620874825057,0.0128,0.00845341943204403,0.0,1.0
+moirai2,2026-10-24,wk inc flu prop ed visits,0,US,0.0005429168259900139,0.0500920550275863,0.0115,0.011020416393876076,1.0,1.0
+timesfm,2026-10-24,wk inc flu hosp,0,01,6.304902091558599,0.07759565766725612,79.0,72.2652816772461,1.0,1.0
+timesfm,2026-10-24,wk inc flu hosp,0,02,10.72873093347454,0.7781408579564565,7.0,22.46660041809082,0.0,0.0
+timesfm,2026-10-24,wk inc flu hosp,0,04,18.361707770116023,0.24378521693612762,97.0,66.50244140625,1.0,1.0
+timesfm,2026-10-24,wk inc flu hosp,0,05,4.50424125585133,0.12961742639544996,36.0,28.887611389160156,1.0,1.0
+timesfm,2026-10-24,wk inc flu hosp,0,06,87.31385555407624,0.08878821559730825,1054.0,905.8016357421875,1.0,1.0
+timesfm,2026-10-24,wk inc flu hosp,0,08,5.776233525564599,0.09499500011066797,50.0,55.767642974853516,1.0,1.0
+timesfm,2026-10-24,wk inc flu hosp,0,09,18.569470224245276,0.4628095739868476,27.0,55.36374282836914,0.0,1.0
+timesfm,2026-10-24,wk inc flu hosp,0,10,3.4098805946462503,0.2612860253496317,16.0,9.514202117919922,0.0,1.0
+timesfm,2026-10-24,wk inc flu hosp,0,11,0.9194831778401212,0.16453996236580667,3.0,4.062983512878418,1.0,1.0
+timesfm,2026-10-24,wk inc flu hosp,0,12,112.87756954094901,0.09521203863368344,1041.0,1220.005859375,0.0,1.0
+timesfm,2026-10-24,wk inc flu hosp,0,13,8.929047856860917,0.08014759375034015,101.0,95.786865234375,1.0,1.0
+timesfm,2026-10-24,wk inc flu hosp,0,15,12.300059073107525,0.1612211220546437,63.0,84.2933578491211,0.0,1.0
+timesfm,2026-10-24,wk inc flu hosp,0,16,10.835494395956852,0.5383853827682588,12.0,28.877418518066406,0.0,1.0
+timesfm,2026-10-24,wk inc flu hosp,0,17,12.10374844452476,0.1088474086471028,119.0,100.25042724609375,1.0,1.0
+timesfm,2026-10-24,wk inc flu hosp,0,18,21.65539921047453,0.28661699800089535,94.0,56.893218994140625,0.0,1.0
+timesfm,2026-10-24,wk inc flu hosp,0,19,6.605312771199957,0.2924908817767892,30.0,18.06891632080078,0.0,1.0
+timesfm,2026-10-24,wk inc flu hosp,0,20,6.933734895106928,0.5037167352712989,8.0,17.98299789428711,0.0,1.0
+timesfm,2026-10-24,wk inc flu hosp,0,21,3.9031137399194646,0.050396406130593534,78.0,75.21121978759766,1.0,1.0
+timesfm,2026-10-24,wk inc flu hosp,0,22,14.281918332178396,0.09203030570702254,165.0,142.37167358398438,1.0,1.0
+timesfm,2026-10-24,wk inc flu hosp,0,23,1.2195900134403628,0.07278962390750719,16.0,15.44811725616455,1.0,1.0
+timesfm,2026-10-24,wk inc flu hosp,0,24,16.558113154915233,0.30480461192120945,41.0,63.07705307006836,0.0,0.0
+timesfm,2026-10-24,wk inc flu hosp,0,25,11.780473153888208,0.26253978304976966,48.0,39.89521026611328,1.0,1.0
+timesfm,2026-10-24,wk inc flu hosp,0,26,5.664745100854974,0.09024564131153819,55.0,62.354522705078125,1.0,1.0
+timesfm,2026-10-24,wk inc flu hosp,0,27,13.505220885795646,0.7520690980987986,37.0,11.517242431640625,0.0,1.0
+timesfm,2026-10-24,wk inc flu hosp,0,28,7.900546774518951,0.11593200286040369,56.0,68.10015106201172,1.0,1.0
+timesfm,2026-10-24,wk inc flu hosp,0,29,15.369204792825633,0.2879081119748691,40.0,62.615814208984375,0.0,1.0
+timesfm,2026-10-24,wk inc flu hosp,0,30,8.649643394419094,0.37515719521622304,15.0,28.178897857666016,0.0,1.0
+timesfm,2026-10-24,wk inc flu hosp,0,31,2.5064817133107153,0.17175815585362705,11.0,15.131157875061035,0.0,1.0
+timesfm,2026-10-24,wk inc flu hosp,0,32,10.048048085426284,0.22314912432907125,55.0,35.4918098449707,0.0,1.0
+timesfm,2026-10-24,wk inc flu hosp,0,33,2.522544263936919,0.1738413889836676,16.0,11.250115394592285,0.0,1.0
+timesfm,2026-10-24,wk inc flu hosp,0,34,31.12862445229401,0.24913861237192889,154.0,99.8691635131836,0.0,1.0
+timesfm,2026-10-24,wk inc flu hosp,0,35,12.698118262324513,0.37403312876804745,46.0,21.606338500976562,0.0,1.0
+timesfm,2026-10-24,wk inc flu hosp,0,36,37.21707572424647,0.12876845950828486,243.0,300.9505920410156,0.0,1.0
+timesfm,2026-10-24,wk inc flu hosp,0,37,20.260042490888946,0.15144807199194996,104.0,130.2543182373047,0.0,1.0
+timesfm,2026-10-24,wk inc flu hosp,0,38,2.015123585446415,0.29705456836236793,8.0,4.310979843139648,0.0,1.0
+timesfm,2026-10-24,wk inc flu hosp,0,39,16.096678754966128,0.1753968975145438,98.0,76.03358459472656,1.0,1.0
+timesfm,2026-10-24,wk inc flu hosp,0,40,8.338751122691393,0.17655164070615106,57.0,42.29887008666992,0.0,1.0
+timesfm,2026-10-24,wk inc flu hosp,0,41,9.038144189893563,0.1117115469935104,63.0,73.48822784423828,0.0,1.0
+timesfm,2026-10-24,wk inc flu hosp,0,42,25.089636359174595,0.0808018313374399,320.0,285.0355529785156,1.0,1.0
+timesfm,2026-10-24,wk inc flu hosp,0,44,6.0781687082306926,0.639682685539502,14.0,3.9701433181762695,0.0,1.0
+timesfm,2026-10-24,wk inc flu hosp,0,45,18.35378742064035,0.20688691101176407,106.0,69.42821502685547,0.0,1.0
+timesfm,2026-10-24,wk inc flu hosp,0,46,1.1307815770686893,0.15144431550977686,5.0,6.7610626220703125,0.0,1.0
+timesfm,2026-10-24,wk inc flu hosp,0,47,12.888004041185258,0.1217658157601338,118.0,94.93702697753906,1.0,1.0
+timesfm,2026-10-24,wk inc flu hosp,0,48,47.180321191016716,0.06808234538519423,611.0,676.5584716796875,1.0,1.0
+timesfm,2026-10-24,wk inc flu hosp,0,49,3.592433880835638,0.07701468649025306,42.0,44.439247131347656,1.0,1.0
+timesfm,2026-10-24,wk inc flu hosp,0,50,2.182407797272684,0.32150934034181433,4.0,7.508760452270508,0.0,1.0
+timesfm,2026-10-24,wk inc flu hosp,0,51,9.956619270950489,0.15563381952196362,73.0,54.748619079589844,1.0,1.0
+timesfm,2026-10-24,wk inc flu hosp,0,53,26.643371290700742,0.13795779232874078,160.0,204.39279174804688,0.0,1.0
+timesfm,2026-10-24,wk inc flu hosp,0,54,1.7726652174863022,0.1038086818253328,16.0,13.817054748535156,1.0,1.0
+timesfm,2026-10-24,wk inc flu hosp,0,55,13.37842172168674,0.36450403778878854,50.0,26.549964904785156,0.0,1.0
+timesfm,2026-10-24,wk inc flu hosp,0,56,2.1688990380491124,0.33273007419950157,8.0,3.720478057861328,0.0,1.0
+timesfm,2026-10-24,wk inc flu hosp,0,72,21.82552147070028,0.10346476463196888,236.0,198.4261474609375,1.0,1.0
+timesfm,2026-10-24,wk inc flu hosp,0,US,300.3958465106451,0.04506767887115136,6006.0,6122.3369140625,1.0,1.0
+timesfm,2026-10-24,wk inc flu prop ed visits,0,01,0.001593095622235479,0.11358177592912817,0.0155,0.012414077296853065,0.0,1.0
+timesfm,2026-10-24,wk inc flu prop ed visits,0,02,0.0010386667422620213,0.059045301867156,0.0161,0.016496917232871056,1.0,1.0
+timesfm,2026-10-24,wk inc flu prop ed visits,0,04,0.0005865816504054069,0.09331362416608224,0.0067,0.005745846778154373,1.0,1.0
+timesfm,2026-10-24,wk inc flu prop ed visits,0,05,0.0006418881579282529,0.09416659430800346,0.0075,0.006476731970906258,1.0,1.0
+timesfm,2026-10-24,wk inc flu prop ed visits,0,06,0.0033832783534886814,0.19220374829979647,0.0207,0.014531983062624931,0.0,1.0
+timesfm,2026-10-24,wk inc flu prop ed visits,0,08,0.0006197879258278563,0.0829106049356443,0.0079,0.0067294868640601635,1.0,1.0
+timesfm,2026-10-24,wk inc flu prop ed visits,0,09,0.00029851988301252526,0.053239822552209645,0.005,0.0053542726673185825,1.0,1.0
+timesfm,2026-10-24,wk inc flu prop ed visits,0,11,0.001464361386561875,0.2634267120850793,0.0069,0.004297648090869188,0.0,1.0
+timesfm,2026-10-24,wk inc flu prop ed visits,0,12,0.001352037101227705,0.049882933867763025,0.0252,0.02636372111737728,1.0,1.0
+timesfm,2026-10-24,wk inc flu prop ed visits,0,15,0.0028190725988942625,0.04470256578343738,0.0587,0.06237480044364929,1.0,1.0
+timesfm,2026-10-24,wk inc flu prop ed visits,0,16,0.0016596385427476105,0.19749852604280832,0.0099,0.006825531832873821,0.0,1.0
+timesfm,2026-10-24,wk inc flu prop ed visits,0,17,0.0003879566437526327,0.11642378407571981,0.0037,0.0032656649127602577,1.0,1.0
+timesfm,2026-10-24,wk inc flu prop ed visits,0,18,0.0013053223552851605,0.21136562083049004,0.0073,0.004937952384352684,0.0,1.0
+timesfm,2026-10-24,wk inc flu prop ed visits,0,20,0.00026556965502132614,0.11187400187097066,0.0026,0.002757434733211994,1.0,1.0
+timesfm,2026-10-24,wk inc flu prop ed visits,0,21,0.0022395285579393854,0.2154241704539352,0.0125,0.008475266396999359,0.0,1.0
+timesfm,2026-10-24,wk inc flu prop ed visits,0,22,0.002623447618210742,0.14131818150183814,0.0211,0.01607978530228138,0.0,1.0
+timesfm,2026-10-24,wk inc flu prop ed visits,0,23,0.0004960497108617371,0.09076858314072019,0.0059,0.005178714636713266,1.0,1.0
+timesfm,2026-10-24,wk inc flu prop ed visits,0,24,0.0004183408200262773,0.057758706230952334,0.0065,0.006561303045600653,1.0,1.0
+timesfm,2026-10-24,wk inc flu prop ed visits,0,25,0.0006640885182636663,0.12486959929451583,0.0058,0.004634429235011339,0.0,1.0
+timesfm,2026-10-24,wk inc flu prop ed visits,0,26,0.0005922204628928274,0.18629280730791556,0.0037,0.002801491878926754,0.0,1.0
+timesfm,2026-10-24,wk inc flu prop ed visits,0,27,0.0004403048392375846,0.10827728634046574,0.0038,0.004180970601737499,1.0,1.0
+timesfm,2026-10-24,wk inc flu prop ed visits,0,28,0.003209612057149529,0.32225547098981433,0.0126,0.007208323106169701,0.0,1.0
+timesfm,2026-10-24,wk inc flu prop ed visits,0,29,0.00028482917350972444,0.06431735868209151,0.0035,0.003588570049032569,1.0,1.0
+timesfm,2026-10-24,wk inc flu prop ed visits,0,30,0.0010450665155185,0.1544005671330044,0.0079,0.006109352223575115,0.0,1.0
+timesfm,2026-10-24,wk inc flu prop ed visits,0,31,0.0004470305941313079,0.09370139839514474,0.0053,0.004766738507896662,1.0,1.0
+timesfm,2026-10-24,wk inc flu prop ed visits,0,32,0.0029602031483426648,0.26515858795019065,0.0136,0.008718968369066715,0.0,1.0
+timesfm,2026-10-24,wk inc flu prop ed visits,0,33,0.0008254470067677628,0.1354031336619758,0.007,0.005600379314273596,0.0,1.0
+timesfm,2026-10-24,wk inc flu prop ed visits,0,34,0.0006553706448115937,0.08420568856147838,0.0081,0.007054065354168415,1.0,1.0
+timesfm,2026-10-24,wk inc flu prop ed visits,0,35,0.0017044270088197274,0.21875877897977403,0.0094,0.006176391616463661,0.0,1.0
+timesfm,2026-10-24,wk inc flu prop ed visits,0,36,0.00031156635036458337,0.053298531875808575,0.0055,0.005256104748696089,1.0,1.0
+timesfm,2026-10-24,wk inc flu prop ed visits,0,37,0.0009936566410955517,0.07218048904699892,0.0141,0.012519464828073978,1.0,1.0
+timesfm,2026-10-24,wk inc flu prop ed visits,0,38,0.000958262493525643,0.3304111666486165,0.0039,0.002188879530876875,0.0,1.0
+timesfm,2026-10-24,wk inc flu prop ed visits,0,39,0.0006646602963934082,0.16065080761633785,0.0044,0.003338158130645752,1.0,1.0
+timesfm,2026-10-24,wk inc flu prop ed visits,0,40,0.0007413515551835801,0.10920695137595594,0.0077,0.006616454571485519,1.0,1.0
+timesfm,2026-10-24,wk inc flu prop ed visits,0,41,0.0008288871002209923,0.06732729589416911,0.0121,0.011496420949697495,1.0,1.0
+timesfm,2026-10-24,wk inc flu prop ed visits,0,42,0.0006724906660967856,0.15846395717907083,0.0048,0.0035840473137795925,0.0,1.0
+timesfm,2026-10-24,wk inc flu prop ed visits,0,44,0.0001992279722141066,0.042711085533136524,0.0043,0.004211234860122204,1.0,1.0
+timesfm,2026-10-24,wk inc flu prop ed visits,0,45,0.0020585863109087144,0.25787219277577267,0.0099,0.006020919419825077,0.0,1.0
+timesfm,2026-10-24,wk inc flu prop ed visits,0,46,0.0022108689038570035,0.60079006682496,0.0059,0.002231801860034466,0.0,1.0
+timesfm,2026-10-24,wk inc flu prop ed visits,0,47,0.0007666068381875637,0.09250272923337016,0.0087,0.007313989568501711,1.0,1.0
+timesfm,2026-10-24,wk inc flu prop ed visits,0,48,0.0013174124778743109,0.072881432792775,0.0186,0.016656268388032913,1.0,1.0
+timesfm,2026-10-24,wk inc flu prop ed visits,0,49,0.0004860962157098927,0.04422600093966039,0.0106,0.010180710814893246,1.0,1.0
+timesfm,2026-10-24,wk inc flu prop ed visits,0,50,0.000549185922183932,0.10603943563276375,0.0045,0.0053505804389715195,1.0,1.0
+timesfm,2026-10-24,wk inc flu prop ed visits,0,51,0.0010231344269817884,0.1280729245050577,0.0088,0.00699161970987916,0.0,1.0
+timesfm,2026-10-24,wk inc flu prop ed visits,0,53,0.0010145423927175677,0.05418052514521476,0.0192,0.017652064561843872,1.0,1.0
+timesfm,2026-10-24,wk inc flu prop ed visits,0,54,0.00048691893219518696,0.1403489169390952,0.0038,0.0032652178779244423,1.0,1.0
+timesfm,2026-10-24,wk inc flu prop ed visits,0,55,0.0006746156383895769,0.24134796290502641,0.0034,0.002314465120434761,0.0,1.0
+timesfm,2026-10-24,wk inc flu prop ed visits,0,56,0.0026055776097668763,0.254392708588769,0.0128,0.00788603350520134,0.0,1.0
+timesfm,2026-10-24,wk inc flu prop ed visits,0,US,0.0007017279964999119,0.0630017867551171,0.0115,0.010268197394907475,1.0,1.0
+timestral,2026-10-24,wk inc flu hosp,0,01,3.9746991455777576,0.04912832361395695,79.0,77.54522705078125,1.0,1.0
+timestral,2026-10-24,wk inc flu hosp,0,02,9.8764190322767,0.7088752529674076,7.0,22.337413787841797,0.0,1.0
+timestral,2026-10-24,wk inc flu hosp,0,04,13.833647943884063,0.16819401249859808,97.0,71.41485595703125,0.0,1.0
+timestral,2026-10-24,wk inc flu hosp,0,05,4.479525362334494,0.14025727435984225,36.0,28.046743392944336,1.0,1.0
+timestral,2026-10-24,wk inc flu hosp,0,06,94.69178811133042,0.09972826723849719,1054.0,879.5534057617188,0.0,1.0
+timestral,2026-10-24,wk inc flu hosp,0,08,7.695115269931915,0.12653652162033394,50.0,63.03603744506836,0.0,1.0
+timestral,2026-10-24,wk inc flu hosp,0,09,37.98597534907059,0.7577558516348278,27.0,85.25878143310547,0.0,0.0
+timestral,2026-10-24,wk inc flu hosp,0,10,4.266676194976198,0.3396375592739254,16.0,8.327537536621094,0.0,1.0
+timestral,2026-10-24,wk inc flu hosp,0,11,0.48787654573905925,0.12237019129904475,3.0,2.7887911796569824,1.0,1.0
+timestral,2026-10-24,wk inc flu hosp,0,12,96.52814096168053,0.08368988687603097,1041.0,1212.2271728515625,0.0,1.0
+timestral,2026-10-24,wk inc flu hosp,0,13,6.828752603032542,0.06262673485214734,101.0,104.16015625,1.0,1.0
+timestral,2026-10-24,wk inc flu hosp,0,15,16.536575565815802,0.21090977937160407,63.0,91.97906494140625,0.0,1.0
+timestral,2026-10-24,wk inc flu hosp,0,16,8.45076562384609,0.4336135231641585,12.0,26.196578979492188,0.0,1.0
+timestral,2026-10-24,wk inc flu hosp,0,17,10.602727791572816,0.0925781468340846,119.0,109.640625,1.0,1.0
+timestral,2026-10-24,wk inc flu hosp,0,18,19.71825998312218,0.25613170677035296,94.0,60.158912658691406,0.0,1.0
+timestral,2026-10-24,wk inc flu hosp,0,19,6.406077668866582,0.264843393168834,30.0,18.055513381958008,0.0,1.0
+timestral,2026-10-24,wk inc flu hosp,0,20,6.182671019749557,0.4759385531554167,8.0,17.459896087646484,0.0,0.0
+timestral,2026-10-24,wk inc flu hosp,0,21,6.951426631438542,0.08093260430213242,78.0,82.71087646484375,1.0,1.0
+timestral,2026-10-24,wk inc flu hosp,0,22,9.457800336090719,0.05987962999487683,165.0,153.79238891601562,1.0,1.0
+timestral,2026-10-24,wk inc flu hosp,0,23,1.9881851208721368,0.10201255521039468,16.0,17.623058319091797,1.0,1.0
+timestral,2026-10-24,wk inc flu hosp,0,24,25.021612753135695,0.4208405294586388,41.0,80.88302612304688,0.0,1.0
+timestral,2026-10-24,wk inc flu hosp,0,25,4.527643264818467,0.08543394917338877,48.0,47.37311553955078,1.0,1.0
+timestral,2026-10-24,wk inc flu hosp,0,26,7.429026993218988,0.11102244328340176,55.0,66.76084899902344,0.0,1.0
+timestral,2026-10-24,wk inc flu hosp,0,27,16.216589395381618,0.6463170095743636,37.0,13.172893524169922,0.0,1.0
+timestral,2026-10-24,wk inc flu hosp,0,28,7.644535248242935,0.1132582817241367,56.0,66.82162475585938,1.0,1.0
+timestral,2026-10-24,wk inc flu hosp,0,29,14.520852557122451,0.2650742731932744,40.0,63.91977310180664,0.0,1.0
+timestral,2026-10-24,wk inc flu hosp,0,30,4.0654688817768525,0.19552661589855463,15.0,21.598709106445312,1.0,1.0
+timestral,2026-10-24,wk inc flu hosp,0,31,1.5344365387951202,0.11316273957129687,11.0,12.255398750305176,1.0,1.0
+timestral,2026-10-24,wk inc flu hosp,0,32,10.266559318207106,0.2278375724987507,55.0,36.33635330200195,0.0,1.0
+timestral,2026-10-24,wk inc flu hosp,0,33,2.637596322479935,0.1941371559919843,16.0,10.975695610046387,0.0,1.0
+timestral,2026-10-24,wk inc flu hosp,0,34,25.71672392251754,0.19968570888077403,154.0,106.6129150390625,0.0,1.0
+timestral,2026-10-24,wk inc flu hosp,0,35,13.682363291595147,0.39445563778010034,46.0,23.420536041259766,0.0,1.0
+timestral,2026-10-24,wk inc flu hosp,0,36,47.72287752360418,0.1658832698555339,243.0,324.2768249511719,0.0,1.0
+timestral,2026-10-24,wk inc flu hosp,0,37,18.716830766549208,0.14239181307976365,104.0,133.376220703125,0.0,1.0
+timestral,2026-10-24,wk inc flu hosp,0,38,2.9057555844416765,0.4383551520497535,8.0,3.4827957153320312,0.0,1.0
+timestral,2026-10-24,wk inc flu hosp,0,39,10.665694459609336,0.11939954246327449,98.0,78.60877990722656,0.0,1.0
+timestral,2026-10-24,wk inc flu hosp,0,40,8.015631798124959,0.16570159799440773,57.0,41.910335540771484,0.0,1.0
+timestral,2026-10-24,wk inc flu hosp,0,41,11.122255413104417,0.14125522944706842,63.0,81.15634155273438,0.0,1.0
+timestral,2026-10-24,wk inc flu hosp,0,42,18.968011756044802,0.05634841106269165,320.0,328.1636657714844,1.0,1.0
+timestral,2026-10-24,wk inc flu hosp,0,44,7.269619275040396,0.7587638908452291,14.0,4.005643367767334,0.0,0.0
+timestral,2026-10-24,wk inc flu hosp,0,45,14.369930902685628,0.1570940319348709,106.0,78.38842010498047,0.0,1.0
+timestral,2026-10-24,wk inc flu hosp,0,46,0.6166333235458069,0.09605615561313342,5.0,5.267502784729004,1.0,1.0
+timestral,2026-10-24,wk inc flu hosp,0,47,7.3321203942244075,0.06492447934449419,118.0,107.77542114257812,1.0,1.0
+timestral,2026-10-24,wk inc flu hosp,0,48,79.37985714491198,0.11528285577285392,611.0,749.4887084960938,0.0,1.0
+timestral,2026-10-24,wk inc flu hosp,0,49,3.2717027474502176,0.07050728275801844,42.0,45.5684814453125,1.0,1.0
+timestral,2026-10-24,wk inc flu hosp,0,50,2.742965594705577,0.3666944660950176,4.0,8.815776824951172,0.0,1.0
+timestral,2026-10-24,wk inc flu hosp,0,51,6.558116347586018,0.09777427541127226,73.0,60.81452941894531,0.0,1.0
+timestral,2026-10-24,wk inc flu hosp,0,53,12.333580259160039,0.07030722894117929,160.0,177.1636505126953,1.0,1.0
+timestral,2026-10-24,wk inc flu hosp,0,54,2.081489558614872,0.12058546054180165,16.0,14.721582412719727,1.0,1.0
+timestral,2026-10-24,wk inc flu hosp,0,55,17.57836897535169,0.48244144956414853,50.0,22.818252563476562,0.0,1.0
+timestral,2026-10-24,wk inc flu hosp,0,56,2.182140603228295,0.3415013773839796,8.0,3.9130196571350098,0.0,1.0
+timestral,2026-10-24,wk inc flu hosp,0,72,20.290779922045914,0.09643498198003042,236.0,199.71676635742188,1.0,1.0
+timestral,2026-10-24,wk inc flu hosp,0,US,317.1945462520647,0.04951160254344826,6006.0,6556.81591796875,0.0,1.0
+timestral,2026-10-24,wk inc flu prop ed visits,0,01,0.0008732817498694229,0.05763794412965356,0.0155,0.014313205145299435,1.0,1.0
+timestral,2026-10-24,wk inc flu prop ed visits,0,02,0.0009200638107229447,0.05440903087356203,0.0161,0.01647641882300377,1.0,1.0
+timestral,2026-10-24,wk inc flu prop ed visits,0,04,0.0004411011515392486,0.06949597247867022,0.0067,0.005892887245863676,0.0,1.0
+timestral,2026-10-24,wk inc flu prop ed visits,0,05,0.0006064052995275727,0.08603992917418701,0.0075,0.0064244503155350685,0.0,1.0
+timestral,2026-10-24,wk inc flu prop ed visits,0,06,0.003493673290100187,0.19355893864574145,0.0207,0.015277129597961903,0.0,1.0
+timestral,2026-10-24,wk inc flu prop ed visits,0,08,0.0003233057305430654,0.03956237173140166,0.0079,0.007913907989859581,1.0,1.0
+timestral,2026-10-24,wk inc flu prop ed visits,0,09,0.0013352255070881811,0.21048457938711135,0.005,0.007195555604994297,0.0,1.0
+timestral,2026-10-24,wk inc flu prop ed visits,0,11,0.0006290667793551032,0.09572579388716455,0.0069,0.006194697692990303,1.0,1.0
+timestral,2026-10-24,wk inc flu prop ed visits,0,12,0.0016982704208805875,0.06257744689889468,0.0252,0.028220629319548607,0.0,1.0
+timestral,2026-10-24,wk inc flu prop ed visits,0,15,0.002703634722029796,0.04355989969658735,0.0587,0.06324701756238937,1.0,1.0
+timestral,2026-10-24,wk inc flu prop ed visits,0,16,0.001572924473167177,0.18681244194742969,0.0099,0.007068570703268051,0.0,1.0
+timestral,2026-10-24,wk inc flu prop ed visits,0,17,0.00020516434077611572,0.054482457108178485,0.0037,0.0035388460382819176,1.0,1.0
+timestral,2026-10-24,wk inc flu prop ed visits,0,18,0.0010539872757514134,0.16532778054359626,0.0073,0.0054130228236317635,0.0,1.0
+timestral,2026-10-24,wk inc flu prop ed visits,0,20,0.00019677841388995615,0.06666989085313202,0.0026,0.0026682931929826736,1.0,1.0
+timestral,2026-10-24,wk inc flu prop ed visits,0,21,0.0016488639926717423,0.1540829022881606,0.0125,0.009363960474729538,0.0,1.0
+timestral,2026-10-24,wk inc flu prop ed visits,0,22,0.0015059755263418415,0.07760097817561397,0.0211,0.01826888881623745,0.0,1.0
+timestral,2026-10-24,wk inc flu prop ed visits,0,23,0.0004418831089287633,0.07230591396588036,0.0059,0.005690556485205889,1.0,1.0
+timestral,2026-10-24,wk inc flu prop ed visits,0,24,0.0016974638418133382,0.20869955565995923,0.0065,0.009374186396598816,0.0,1.0
+timestral,2026-10-24,wk inc flu prop ed visits,0,25,0.0002880866834418748,0.04947155466178921,0.0058,0.005536384880542755,1.0,1.0
+timestral,2026-10-24,wk inc flu prop ed visits,0,26,0.00036436948656671804,0.10628359281662676,0.0037,0.003026425838470459,0.0,1.0
+timestral,2026-10-24,wk inc flu prop ed visits,0,27,0.0002134648981864897,0.053602461766231,0.0038,0.0036502499133348465,1.0,1.0
+timestral,2026-10-24,wk inc flu prop ed visits,0,28,0.0033585250735996964,0.3313398488486304,0.0126,0.00748797319829464,0.0,1.0
+timestral,2026-10-24,wk inc flu prop ed visits,0,29,0.00038804228912092003,0.11820498758081141,0.0035,0.0028074479196220636,0.0,1.0
+timestral,2026-10-24,wk inc flu prop ed visits,0,30,0.00160132321583039,0.24943680461186749,0.0079,0.005058418959379196,0.0,1.0
+timestral,2026-10-24,wk inc flu prop ed visits,0,31,0.0005949552540694382,0.12315891611666682,0.0053,0.0045059374533593655,1.0,1.0
+timestral,2026-10-24,wk inc flu prop ed visits,0,32,0.0031278437430613554,0.2733149746943695,0.0136,0.009058138355612755,0.0,1.0
+timestral,2026-10-24,wk inc flu prop ed visits,0,33,0.0006498291277007285,0.10231874255148257,0.007,0.005865066312253475,1.0,1.0
+timestral,2026-10-24,wk inc flu prop ed visits,0,34,0.00039424280082020474,0.04756926638748475,0.0081,0.007975740358233452,1.0,1.0
+timestral,2026-10-24,wk inc flu prop ed visits,0,35,0.0020528367968800885,0.276523540638356,0.0094,0.005628231447190046,0.0,1.0
+timestral,2026-10-24,wk inc flu prop ed visits,0,36,0.00034913949388455195,0.057165671291187714,0.0055,0.006011385470628738,1.0,1.0
+timestral,2026-10-24,wk inc flu prop ed visits,0,37,0.00033033005975768154,0.02335969299853803,0.0141,0.01371726393699646,1.0,1.0
+timestral,2026-10-24,wk inc flu prop ed visits,0,38,0.0011594058394920836,0.38574609826222106,0.0039,0.0020426297560334206,0.0,1.0
+timestral,2026-10-24,wk inc flu prop ed visits,0,39,0.0006955821610143485,0.176015239064308,0.0044,0.003269045613706112,0.0,1.0
+timestral,2026-10-24,wk inc flu prop ed visits,0,40,0.0005977230558302989,0.07912154815975543,0.0077,0.007285891100764275,1.0,1.0
+timestral,2026-10-24,wk inc flu prop ed visits,0,41,0.0009474611459042193,0.07542974680878156,0.0121,0.011911596171557903,1.0,1.0
+timestral,2026-10-24,wk inc flu prop ed visits,0,42,0.0003291511066703982,0.07198819372776631,0.0048,0.004198133479803801,0.0,1.0
+timestral,2026-10-24,wk inc flu prop ed visits,0,44,0.00042006226761056914,0.08896389468242077,0.0043,0.004433521069586277,1.0,1.0
+timestral,2026-10-24,wk inc flu prop ed visits,0,45,0.0016746247059193926,0.1989219093686149,0.0099,0.006830239202827215,0.0,1.0
+timestral,2026-10-24,wk inc flu prop ed visits,0,46,0.0029860469738856358,0.7933751572622691,0.0059,0.0018415614031255245,0.0,1.0
+timestral,2026-10-24,wk inc flu prop ed visits,0,47,0.0004660058108596953,0.052034819080145255,0.0087,0.008424902334809303,1.0,1.0
+timestral,2026-10-24,wk inc flu prop ed visits,0,48,0.0007904550039379555,0.0445236480892268,0.0186,0.017372306436300278,1.0,1.0
+timestral,2026-10-24,wk inc flu prop ed visits,0,49,0.0005769941767553025,0.05161030490141375,0.0106,0.010931708849966526,1.0,1.0
+timestral,2026-10-24,wk inc flu prop ed visits,0,50,0.001182660971438944,0.19319748509232773,0.0045,0.006275050342082977,1.0,1.0
+timestral,2026-10-24,wk inc flu prop ed visits,0,51,0.0005447313487985843,0.0644316914961242,0.0088,0.007957421243190765,1.0,1.0
+timestral,2026-10-24,wk inc flu prop ed visits,0,53,0.0005924502381563366,0.03187829176622015,0.0192,0.018245719373226166,1.0,1.0
+timestral,2026-10-24,wk inc flu prop ed visits,0,54,0.0006977780476499626,0.21475285784767156,0.0038,0.0025536692701280117,0.0,1.0
+timestral,2026-10-24,wk inc flu prop ed visits,0,55,0.0005463939369120374,0.1791954757943568,0.0034,0.0024902555160224438,0.0,1.0
+timestral,2026-10-24,wk inc flu prop ed visits,0,56,0.0034970019233034584,0.3393928143061036,0.0128,0.007597911637276411,0.0,1.0
+timestral,2026-10-24,wk inc flu prop ed visits,0,US,0.00026142763915652735,0.02269053665154409,0.0115,0.011249670758843422,1.0,1.0
