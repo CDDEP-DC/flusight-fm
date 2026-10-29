@@ -494,7 +494,7 @@ reference_date,target,horizon,target_end_date,location,output_type,output_type_i
 2026-10-31,peak inc flu hosp,,,25,quantile,0.4,712.0
 2026-10-31,peak inc flu hosp,,,25,quantile,0.45,777.0
 2026-10-31,peak inc flu hosp,,,25,quantile,0.5,847.0
-2026-10-31,peak inc flu hosp,,,25,quantile,0.55,923.0
+2026-10-31,peak inc flu hosp,,,25,quantile,0.55,922.0
 2026-10-31,peak inc flu hosp,,,25,quantile,0.6,1001.0
 2026-10-31,peak inc flu hosp,,,25,quantile,0.65,1072.0
 2026-10-31,peak inc flu hosp,,,25,quantile,0.7,1184.0
@@ -3021,1065 +3021,1065 @@ reference_date,target,horizon,target_end_date,location,output_type,output_type_i
 2026-10-31,peak week inc flu hosp,,,US,pmf,2027-05-22,0.001
 2026-10-31,peak week inc flu hosp,,,US,pmf,2027-05-29,0.002
 2026-10-31,wk flu hosp rate change,0,2026-10-31,01,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,0,2026-10-31,01,pmf,decrease,0.10612497243114104
-2026-10-31,wk flu hosp rate change,0,2026-10-31,01,pmf,stable,0.49726740996827656
-2026-10-31,wk flu hosp rate change,0,2026-10-31,01,pmf,increase,0.33933070552248934
-2026-10-31,wk flu hosp rate change,0,2026-10-31,01,pmf,large_increase,0.057276912078093045
+2026-10-31,wk flu hosp rate change,0,2026-10-31,01,pmf,decrease,0.10612457672150417
+2026-10-31,wk flu hosp rate change,0,2026-10-31,01,pmf,stable,0.4972679508902687
+2026-10-31,wk flu hosp rate change,0,2026-10-31,01,pmf,increase,0.3393307348253498
+2026-10-31,wk flu hosp rate change,0,2026-10-31,01,pmf,large_increase,0.05727673756287732
 2026-10-31,wk flu hosp rate change,1,2026-11-07,01,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,1,2026-11-07,01,pmf,decrease,0.07354555056950962
-2026-10-31,wk flu hosp rate change,1,2026-11-07,01,pmf,stable,0.4768641245757672
-2026-10-31,wk flu hosp rate change,1,2026-11-07,01,pmf,increase,0.3755424535921341
-2026-10-31,wk flu hosp rate change,1,2026-11-07,01,pmf,large_increase,0.07404787126258905
+2026-10-31,wk flu hosp rate change,1,2026-11-07,01,pmf,decrease,0.07354553511140455
+2026-10-31,wk flu hosp rate change,1,2026-11-07,01,pmf,stable,0.47686453430689707
+2026-10-31,wk flu hosp rate change,1,2026-11-07,01,pmf,increase,0.3755422914305243
+2026-10-31,wk flu hosp rate change,1,2026-11-07,01,pmf,large_increase,0.07404763915117407
 2026-10-31,wk flu hosp rate change,2,2026-11-14,01,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,2,2026-11-14,01,pmf,decrease,0.051562671492698026
-2026-10-31,wk flu hosp rate change,2,2026-11-14,01,pmf,stable,0.4427244145335213
-2026-10-31,wk flu hosp rate change,2,2026-11-14,01,pmf,increase,0.4238275998036216
-2026-10-31,wk flu hosp rate change,2,2026-11-14,01,pmf,large_increase,0.0818853141701591
+2026-10-31,wk flu hosp rate change,2,2026-11-14,01,pmf,decrease,0.05156250886717786
+2026-10-31,wk flu hosp rate change,2,2026-11-14,01,pmf,stable,0.4427249451409202
+2026-10-31,wk flu hosp rate change,2,2026-11-14,01,pmf,increase,0.42382745156304236
+2026-10-31,wk flu hosp rate change,2,2026-11-14,01,pmf,large_increase,0.0818850944288596
 2026-10-31,wk flu hosp rate change,3,2026-11-21,01,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,3,2026-11-21,01,pmf,decrease,0.02241031961627369
-2026-10-31,wk flu hosp rate change,3,2026-11-21,01,pmf,stable,0.4327328959114271
-2026-10-31,wk flu hosp rate change,3,2026-11-21,01,pmf,increase,0.4500935284153785
-2026-10-31,wk flu hosp rate change,3,2026-11-21,01,pmf,large_increase,0.09476325605692071
+2026-10-31,wk flu hosp rate change,3,2026-11-21,01,pmf,decrease,0.022410274494324256
+2026-10-31,wk flu hosp rate change,3,2026-11-21,01,pmf,stable,0.4327336572841294
+2026-10-31,wk flu hosp rate change,3,2026-11-21,01,pmf,increase,0.45009306568575175
+2026-10-31,wk flu hosp rate change,3,2026-11-21,01,pmf,large_increase,0.09476300253579462
 2026-10-31,wk flu hosp rate change,0,2026-10-31,02,pmf,large_decrease,0.0
 2026-10-31,wk flu hosp rate change,0,2026-10-31,02,pmf,decrease,0.0
-2026-10-31,wk flu hosp rate change,0,2026-10-31,02,pmf,stable,0.8549716927057754
-2026-10-31,wk flu hosp rate change,0,2026-10-31,02,pmf,increase,0.04694959028605927
-2026-10-31,wk flu hosp rate change,0,2026-10-31,02,pmf,large_increase,0.09807871700816528
+2026-10-31,wk flu hosp rate change,0,2026-10-31,02,pmf,stable,0.8549717432785109
+2026-10-31,wk flu hosp rate change,0,2026-10-31,02,pmf,increase,0.04694957629129892
+2026-10-31,wk flu hosp rate change,0,2026-10-31,02,pmf,large_increase,0.09807868043019019
 2026-10-31,wk flu hosp rate change,1,2026-11-07,02,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,1,2026-11-07,02,pmf,decrease,0.02485731504072873
-2026-10-31,wk flu hosp rate change,1,2026-11-07,02,pmf,stable,0.7802534484424481
-2026-10-31,wk flu hosp rate change,1,2026-11-07,02,pmf,increase,0.1325834616602225
-2026-10-31,wk flu hosp rate change,1,2026-11-07,02,pmf,large_increase,0.062305774856600604
+2026-10-31,wk flu hosp rate change,1,2026-11-07,02,pmf,decrease,0.02485722846014502
+2026-10-31,wk flu hosp rate change,1,2026-11-07,02,pmf,stable,0.7802534926576371
+2026-10-31,wk flu hosp rate change,1,2026-11-07,02,pmf,increase,0.13258356282048178
+2026-10-31,wk flu hosp rate change,1,2026-11-07,02,pmf,large_increase,0.06230571606173607
 2026-10-31,wk flu hosp rate change,2,2026-11-14,02,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,2,2026-11-14,02,pmf,decrease,0.04206460940866983
-2026-10-31,wk flu hosp rate change,2,2026-11-14,02,pmf,stable,0.707033798148681
-2026-10-31,wk flu hosp rate change,2,2026-11-14,02,pmf,increase,0.2000747954018639
-2026-10-31,wk flu hosp rate change,2,2026-11-14,02,pmf,large_increase,0.0508267970407853
+2026-10-31,wk flu hosp rate change,2,2026-11-14,02,pmf,decrease,0.042064599911678324
+2026-10-31,wk flu hosp rate change,2,2026-11-14,02,pmf,stable,0.707033849201966
+2026-10-31,wk flu hosp rate change,2,2026-11-14,02,pmf,increase,0.20007472453717912
+2026-10-31,wk flu hosp rate change,2,2026-11-14,02,pmf,large_increase,0.05082682634917657
 2026-10-31,wk flu hosp rate change,3,2026-11-21,02,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,3,2026-11-21,02,pmf,decrease,0.057678934775905265
-2026-10-31,wk flu hosp rate change,3,2026-11-21,02,pmf,stable,0.6328162497811239
-2026-10-31,wk flu hosp rate change,3,2026-11-21,02,pmf,increase,0.2596464192554284
-2026-10-31,wk flu hosp rate change,3,2026-11-21,02,pmf,large_increase,0.0498583961875424
+2026-10-31,wk flu hosp rate change,3,2026-11-21,02,pmf,decrease,0.057678887216239406
+2026-10-31,wk flu hosp rate change,3,2026-11-21,02,pmf,stable,0.6328161594475662
+2026-10-31,wk flu hosp rate change,3,2026-11-21,02,pmf,increase,0.25964652591384474
+2026-10-31,wk flu hosp rate change,3,2026-11-21,02,pmf,large_increase,0.049858427422349694
 2026-10-31,wk flu hosp rate change,0,2026-10-31,04,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,0,2026-10-31,04,pmf,decrease,0.11899990939743364
-2026-10-31,wk flu hosp rate change,0,2026-10-31,04,pmf,stable,0.4142281945859856
-2026-10-31,wk flu hosp rate change,0,2026-10-31,04,pmf,increase,0.41226911869971483
-2026-10-31,wk flu hosp rate change,0,2026-10-31,04,pmf,large_increase,0.054502777316865925
+2026-10-31,wk flu hosp rate change,0,2026-10-31,04,pmf,decrease,0.1189999207637453
+2026-10-31,wk flu hosp rate change,0,2026-10-31,04,pmf,stable,0.4142282539080735
+2026-10-31,wk flu hosp rate change,0,2026-10-31,04,pmf,increase,0.4122690780683014
+2026-10-31,wk flu hosp rate change,0,2026-10-31,04,pmf,large_increase,0.0545027472598798
 2026-10-31,wk flu hosp rate change,1,2026-11-07,04,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,1,2026-11-07,04,pmf,decrease,0.07293243002003984
-2026-10-31,wk flu hosp rate change,1,2026-11-07,04,pmf,stable,0.3065061339285048
-2026-10-31,wk flu hosp rate change,1,2026-11-07,04,pmf,increase,0.532239231946211
-2026-10-31,wk flu hosp rate change,1,2026-11-07,04,pmf,large_increase,0.08832220410524438
+2026-10-31,wk flu hosp rate change,1,2026-11-07,04,pmf,decrease,0.07293248293230235
+2026-10-31,wk flu hosp rate change,1,2026-11-07,04,pmf,stable,0.306506152129891
+2026-10-31,wk flu hosp rate change,1,2026-11-07,04,pmf,increase,0.5322392353188237
+2026-10-31,wk flu hosp rate change,1,2026-11-07,04,pmf,large_increase,0.088322129618983
 2026-10-31,wk flu hosp rate change,2,2026-11-14,04,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,2,2026-11-14,04,pmf,decrease,0.039446584683497626
-2026-10-31,wk flu hosp rate change,2,2026-11-14,04,pmf,stable,0.2623435673802679
-2026-10-31,wk flu hosp rate change,2,2026-11-14,04,pmf,increase,0.549657640208514
-2026-10-31,wk flu hosp rate change,2,2026-11-14,04,pmf,large_increase,0.1485522077277205
+2026-10-31,wk flu hosp rate change,2,2026-11-14,04,pmf,decrease,0.03944661015213344
+2026-10-31,wk flu hosp rate change,2,2026-11-14,04,pmf,stable,0.26234371598092465
+2026-10-31,wk flu hosp rate change,2,2026-11-14,04,pmf,increase,0.5496576127961579
+2026-10-31,wk flu hosp rate change,2,2026-11-14,04,pmf,large_increase,0.1485520610707841
 2026-10-31,wk flu hosp rate change,3,2026-11-21,04,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,3,2026-11-21,04,pmf,decrease,0.019917903354746212
-2026-10-31,wk flu hosp rate change,3,2026-11-21,04,pmf,stable,0.25592946649422665
-2026-10-31,wk flu hosp rate change,3,2026-11-21,04,pmf,increase,0.5164748575390553
-2026-10-31,wk flu hosp rate change,3,2026-11-21,04,pmf,large_increase,0.20767777261197184
+2026-10-31,wk flu hosp rate change,3,2026-11-21,04,pmf,decrease,0.019917864440395477
+2026-10-31,wk flu hosp rate change,3,2026-11-21,04,pmf,stable,0.25592967616310747
+2026-10-31,wk flu hosp rate change,3,2026-11-21,04,pmf,increase,0.5164746984821739
+2026-10-31,wk flu hosp rate change,3,2026-11-21,04,pmf,large_increase,0.20767776091432322
 2026-10-31,wk flu hosp rate change,0,2026-10-31,05,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,0,2026-10-31,05,pmf,decrease,0.08747802438586812
-2026-10-31,wk flu hosp rate change,0,2026-10-31,05,pmf,stable,0.521574083091109
-2026-10-31,wk flu hosp rate change,0,2026-10-31,05,pmf,increase,0.30075958478400566
-2026-10-31,wk flu hosp rate change,0,2026-10-31,05,pmf,large_increase,0.0901883077390172
+2026-10-31,wk flu hosp rate change,0,2026-10-31,05,pmf,decrease,0.08747786058482214
+2026-10-31,wk flu hosp rate change,0,2026-10-31,05,pmf,stable,0.5215748650995974
+2026-10-31,wk flu hosp rate change,0,2026-10-31,05,pmf,increase,0.30075892518290936
+2026-10-31,wk flu hosp rate change,0,2026-10-31,05,pmf,large_increase,0.09018834913267115
 2026-10-31,wk flu hosp rate change,1,2026-11-07,05,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,1,2026-11-07,05,pmf,decrease,0.05753632641704374
-2026-10-31,wk flu hosp rate change,1,2026-11-07,05,pmf,stable,0.4762852507820742
-2026-10-31,wk flu hosp rate change,1,2026-11-07,05,pmf,increase,0.38573858138932826
-2026-10-31,wk flu hosp rate change,1,2026-11-07,05,pmf,large_increase,0.0804398414115538
+2026-10-31,wk flu hosp rate change,1,2026-11-07,05,pmf,decrease,0.057536100566690625
+2026-10-31,wk flu hosp rate change,1,2026-11-07,05,pmf,stable,0.47628500424637316
+2026-10-31,wk flu hosp rate change,1,2026-11-07,05,pmf,increase,0.385739001425075
+2026-10-31,wk flu hosp rate change,1,2026-11-07,05,pmf,large_increase,0.08043989376186123
 2026-10-31,wk flu hosp rate change,2,2026-11-14,05,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,2,2026-11-14,05,pmf,decrease,0.02483312599159461
-2026-10-31,wk flu hosp rate change,2,2026-11-14,05,pmf,stable,0.47366832261514347
-2026-10-31,wk flu hosp rate change,2,2026-11-14,05,pmf,increase,0.4178211877230701
-2026-10-31,wk flu hosp rate change,2,2026-11-14,05,pmf,large_increase,0.08367736367019185
+2026-10-31,wk flu hosp rate change,2,2026-11-14,05,pmf,decrease,0.024833090514284173
+2026-10-31,wk flu hosp rate change,2,2026-11-14,05,pmf,stable,0.4736679392016332
+2026-10-31,wk flu hosp rate change,2,2026-11-14,05,pmf,increase,0.41782157825404065
+2026-10-31,wk flu hosp rate change,2,2026-11-14,05,pmf,large_increase,0.08367739203004199
 2026-10-31,wk flu hosp rate change,3,2026-11-21,05,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,3,2026-11-21,05,pmf,decrease,0.02802309541828086
-2026-10-31,wk flu hosp rate change,3,2026-11-21,05,pmf,stable,0.4189683223655792
-2026-10-31,wk flu hosp rate change,3,2026-11-21,05,pmf,increase,0.45363402435475436
-2026-10-31,wk flu hosp rate change,3,2026-11-21,05,pmf,large_increase,0.0993745578613856
+2026-10-31,wk flu hosp rate change,3,2026-11-21,05,pmf,decrease,0.028022477298860874
+2026-10-31,wk flu hosp rate change,3,2026-11-21,05,pmf,stable,0.41896869477533716
+2026-10-31,wk flu hosp rate change,3,2026-11-21,05,pmf,increase,0.4536341756095048
+2026-10-31,wk flu hosp rate change,3,2026-11-21,05,pmf,large_increase,0.09937465231629716
 2026-10-31,wk flu hosp rate change,0,2026-10-31,06,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,0,2026-10-31,06,pmf,decrease,0.06861223568682014
-2026-10-31,wk flu hosp rate change,0,2026-10-31,06,pmf,stable,0.1579820958420623
-2026-10-31,wk flu hosp rate change,0,2026-10-31,06,pmf,increase,0.598724576492754
-2026-10-31,wk flu hosp rate change,0,2026-10-31,06,pmf,large_increase,0.17468109197836357
+2026-10-31,wk flu hosp rate change,0,2026-10-31,06,pmf,decrease,0.0686121590193659
+2026-10-31,wk flu hosp rate change,0,2026-10-31,06,pmf,stable,0.15798251685259046
+2026-10-31,wk flu hosp rate change,0,2026-10-31,06,pmf,increase,0.5987245668219283
+2026-10-31,wk flu hosp rate change,0,2026-10-31,06,pmf,large_increase,0.17468075730611532
 2026-10-31,wk flu hosp rate change,1,2026-11-07,06,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,1,2026-11-07,06,pmf,decrease,0.06377497757363523
-2026-10-31,wk flu hosp rate change,1,2026-11-07,06,pmf,stable,0.15888948631524133
-2026-10-31,wk flu hosp rate change,1,2026-11-07,06,pmf,increase,0.6130325406600317
-2026-10-31,wk flu hosp rate change,1,2026-11-07,06,pmf,large_increase,0.16430299545109184
+2026-10-31,wk flu hosp rate change,1,2026-11-07,06,pmf,decrease,0.0637749459300729
+2026-10-31,wk flu hosp rate change,1,2026-11-07,06,pmf,stable,0.15888944308999992
+2026-10-31,wk flu hosp rate change,1,2026-11-07,06,pmf,increase,0.6130323484355901
+2026-10-31,wk flu hosp rate change,1,2026-11-07,06,pmf,large_increase,0.16430326254433714
 2026-10-31,wk flu hosp rate change,2,2026-11-14,06,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,2,2026-11-14,06,pmf,decrease,0.06609364814405613
-2026-10-31,wk flu hosp rate change,2,2026-11-14,06,pmf,stable,0.16972647104592367
-2026-10-31,wk flu hosp rate change,2,2026-11-14,06,pmf,increase,0.5873543386738687
-2026-10-31,wk flu hosp rate change,2,2026-11-14,06,pmf,large_increase,0.17682554213615154
+2026-10-31,wk flu hosp rate change,2,2026-11-14,06,pmf,decrease,0.06609370056872366
+2026-10-31,wk flu hosp rate change,2,2026-11-14,06,pmf,stable,0.16972663388292583
+2026-10-31,wk flu hosp rate change,2,2026-11-14,06,pmf,increase,0.5873537995532401
+2026-10-31,wk flu hosp rate change,2,2026-11-14,06,pmf,large_increase,0.1768258659951104
 2026-10-31,wk flu hosp rate change,3,2026-11-21,06,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,3,2026-11-21,06,pmf,decrease,0.05699394762306903
-2026-10-31,wk flu hosp rate change,3,2026-11-21,06,pmf,stable,0.20083120564440352
-2026-10-31,wk flu hosp rate change,3,2026-11-21,06,pmf,increase,0.5660075122660925
-2026-10-31,wk flu hosp rate change,3,2026-11-21,06,pmf,large_increase,0.1761673344664351
+2026-10-31,wk flu hosp rate change,3,2026-11-21,06,pmf,decrease,0.05699388712727796
+2026-10-31,wk flu hosp rate change,3,2026-11-21,06,pmf,stable,0.20083144452918641
+2026-10-31,wk flu hosp rate change,3,2026-11-21,06,pmf,increase,0.5660066235893786
+2026-10-31,wk flu hosp rate change,3,2026-11-21,06,pmf,large_increase,0.17616804475415704
 2026-10-31,wk flu hosp rate change,0,2026-10-31,08,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,0,2026-10-31,08,pmf,decrease,0.01573859313135034
-2026-10-31,wk flu hosp rate change,0,2026-10-31,08,pmf,stable,0.6798864289756452
-2026-10-31,wk flu hosp rate change,0,2026-10-31,08,pmf,increase,0.2816734091097395
-2026-10-31,wk flu hosp rate change,0,2026-10-31,08,pmf,large_increase,0.022701568783265014
+2026-10-31,wk flu hosp rate change,0,2026-10-31,08,pmf,decrease,0.015738653142505665
+2026-10-31,wk flu hosp rate change,0,2026-10-31,08,pmf,stable,0.6798857934829174
+2026-10-31,wk flu hosp rate change,0,2026-10-31,08,pmf,increase,0.2816739974328142
+2026-10-31,wk flu hosp rate change,0,2026-10-31,08,pmf,large_increase,0.022701555941762708
 2026-10-31,wk flu hosp rate change,1,2026-11-07,08,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,1,2026-11-07,08,pmf,decrease,0.01330056019786055
-2026-10-31,wk flu hosp rate change,1,2026-11-07,08,pmf,stable,0.5169253877244526
-2026-10-31,wk flu hosp rate change,1,2026-11-07,08,pmf,increase,0.43769451764771294
-2026-10-31,wk flu hosp rate change,1,2026-11-07,08,pmf,large_increase,0.03207953442997391
+2026-10-31,wk flu hosp rate change,1,2026-11-07,08,pmf,decrease,0.013300665203113632
+2026-10-31,wk flu hosp rate change,1,2026-11-07,08,pmf,stable,0.5169257216215142
+2026-10-31,wk flu hosp rate change,1,2026-11-07,08,pmf,increase,0.43769410533658915
+2026-10-31,wk flu hosp rate change,1,2026-11-07,08,pmf,large_increase,0.032079507838782995
 2026-10-31,wk flu hosp rate change,2,2026-11-14,08,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,2,2026-11-14,08,pmf,decrease,0.01216415522872763
-2026-10-31,wk flu hosp rate change,2,2026-11-14,08,pmf,stable,0.4173738512513634
-2026-10-31,wk flu hosp rate change,2,2026-11-14,08,pmf,increase,0.5221363818833373
-2026-10-31,wk flu hosp rate change,2,2026-11-14,08,pmf,large_increase,0.048325611636571675
+2026-10-31,wk flu hosp rate change,2,2026-11-14,08,pmf,decrease,0.012164219913694539
+2026-10-31,wk flu hosp rate change,2,2026-11-14,08,pmf,stable,0.4173742138250536
+2026-10-31,wk flu hosp rate change,2,2026-11-14,08,pmf,increase,0.5221359241017376
+2026-10-31,wk flu hosp rate change,2,2026-11-14,08,pmf,large_increase,0.04832564215951429
 2026-10-31,wk flu hosp rate change,3,2026-11-21,08,pmf,large_decrease,0.0
 2026-10-31,wk flu hosp rate change,3,2026-11-21,08,pmf,decrease,0.0
-2026-10-31,wk flu hosp rate change,3,2026-11-21,08,pmf,stable,0.3934833497062443
-2026-10-31,wk flu hosp rate change,3,2026-11-21,08,pmf,increase,0.5281404845481654
-2026-10-31,wk flu hosp rate change,3,2026-11-21,08,pmf,large_increase,0.07837616574559025
+2026-10-31,wk flu hosp rate change,3,2026-11-21,08,pmf,stable,0.39348368770120395
+2026-10-31,wk flu hosp rate change,3,2026-11-21,08,pmf,increase,0.5281402213165935
+2026-10-31,wk flu hosp rate change,3,2026-11-21,08,pmf,large_increase,0.07837609098220244
 2026-10-31,wk flu hosp rate change,0,2026-10-31,09,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,0,2026-10-31,09,pmf,decrease,0.10196972544456458
-2026-10-31,wk flu hosp rate change,0,2026-10-31,09,pmf,stable,0.6422921910172132
-2026-10-31,wk flu hosp rate change,0,2026-10-31,09,pmf,increase,0.20218376392598614
-2026-10-31,wk flu hosp rate change,0,2026-10-31,09,pmf,large_increase,0.053554319612236
+2026-10-31,wk flu hosp rate change,0,2026-10-31,09,pmf,decrease,0.10196981469273271
+2026-10-31,wk flu hosp rate change,0,2026-10-31,09,pmf,stable,0.6422925289889484
+2026-10-31,wk flu hosp rate change,0,2026-10-31,09,pmf,increase,0.20218341055468492
+2026-10-31,wk flu hosp rate change,0,2026-10-31,09,pmf,large_increase,0.05355424576363399
 2026-10-31,wk flu hosp rate change,1,2026-11-07,09,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,1,2026-11-07,09,pmf,decrease,0.04942383928559042
-2026-10-31,wk flu hosp rate change,1,2026-11-07,09,pmf,stable,0.5876874102308917
-2026-10-31,wk flu hosp rate change,1,2026-11-07,09,pmf,increase,0.2873405784556487
-2026-10-31,wk flu hosp rate change,1,2026-11-07,09,pmf,large_increase,0.07554817202786936
+2026-10-31,wk flu hosp rate change,1,2026-11-07,09,pmf,decrease,0.049424122533144724
+2026-10-31,wk flu hosp rate change,1,2026-11-07,09,pmf,stable,0.5876872910809937
+2026-10-31,wk flu hosp rate change,1,2026-11-07,09,pmf,increase,0.2873404851266187
+2026-10-31,wk flu hosp rate change,1,2026-11-07,09,pmf,large_increase,0.07554810125924283
 2026-10-31,wk flu hosp rate change,2,2026-11-14,09,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,2,2026-11-14,09,pmf,decrease,0.024075555684848073
-2026-10-31,wk flu hosp rate change,2,2026-11-14,09,pmf,stable,0.5173865042818354
-2026-10-31,wk flu hosp rate change,2,2026-11-14,09,pmf,increase,0.3572184194619531
-2026-10-31,wk flu hosp rate change,2,2026-11-14,09,pmf,large_increase,0.1013195205713634
+2026-10-31,wk flu hosp rate change,2,2026-11-14,09,pmf,decrease,0.0240756529196734
+2026-10-31,wk flu hosp rate change,2,2026-11-14,09,pmf,stable,0.5173867878502418
+2026-10-31,wk flu hosp rate change,2,2026-11-14,09,pmf,increase,0.35721813827166393
+2026-10-31,wk flu hosp rate change,2,2026-11-14,09,pmf,large_increase,0.10131942095842084
 2026-10-31,wk flu hosp rate change,3,2026-11-21,09,pmf,large_decrease,0.0
 2026-10-31,wk flu hosp rate change,3,2026-11-21,09,pmf,decrease,0.0
-2026-10-31,wk flu hosp rate change,3,2026-11-21,09,pmf,stable,0.5116999905129548
-2026-10-31,wk flu hosp rate change,3,2026-11-21,09,pmf,increase,0.3450711461079701
-2026-10-31,wk flu hosp rate change,3,2026-11-21,09,pmf,large_increase,0.14322886337907514
+2026-10-31,wk flu hosp rate change,3,2026-11-21,09,pmf,stable,0.511700009730981
+2026-10-31,wk flu hosp rate change,3,2026-11-21,09,pmf,increase,0.3450712991368331
+2026-10-31,wk flu hosp rate change,3,2026-11-21,09,pmf,large_increase,0.14322869113218595
 2026-10-31,wk flu hosp rate change,0,2026-10-31,10,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,0,2026-10-31,10,pmf,decrease,0.024577625298996784
-2026-10-31,wk flu hosp rate change,0,2026-10-31,10,pmf,stable,0.7890415919580502
-2026-10-31,wk flu hosp rate change,0,2026-10-31,10,pmf,increase,0.09182993981331167
-2026-10-31,wk flu hosp rate change,0,2026-10-31,10,pmf,large_increase,0.09455084292964133
+2026-10-31,wk flu hosp rate change,0,2026-10-31,10,pmf,decrease,0.024577779332108175
+2026-10-31,wk flu hosp rate change,0,2026-10-31,10,pmf,stable,0.7890413728521223
+2026-10-31,wk flu hosp rate change,0,2026-10-31,10,pmf,increase,0.091829981095218
+2026-10-31,wk flu hosp rate change,0,2026-10-31,10,pmf,large_increase,0.09455086672055157
 2026-10-31,wk flu hosp rate change,1,2026-11-07,10,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,1,2026-11-07,10,pmf,decrease,0.04689349647609346
-2026-10-31,wk flu hosp rate change,1,2026-11-07,10,pmf,stable,0.5992440870306394
-2026-10-31,wk flu hosp rate change,1,2026-11-07,10,pmf,increase,0.2288884376709427
-2026-10-31,wk flu hosp rate change,1,2026-11-07,10,pmf,large_increase,0.12497397882232453
+2026-10-31,wk flu hosp rate change,1,2026-11-07,10,pmf,decrease,0.046893546773959134
+2026-10-31,wk flu hosp rate change,1,2026-11-07,10,pmf,stable,0.5992437720982721
+2026-10-31,wk flu hosp rate change,1,2026-11-07,10,pmf,increase,0.22888860079512277
+2026-10-31,wk flu hosp rate change,1,2026-11-07,10,pmf,large_increase,0.12497408033264613
 2026-10-31,wk flu hosp rate change,2,2026-11-14,10,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,2,2026-11-14,10,pmf,decrease,0.06848921411545125
-2026-10-31,wk flu hosp rate change,2,2026-11-14,10,pmf,stable,0.43027900497972826
-2026-10-31,wk flu hosp rate change,2,2026-11-14,10,pmf,increase,0.3374601632281918
-2026-10-31,wk flu hosp rate change,2,2026-11-14,10,pmf,large_increase,0.16377161767662873
+2026-10-31,wk flu hosp rate change,2,2026-11-14,10,pmf,decrease,0.06848960474851665
+2026-10-31,wk flu hosp rate change,2,2026-11-14,10,pmf,stable,0.4302784195071899
+2026-10-31,wk flu hosp rate change,2,2026-11-14,10,pmf,increase,0.3374600593808033
+2026-10-31,wk flu hosp rate change,2,2026-11-14,10,pmf,large_increase,0.1637719163634901
 2026-10-31,wk flu hosp rate change,3,2026-11-21,10,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,3,2026-11-21,10,pmf,decrease,0.07068936425310617
-2026-10-31,wk flu hosp rate change,3,2026-11-21,10,pmf,stable,0.3288829270144718
-2026-10-31,wk flu hosp rate change,3,2026-11-21,10,pmf,increase,0.3964865240467367
-2026-10-31,wk flu hosp rate change,3,2026-11-21,10,pmf,large_increase,0.20394118468568548
+2026-10-31,wk flu hosp rate change,3,2026-11-21,10,pmf,decrease,0.07068953763284438
+2026-10-31,wk flu hosp rate change,3,2026-11-21,10,pmf,stable,0.32888220336759033
+2026-10-31,wk flu hosp rate change,3,2026-11-21,10,pmf,increase,0.39648671307842615
+2026-10-31,wk flu hosp rate change,3,2026-11-21,10,pmf,large_increase,0.2039415459211391
 2026-10-31,wk flu hosp rate change,0,2026-10-31,11,pmf,large_decrease,0.0
 2026-10-31,wk flu hosp rate change,0,2026-10-31,11,pmf,decrease,0.0
-2026-10-31,wk flu hosp rate change,0,2026-10-31,11,pmf,stable,0.9194066791944003
-2026-10-31,wk flu hosp rate change,0,2026-10-31,11,pmf,increase,0.018478915381202166
-2026-10-31,wk flu hosp rate change,0,2026-10-31,11,pmf,large_increase,0.0621144054243975
+2026-10-31,wk flu hosp rate change,0,2026-10-31,11,pmf,stable,0.919406626359959
+2026-10-31,wk flu hosp rate change,0,2026-10-31,11,pmf,increase,0.01847887765784617
+2026-10-31,wk flu hosp rate change,0,2026-10-31,11,pmf,large_increase,0.06211449598219487
 2026-10-31,wk flu hosp rate change,1,2026-11-07,11,pmf,large_decrease,0.0
 2026-10-31,wk flu hosp rate change,1,2026-11-07,11,pmf,decrease,0.0
-2026-10-31,wk flu hosp rate change,1,2026-11-07,11,pmf,stable,0.8420704351564448
-2026-10-31,wk flu hosp rate change,1,2026-11-07,11,pmf,increase,0.09361925597738507
-2026-10-31,wk flu hosp rate change,1,2026-11-07,11,pmf,large_increase,0.06431030886617017
+2026-10-31,wk flu hosp rate change,1,2026-11-07,11,pmf,stable,0.8420704912611632
+2026-10-31,wk flu hosp rate change,1,2026-11-07,11,pmf,increase,0.09361918187412699
+2026-10-31,wk flu hosp rate change,1,2026-11-07,11,pmf,large_increase,0.06431032686470983
 2026-10-31,wk flu hosp rate change,2,2026-11-14,11,pmf,large_decrease,0.0
 2026-10-31,wk flu hosp rate change,2,2026-11-14,11,pmf,decrease,0.0
-2026-10-31,wk flu hosp rate change,2,2026-11-14,11,pmf,stable,0.7477290309098619
-2026-10-31,wk flu hosp rate change,2,2026-11-14,11,pmf,increase,0.1700410866419637
-2026-10-31,wk flu hosp rate change,2,2026-11-14,11,pmf,large_increase,0.08222988244817442
+2026-10-31,wk flu hosp rate change,2,2026-11-14,11,pmf,stable,0.7477290561578382
+2026-10-31,wk flu hosp rate change,2,2026-11-14,11,pmf,increase,0.17004108829466802
+2026-10-31,wk flu hosp rate change,2,2026-11-14,11,pmf,large_increase,0.08222985554749374
 2026-10-31,wk flu hosp rate change,3,2026-11-21,11,pmf,large_decrease,0.0
 2026-10-31,wk flu hosp rate change,3,2026-11-21,11,pmf,decrease,0.0
-2026-10-31,wk flu hosp rate change,3,2026-11-21,11,pmf,stable,0.6533110387894239
-2026-10-31,wk flu hosp rate change,3,2026-11-21,11,pmf,increase,0.2457329598580963
-2026-10-31,wk flu hosp rate change,3,2026-11-21,11,pmf,large_increase,0.10095600135247984
-2026-10-31,wk flu hosp rate change,0,2026-10-31,12,pmf,large_decrease,0.010631969077074782
-2026-10-31,wk flu hosp rate change,0,2026-10-31,12,pmf,decrease,0.0754157029199364
-2026-10-31,wk flu hosp rate change,0,2026-10-31,12,pmf,stable,0.1059402741599666
-2026-10-31,wk flu hosp rate change,0,2026-10-31,12,pmf,increase,0.5121629845731829
-2026-10-31,wk flu hosp rate change,0,2026-10-31,12,pmf,large_increase,0.29584906926983934
+2026-10-31,wk flu hosp rate change,3,2026-11-21,11,pmf,stable,0.6533108385618442
+2026-10-31,wk flu hosp rate change,3,2026-11-21,11,pmf,increase,0.24573311688025923
+2026-10-31,wk flu hosp rate change,3,2026-11-21,11,pmf,large_increase,0.10095604455789653
+2026-10-31,wk flu hosp rate change,0,2026-10-31,12,pmf,large_decrease,0.010632024647229643
+2026-10-31,wk flu hosp rate change,0,2026-10-31,12,pmf,decrease,0.07541581938068097
+2026-10-31,wk flu hosp rate change,0,2026-10-31,12,pmf,stable,0.10593974298030416
+2026-10-31,wk flu hosp rate change,0,2026-10-31,12,pmf,increase,0.5121629249711881
+2026-10-31,wk flu hosp rate change,0,2026-10-31,12,pmf,large_increase,0.2958494880205972
 2026-10-31,wk flu hosp rate change,1,2026-11-07,12,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,1,2026-11-07,12,pmf,decrease,0.08355046012423092
-2026-10-31,wk flu hosp rate change,1,2026-11-07,12,pmf,stable,0.10377097338016272
-2026-10-31,wk flu hosp rate change,1,2026-11-07,12,pmf,increase,0.4881192735236195
-2026-10-31,wk flu hosp rate change,1,2026-11-07,12,pmf,large_increase,0.3245592929719868
+2026-10-31,wk flu hosp rate change,1,2026-11-07,12,pmf,decrease,0.08355064436704829
+2026-10-31,wk flu hosp rate change,1,2026-11-07,12,pmf,stable,0.10377105295701211
+2026-10-31,wk flu hosp rate change,1,2026-11-07,12,pmf,increase,0.4881191907753369
+2026-10-31,wk flu hosp rate change,1,2026-11-07,12,pmf,large_increase,0.3245591119006027
 2026-10-31,wk flu hosp rate change,2,2026-11-14,12,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,2,2026-11-14,12,pmf,decrease,0.07802035768261346
-2026-10-31,wk flu hosp rate change,2,2026-11-14,12,pmf,stable,0.10922182102106053
-2026-10-31,wk flu hosp rate change,2,2026-11-14,12,pmf,increase,0.4877935284652395
-2026-10-31,wk flu hosp rate change,2,2026-11-14,12,pmf,large_increase,0.3249642928310865
+2026-10-31,wk flu hosp rate change,2,2026-11-14,12,pmf,decrease,0.07802039561355692
+2026-10-31,wk flu hosp rate change,2,2026-11-14,12,pmf,stable,0.10922196508532583
+2026-10-31,wk flu hosp rate change,2,2026-11-14,12,pmf,increase,0.4877935011283424
+2026-10-31,wk flu hosp rate change,2,2026-11-14,12,pmf,large_increase,0.3249641381727748
 2026-10-31,wk flu hosp rate change,3,2026-11-21,12,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,3,2026-11-21,12,pmf,decrease,0.06540382996102677
-2026-10-31,wk flu hosp rate change,3,2026-11-21,12,pmf,stable,0.1302238614312406
-2026-10-31,wk flu hosp rate change,3,2026-11-21,12,pmf,increase,0.4773484024623826
-2026-10-31,wk flu hosp rate change,3,2026-11-21,12,pmf,large_increase,0.32702390614535004
+2026-10-31,wk flu hosp rate change,3,2026-11-21,12,pmf,decrease,0.06540381992417595
+2026-10-31,wk flu hosp rate change,3,2026-11-21,12,pmf,stable,0.13022396187623025
+2026-10-31,wk flu hosp rate change,3,2026-11-21,12,pmf,increase,0.477349071753864
+2026-10-31,wk flu hosp rate change,3,2026-11-21,12,pmf,large_increase,0.32702314644572983
 2026-10-31,wk flu hosp rate change,0,2026-10-31,13,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,0,2026-10-31,13,pmf,decrease,0.0415304873036236
-2026-10-31,wk flu hosp rate change,0,2026-10-31,13,pmf,stable,0.6463754786636224
-2026-10-31,wk flu hosp rate change,0,2026-10-31,13,pmf,increase,0.2809552102457923
-2026-10-31,wk flu hosp rate change,0,2026-10-31,13,pmf,large_increase,0.031138823786961645
+2026-10-31,wk flu hosp rate change,0,2026-10-31,13,pmf,decrease,0.04153032828348749
+2026-10-31,wk flu hosp rate change,0,2026-10-31,13,pmf,stable,0.64637542015752
+2026-10-31,wk flu hosp rate change,0,2026-10-31,13,pmf,increase,0.2809554729716758
+2026-10-31,wk flu hosp rate change,0,2026-10-31,13,pmf,large_increase,0.03113877858731673
 2026-10-31,wk flu hosp rate change,1,2026-11-07,13,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,1,2026-11-07,13,pmf,decrease,0.027369070065091733
-2026-10-31,wk flu hosp rate change,1,2026-11-07,13,pmf,stable,0.5817200469248782
-2026-10-31,wk flu hosp rate change,1,2026-11-07,13,pmf,increase,0.3537023762835969
-2026-10-31,wk flu hosp rate change,1,2026-11-07,13,pmf,large_increase,0.037208506726433166
+2026-10-31,wk flu hosp rate change,1,2026-11-07,13,pmf,decrease,0.02736897379338406
+2026-10-31,wk flu hosp rate change,1,2026-11-07,13,pmf,stable,0.5817204130962254
+2026-10-31,wk flu hosp rate change,1,2026-11-07,13,pmf,increase,0.35370209645469897
+2026-10-31,wk flu hosp rate change,1,2026-11-07,13,pmf,large_increase,0.03720851665569158
 2026-10-31,wk flu hosp rate change,2,2026-11-14,13,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,2,2026-11-14,13,pmf,decrease,0.015571045896242358
-2026-10-31,wk flu hosp rate change,2,2026-11-14,13,pmf,stable,0.5243057798536377
-2026-10-31,wk flu hosp rate change,2,2026-11-14,13,pmf,increase,0.41528419233620917
-2026-10-31,wk flu hosp rate change,2,2026-11-14,13,pmf,large_increase,0.04483898191391078
+2026-10-31,wk flu hosp rate change,2,2026-11-14,13,pmf,decrease,0.015570988031216095
+2026-10-31,wk flu hosp rate change,2,2026-11-14,13,pmf,stable,0.5243062344779681
+2026-10-31,wk flu hosp rate change,2,2026-11-14,13,pmf,increase,0.41528380859984326
+2026-10-31,wk flu hosp rate change,2,2026-11-14,13,pmf,large_increase,0.0448389688909725
 2026-10-31,wk flu hosp rate change,3,2026-11-21,13,pmf,large_decrease,0.0
 2026-10-31,wk flu hosp rate change,3,2026-11-21,13,pmf,decrease,0.0
-2026-10-31,wk flu hosp rate change,3,2026-11-21,13,pmf,stable,0.4742523700937143
-2026-10-31,wk flu hosp rate change,3,2026-11-21,13,pmf,increase,0.46050593445370475
-2026-10-31,wk flu hosp rate change,3,2026-11-21,13,pmf,large_increase,0.06524169545258096
-2026-10-31,wk flu hosp rate change,0,2026-10-31,15,pmf,large_decrease,0.0945972658619504
-2026-10-31,wk flu hosp rate change,0,2026-10-31,15,pmf,decrease,0.2157064269031725
-2026-10-31,wk flu hosp rate change,0,2026-10-31,15,pmf,stable,0.42687817947896284
-2026-10-31,wk flu hosp rate change,0,2026-10-31,15,pmf,increase,0.14521105794105882
-2026-10-31,wk flu hosp rate change,0,2026-10-31,15,pmf,large_increase,0.11760706981485547
-2026-10-31,wk flu hosp rate change,1,2026-11-07,15,pmf,large_decrease,0.04376037621964343
-2026-10-31,wk flu hosp rate change,1,2026-11-07,15,pmf,decrease,0.30066191082996463
-2026-10-31,wk flu hosp rate change,1,2026-11-07,15,pmf,stable,0.32725604915085116
-2026-10-31,wk flu hosp rate change,1,2026-11-07,15,pmf,increase,0.2382276864411984
-2026-10-31,wk flu hosp rate change,1,2026-11-07,15,pmf,large_increase,0.09009397735834235
-2026-10-31,wk flu hosp rate change,2,2026-11-14,15,pmf,large_decrease,0.014780074494538959
-2026-10-31,wk flu hosp rate change,2,2026-11-14,15,pmf,decrease,0.3101005895804379
-2026-10-31,wk flu hosp rate change,2,2026-11-14,15,pmf,stable,0.2859842110787969
-2026-10-31,wk flu hosp rate change,2,2026-11-14,15,pmf,increase,0.3095756325107095
-2026-10-31,wk flu hosp rate change,2,2026-11-14,15,pmf,large_increase,0.07955949233551673
+2026-10-31,wk flu hosp rate change,3,2026-11-21,13,pmf,stable,0.4742528436952124
+2026-10-31,wk flu hosp rate change,3,2026-11-21,13,pmf,increase,0.460505620616167
+2026-10-31,wk flu hosp rate change,3,2026-11-21,13,pmf,large_increase,0.06524153568862057
+2026-10-31,wk flu hosp rate change,0,2026-10-31,15,pmf,large_decrease,0.09459735659259558
+2026-10-31,wk flu hosp rate change,0,2026-10-31,15,pmf,decrease,0.21570660013106693
+2026-10-31,wk flu hosp rate change,0,2026-10-31,15,pmf,stable,0.42687853137523957
+2026-10-31,wk flu hosp rate change,0,2026-10-31,15,pmf,increase,0.14521063394071876
+2026-10-31,wk flu hosp rate change,0,2026-10-31,15,pmf,large_increase,0.11760687796037916
+2026-10-31,wk flu hosp rate change,1,2026-11-07,15,pmf,large_decrease,0.04376037102873129
+2026-10-31,wk flu hosp rate change,1,2026-11-07,15,pmf,decrease,0.30066155182491094
+2026-10-31,wk flu hosp rate change,1,2026-11-07,15,pmf,stable,0.32725620385104237
+2026-10-31,wk flu hosp rate change,1,2026-11-07,15,pmf,increase,0.23822806504120564
+2026-10-31,wk flu hosp rate change,1,2026-11-07,15,pmf,large_increase,0.09009380825410973
+2026-10-31,wk flu hosp rate change,2,2026-11-14,15,pmf,large_decrease,0.014780063718515705
+2026-10-31,wk flu hosp rate change,2,2026-11-14,15,pmf,decrease,0.31010019852514753
+2026-10-31,wk flu hosp rate change,2,2026-11-14,15,pmf,stable,0.2859843240801783
+2026-10-31,wk flu hosp rate change,2,2026-11-14,15,pmf,increase,0.30957606398355964
+2026-10-31,wk flu hosp rate change,2,2026-11-14,15,pmf,large_increase,0.07955934969259881
 2026-10-31,wk flu hosp rate change,3,2026-11-21,15,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,3,2026-11-21,15,pmf,decrease,0.2685202164137123
-2026-10-31,wk flu hosp rate change,3,2026-11-21,15,pmf,stable,0.33751241128617676
-2026-10-31,wk flu hosp rate change,3,2026-11-21,15,pmf,increase,0.3224749248982942
-2026-10-31,wk flu hosp rate change,3,2026-11-21,15,pmf,large_increase,0.0714924474018167
+2026-10-31,wk flu hosp rate change,3,2026-11-21,15,pmf,decrease,0.26852046848300426
+2026-10-31,wk flu hosp rate change,3,2026-11-21,15,pmf,stable,0.3375125888597259
+2026-10-31,wk flu hosp rate change,3,2026-11-21,15,pmf,increase,0.32247479946092494
+2026-10-31,wk flu hosp rate change,3,2026-11-21,15,pmf,large_increase,0.07149214319634489
 2026-10-31,wk flu hosp rate change,0,2026-10-31,16,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,0,2026-10-31,16,pmf,decrease,0.02182113290297214
-2026-10-31,wk flu hosp rate change,0,2026-10-31,16,pmf,stable,0.7860223383676567
-2026-10-31,wk flu hosp rate change,0,2026-10-31,16,pmf,increase,0.16451917455831133
-2026-10-31,wk flu hosp rate change,0,2026-10-31,16,pmf,large_increase,0.027637354171059836
+2026-10-31,wk flu hosp rate change,0,2026-10-31,16,pmf,decrease,0.021821044984046238
+2026-10-31,wk flu hosp rate change,0,2026-10-31,16,pmf,stable,0.7860225521892458
+2026-10-31,wk flu hosp rate change,0,2026-10-31,16,pmf,increase,0.16451907409717947
+2026-10-31,wk flu hosp rate change,0,2026-10-31,16,pmf,large_increase,0.02763732872952851
 2026-10-31,wk flu hosp rate change,1,2026-11-07,16,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,1,2026-11-07,16,pmf,decrease,0.05769067806918636
-2026-10-31,wk flu hosp rate change,1,2026-11-07,16,pmf,stable,0.6023973983767887
-2026-10-31,wk flu hosp rate change,1,2026-11-07,16,pmf,increase,0.31593409731039057
-2026-10-31,wk flu hosp rate change,1,2026-11-07,16,pmf,large_increase,0.023977826243634315
+2026-10-31,wk flu hosp rate change,1,2026-11-07,16,pmf,decrease,0.057690313797073275
+2026-10-31,wk flu hosp rate change,1,2026-11-07,16,pmf,stable,0.6023979878480965
+2026-10-31,wk flu hosp rate change,1,2026-11-07,16,pmf,increase,0.3159338935695345
+2026-10-31,wk flu hosp rate change,1,2026-11-07,16,pmf,large_increase,0.023977804785295764
 2026-10-31,wk flu hosp rate change,2,2026-11-14,16,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,2,2026-11-14,16,pmf,decrease,0.036840284125742646
-2026-10-31,wk flu hosp rate change,2,2026-11-14,16,pmf,stable,0.5936886149035433
-2026-10-31,wk flu hosp rate change,2,2026-11-14,16,pmf,increase,0.33950876000479413
-2026-10-31,wk flu hosp rate change,2,2026-11-14,16,pmf,large_increase,0.029962340965919876
+2026-10-31,wk flu hosp rate change,2,2026-11-14,16,pmf,decrease,0.0368403746488754
+2026-10-31,wk flu hosp rate change,2,2026-11-14,16,pmf,stable,0.5936886552003079
+2026-10-31,wk flu hosp rate change,2,2026-11-14,16,pmf,increase,0.33950867641723625
+2026-10-31,wk flu hosp rate change,2,2026-11-14,16,pmf,large_increase,0.029962293733580503
 2026-10-31,wk flu hosp rate change,3,2026-11-21,16,pmf,large_decrease,0.0
 2026-10-31,wk flu hosp rate change,3,2026-11-21,16,pmf,decrease,0.0
-2026-10-31,wk flu hosp rate change,3,2026-11-21,16,pmf,stable,0.5288424132905719
-2026-10-31,wk flu hosp rate change,3,2026-11-21,16,pmf,increase,0.4233542735276238
-2026-10-31,wk flu hosp rate change,3,2026-11-21,16,pmf,large_increase,0.04780331318180431
+2026-10-31,wk flu hosp rate change,3,2026-11-21,16,pmf,stable,0.5288426056723221
+2026-10-31,wk flu hosp rate change,3,2026-11-21,16,pmf,increase,0.4233541205383513
+2026-10-31,wk flu hosp rate change,3,2026-11-21,16,pmf,large_increase,0.047803273789326584
 2026-10-31,wk flu hosp rate change,0,2026-10-31,17,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,0,2026-10-31,17,pmf,decrease,0.08864158578951714
-2026-10-31,wk flu hosp rate change,0,2026-10-31,17,pmf,stable,0.562587271902576
-2026-10-31,wk flu hosp rate change,0,2026-10-31,17,pmf,increase,0.292758479057326
-2026-10-31,wk flu hosp rate change,0,2026-10-31,17,pmf,large_increase,0.05601266325058096
+2026-10-31,wk flu hosp rate change,0,2026-10-31,17,pmf,decrease,0.0886413367481326
+2026-10-31,wk flu hosp rate change,0,2026-10-31,17,pmf,stable,0.5625870773088997
+2026-10-31,wk flu hosp rate change,0,2026-10-31,17,pmf,increase,0.2927590178751175
+2026-10-31,wk flu hosp rate change,0,2026-10-31,17,pmf,large_increase,0.056012568067850266
 2026-10-31,wk flu hosp rate change,1,2026-11-07,17,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,1,2026-11-07,17,pmf,decrease,0.047038725650993526
-2026-10-31,wk flu hosp rate change,1,2026-11-07,17,pmf,stable,0.5281781049281019
-2026-10-31,wk flu hosp rate change,1,2026-11-07,17,pmf,increase,0.35863309654242215
-2026-10-31,wk flu hosp rate change,1,2026-11-07,17,pmf,large_increase,0.0661500728784824
+2026-10-31,wk flu hosp rate change,1,2026-11-07,17,pmf,decrease,0.047038540797654564
+2026-10-31,wk flu hosp rate change,1,2026-11-07,17,pmf,stable,0.5281776520949232
+2026-10-31,wk flu hosp rate change,1,2026-11-07,17,pmf,increase,0.35863369704219494
+2026-10-31,wk flu hosp rate change,1,2026-11-07,17,pmf,large_increase,0.06615011006522731
 2026-10-31,wk flu hosp rate change,2,2026-11-14,17,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,2,2026-11-14,17,pmf,decrease,0.02937401228746708
-2026-10-31,wk flu hosp rate change,2,2026-11-14,17,pmf,stable,0.48193233462505547
-2026-10-31,wk flu hosp rate change,2,2026-11-14,17,pmf,increase,0.4026759613451132
-2026-10-31,wk flu hosp rate change,2,2026-11-14,17,pmf,large_increase,0.08601769174236429
+2026-10-31,wk flu hosp rate change,2,2026-11-14,17,pmf,decrease,0.029373914481892128
+2026-10-31,wk flu hosp rate change,2,2026-11-14,17,pmf,stable,0.4819324030971684
+2026-10-31,wk flu hosp rate change,2,2026-11-14,17,pmf,increase,0.4026760940460973
+2026-10-31,wk flu hosp rate change,2,2026-11-14,17,pmf,large_increase,0.08601758837484219
 2026-10-31,wk flu hosp rate change,3,2026-11-21,17,pmf,large_decrease,0.0
 2026-10-31,wk flu hosp rate change,3,2026-11-21,17,pmf,decrease,0.0
-2026-10-31,wk flu hosp rate change,3,2026-11-21,17,pmf,stable,0.47647329002033295
-2026-10-31,wk flu hosp rate change,3,2026-11-21,17,pmf,increase,0.4163075525138204
-2026-10-31,wk flu hosp rate change,3,2026-11-21,17,pmf,large_increase,0.10721915746584665
+2026-10-31,wk flu hosp rate change,3,2026-11-21,17,pmf,stable,0.47647364452014335
+2026-10-31,wk flu hosp rate change,3,2026-11-21,17,pmf,increase,0.4163072925250882
+2026-10-31,wk flu hosp rate change,3,2026-11-21,17,pmf,large_increase,0.10721906295476846
 2026-10-31,wk flu hosp rate change,0,2026-10-31,18,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,0,2026-10-31,18,pmf,decrease,0.08129969875558934
-2026-10-31,wk flu hosp rate change,0,2026-10-31,18,pmf,stable,0.5000398753476278
-2026-10-31,wk flu hosp rate change,0,2026-10-31,18,pmf,increase,0.3699253379221742
-2026-10-31,wk flu hosp rate change,0,2026-10-31,18,pmf,large_increase,0.04873508797460857
+2026-10-31,wk flu hosp rate change,0,2026-10-31,18,pmf,decrease,0.08129970011856438
+2026-10-31,wk flu hosp rate change,0,2026-10-31,18,pmf,stable,0.5000400169116694
+2026-10-31,wk flu hosp rate change,0,2026-10-31,18,pmf,increase,0.36992521895023467
+2026-10-31,wk flu hosp rate change,0,2026-10-31,18,pmf,large_increase,0.04873506401953154
 2026-10-31,wk flu hosp rate change,1,2026-11-07,18,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,1,2026-11-07,18,pmf,decrease,0.06437183298568348
-2026-10-31,wk flu hosp rate change,1,2026-11-07,18,pmf,stable,0.4889486706207805
-2026-10-31,wk flu hosp rate change,1,2026-11-07,18,pmf,increase,0.4014028181823529
-2026-10-31,wk flu hosp rate change,1,2026-11-07,18,pmf,large_increase,0.045276678211183086
+2026-10-31,wk flu hosp rate change,1,2026-11-07,18,pmf,decrease,0.06437118194619935
+2026-10-31,wk flu hosp rate change,1,2026-11-07,18,pmf,stable,0.4889496136533536
+2026-10-31,wk flu hosp rate change,1,2026-11-07,18,pmf,increase,0.4014024697586318
+2026-10-31,wk flu hosp rate change,1,2026-11-07,18,pmf,large_increase,0.04527673464181525
 2026-10-31,wk flu hosp rate change,2,2026-11-14,18,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,2,2026-11-14,18,pmf,decrease,0.049020715578364474
-2026-10-31,wk flu hosp rate change,2,2026-11-14,18,pmf,stable,0.44954712429555316
-2026-10-31,wk flu hosp rate change,2,2026-11-14,18,pmf,increase,0.447999372421394
-2026-10-31,wk flu hosp rate change,2,2026-11-14,18,pmf,large_increase,0.0534327877046884
+2026-10-31,wk flu hosp rate change,2,2026-11-14,18,pmf,decrease,0.049020714709039626
+2026-10-31,wk flu hosp rate change,2,2026-11-14,18,pmf,stable,0.4495470289381186
+2026-10-31,wk flu hosp rate change,2,2026-11-14,18,pmf,increase,0.44799935209092717
+2026-10-31,wk flu hosp rate change,2,2026-11-14,18,pmf,large_increase,0.053432904261914604
 2026-10-31,wk flu hosp rate change,3,2026-11-21,18,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,3,2026-11-21,18,pmf,decrease,0.030827142113406675
-2026-10-31,wk flu hosp rate change,3,2026-11-21,18,pmf,stable,0.4120790699037201
-2026-10-31,wk flu hosp rate change,3,2026-11-21,18,pmf,increase,0.46938595504601277
-2026-10-31,wk flu hosp rate change,3,2026-11-21,18,pmf,large_increase,0.08770783293686046
+2026-10-31,wk flu hosp rate change,3,2026-11-21,18,pmf,decrease,0.0308271026355456
+2026-10-31,wk flu hosp rate change,3,2026-11-21,18,pmf,stable,0.4120791833731993
+2026-10-31,wk flu hosp rate change,3,2026-11-21,18,pmf,increase,0.4693858526346213
+2026-10-31,wk flu hosp rate change,3,2026-11-21,18,pmf,large_increase,0.08770786135663378
 2026-10-31,wk flu hosp rate change,0,2026-10-31,19,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,0,2026-10-31,19,pmf,decrease,0.13650228660883107
-2026-10-31,wk flu hosp rate change,0,2026-10-31,19,pmf,stable,0.5464939312699866
-2026-10-31,wk flu hosp rate change,0,2026-10-31,19,pmf,increase,0.2791764376608481
-2026-10-31,wk flu hosp rate change,0,2026-10-31,19,pmf,large_increase,0.03782734446033431
+2026-10-31,wk flu hosp rate change,0,2026-10-31,19,pmf,decrease,0.13650232401013931
+2026-10-31,wk flu hosp rate change,0,2026-10-31,19,pmf,stable,0.5464939021536558
+2026-10-31,wk flu hosp rate change,0,2026-10-31,19,pmf,increase,0.2791763432449994
+2026-10-31,wk flu hosp rate change,0,2026-10-31,19,pmf,large_increase,0.037827430591205524
 2026-10-31,wk flu hosp rate change,1,2026-11-07,19,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,1,2026-11-07,19,pmf,decrease,0.09047430291660101
-2026-10-31,wk flu hosp rate change,1,2026-11-07,19,pmf,stable,0.5477637594614929
-2026-10-31,wk flu hosp rate change,1,2026-11-07,19,pmf,increase,0.32790716724210145
-2026-10-31,wk flu hosp rate change,1,2026-11-07,19,pmf,large_increase,0.033854770379804666
+2026-10-31,wk flu hosp rate change,1,2026-11-07,19,pmf,decrease,0.09047413062434713
+2026-10-31,wk flu hosp rate change,1,2026-11-07,19,pmf,stable,0.5477629522678537
+2026-10-31,wk flu hosp rate change,1,2026-11-07,19,pmf,increase,0.3279079143690021
+2026-10-31,wk flu hosp rate change,1,2026-11-07,19,pmf,large_increase,0.033855002738797275
 2026-10-31,wk flu hosp rate change,2,2026-11-14,19,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,2,2026-11-14,19,pmf,decrease,0.04595062524018846
-2026-10-31,wk flu hosp rate change,2,2026-11-14,19,pmf,stable,0.5197645096847427
-2026-10-31,wk flu hosp rate change,2,2026-11-14,19,pmf,increase,0.3901712974602921
-2026-10-31,wk flu hosp rate change,2,2026-11-14,19,pmf,large_increase,0.044113567614776694
+2026-10-31,wk flu hosp rate change,2,2026-11-14,19,pmf,decrease,0.04595053334714601
+2026-10-31,wk flu hosp rate change,2,2026-11-14,19,pmf,stable,0.5197637320990637
+2026-10-31,wk flu hosp rate change,2,2026-11-14,19,pmf,increase,0.3901719505530782
+2026-10-31,wk flu hosp rate change,2,2026-11-14,19,pmf,large_increase,0.044113784000712086
 2026-10-31,wk flu hosp rate change,3,2026-11-21,19,pmf,large_decrease,0.0
 2026-10-31,wk flu hosp rate change,3,2026-11-21,19,pmf,decrease,0.0
-2026-10-31,wk flu hosp rate change,3,2026-11-21,19,pmf,stable,0.5073453973414759
-2026-10-31,wk flu hosp rate change,3,2026-11-21,19,pmf,increase,0.42410119057161255
-2026-10-31,wk flu hosp rate change,3,2026-11-21,19,pmf,large_increase,0.06855341208691157
+2026-10-31,wk flu hosp rate change,3,2026-11-21,19,pmf,stable,0.5073448399071394
+2026-10-31,wk flu hosp rate change,3,2026-11-21,19,pmf,increase,0.42410169049526525
+2026-10-31,wk flu hosp rate change,3,2026-11-21,19,pmf,large_increase,0.06855346959759534
 2026-10-31,wk flu hosp rate change,0,2026-10-31,20,pmf,large_decrease,0.0
 2026-10-31,wk flu hosp rate change,0,2026-10-31,20,pmf,decrease,0.0
-2026-10-31,wk flu hosp rate change,0,2026-10-31,20,pmf,stable,0.8759578651099631
-2026-10-31,wk flu hosp rate change,0,2026-10-31,20,pmf,increase,0.1240421348900369
+2026-10-31,wk flu hosp rate change,0,2026-10-31,20,pmf,stable,0.8759579227831389
+2026-10-31,wk flu hosp rate change,0,2026-10-31,20,pmf,increase,0.12404207721686111
 2026-10-31,wk flu hosp rate change,0,2026-10-31,20,pmf,large_increase,0.0
 2026-10-31,wk flu hosp rate change,1,2026-11-07,20,pmf,large_decrease,0.0
 2026-10-31,wk flu hosp rate change,1,2026-11-07,20,pmf,decrease,0.0
-2026-10-31,wk flu hosp rate change,1,2026-11-07,20,pmf,stable,0.8595382345444506
-2026-10-31,wk flu hosp rate change,1,2026-11-07,20,pmf,increase,0.14046176545554945
+2026-10-31,wk flu hosp rate change,1,2026-11-07,20,pmf,stable,0.8595381385106258
+2026-10-31,wk flu hosp rate change,1,2026-11-07,20,pmf,increase,0.14046186148937423
 2026-10-31,wk flu hosp rate change,1,2026-11-07,20,pmf,large_increase,0.0
 2026-10-31,wk flu hosp rate change,2,2026-11-14,20,pmf,large_decrease,0.0
 2026-10-31,wk flu hosp rate change,2,2026-11-14,20,pmf,decrease,0.0
-2026-10-31,wk flu hosp rate change,2,2026-11-14,20,pmf,stable,0.8137182378263944
-2026-10-31,wk flu hosp rate change,2,2026-11-14,20,pmf,increase,0.1862817621736056
+2026-10-31,wk flu hosp rate change,2,2026-11-14,20,pmf,stable,0.8137181743756216
+2026-10-31,wk flu hosp rate change,2,2026-11-14,20,pmf,increase,0.18628182562437845
 2026-10-31,wk flu hosp rate change,2,2026-11-14,20,pmf,large_increase,0.0
 2026-10-31,wk flu hosp rate change,3,2026-11-21,20,pmf,large_decrease,0.0
 2026-10-31,wk flu hosp rate change,3,2026-11-21,20,pmf,decrease,0.0
-2026-10-31,wk flu hosp rate change,3,2026-11-21,20,pmf,stable,0.7549686527626069
-2026-10-31,wk flu hosp rate change,3,2026-11-21,20,pmf,increase,0.2288139647174935
-2026-10-31,wk flu hosp rate change,3,2026-11-21,20,pmf,large_increase,0.01621738251989957
+2026-10-31,wk flu hosp rate change,3,2026-11-21,20,pmf,stable,0.7549686259794288
+2026-10-31,wk flu hosp rate change,3,2026-11-21,20,pmf,increase,0.2288141628855822
+2026-10-31,wk flu hosp rate change,3,2026-11-21,20,pmf,large_increase,0.016217211134988974
 2026-10-31,wk flu hosp rate change,0,2026-10-31,21,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,0,2026-10-31,21,pmf,decrease,0.14413212801392009
-2026-10-31,wk flu hosp rate change,0,2026-10-31,21,pmf,stable,0.3327437888739061
-2026-10-31,wk flu hosp rate change,0,2026-10-31,21,pmf,increase,0.4044979413280273
-2026-10-31,wk flu hosp rate change,0,2026-10-31,21,pmf,large_increase,0.11862614178414654
+2026-10-31,wk flu hosp rate change,0,2026-10-31,21,pmf,decrease,0.14413183346824054
+2026-10-31,wk flu hosp rate change,0,2026-10-31,21,pmf,stable,0.3327441345907026
+2026-10-31,wk flu hosp rate change,0,2026-10-31,21,pmf,increase,0.40449782057486094
+2026-10-31,wk flu hosp rate change,0,2026-10-31,21,pmf,large_increase,0.11862621136619589
 2026-10-31,wk flu hosp rate change,1,2026-11-07,21,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,1,2026-11-07,21,pmf,decrease,0.12645579199607396
-2026-10-31,wk flu hosp rate change,1,2026-11-07,21,pmf,stable,0.3058699143906112
-2026-10-31,wk flu hosp rate change,1,2026-11-07,21,pmf,increase,0.42447808320505287
-2026-10-31,wk flu hosp rate change,1,2026-11-07,21,pmf,large_increase,0.14319621040826203
+2026-10-31,wk flu hosp rate change,1,2026-11-07,21,pmf,decrease,0.12645574670663817
+2026-10-31,wk flu hosp rate change,1,2026-11-07,21,pmf,stable,0.3058699348503647
+2026-10-31,wk flu hosp rate change,1,2026-11-07,21,pmf,increase,0.4244781027195261
+2026-10-31,wk flu hosp rate change,1,2026-11-07,21,pmf,large_increase,0.14319621572347108
 2026-10-31,wk flu hosp rate change,2,2026-11-14,21,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,2,2026-11-14,21,pmf,decrease,0.10652667773535833
-2026-10-31,wk flu hosp rate change,2,2026-11-14,21,pmf,stable,0.30392878988093897
-2026-10-31,wk flu hosp rate change,2,2026-11-14,21,pmf,increase,0.4309622380843006
-2026-10-31,wk flu hosp rate change,2,2026-11-14,21,pmf,large_increase,0.15858229429940207
+2026-10-31,wk flu hosp rate change,2,2026-11-14,21,pmf,decrease,0.10652668743427599
+2026-10-31,wk flu hosp rate change,2,2026-11-14,21,pmf,stable,0.303928707974361
+2026-10-31,wk flu hosp rate change,2,2026-11-14,21,pmf,increase,0.4309622281234015
+2026-10-31,wk flu hosp rate change,2,2026-11-14,21,pmf,large_increase,0.15858237646796147
 2026-10-31,wk flu hosp rate change,3,2026-11-21,21,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,3,2026-11-21,21,pmf,decrease,0.06379596741305993
-2026-10-31,wk flu hosp rate change,3,2026-11-21,21,pmf,stable,0.32812964758285124
-2026-10-31,wk flu hosp rate change,3,2026-11-21,21,pmf,increase,0.416978634822769
-2026-10-31,wk flu hosp rate change,3,2026-11-21,21,pmf,large_increase,0.19109575018131986
-2026-10-31,wk flu hosp rate change,0,2026-10-31,22,pmf,large_decrease,0.012428627545889021
-2026-10-31,wk flu hosp rate change,0,2026-10-31,22,pmf,decrease,0.22214994897921486
-2026-10-31,wk flu hosp rate change,0,2026-10-31,22,pmf,stable,0.2349275762504064
-2026-10-31,wk flu hosp rate change,0,2026-10-31,22,pmf,increase,0.3475332016530463
-2026-10-31,wk flu hosp rate change,0,2026-10-31,22,pmf,large_increase,0.18296064557144343
+2026-10-31,wk flu hosp rate change,3,2026-11-21,21,pmf,decrease,0.06379597283133372
+2026-10-31,wk flu hosp rate change,3,2026-11-21,21,pmf,stable,0.328129644203307
+2026-10-31,wk flu hosp rate change,3,2026-11-21,21,pmf,increase,0.4169787065670695
+2026-10-31,wk flu hosp rate change,3,2026-11-21,21,pmf,large_increase,0.19109567639828984
+2026-10-31,wk flu hosp rate change,0,2026-10-31,22,pmf,large_decrease,0.012428632742115517
+2026-10-31,wk flu hosp rate change,0,2026-10-31,22,pmf,decrease,0.22214982390040067
+2026-10-31,wk flu hosp rate change,0,2026-10-31,22,pmf,stable,0.23492716269401162
+2026-10-31,wk flu hosp rate change,0,2026-10-31,22,pmf,increase,0.34753346263523033
+2026-10-31,wk flu hosp rate change,0,2026-10-31,22,pmf,large_increase,0.18296091802824188
 2026-10-31,wk flu hosp rate change,1,2026-11-07,22,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,1,2026-11-07,22,pmf,decrease,0.12642228548229117
-2026-10-31,wk flu hosp rate change,1,2026-11-07,22,pmf,stable,0.20622379606924213
-2026-10-31,wk flu hosp rate change,1,2026-11-07,22,pmf,increase,0.47106721611386326
-2026-10-31,wk flu hosp rate change,1,2026-11-07,22,pmf,large_increase,0.19628670233460344
+2026-10-31,wk flu hosp rate change,1,2026-11-07,22,pmf,decrease,0.12642227353009197
+2026-10-31,wk flu hosp rate change,1,2026-11-07,22,pmf,stable,0.20622416703134558
+2026-10-31,wk flu hosp rate change,1,2026-11-07,22,pmf,increase,0.47106674083056177
+2026-10-31,wk flu hosp rate change,1,2026-11-07,22,pmf,large_increase,0.19628681860800068
 2026-10-31,wk flu hosp rate change,2,2026-11-14,22,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,2,2026-11-14,22,pmf,decrease,0.09494643067457327
-2026-10-31,wk flu hosp rate change,2,2026-11-14,22,pmf,stable,0.19278666241515063
-2026-10-31,wk flu hosp rate change,2,2026-11-14,22,pmf,increase,0.4665773043988383
-2026-10-31,wk flu hosp rate change,2,2026-11-14,22,pmf,large_increase,0.2456896025114378
+2026-10-31,wk flu hosp rate change,2,2026-11-14,22,pmf,decrease,0.09494645188433048
+2026-10-31,wk flu hosp rate change,2,2026-11-14,22,pmf,stable,0.1927866885978211
+2026-10-31,wk flu hosp rate change,2,2026-11-14,22,pmf,increase,0.46657706775865493
+2026-10-31,wk flu hosp rate change,2,2026-11-14,22,pmf,large_increase,0.24568979175919348
 2026-10-31,wk flu hosp rate change,3,2026-11-21,22,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,3,2026-11-21,22,pmf,decrease,0.0646923075968087
-2026-10-31,wk flu hosp rate change,3,2026-11-21,22,pmf,stable,0.20311319378312814
-2026-10-31,wk flu hosp rate change,3,2026-11-21,22,pmf,increase,0.45121764889738025
-2026-10-31,wk flu hosp rate change,3,2026-11-21,22,pmf,large_increase,0.2809768497226829
+2026-10-31,wk flu hosp rate change,3,2026-11-21,22,pmf,decrease,0.06469230967806988
+2026-10-31,wk flu hosp rate change,3,2026-11-21,22,pmf,stable,0.20311307714748872
+2026-10-31,wk flu hosp rate change,3,2026-11-21,22,pmf,increase,0.45121727332767175
+2026-10-31,wk flu hosp rate change,3,2026-11-21,22,pmf,large_increase,0.28097733984676965
 2026-10-31,wk flu hosp rate change,0,2026-10-31,23,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,0,2026-10-31,23,pmf,decrease,0.011657791136203272
-2026-10-31,wk flu hosp rate change,0,2026-10-31,23,pmf,stable,0.7623958778866052
-2026-10-31,wk flu hosp rate change,0,2026-10-31,23,pmf,increase,0.1581424211689033
-2026-10-31,wk flu hosp rate change,0,2026-10-31,23,pmf,large_increase,0.06780390980828821
+2026-10-31,wk flu hosp rate change,0,2026-10-31,23,pmf,decrease,0.011658196023192234
+2026-10-31,wk flu hosp rate change,0,2026-10-31,23,pmf,stable,0.7623957722751366
+2026-10-31,wk flu hosp rate change,0,2026-10-31,23,pmf,increase,0.15814216027919903
+2026-10-31,wk flu hosp rate change,0,2026-10-31,23,pmf,large_increase,0.06780387142247224
 2026-10-31,wk flu hosp rate change,1,2026-11-07,23,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,1,2026-11-07,23,pmf,decrease,0.027356515299692862
-2026-10-31,wk flu hosp rate change,1,2026-11-07,23,pmf,stable,0.5363734654268356
-2026-10-31,wk flu hosp rate change,1,2026-11-07,23,pmf,increase,0.3433031340975614
-2026-10-31,wk flu hosp rate change,1,2026-11-07,23,pmf,large_increase,0.09296688517591012
+2026-10-31,wk flu hosp rate change,1,2026-11-07,23,pmf,decrease,0.027356552391521544
+2026-10-31,wk flu hosp rate change,1,2026-11-07,23,pmf,stable,0.5363738662166648
+2026-10-31,wk flu hosp rate change,1,2026-11-07,23,pmf,increase,0.34330280242916955
+2026-10-31,wk flu hosp rate change,1,2026-11-07,23,pmf,large_increase,0.09296677896264405
 2026-10-31,wk flu hosp rate change,2,2026-11-14,23,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,2,2026-11-14,23,pmf,decrease,0.040026775164438325
-2026-10-31,wk flu hosp rate change,2,2026-11-14,23,pmf,stable,0.42291726860253126
-2026-10-31,wk flu hosp rate change,2,2026-11-14,23,pmf,increase,0.42068219809759405
-2026-10-31,wk flu hosp rate change,2,2026-11-14,23,pmf,large_increase,0.11637375813543638
+2026-10-31,wk flu hosp rate change,2,2026-11-14,23,pmf,decrease,0.040026816624383676
+2026-10-31,wk flu hosp rate change,2,2026-11-14,23,pmf,stable,0.422917569560304
+2026-10-31,wk flu hosp rate change,2,2026-11-14,23,pmf,increase,0.4206821557895972
+2026-10-31,wk flu hosp rate change,2,2026-11-14,23,pmf,large_increase,0.11637345802571508
 2026-10-31,wk flu hosp rate change,3,2026-11-21,23,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,3,2026-11-21,23,pmf,decrease,0.03081058903400459
-2026-10-31,wk flu hosp rate change,3,2026-11-21,23,pmf,stable,0.4303412953837667
-2026-10-31,wk flu hosp rate change,3,2026-11-21,23,pmf,increase,0.39620606374958495
-2026-10-31,wk flu hosp rate change,3,2026-11-21,23,pmf,large_increase,0.14264205183264378
+2026-10-31,wk flu hosp rate change,3,2026-11-21,23,pmf,decrease,0.03081071264292099
+2026-10-31,wk flu hosp rate change,3,2026-11-21,23,pmf,stable,0.4303414705530443
+2026-10-31,wk flu hosp rate change,3,2026-11-21,23,pmf,increase,0.3962060266854418
+2026-10-31,wk flu hosp rate change,3,2026-11-21,23,pmf,large_increase,0.1426417901185929
 2026-10-31,wk flu hosp rate change,0,2026-10-31,24,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,0,2026-10-31,24,pmf,decrease,0.043696316861669526
-2026-10-31,wk flu hosp rate change,0,2026-10-31,24,pmf,stable,0.7420579799227008
-2026-10-31,wk flu hosp rate change,0,2026-10-31,24,pmf,increase,0.1915779593319159
-2026-10-31,wk flu hosp rate change,0,2026-10-31,24,pmf,large_increase,0.02266774388371373
+2026-10-31,wk flu hosp rate change,0,2026-10-31,24,pmf,decrease,0.04369643452744312
+2026-10-31,wk flu hosp rate change,0,2026-10-31,24,pmf,stable,0.7420573917636661
+2026-10-31,wk flu hosp rate change,0,2026-10-31,24,pmf,increase,0.19157840189374897
+2026-10-31,wk flu hosp rate change,0,2026-10-31,24,pmf,large_increase,0.02266777181514179
 2026-10-31,wk flu hosp rate change,1,2026-11-07,24,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,1,2026-11-07,24,pmf,decrease,0.020872704262766936
-2026-10-31,wk flu hosp rate change,1,2026-11-07,24,pmf,stable,0.7080967386542966
-2026-10-31,wk flu hosp rate change,1,2026-11-07,24,pmf,increase,0.24120573019280322
-2026-10-31,wk flu hosp rate change,1,2026-11-07,24,pmf,large_increase,0.029824826890133327
+2026-10-31,wk flu hosp rate change,1,2026-11-07,24,pmf,decrease,0.020872532915181867
+2026-10-31,wk flu hosp rate change,1,2026-11-07,24,pmf,stable,0.708096654995802
+2026-10-31,wk flu hosp rate change,1,2026-11-07,24,pmf,increase,0.24120588295291934
+2026-10-31,wk flu hosp rate change,1,2026-11-07,24,pmf,large_increase,0.0298249291360968
 2026-10-31,wk flu hosp rate change,2,2026-11-14,24,pmf,large_decrease,0.0
 2026-10-31,wk flu hosp rate change,2,2026-11-14,24,pmf,decrease,0.0
-2026-10-31,wk flu hosp rate change,2,2026-11-14,24,pmf,stable,0.666213222562507
-2026-10-31,wk flu hosp rate change,2,2026-11-14,24,pmf,increase,0.29212857399997105
-2026-10-31,wk flu hosp rate change,2,2026-11-14,24,pmf,large_increase,0.04165820343752191
+2026-10-31,wk flu hosp rate change,2,2026-11-14,24,pmf,stable,0.666213296404578
+2026-10-31,wk flu hosp rate change,2,2026-11-14,24,pmf,increase,0.2921285209912565
+2026-10-31,wk flu hosp rate change,2,2026-11-14,24,pmf,large_increase,0.04165818260416543
 2026-10-31,wk flu hosp rate change,3,2026-11-21,24,pmf,large_decrease,0.0
 2026-10-31,wk flu hosp rate change,3,2026-11-21,24,pmf,decrease,0.0
-2026-10-31,wk flu hosp rate change,3,2026-11-21,24,pmf,stable,0.5786342394794455
-2026-10-31,wk flu hosp rate change,3,2026-11-21,24,pmf,increase,0.35272864360838385
-2026-10-31,wk flu hosp rate change,3,2026-11-21,24,pmf,large_increase,0.06863711691217067
+2026-10-31,wk flu hosp rate change,3,2026-11-21,24,pmf,stable,0.5786343495993298
+2026-10-31,wk flu hosp rate change,3,2026-11-21,24,pmf,increase,0.3527285447756183
+2026-10-31,wk flu hosp rate change,3,2026-11-21,24,pmf,large_increase,0.06863710562505188
 2026-10-31,wk flu hosp rate change,0,2026-10-31,25,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,0,2026-10-31,25,pmf,decrease,0.02950039698685634
-2026-10-31,wk flu hosp rate change,0,2026-10-31,25,pmf,stable,0.3338427698977081
-2026-10-31,wk flu hosp rate change,0,2026-10-31,25,pmf,increase,0.5151117852315655
-2026-10-31,wk flu hosp rate change,0,2026-10-31,25,pmf,large_increase,0.12154504788387012
+2026-10-31,wk flu hosp rate change,0,2026-10-31,25,pmf,decrease,0.02950034195507789
+2026-10-31,wk flu hosp rate change,0,2026-10-31,25,pmf,stable,0.333841768355461
+2026-10-31,wk flu hosp rate change,0,2026-10-31,25,pmf,increase,0.5151126042409876
+2026-10-31,wk flu hosp rate change,0,2026-10-31,25,pmf,large_increase,0.12154528544847354
 2026-10-31,wk flu hosp rate change,1,2026-11-07,25,pmf,large_decrease,0.0
 2026-10-31,wk flu hosp rate change,1,2026-11-07,25,pmf,decrease,0.0
-2026-10-31,wk flu hosp rate change,1,2026-11-07,25,pmf,stable,0.19664023268513078
-2026-10-31,wk flu hosp rate change,1,2026-11-07,25,pmf,increase,0.6209024603609917
-2026-10-31,wk flu hosp rate change,1,2026-11-07,25,pmf,large_increase,0.18245730695387752
+2026-10-31,wk flu hosp rate change,1,2026-11-07,25,pmf,stable,0.19663952637175297
+2026-10-31,wk flu hosp rate change,1,2026-11-07,25,pmf,increase,0.6209031049911703
+2026-10-31,wk flu hosp rate change,1,2026-11-07,25,pmf,large_increase,0.18245736863707673
 2026-10-31,wk flu hosp rate change,2,2026-11-14,25,pmf,large_decrease,0.0
 2026-10-31,wk flu hosp rate change,2,2026-11-14,25,pmf,decrease,0.0
-2026-10-31,wk flu hosp rate change,2,2026-11-14,25,pmf,stable,0.15443822646095623
-2026-10-31,wk flu hosp rate change,2,2026-11-14,25,pmf,increase,0.5423895946853767
-2026-10-31,wk flu hosp rate change,2,2026-11-14,25,pmf,large_increase,0.3031721788536671
+2026-10-31,wk flu hosp rate change,2,2026-11-14,25,pmf,stable,0.15443688541794565
+2026-10-31,wk flu hosp rate change,2,2026-11-14,25,pmf,increase,0.5423906218857972
+2026-10-31,wk flu hosp rate change,2,2026-11-14,25,pmf,large_increase,0.3031724926962571
 2026-10-31,wk flu hosp rate change,3,2026-11-21,25,pmf,large_decrease,0.0
 2026-10-31,wk flu hosp rate change,3,2026-11-21,25,pmf,decrease,0.0
-2026-10-31,wk flu hosp rate change,3,2026-11-21,25,pmf,stable,0.15704709487836052
-2026-10-31,wk flu hosp rate change,3,2026-11-21,25,pmf,increase,0.4617168130853998
-2026-10-31,wk flu hosp rate change,3,2026-11-21,25,pmf,large_increase,0.38123609203623965
+2026-10-31,wk flu hosp rate change,3,2026-11-21,25,pmf,stable,0.15704583579284576
+2026-10-31,wk flu hosp rate change,3,2026-11-21,25,pmf,increase,0.4617168211091816
+2026-10-31,wk flu hosp rate change,3,2026-11-21,25,pmf,large_increase,0.38123734309797264
 2026-10-31,wk flu hosp rate change,0,2026-10-31,26,pmf,large_decrease,0.0
 2026-10-31,wk flu hosp rate change,0,2026-10-31,26,pmf,decrease,0.0
-2026-10-31,wk flu hosp rate change,0,2026-10-31,26,pmf,stable,0.8225784127989347
-2026-10-31,wk flu hosp rate change,0,2026-10-31,26,pmf,increase,0.1664270879325297
-2026-10-31,wk flu hosp rate change,0,2026-10-31,26,pmf,large_increase,0.010994499268535574
+2026-10-31,wk flu hosp rate change,0,2026-10-31,26,pmf,stable,0.8225787104534767
+2026-10-31,wk flu hosp rate change,0,2026-10-31,26,pmf,increase,0.16642675819531316
+2026-10-31,wk flu hosp rate change,0,2026-10-31,26,pmf,large_increase,0.01099453135121009
 2026-10-31,wk flu hosp rate change,1,2026-11-07,26,pmf,large_decrease,0.0
 2026-10-31,wk flu hosp rate change,1,2026-11-07,26,pmf,decrease,0.0
-2026-10-31,wk flu hosp rate change,1,2026-11-07,26,pmf,stable,0.7698383451464191
-2026-10-31,wk flu hosp rate change,1,2026-11-07,26,pmf,increase,0.2126366861966461
-2026-10-31,wk flu hosp rate change,1,2026-11-07,26,pmf,large_increase,0.01752496865693476
+2026-10-31,wk flu hosp rate change,1,2026-11-07,26,pmf,stable,0.7698382131065021
+2026-10-31,wk flu hosp rate change,1,2026-11-07,26,pmf,increase,0.21263680155753406
+2026-10-31,wk flu hosp rate change,1,2026-11-07,26,pmf,large_increase,0.017524985335963805
 2026-10-31,wk flu hosp rate change,2,2026-11-14,26,pmf,large_decrease,0.0
 2026-10-31,wk flu hosp rate change,2,2026-11-14,26,pmf,decrease,0.0
-2026-10-31,wk flu hosp rate change,2,2026-11-14,26,pmf,stable,0.6798613576742517
-2026-10-31,wk flu hosp rate change,2,2026-11-14,26,pmf,increase,0.2948025395159882
-2026-10-31,wk flu hosp rate change,2,2026-11-14,26,pmf,large_increase,0.025336102809760064
+2026-10-31,wk flu hosp rate change,2,2026-11-14,26,pmf,stable,0.679861591559916
+2026-10-31,wk flu hosp rate change,2,2026-11-14,26,pmf,increase,0.2948023305890013
+2026-10-31,wk flu hosp rate change,2,2026-11-14,26,pmf,large_increase,0.025336077851082717
 2026-10-31,wk flu hosp rate change,3,2026-11-21,26,pmf,large_decrease,0.0
 2026-10-31,wk flu hosp rate change,3,2026-11-21,26,pmf,decrease,0.0
-2026-10-31,wk flu hosp rate change,3,2026-11-21,26,pmf,stable,0.6210657476481005
-2026-10-31,wk flu hosp rate change,3,2026-11-21,26,pmf,increase,0.3359556777550836
-2026-10-31,wk flu hosp rate change,3,2026-11-21,26,pmf,large_increase,0.042978574596815866
+2026-10-31,wk flu hosp rate change,3,2026-11-21,26,pmf,stable,0.6210659548888202
+2026-10-31,wk flu hosp rate change,3,2026-11-21,26,pmf,increase,0.3359554932305969
+2026-10-31,wk flu hosp rate change,3,2026-11-21,26,pmf,large_increase,0.04297855188058286
 2026-10-31,wk flu hosp rate change,0,2026-10-31,27,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,0,2026-10-31,27,pmf,decrease,0.07055567786423371
-2026-10-31,wk flu hosp rate change,0,2026-10-31,27,pmf,stable,0.5378451533503615
-2026-10-31,wk flu hosp rate change,0,2026-10-31,27,pmf,increase,0.3191492968633821
-2026-10-31,wk flu hosp rate change,0,2026-10-31,27,pmf,large_increase,0.07244987192202268
+2026-10-31,wk flu hosp rate change,0,2026-10-31,27,pmf,decrease,0.0705556913446327
+2026-10-31,wk flu hosp rate change,0,2026-10-31,27,pmf,stable,0.5378455223346674
+2026-10-31,wk flu hosp rate change,0,2026-10-31,27,pmf,increase,0.31914897966052813
+2026-10-31,wk flu hosp rate change,0,2026-10-31,27,pmf,large_increase,0.07244980666017176
 2026-10-31,wk flu hosp rate change,1,2026-11-07,27,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,1,2026-11-07,27,pmf,decrease,0.031077838897513987
-2026-10-31,wk flu hosp rate change,1,2026-11-07,27,pmf,stable,0.4142110978287849
-2026-10-31,wk flu hosp rate change,1,2026-11-07,27,pmf,increase,0.43846363699641977
-2026-10-31,wk flu hosp rate change,1,2026-11-07,27,pmf,large_increase,0.11624742627728135
+2026-10-31,wk flu hosp rate change,1,2026-11-07,27,pmf,decrease,0.03107797912755396
+2026-10-31,wk flu hosp rate change,1,2026-11-07,27,pmf,stable,0.41421065154664105
+2026-10-31,wk flu hosp rate change,1,2026-11-07,27,pmf,increase,0.4384638511119501
+2026-10-31,wk flu hosp rate change,1,2026-11-07,27,pmf,large_increase,0.11624751821385493
 2026-10-31,wk flu hosp rate change,2,2026-11-14,27,pmf,large_decrease,0.0
 2026-10-31,wk flu hosp rate change,2,2026-11-14,27,pmf,decrease,0.0
-2026-10-31,wk flu hosp rate change,2,2026-11-14,27,pmf,stable,0.3558808697035644
-2026-10-31,wk flu hosp rate change,2,2026-11-14,27,pmf,increase,0.4640889773520858
-2026-10-31,wk flu hosp rate change,2,2026-11-14,27,pmf,large_increase,0.18003015294434976
+2026-10-31,wk flu hosp rate change,2,2026-11-14,27,pmf,stable,0.3558805784914783
+2026-10-31,wk flu hosp rate change,2,2026-11-14,27,pmf,increase,0.4640892085152099
+2026-10-31,wk flu hosp rate change,2,2026-11-14,27,pmf,large_increase,0.1800302129933118
 2026-10-31,wk flu hosp rate change,3,2026-11-21,27,pmf,large_decrease,0.0
 2026-10-31,wk flu hosp rate change,3,2026-11-21,27,pmf,decrease,0.0
-2026-10-31,wk flu hosp rate change,3,2026-11-21,27,pmf,stable,0.29163774611657806
-2026-10-31,wk flu hosp rate change,3,2026-11-21,27,pmf,increase,0.44415722500382554
-2026-10-31,wk flu hosp rate change,3,2026-11-21,27,pmf,large_increase,0.2642050288795964
+2026-10-31,wk flu hosp rate change,3,2026-11-21,27,pmf,stable,0.29163777780822014
+2026-10-31,wk flu hosp rate change,3,2026-11-21,27,pmf,increase,0.44415703689096003
+2026-10-31,wk flu hosp rate change,3,2026-11-21,27,pmf,large_increase,0.2642051853008198
 2026-10-31,wk flu hosp rate change,0,2026-10-31,28,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,0,2026-10-31,28,pmf,decrease,0.23027825921143624
-2026-10-31,wk flu hosp rate change,0,2026-10-31,28,pmf,stable,0.3073391856483844
-2026-10-31,wk flu hosp rate change,0,2026-10-31,28,pmf,increase,0.3464845602901231
-2026-10-31,wk flu hosp rate change,0,2026-10-31,28,pmf,large_increase,0.11589799485005625
+2026-10-31,wk flu hosp rate change,0,2026-10-31,28,pmf,decrease,0.23027794870790577
+2026-10-31,wk flu hosp rate change,0,2026-10-31,28,pmf,stable,0.307339370826466
+2026-10-31,wk flu hosp rate change,0,2026-10-31,28,pmf,increase,0.3464846531655431
+2026-10-31,wk flu hosp rate change,0,2026-10-31,28,pmf,large_increase,0.11589802730008514
 2026-10-31,wk flu hosp rate change,1,2026-11-07,28,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,1,2026-11-07,28,pmf,decrease,0.2280637067657371
-2026-10-31,wk flu hosp rate change,1,2026-11-07,28,pmf,stable,0.2988431023014423
-2026-10-31,wk flu hosp rate change,1,2026-11-07,28,pmf,increase,0.3604515397077379
-2026-10-31,wk flu hosp rate change,1,2026-11-07,28,pmf,large_increase,0.11264165122508274
+2026-10-31,wk flu hosp rate change,1,2026-11-07,28,pmf,decrease,0.22806356656089705
+2026-10-31,wk flu hosp rate change,1,2026-11-07,28,pmf,stable,0.2988432930739238
+2026-10-31,wk flu hosp rate change,1,2026-11-07,28,pmf,increase,0.3604515969052666
+2026-10-31,wk flu hosp rate change,1,2026-11-07,28,pmf,large_increase,0.11264154345991251
 2026-10-31,wk flu hosp rate change,2,2026-11-14,28,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,2,2026-11-14,28,pmf,decrease,0.1731572281667722
-2026-10-31,wk flu hosp rate change,2,2026-11-14,28,pmf,stable,0.35400437099819654
-2026-10-31,wk flu hosp rate change,2,2026-11-14,28,pmf,increase,0.36016922455454636
-2026-10-31,wk flu hosp rate change,2,2026-11-14,28,pmf,large_increase,0.1126691762804849
+2026-10-31,wk flu hosp rate change,2,2026-11-14,28,pmf,decrease,0.17315710232306183
+2026-10-31,wk flu hosp rate change,2,2026-11-14,28,pmf,stable,0.3540046052062632
+2026-10-31,wk flu hosp rate change,2,2026-11-14,28,pmf,increase,0.36016901779716104
+2026-10-31,wk flu hosp rate change,2,2026-11-14,28,pmf,large_increase,0.11266927467351395
 2026-10-31,wk flu hosp rate change,3,2026-11-21,28,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,3,2026-11-21,28,pmf,decrease,0.11495418197721255
-2026-10-31,wk flu hosp rate change,3,2026-11-21,28,pmf,stable,0.4100638586929791
-2026-10-31,wk flu hosp rate change,3,2026-11-21,28,pmf,increase,0.35804140457150524
-2026-10-31,wk flu hosp rate change,3,2026-11-21,28,pmf,large_increase,0.11694055475830312
+2026-10-31,wk flu hosp rate change,3,2026-11-21,28,pmf,decrease,0.11495425150739692
+2026-10-31,wk flu hosp rate change,3,2026-11-21,28,pmf,stable,0.4100639511962042
+2026-10-31,wk flu hosp rate change,3,2026-11-21,28,pmf,increase,0.3580414868377698
+2026-10-31,wk flu hosp rate change,3,2026-11-21,28,pmf,large_increase,0.11694031045862907
 2026-10-31,wk flu hosp rate change,0,2026-10-31,29,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,0,2026-10-31,29,pmf,decrease,0.07336470576538909
-2026-10-31,wk flu hosp rate change,0,2026-10-31,29,pmf,stable,0.6703544079046175
-2026-10-31,wk flu hosp rate change,0,2026-10-31,29,pmf,increase,0.22567248423450614
-2026-10-31,wk flu hosp rate change,0,2026-10-31,29,pmf,large_increase,0.030608402095487208
+2026-10-31,wk flu hosp rate change,0,2026-10-31,29,pmf,decrease,0.07336413673050464
+2026-10-31,wk flu hosp rate change,0,2026-10-31,29,pmf,stable,0.6703548030284769
+2026-10-31,wk flu hosp rate change,0,2026-10-31,29,pmf,increase,0.22567270497706227
+2026-10-31,wk flu hosp rate change,0,2026-10-31,29,pmf,large_increase,0.03060835526395611
 2026-10-31,wk flu hosp rate change,1,2026-11-07,29,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,1,2026-11-07,29,pmf,decrease,0.04193088248778908
-2026-10-31,wk flu hosp rate change,1,2026-11-07,29,pmf,stable,0.6751532763839474
-2026-10-31,wk flu hosp rate change,1,2026-11-07,29,pmf,increase,0.2530634377717058
-2026-10-31,wk flu hosp rate change,1,2026-11-07,29,pmf,large_increase,0.0298524033565577
+2026-10-31,wk flu hosp rate change,1,2026-11-07,29,pmf,decrease,0.04193107613903811
+2026-10-31,wk flu hosp rate change,1,2026-11-07,29,pmf,stable,0.675152148572942
+2026-10-31,wk flu hosp rate change,1,2026-11-07,29,pmf,increase,0.25306437734637743
+2026-10-31,wk flu hosp rate change,1,2026-11-07,29,pmf,large_increase,0.029852397941642406
 2026-10-31,wk flu hosp rate change,2,2026-11-14,29,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,2,2026-11-14,29,pmf,decrease,0.01596276262684343
-2026-10-31,wk flu hosp rate change,2,2026-11-14,29,pmf,stable,0.6213050311216082
-2026-10-31,wk flu hosp rate change,2,2026-11-14,29,pmf,increase,0.32145105125299245
-2026-10-31,wk flu hosp rate change,2,2026-11-14,29,pmf,large_increase,0.04128115499855589
+2026-10-31,wk flu hosp rate change,2,2026-11-14,29,pmf,decrease,0.015963218562655365
+2026-10-31,wk flu hosp rate change,2,2026-11-14,29,pmf,stable,0.6213047680424835
+2026-10-31,wk flu hosp rate change,2,2026-11-14,29,pmf,increase,0.3214508733057071
+2026-10-31,wk flu hosp rate change,2,2026-11-14,29,pmf,large_increase,0.04128114008915407
 2026-10-31,wk flu hosp rate change,3,2026-11-21,29,pmf,large_decrease,0.0
 2026-10-31,wk flu hosp rate change,3,2026-11-21,29,pmf,decrease,0.0
-2026-10-31,wk flu hosp rate change,3,2026-11-21,29,pmf,stable,0.6077875497280135
-2026-10-31,wk flu hosp rate change,3,2026-11-21,29,pmf,increase,0.3227718514542306
-2026-10-31,wk flu hosp rate change,3,2026-11-21,29,pmf,large_increase,0.06944059881775588
+2026-10-31,wk flu hosp rate change,3,2026-11-21,29,pmf,stable,0.6077875003103678
+2026-10-31,wk flu hosp rate change,3,2026-11-21,29,pmf,increase,0.3227719605798851
+2026-10-31,wk flu hosp rate change,3,2026-11-21,29,pmf,large_increase,0.06944053910974712
 2026-10-31,wk flu hosp rate change,0,2026-10-31,30,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,0,2026-10-31,30,pmf,decrease,0.06573093936630833
-2026-10-31,wk flu hosp rate change,0,2026-10-31,30,pmf,stable,0.761646225191814
-2026-10-31,wk flu hosp rate change,0,2026-10-31,30,pmf,increase,0.08501379527619957
-2026-10-31,wk flu hosp rate change,0,2026-10-31,30,pmf,large_increase,0.08760904016567805
+2026-10-31,wk flu hosp rate change,0,2026-10-31,30,pmf,decrease,0.06573114912580344
+2026-10-31,wk flu hosp rate change,0,2026-10-31,30,pmf,stable,0.7616460591943369
+2026-10-31,wk flu hosp rate change,0,2026-10-31,30,pmf,increase,0.08501373945550716
+2026-10-31,wk flu hosp rate change,0,2026-10-31,30,pmf,large_increase,0.08760905222435245
 2026-10-31,wk flu hosp rate change,1,2026-11-07,30,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,1,2026-11-07,30,pmf,decrease,0.12217257189908134
-2026-10-31,wk flu hosp rate change,1,2026-11-07,30,pmf,stable,0.6015513823496297
-2026-10-31,wk flu hosp rate change,1,2026-11-07,30,pmf,increase,0.19063295410875358
-2026-10-31,wk flu hosp rate change,1,2026-11-07,30,pmf,large_increase,0.08564309164253536
+2026-10-31,wk flu hosp rate change,1,2026-11-07,30,pmf,decrease,0.1221727003291702
+2026-10-31,wk flu hosp rate change,1,2026-11-07,30,pmf,stable,0.6015511456017486
+2026-10-31,wk flu hosp rate change,1,2026-11-07,30,pmf,increase,0.1906330345785785
+2026-10-31,wk flu hosp rate change,1,2026-11-07,30,pmf,large_increase,0.08564311949050274
 2026-10-31,wk flu hosp rate change,2,2026-11-14,30,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,2,2026-11-14,30,pmf,decrease,0.14445606771722394
-2026-10-31,wk flu hosp rate change,2,2026-11-14,30,pmf,stable,0.5004436977332475
-2026-10-31,wk flu hosp rate change,2,2026-11-14,30,pmf,increase,0.26465139375273383
-2026-10-31,wk flu hosp rate change,2,2026-11-14,30,pmf,large_increase,0.09044884079679472
+2026-10-31,wk flu hosp rate change,2,2026-11-14,30,pmf,decrease,0.14445641140947985
+2026-10-31,wk flu hosp rate change,2,2026-11-14,30,pmf,stable,0.5004433280450933
+2026-10-31,wk flu hosp rate change,2,2026-11-14,30,pmf,increase,0.26465143039962635
+2026-10-31,wk flu hosp rate change,2,2026-11-14,30,pmf,large_increase,0.09044883014580052
 2026-10-31,wk flu hosp rate change,3,2026-11-21,30,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,3,2026-11-21,30,pmf,decrease,0.13736490479215835
-2026-10-31,wk flu hosp rate change,3,2026-11-21,30,pmf,stable,0.4058037876904249
-2026-10-31,wk flu hosp rate change,3,2026-11-21,30,pmf,increase,0.351924073730863
-2026-10-31,wk flu hosp rate change,3,2026-11-21,30,pmf,large_increase,0.10490723378655376
+2026-10-31,wk flu hosp rate change,3,2026-11-21,30,pmf,decrease,0.1373650678248991
+2026-10-31,wk flu hosp rate change,3,2026-11-21,30,pmf,stable,0.4058035993381557
+2026-10-31,wk flu hosp rate change,3,2026-11-21,30,pmf,increase,0.35192419119498286
+2026-10-31,wk flu hosp rate change,3,2026-11-21,30,pmf,large_increase,0.10490714164196235
 2026-10-31,wk flu hosp rate change,0,2026-10-31,31,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,0,2026-10-31,31,pmf,decrease,0.03826821682634653
-2026-10-31,wk flu hosp rate change,0,2026-10-31,31,pmf,stable,0.8326489661488946
-2026-10-31,wk flu hosp rate change,0,2026-10-31,31,pmf,increase,0.10591043775513276
-2026-10-31,wk flu hosp rate change,0,2026-10-31,31,pmf,large_increase,0.02317237926962612
+2026-10-31,wk flu hosp rate change,0,2026-10-31,31,pmf,decrease,0.038267834625631235
+2026-10-31,wk flu hosp rate change,0,2026-10-31,31,pmf,stable,0.8326493826492142
+2026-10-31,wk flu hosp rate change,0,2026-10-31,31,pmf,increase,0.10591042795533223
+2026-10-31,wk flu hosp rate change,0,2026-10-31,31,pmf,large_increase,0.02317235476982238
 2026-10-31,wk flu hosp rate change,1,2026-11-07,31,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,1,2026-11-07,31,pmf,decrease,0.06669927001071807
-2026-10-31,wk flu hosp rate change,1,2026-11-07,31,pmf,stable,0.6959063035403803
-2026-10-31,wk flu hosp rate change,1,2026-11-07,31,pmf,increase,0.21713003667089403
-2026-10-31,wk flu hosp rate change,1,2026-11-07,31,pmf,large_increase,0.020264389778007597
+2026-10-31,wk flu hosp rate change,1,2026-11-07,31,pmf,decrease,0.06669903572290611
+2026-10-31,wk flu hosp rate change,1,2026-11-07,31,pmf,stable,0.6959070907967794
+2026-10-31,wk flu hosp rate change,1,2026-11-07,31,pmf,increase,0.21712953525167022
+2026-10-31,wk flu hosp rate change,1,2026-11-07,31,pmf,large_increase,0.020264338228644263
 2026-10-31,wk flu hosp rate change,2,2026-11-14,31,pmf,large_decrease,0.0
 2026-10-31,wk flu hosp rate change,2,2026-11-14,31,pmf,decrease,0.0
-2026-10-31,wk flu hosp rate change,2,2026-11-14,31,pmf,stable,0.7137906188932001
-2026-10-31,wk flu hosp rate change,2,2026-11-14,31,pmf,increase,0.26004415944177595
-2026-10-31,wk flu hosp rate change,2,2026-11-14,31,pmf,large_increase,0.026165221665023997
+2026-10-31,wk flu hosp rate change,2,2026-11-14,31,pmf,stable,0.7137911837935819
+2026-10-31,wk flu hosp rate change,2,2026-11-14,31,pmf,increase,0.2600437127738099
+2026-10-31,wk flu hosp rate change,2,2026-11-14,31,pmf,large_increase,0.02616510343260825
 2026-10-31,wk flu hosp rate change,3,2026-11-21,31,pmf,large_decrease,0.0
 2026-10-31,wk flu hosp rate change,3,2026-11-21,31,pmf,decrease,0.0
-2026-10-31,wk flu hosp rate change,3,2026-11-21,31,pmf,stable,0.6468843556428511
-2026-10-31,wk flu hosp rate change,3,2026-11-21,31,pmf,increase,0.3100190436083793
-2026-10-31,wk flu hosp rate change,3,2026-11-21,31,pmf,large_increase,0.04309660074876964
+2026-10-31,wk flu hosp rate change,3,2026-11-21,31,pmf,stable,0.6468851465266489
+2026-10-31,wk flu hosp rate change,3,2026-11-21,31,pmf,increase,0.31001832464252954
+2026-10-31,wk flu hosp rate change,3,2026-11-21,31,pmf,large_increase,0.0430965288308216
 2026-10-31,wk flu hosp rate change,0,2026-10-31,32,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,0,2026-10-31,32,pmf,decrease,0.18668512875569404
-2026-10-31,wk flu hosp rate change,0,2026-10-31,32,pmf,stable,0.5076042604823154
-2026-10-31,wk flu hosp rate change,0,2026-10-31,32,pmf,increase,0.26604994975128626
-2026-10-31,wk flu hosp rate change,0,2026-10-31,32,pmf,large_increase,0.03966066101070431
+2026-10-31,wk flu hosp rate change,0,2026-10-31,32,pmf,decrease,0.1866853525125027
+2026-10-31,wk flu hosp rate change,0,2026-10-31,32,pmf,stable,0.507604223379805
+2026-10-31,wk flu hosp rate change,0,2026-10-31,32,pmf,increase,0.26604975166658285
+2026-10-31,wk flu hosp rate change,0,2026-10-31,32,pmf,large_increase,0.03966067244110938
 2026-10-31,wk flu hosp rate change,1,2026-11-07,32,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,1,2026-11-07,32,pmf,decrease,0.1623342826658437
-2026-10-31,wk flu hosp rate change,1,2026-11-07,32,pmf,stable,0.49167767907439686
-2026-10-31,wk flu hosp rate change,1,2026-11-07,32,pmf,increase,0.3055718493149284
-2026-10-31,wk flu hosp rate change,1,2026-11-07,32,pmf,large_increase,0.04041618894483101
+2026-10-31,wk flu hosp rate change,1,2026-11-07,32,pmf,decrease,0.16233427270197728
+2026-10-31,wk flu hosp rate change,1,2026-11-07,32,pmf,stable,0.491677611459186
+2026-10-31,wk flu hosp rate change,1,2026-11-07,32,pmf,increase,0.3055719005805648
+2026-10-31,wk flu hosp rate change,1,2026-11-07,32,pmf,large_increase,0.04041621525827188
 2026-10-31,wk flu hosp rate change,2,2026-11-14,32,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,2,2026-11-14,32,pmf,decrease,0.12138321971844594
-2026-10-31,wk flu hosp rate change,2,2026-11-14,32,pmf,stable,0.4776383852077008
-2026-10-31,wk flu hosp rate change,2,2026-11-14,32,pmf,increase,0.3537447475807861
-2026-10-31,wk flu hosp rate change,2,2026-11-14,32,pmf,large_increase,0.04723364749306713
+2026-10-31,wk flu hosp rate change,2,2026-11-14,32,pmf,decrease,0.12138326305239613
+2026-10-31,wk flu hosp rate change,2,2026-11-14,32,pmf,stable,0.4776383028885941
+2026-10-31,wk flu hosp rate change,2,2026-11-14,32,pmf,increase,0.35374475807717864
+2026-10-31,wk flu hosp rate change,2,2026-11-14,32,pmf,large_increase,0.04723367598183115
 2026-10-31,wk flu hosp rate change,3,2026-11-21,32,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,3,2026-11-21,32,pmf,decrease,0.0653954491408585
-2026-10-31,wk flu hosp rate change,3,2026-11-21,32,pmf,stable,0.4982194756606074
-2026-10-31,wk flu hosp rate change,3,2026-11-21,32,pmf,increase,0.38013649970151175
-2026-10-31,wk flu hosp rate change,3,2026-11-21,32,pmf,large_increase,0.056248575497022335
+2026-10-31,wk flu hosp rate change,3,2026-11-21,32,pmf,decrease,0.06539553839237246
+2026-10-31,wk flu hosp rate change,3,2026-11-21,32,pmf,stable,0.4982194901093884
+2026-10-31,wk flu hosp rate change,3,2026-11-21,32,pmf,increase,0.38013635786673505
+2026-10-31,wk flu hosp rate change,3,2026-11-21,32,pmf,large_increase,0.05624861363150413
 2026-10-31,wk flu hosp rate change,0,2026-10-31,33,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,0,2026-10-31,33,pmf,decrease,0.01762194519943264
-2026-10-31,wk flu hosp rate change,0,2026-10-31,33,pmf,stable,0.8099273619660444
-2026-10-31,wk flu hosp rate change,0,2026-10-31,33,pmf,increase,0.12781624990687745
-2026-10-31,wk flu hosp rate change,0,2026-10-31,33,pmf,large_increase,0.04463444292764551
+2026-10-31,wk flu hosp rate change,0,2026-10-31,33,pmf,decrease,0.017621924936053846
+2026-10-31,wk flu hosp rate change,0,2026-10-31,33,pmf,stable,0.8099275647516337
+2026-10-31,wk flu hosp rate change,0,2026-10-31,33,pmf,increase,0.1278160513007751
+2026-10-31,wk flu hosp rate change,0,2026-10-31,33,pmf,large_increase,0.044634459011537286
 2026-10-31,wk flu hosp rate change,1,2026-11-07,33,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,1,2026-11-07,33,pmf,decrease,0.04248476748376301
-2026-10-31,wk flu hosp rate change,1,2026-11-07,33,pmf,stable,0.6153865254210165
-2026-10-31,wk flu hosp rate change,1,2026-11-07,33,pmf,increase,0.2848473002543004
-2026-10-31,wk flu hosp rate change,1,2026-11-07,33,pmf,large_increase,0.0572814068409202
+2026-10-31,wk flu hosp rate change,1,2026-11-07,33,pmf,decrease,0.04248489263557445
+2026-10-31,wk flu hosp rate change,1,2026-11-07,33,pmf,stable,0.6153863399404861
+2026-10-31,wk flu hosp rate change,1,2026-11-07,33,pmf,increase,0.2848472988981553
+2026-10-31,wk flu hosp rate change,1,2026-11-07,33,pmf,large_increase,0.057281468525784196
 2026-10-31,wk flu hosp rate change,2,2026-11-14,33,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,2,2026-11-14,33,pmf,decrease,0.06047873190959564
-2026-10-31,wk flu hosp rate change,2,2026-11-14,33,pmf,stable,0.4395323738336029
-2026-10-31,wk flu hosp rate change,2,2026-11-14,33,pmf,increase,0.40816143178857056
-2026-10-31,wk flu hosp rate change,2,2026-11-14,33,pmf,large_increase,0.09182746246823092
+2026-10-31,wk flu hosp rate change,2,2026-11-14,33,pmf,decrease,0.060479022550285644
+2026-10-31,wk flu hosp rate change,2,2026-11-14,33,pmf,stable,0.4395321026657269
+2026-10-31,wk flu hosp rate change,2,2026-11-14,33,pmf,increase,0.40816138245011746
+2026-10-31,wk flu hosp rate change,2,2026-11-14,33,pmf,large_increase,0.09182749233387
 2026-10-31,wk flu hosp rate change,3,2026-11-21,33,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,3,2026-11-21,33,pmf,decrease,0.03182283509465872
-2026-10-31,wk flu hosp rate change,3,2026-11-21,33,pmf,stable,0.4120685424416985
-2026-10-31,wk flu hosp rate change,3,2026-11-21,33,pmf,increase,0.41757742738054204
-2026-10-31,wk flu hosp rate change,3,2026-11-21,33,pmf,large_increase,0.13853119508310074
+2026-10-31,wk flu hosp rate change,3,2026-11-21,33,pmf,decrease,0.03182277383692811
+2026-10-31,wk flu hosp rate change,3,2026-11-21,33,pmf,stable,0.412068543211851
+2026-10-31,wk flu hosp rate change,3,2026-11-21,33,pmf,increase,0.41757745362300785
+2026-10-31,wk flu hosp rate change,3,2026-11-21,33,pmf,large_increase,0.13853122932821305
 2026-10-31,wk flu hosp rate change,0,2026-10-31,34,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,0,2026-10-31,34,pmf,decrease,0.06547968908122237
-2026-10-31,wk flu hosp rate change,0,2026-10-31,34,pmf,stable,0.34664949638075243
-2026-10-31,wk flu hosp rate change,0,2026-10-31,34,pmf,increase,0.4962280302078416
-2026-10-31,wk flu hosp rate change,0,2026-10-31,34,pmf,large_increase,0.09164278433018358
+2026-10-31,wk flu hosp rate change,0,2026-10-31,34,pmf,decrease,0.06547967367987005
+2026-10-31,wk flu hosp rate change,0,2026-10-31,34,pmf,stable,0.34664999502242694
+2026-10-31,wk flu hosp rate change,0,2026-10-31,34,pmf,increase,0.49622774197989167
+2026-10-31,wk flu hosp rate change,0,2026-10-31,34,pmf,large_increase,0.09164258931781133
 2026-10-31,wk flu hosp rate change,1,2026-11-07,34,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,1,2026-11-07,34,pmf,decrease,0.03486958265077909
-2026-10-31,wk flu hosp rate change,1,2026-11-07,34,pmf,stable,0.25923563686955653
-2026-10-31,wk flu hosp rate change,1,2026-11-07,34,pmf,increase,0.5777694179911911
-2026-10-31,wk flu hosp rate change,1,2026-11-07,34,pmf,large_increase,0.12812536248847328
+2026-10-31,wk flu hosp rate change,1,2026-11-07,34,pmf,decrease,0.034869632608603936
+2026-10-31,wk flu hosp rate change,1,2026-11-07,34,pmf,stable,0.2592357217358539
+2026-10-31,wk flu hosp rate change,1,2026-11-07,34,pmf,increase,0.5777693085598907
+2026-10-31,wk flu hosp rate change,1,2026-11-07,34,pmf,large_increase,0.12812533709565144
 2026-10-31,wk flu hosp rate change,2,2026-11-14,34,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,2,2026-11-14,34,pmf,decrease,0.02445572270483616
-2026-10-31,wk flu hosp rate change,2,2026-11-14,34,pmf,stable,0.22342930293777846
-2026-10-31,wk flu hosp rate change,2,2026-11-14,34,pmf,increase,0.5546898818736293
-2026-10-31,wk flu hosp rate change,2,2026-11-14,34,pmf,large_increase,0.19742509248375606
+2026-10-31,wk flu hosp rate change,2,2026-11-14,34,pmf,decrease,0.024455713196262052
+2026-10-31,wk flu hosp rate change,2,2026-11-14,34,pmf,stable,0.2234292329398406
+2026-10-31,wk flu hosp rate change,2,2026-11-14,34,pmf,increase,0.554689942805293
+2026-10-31,wk flu hosp rate change,2,2026-11-14,34,pmf,large_increase,0.19742511105860427
 2026-10-31,wk flu hosp rate change,3,2026-11-21,34,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,3,2026-11-21,34,pmf,decrease,0.023516538778428395
-2026-10-31,wk flu hosp rate change,3,2026-11-21,34,pmf,stable,0.22198436011002687
-2026-10-31,wk flu hosp rate change,3,2026-11-21,34,pmf,increase,0.4625223172287326
-2026-10-31,wk flu hosp rate change,3,2026-11-21,34,pmf,large_increase,0.2919767838828121
+2026-10-31,wk flu hosp rate change,3,2026-11-21,34,pmf,decrease,0.023516542745814425
+2026-10-31,wk flu hosp rate change,3,2026-11-21,34,pmf,stable,0.22198454962195274
+2026-10-31,wk flu hosp rate change,3,2026-11-21,34,pmf,increase,0.46252208707526277
+2026-10-31,wk flu hosp rate change,3,2026-11-21,34,pmf,large_increase,0.29197682055697005
 2026-10-31,wk flu hosp rate change,0,2026-10-31,35,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,0,2026-10-31,35,pmf,decrease,0.2695100474613255
-2026-10-31,wk flu hosp rate change,0,2026-10-31,35,pmf,stable,0.3678386414170535
-2026-10-31,wk flu hosp rate change,0,2026-10-31,35,pmf,increase,0.22247257939251674
-2026-10-31,wk flu hosp rate change,0,2026-10-31,35,pmf,large_increase,0.14017873172910422
+2026-10-31,wk flu hosp rate change,0,2026-10-31,35,pmf,decrease,0.2695101988746416
+2026-10-31,wk flu hosp rate change,0,2026-10-31,35,pmf,stable,0.36783868680235127
+2026-10-31,wk flu hosp rate change,0,2026-10-31,35,pmf,increase,0.22247245161733586
+2026-10-31,wk flu hosp rate change,0,2026-10-31,35,pmf,large_increase,0.14017866270567125
 2026-10-31,wk flu hosp rate change,1,2026-11-07,35,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,1,2026-11-07,35,pmf,decrease,0.23041104390301081
-2026-10-31,wk flu hosp rate change,1,2026-11-07,35,pmf,stable,0.26172956330008373
-2026-10-31,wk flu hosp rate change,1,2026-11-07,35,pmf,increase,0.3647043477395075
-2026-10-31,wk flu hosp rate change,1,2026-11-07,35,pmf,large_increase,0.14315504505739796
+2026-10-31,wk flu hosp rate change,1,2026-11-07,35,pmf,decrease,0.23041129489918544
+2026-10-31,wk flu hosp rate change,1,2026-11-07,35,pmf,stable,0.26172928740031665
+2026-10-31,wk flu hosp rate change,1,2026-11-07,35,pmf,increase,0.364704392729559
+2026-10-31,wk flu hosp rate change,1,2026-11-07,35,pmf,large_increase,0.1431550249709389
 2026-10-31,wk flu hosp rate change,2,2026-11-14,35,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,2,2026-11-14,35,pmf,decrease,0.15439191813846959
-2026-10-31,wk flu hosp rate change,2,2026-11-14,35,pmf,stable,0.25582069489980247
-2026-10-31,wk flu hosp rate change,2,2026-11-14,35,pmf,increase,0.41381632137517765
-2026-10-31,wk flu hosp rate change,2,2026-11-14,35,pmf,large_increase,0.17597106558655043
+2026-10-31,wk flu hosp rate change,2,2026-11-14,35,pmf,decrease,0.1543921022029628
+2026-10-31,wk flu hosp rate change,2,2026-11-14,35,pmf,stable,0.2558210246142535
+2026-10-31,wk flu hosp rate change,2,2026-11-14,35,pmf,increase,0.41381586466344816
+2026-10-31,wk flu hosp rate change,2,2026-11-14,35,pmf,large_increase,0.17597100851933556
 2026-10-31,wk flu hosp rate change,3,2026-11-21,35,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,3,2026-11-21,35,pmf,decrease,0.08509451040396687
-2026-10-31,wk flu hosp rate change,3,2026-11-21,35,pmf,stable,0.2752561044555539
-2026-10-31,wk flu hosp rate change,3,2026-11-21,35,pmf,increase,0.41232358810803754
-2026-10-31,wk flu hosp rate change,3,2026-11-21,35,pmf,large_increase,0.2273257970324417
+2026-10-31,wk flu hosp rate change,3,2026-11-21,35,pmf,decrease,0.08509467110729116
+2026-10-31,wk flu hosp rate change,3,2026-11-21,35,pmf,stable,0.27525628919155076
+2026-10-31,wk flu hosp rate change,3,2026-11-21,35,pmf,increase,0.4123231741896698
+2026-10-31,wk flu hosp rate change,3,2026-11-21,35,pmf,large_increase,0.22732586551148826
 2026-10-31,wk flu hosp rate change,0,2026-10-31,36,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,0,2026-10-31,36,pmf,decrease,0.03580660899656199
-2026-10-31,wk flu hosp rate change,0,2026-10-31,36,pmf,stable,0.5211942975769372
-2026-10-31,wk flu hosp rate change,0,2026-10-31,36,pmf,increase,0.40508301893084797
-2026-10-31,wk flu hosp rate change,0,2026-10-31,36,pmf,large_increase,0.03791607449565282
+2026-10-31,wk flu hosp rate change,0,2026-10-31,36,pmf,decrease,0.03580698866731308
+2026-10-31,wk flu hosp rate change,0,2026-10-31,36,pmf,stable,0.5211933383975753
+2026-10-31,wk flu hosp rate change,0,2026-10-31,36,pmf,increase,0.4050834592807431
+2026-10-31,wk flu hosp rate change,0,2026-10-31,36,pmf,large_increase,0.03791621365436848
 2026-10-31,wk flu hosp rate change,1,2026-11-07,36,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,1,2026-11-07,36,pmf,decrease,0.025986305616803637
-2026-10-31,wk flu hosp rate change,1,2026-11-07,36,pmf,stable,0.3644211531084391
-2026-10-31,wk flu hosp rate change,1,2026-11-07,36,pmf,increase,0.5598394948162154
-2026-10-31,wk flu hosp rate change,1,2026-11-07,36,pmf,large_increase,0.04975304645854184
+2026-10-31,wk flu hosp rate change,1,2026-11-07,36,pmf,decrease,0.02598648364501087
+2026-10-31,wk flu hosp rate change,1,2026-11-07,36,pmf,stable,0.3644201703380908
+2026-10-31,wk flu hosp rate change,1,2026-11-07,36,pmf,increase,0.5598403500808327
+2026-10-31,wk flu hosp rate change,1,2026-11-07,36,pmf,large_increase,0.049752995936065636
 2026-10-31,wk flu hosp rate change,2,2026-11-14,36,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,2,2026-11-14,36,pmf,decrease,0.024388811869658054
-2026-10-31,wk flu hosp rate change,2,2026-11-14,36,pmf,stable,0.2915533294065338
-2026-10-31,wk flu hosp rate change,2,2026-11-14,36,pmf,increase,0.5844106015932464
-2026-10-31,wk flu hosp rate change,2,2026-11-14,36,pmf,large_increase,0.09964725713056177
+2026-10-31,wk flu hosp rate change,2,2026-11-14,36,pmf,decrease,0.024388869218947166
+2026-10-31,wk flu hosp rate change,2,2026-11-14,36,pmf,stable,0.29155262865932546
+2026-10-31,wk flu hosp rate change,2,2026-11-14,36,pmf,increase,0.5844112565730522
+2026-10-31,wk flu hosp rate change,2,2026-11-14,36,pmf,large_increase,0.09964724554867521
 2026-10-31,wk flu hosp rate change,3,2026-11-21,36,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,3,2026-11-21,36,pmf,decrease,0.027553414520856384
-2026-10-31,wk flu hosp rate change,3,2026-11-21,36,pmf,stable,0.25336866724275586
-2026-10-31,wk flu hosp rate change,3,2026-11-21,36,pmf,increase,0.5230444028230724
-2026-10-31,wk flu hosp rate change,3,2026-11-21,36,pmf,large_increase,0.19603351541331537
+2026-10-31,wk flu hosp rate change,3,2026-11-21,36,pmf,decrease,0.027553502512892222
+2026-10-31,wk flu hosp rate change,3,2026-11-21,36,pmf,stable,0.2533679906305431
+2026-10-31,wk flu hosp rate change,3,2026-11-21,36,pmf,increase,0.5230447471568267
+2026-10-31,wk flu hosp rate change,3,2026-11-21,36,pmf,large_increase,0.1960337596997379
 2026-10-31,wk flu hosp rate change,0,2026-10-31,37,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,0,2026-10-31,37,pmf,decrease,0.09416795341297723
-2026-10-31,wk flu hosp rate change,0,2026-10-31,37,pmf,stable,0.5982414066133399
-2026-10-31,wk flu hosp rate change,0,2026-10-31,37,pmf,increase,0.2596327049597822
-2026-10-31,wk flu hosp rate change,0,2026-10-31,37,pmf,large_increase,0.047957935013900665
+2026-10-31,wk flu hosp rate change,0,2026-10-31,37,pmf,decrease,0.09416820249898628
+2026-10-31,wk flu hosp rate change,0,2026-10-31,37,pmf,stable,0.5982410986361385
+2026-10-31,wk flu hosp rate change,0,2026-10-31,37,pmf,increase,0.25963276756666964
+2026-10-31,wk flu hosp rate change,0,2026-10-31,37,pmf,large_increase,0.04795793129820558
 2026-10-31,wk flu hosp rate change,1,2026-11-07,37,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,1,2026-11-07,37,pmf,decrease,0.05348824791805047
-2026-10-31,wk flu hosp rate change,1,2026-11-07,37,pmf,stable,0.5427671008692306
-2026-10-31,wk flu hosp rate change,1,2026-11-07,37,pmf,increase,0.3205289171216842
-2026-10-31,wk flu hosp rate change,1,2026-11-07,37,pmf,large_increase,0.08321573409103467
+2026-10-31,wk flu hosp rate change,1,2026-11-07,37,pmf,decrease,0.05348856453122845
+2026-10-31,wk flu hosp rate change,1,2026-11-07,37,pmf,stable,0.5427667947061503
+2026-10-31,wk flu hosp rate change,1,2026-11-07,37,pmf,increase,0.3205288963576596
+2026-10-31,wk flu hosp rate change,1,2026-11-07,37,pmf,large_increase,0.08321574440496171
 2026-10-31,wk flu hosp rate change,2,2026-11-14,37,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,2,2026-11-14,37,pmf,decrease,0.03821811064446615
-2026-10-31,wk flu hosp rate change,2,2026-11-14,37,pmf,stable,0.4780429563820019
-2026-10-31,wk flu hosp rate change,2,2026-11-14,37,pmf,increase,0.3589218125555559
-2026-10-31,wk flu hosp rate change,2,2026-11-14,37,pmf,large_increase,0.1248171204179761
+2026-10-31,wk flu hosp rate change,2,2026-11-14,37,pmf,decrease,0.03821806769111011
+2026-10-31,wk flu hosp rate change,2,2026-11-14,37,pmf,stable,0.4780430786033728
+2026-10-31,wk flu hosp rate change,2,2026-11-14,37,pmf,increase,0.35892176892318894
+2026-10-31,wk flu hosp rate change,2,2026-11-14,37,pmf,large_increase,0.12481708478232811
 2026-10-31,wk flu hosp rate change,3,2026-11-21,37,pmf,large_decrease,0.0
 2026-10-31,wk flu hosp rate change,3,2026-11-21,37,pmf,decrease,0.0
-2026-10-31,wk flu hosp rate change,3,2026-11-21,37,pmf,stable,0.4674896411013435
-2026-10-31,wk flu hosp rate change,3,2026-11-21,37,pmf,increase,0.36137998353568357
-2026-10-31,wk flu hosp rate change,3,2026-11-21,37,pmf,large_increase,0.17113037536297293
+2026-10-31,wk flu hosp rate change,3,2026-11-21,37,pmf,stable,0.46748974576525826
+2026-10-31,wk flu hosp rate change,3,2026-11-21,37,pmf,increase,0.3613799466615487
+2026-10-31,wk flu hosp rate change,3,2026-11-21,37,pmf,large_increase,0.17113030757319303
 2026-10-31,wk flu hosp rate change,0,2026-10-31,38,pmf,large_decrease,0.0
 2026-10-31,wk flu hosp rate change,0,2026-10-31,38,pmf,decrease,0.0
-2026-10-31,wk flu hosp rate change,0,2026-10-31,38,pmf,stable,0.9542960521312692
-2026-10-31,wk flu hosp rate change,0,2026-10-31,38,pmf,increase,0.020895090916253745
-2026-10-31,wk flu hosp rate change,0,2026-10-31,38,pmf,large_increase,0.024808856952477032
+2026-10-31,wk flu hosp rate change,0,2026-10-31,38,pmf,stable,0.9542959747700207
+2026-10-31,wk flu hosp rate change,0,2026-10-31,38,pmf,increase,0.020895121381454218
+2026-10-31,wk flu hosp rate change,0,2026-10-31,38,pmf,large_increase,0.024808903848525077
 2026-10-31,wk flu hosp rate change,1,2026-11-07,38,pmf,large_decrease,0.0
 2026-10-31,wk flu hosp rate change,1,2026-11-07,38,pmf,decrease,0.0
-2026-10-31,wk flu hosp rate change,1,2026-11-07,38,pmf,stable,0.8892989916651219
-2026-10-31,wk flu hosp rate change,1,2026-11-07,38,pmf,increase,0.08523991692960808
-2026-10-31,wk flu hosp rate change,1,2026-11-07,38,pmf,large_increase,0.025461091405269975
+2026-10-31,wk flu hosp rate change,1,2026-11-07,38,pmf,stable,0.8892987022549015
+2026-10-31,wk flu hosp rate change,1,2026-11-07,38,pmf,increase,0.08524003704231498
+2026-10-31,wk flu hosp rate change,1,2026-11-07,38,pmf,large_increase,0.02546126070278354
 2026-10-31,wk flu hosp rate change,2,2026-11-14,38,pmf,large_decrease,0.0
 2026-10-31,wk flu hosp rate change,2,2026-11-14,38,pmf,decrease,0.0
-2026-10-31,wk flu hosp rate change,2,2026-11-14,38,pmf,stable,0.81677759503
-2026-10-31,wk flu hosp rate change,2,2026-11-14,38,pmf,increase,0.14953112176159178
-2026-10-31,wk flu hosp rate change,2,2026-11-14,38,pmf,large_increase,0.033691283208408196
+2026-10-31,wk flu hosp rate change,2,2026-11-14,38,pmf,stable,0.8167771717837157
+2026-10-31,wk flu hosp rate change,2,2026-11-14,38,pmf,increase,0.14953141316204166
+2026-10-31,wk flu hosp rate change,2,2026-11-14,38,pmf,large_increase,0.03369141505424267
 2026-10-31,wk flu hosp rate change,3,2026-11-21,38,pmf,large_decrease,0.0
 2026-10-31,wk flu hosp rate change,3,2026-11-21,38,pmf,decrease,0.0
-2026-10-31,wk flu hosp rate change,3,2026-11-21,38,pmf,stable,0.6883022438456691
-2026-10-31,wk flu hosp rate change,3,2026-11-21,38,pmf,increase,0.2557842584829877
-2026-10-31,wk flu hosp rate change,3,2026-11-21,38,pmf,large_increase,0.05591349767134324
+2026-10-31,wk flu hosp rate change,3,2026-11-21,38,pmf,stable,0.6883018784932107
+2026-10-31,wk flu hosp rate change,3,2026-11-21,38,pmf,increase,0.25578442714227423
+2026-10-31,wk flu hosp rate change,3,2026-11-21,38,pmf,large_increase,0.0559136943645151
 2026-10-31,wk flu hosp rate change,0,2026-10-31,39,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,0,2026-10-31,39,pmf,decrease,0.0618165520206307
-2026-10-31,wk flu hosp rate change,0,2026-10-31,39,pmf,stable,0.6392179015423265
-2026-10-31,wk flu hosp rate change,0,2026-10-31,39,pmf,increase,0.26199983903500557
-2026-10-31,wk flu hosp rate change,0,2026-10-31,39,pmf,large_increase,0.036965707402037196
+2026-10-31,wk flu hosp rate change,0,2026-10-31,39,pmf,decrease,0.06181670174695756
+2026-10-31,wk flu hosp rate change,0,2026-10-31,39,pmf,stable,0.6392175084533599
+2026-10-31,wk flu hosp rate change,0,2026-10-31,39,pmf,increase,0.26200012019903585
+2026-10-31,wk flu hosp rate change,0,2026-10-31,39,pmf,large_increase,0.03696566960064673
 2026-10-31,wk flu hosp rate change,1,2026-11-07,39,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,1,2026-11-07,39,pmf,decrease,0.03295144162917265
-2026-10-31,wk flu hosp rate change,1,2026-11-07,39,pmf,stable,0.6035434330270736
-2026-10-31,wk flu hosp rate change,1,2026-11-07,39,pmf,increase,0.32413555439650976
-2026-10-31,wk flu hosp rate change,1,2026-11-07,39,pmf,large_increase,0.039369570947244026
+2026-10-31,wk flu hosp rate change,1,2026-11-07,39,pmf,decrease,0.03295116818746242
+2026-10-31,wk flu hosp rate change,1,2026-11-07,39,pmf,stable,0.6035434823416631
+2026-10-31,wk flu hosp rate change,1,2026-11-07,39,pmf,increase,0.3241357993574256
+2026-10-31,wk flu hosp rate change,1,2026-11-07,39,pmf,large_increase,0.03936955011344901
 2026-10-31,wk flu hosp rate change,2,2026-11-14,39,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,2,2026-11-14,39,pmf,decrease,0.01417535000217418
-2026-10-31,wk flu hosp rate change,2,2026-11-14,39,pmf,stable,0.5615886727990435
-2026-10-31,wk flu hosp rate change,2,2026-11-14,39,pmf,increase,0.37301875749510904
-2026-10-31,wk flu hosp rate change,2,2026-11-14,39,pmf,large_increase,0.05121721970367332
+2026-10-31,wk flu hosp rate change,2,2026-11-14,39,pmf,decrease,0.01417518846986545
+2026-10-31,wk flu hosp rate change,2,2026-11-14,39,pmf,stable,0.5615890128837114
+2026-10-31,wk flu hosp rate change,2,2026-11-14,39,pmf,increase,0.3730185603461367
+2026-10-31,wk flu hosp rate change,2,2026-11-14,39,pmf,large_increase,0.05121723830028646
 2026-10-31,wk flu hosp rate change,3,2026-11-21,39,pmf,large_decrease,0.0
 2026-10-31,wk flu hosp rate change,3,2026-11-21,39,pmf,decrease,0.0
-2026-10-31,wk flu hosp rate change,3,2026-11-21,39,pmf,stable,0.5491293460430283
-2026-10-31,wk flu hosp rate change,3,2026-11-21,39,pmf,increase,0.35989705539489913
-2026-10-31,wk flu hosp rate change,3,2026-11-21,39,pmf,large_increase,0.09097359856207254
+2026-10-31,wk flu hosp rate change,3,2026-11-21,39,pmf,stable,0.5491293295089151
+2026-10-31,wk flu hosp rate change,3,2026-11-21,39,pmf,increase,0.3598970214464562
+2026-10-31,wk flu hosp rate change,3,2026-11-21,39,pmf,large_increase,0.09097364904462868
 2026-10-31,wk flu hosp rate change,0,2026-10-31,40,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,0,2026-10-31,40,pmf,decrease,0.2731273525564625
-2026-10-31,wk flu hosp rate change,0,2026-10-31,40,pmf,stable,0.3432448337313899
-2026-10-31,wk flu hosp rate change,0,2026-10-31,40,pmf,increase,0.2861229616301346
-2026-10-31,wk flu hosp rate change,0,2026-10-31,40,pmf,large_increase,0.09750485208201298
+2026-10-31,wk flu hosp rate change,0,2026-10-31,40,pmf,decrease,0.27312648891327856
+2026-10-31,wk flu hosp rate change,0,2026-10-31,40,pmf,stable,0.343245222564137
+2026-10-31,wk flu hosp rate change,0,2026-10-31,40,pmf,increase,0.28612337056486226
+2026-10-31,wk flu hosp rate change,0,2026-10-31,40,pmf,large_increase,0.0975049179577222
 2026-10-31,wk flu hosp rate change,1,2026-11-07,40,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,1,2026-11-07,40,pmf,decrease,0.1801887965423756
-2026-10-31,wk flu hosp rate change,1,2026-11-07,40,pmf,stable,0.4058814474567076
-2026-10-31,wk flu hosp rate change,1,2026-11-07,40,pmf,increase,0.32221680713905854
-2026-10-31,wk flu hosp rate change,1,2026-11-07,40,pmf,large_increase,0.09171294886185821
+2026-10-31,wk flu hosp rate change,1,2026-11-07,40,pmf,decrease,0.18018884919145853
+2026-10-31,wk flu hosp rate change,1,2026-11-07,40,pmf,stable,0.4058811897403044
+2026-10-31,wk flu hosp rate change,1,2026-11-07,40,pmf,increase,0.3222170746720391
+2026-10-31,wk flu hosp rate change,1,2026-11-07,40,pmf,large_increase,0.09171288639619801
 2026-10-31,wk flu hosp rate change,2,2026-11-14,40,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,2,2026-11-14,40,pmf,decrease,0.15789210818275307
-2026-10-31,wk flu hosp rate change,2,2026-11-14,40,pmf,stable,0.4500371834930848
-2026-10-31,wk flu hosp rate change,2,2026-11-14,40,pmf,increase,0.29783003015045006
-2026-10-31,wk flu hosp rate change,2,2026-11-14,40,pmf,large_increase,0.09424067817371207
+2026-10-31,wk flu hosp rate change,2,2026-11-14,40,pmf,decrease,0.15789128980730127
+2026-10-31,wk flu hosp rate change,2,2026-11-14,40,pmf,stable,0.4500372779979104
+2026-10-31,wk flu hosp rate change,2,2026-11-14,40,pmf,increase,0.2978308081033513
+2026-10-31,wk flu hosp rate change,2,2026-11-14,40,pmf,large_increase,0.09424062409143708
 2026-10-31,wk flu hosp rate change,3,2026-11-21,40,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,3,2026-11-21,40,pmf,decrease,0.12239960430651278
-2026-10-31,wk flu hosp rate change,3,2026-11-21,40,pmf,stable,0.45786622361987783
-2026-10-31,wk flu hosp rate change,3,2026-11-21,40,pmf,increase,0.3154739104432095
-2026-10-31,wk flu hosp rate change,3,2026-11-21,40,pmf,large_increase,0.10426026163039992
+2026-10-31,wk flu hosp rate change,3,2026-11-21,40,pmf,decrease,0.12239930974878685
+2026-10-31,wk flu hosp rate change,3,2026-11-21,40,pmf,stable,0.4578666686561865
+2026-10-31,wk flu hosp rate change,3,2026-11-21,40,pmf,increase,0.3154738763774205
+2026-10-31,wk flu hosp rate change,3,2026-11-21,40,pmf,large_increase,0.10426014521760607
 2026-10-31,wk flu hosp rate change,0,2026-10-31,41,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,0,2026-10-31,41,pmf,decrease,0.12989089697919554
-2026-10-31,wk flu hosp rate change,0,2026-10-31,41,pmf,stable,0.45551955407079603
-2026-10-31,wk flu hosp rate change,0,2026-10-31,41,pmf,increase,0.34167900984750477
-2026-10-31,wk flu hosp rate change,0,2026-10-31,41,pmf,large_increase,0.07291053910250367
+2026-10-31,wk flu hosp rate change,0,2026-10-31,41,pmf,decrease,0.12989043631470062
+2026-10-31,wk flu hosp rate change,0,2026-10-31,41,pmf,stable,0.4555202452565077
+2026-10-31,wk flu hosp rate change,0,2026-10-31,41,pmf,increase,0.34167872459743287
+2026-10-31,wk flu hosp rate change,0,2026-10-31,41,pmf,large_increase,0.07291059383135878
 2026-10-31,wk flu hosp rate change,1,2026-11-07,41,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,1,2026-11-07,41,pmf,decrease,0.11747949716885778
-2026-10-31,wk flu hosp rate change,1,2026-11-07,41,pmf,stable,0.4642989360281434
-2026-10-31,wk flu hosp rate change,1,2026-11-07,41,pmf,increase,0.3403777629163438
-2026-10-31,wk flu hosp rate change,1,2026-11-07,41,pmf,large_increase,0.07784380388665502
+2026-10-31,wk flu hosp rate change,1,2026-11-07,41,pmf,decrease,0.1174793947375724
+2026-10-31,wk flu hosp rate change,1,2026-11-07,41,pmf,stable,0.4642995302239098
+2026-10-31,wk flu hosp rate change,1,2026-11-07,41,pmf,increase,0.34037720860673504
+2026-10-31,wk flu hosp rate change,1,2026-11-07,41,pmf,large_increase,0.07784386643178276
 2026-10-31,wk flu hosp rate change,2,2026-11-14,41,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,2,2026-11-14,41,pmf,decrease,0.11321198453191067
-2026-10-31,wk flu hosp rate change,2,2026-11-14,41,pmf,stable,0.4506161241331615
-2026-10-31,wk flu hosp rate change,2,2026-11-14,41,pmf,increase,0.3508523210867144
-2026-10-31,wk flu hosp rate change,2,2026-11-14,41,pmf,large_increase,0.08531957024821346
+2026-10-31,wk flu hosp rate change,2,2026-11-14,41,pmf,decrease,0.11321204319206588
+2026-10-31,wk flu hosp rate change,2,2026-11-14,41,pmf,stable,0.4506160984701568
+2026-10-31,wk flu hosp rate change,2,2026-11-14,41,pmf,increase,0.35085240680331475
+2026-10-31,wk flu hosp rate change,2,2026-11-14,41,pmf,large_increase,0.08531945153446252
 2026-10-31,wk flu hosp rate change,3,2026-11-21,41,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,3,2026-11-21,41,pmf,decrease,0.07864696942077908
-2026-10-31,wk flu hosp rate change,3,2026-11-21,41,pmf,stable,0.4337651204933888
-2026-10-31,wk flu hosp rate change,3,2026-11-21,41,pmf,increase,0.3886893558961396
-2026-10-31,wk flu hosp rate change,3,2026-11-21,41,pmf,large_increase,0.09889855418969251
+2026-10-31,wk flu hosp rate change,3,2026-11-21,41,pmf,decrease,0.07864715281164619
+2026-10-31,wk flu hosp rate change,3,2026-11-21,41,pmf,stable,0.4337648473093007
+2026-10-31,wk flu hosp rate change,3,2026-11-21,41,pmf,increase,0.38868958363238415
+2026-10-31,wk flu hosp rate change,3,2026-11-21,41,pmf,large_increase,0.09889841624666895
 2026-10-31,wk flu hosp rate change,0,2026-10-31,42,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,0,2026-10-31,42,pmf,decrease,0.1012441730793734
-2026-10-31,wk flu hosp rate change,0,2026-10-31,42,pmf,stable,0.24752114402425152
-2026-10-31,wk flu hosp rate change,0,2026-10-31,42,pmf,increase,0.5309927983505255
-2026-10-31,wk flu hosp rate change,0,2026-10-31,42,pmf,large_increase,0.12024188454584961
+2026-10-31,wk flu hosp rate change,0,2026-10-31,42,pmf,decrease,0.10124434309716779
+2026-10-31,wk flu hosp rate change,0,2026-10-31,42,pmf,stable,0.24752110389131005
+2026-10-31,wk flu hosp rate change,0,2026-10-31,42,pmf,increase,0.5309925621476588
+2026-10-31,wk flu hosp rate change,0,2026-10-31,42,pmf,large_increase,0.12024199086386345
 2026-10-31,wk flu hosp rate change,1,2026-11-07,42,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,1,2026-11-07,42,pmf,decrease,0.08909379286286875
-2026-10-31,wk flu hosp rate change,1,2026-11-07,42,pmf,stable,0.2352321375867912
-2026-10-31,wk flu hosp rate change,1,2026-11-07,42,pmf,increase,0.5128885980248707
-2026-10-31,wk flu hosp rate change,1,2026-11-07,42,pmf,large_increase,0.1627854715254693
+2026-10-31,wk flu hosp rate change,1,2026-11-07,42,pmf,decrease,0.0890938912259436
+2026-10-31,wk flu hosp rate change,1,2026-11-07,42,pmf,stable,0.2352319291040307
+2026-10-31,wk flu hosp rate change,1,2026-11-07,42,pmf,increase,0.5128887016452952
+2026-10-31,wk flu hosp rate change,1,2026-11-07,42,pmf,large_increase,0.16278547802473053
 2026-10-31,wk flu hosp rate change,2,2026-11-14,42,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,2,2026-11-14,42,pmf,decrease,0.06850523311546175
-2026-10-31,wk flu hosp rate change,2,2026-11-14,42,pmf,stable,0.22844023312038897
-2026-10-31,wk flu hosp rate change,2,2026-11-14,42,pmf,increase,0.49499584384373874
-2026-10-31,wk flu hosp rate change,2,2026-11-14,42,pmf,large_increase,0.20805868992041054
+2026-10-31,wk flu hosp rate change,2,2026-11-14,42,pmf,decrease,0.06850535671927227
+2026-10-31,wk flu hosp rate change,2,2026-11-14,42,pmf,stable,0.228439900831872
+2026-10-31,wk flu hosp rate change,2,2026-11-14,42,pmf,increase,0.49499571983011964
+2026-10-31,wk flu hosp rate change,2,2026-11-14,42,pmf,large_increase,0.2080590226187361
 2026-10-31,wk flu hosp rate change,3,2026-11-21,42,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,3,2026-11-21,42,pmf,decrease,0.04839934364763511
-2026-10-31,wk flu hosp rate change,3,2026-11-21,42,pmf,stable,0.21502462346866597
-2026-10-31,wk flu hosp rate change,3,2026-11-21,42,pmf,increase,0.45044957065613517
-2026-10-31,wk flu hosp rate change,3,2026-11-21,42,pmf,large_increase,0.28612646222756377
+2026-10-31,wk flu hosp rate change,3,2026-11-21,42,pmf,decrease,0.04839939241718508
+2026-10-31,wk flu hosp rate change,3,2026-11-21,42,pmf,stable,0.21502488935000882
+2026-10-31,wk flu hosp rate change,3,2026-11-21,42,pmf,increase,0.45044901439100427
+2026-10-31,wk flu hosp rate change,3,2026-11-21,42,pmf,large_increase,0.28612670384180183
 2026-10-31,wk flu hosp rate change,0,2026-10-31,44,pmf,large_decrease,0.0
 2026-10-31,wk flu hosp rate change,0,2026-10-31,44,pmf,decrease,0.0
-2026-10-31,wk flu hosp rate change,0,2026-10-31,44,pmf,stable,0.8584647086878882
-2026-10-31,wk flu hosp rate change,0,2026-10-31,44,pmf,increase,0.08778756610605098
-2026-10-31,wk flu hosp rate change,0,2026-10-31,44,pmf,large_increase,0.05374772520606086
+2026-10-31,wk flu hosp rate change,0,2026-10-31,44,pmf,stable,0.8584648240548438
+2026-10-31,wk flu hosp rate change,0,2026-10-31,44,pmf,increase,0.08778749432783972
+2026-10-31,wk flu hosp rate change,0,2026-10-31,44,pmf,large_increase,0.05374768161731647
 2026-10-31,wk flu hosp rate change,1,2026-11-07,44,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,1,2026-11-07,44,pmf,decrease,0.038064092962123194
-2026-10-31,wk flu hosp rate change,1,2026-11-07,44,pmf,stable,0.6866331769972557
-2026-10-31,wk flu hosp rate change,1,2026-11-07,44,pmf,increase,0.2075349395955869
-2026-10-31,wk flu hosp rate change,1,2026-11-07,44,pmf,large_increase,0.06776779044503423
+2026-10-31,wk flu hosp rate change,1,2026-11-07,44,pmf,decrease,0.03806398630564269
+2026-10-31,wk flu hosp rate change,1,2026-11-07,44,pmf,stable,0.6866338077595169
+2026-10-31,wk flu hosp rate change,1,2026-11-07,44,pmf,increase,0.20753456418593252
+2026-10-31,wk flu hosp rate change,1,2026-11-07,44,pmf,large_increase,0.06776764174890793
 2026-10-31,wk flu hosp rate change,2,2026-11-14,44,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,2,2026-11-14,44,pmf,decrease,0.054681270838900564
-2026-10-31,wk flu hosp rate change,2,2026-11-14,44,pmf,stable,0.5821141265409735
-2026-10-31,wk flu hosp rate change,2,2026-11-14,44,pmf,increase,0.27969330333519205
-2026-10-31,wk flu hosp rate change,2,2026-11-14,44,pmf,large_increase,0.08351129928493395
+2026-10-31,wk flu hosp rate change,2,2026-11-14,44,pmf,decrease,0.05468147729961542
+2026-10-31,wk flu hosp rate change,2,2026-11-14,44,pmf,stable,0.5821145565495287
+2026-10-31,wk flu hosp rate change,2,2026-11-14,44,pmf,increase,0.2796928836820355
+2026-10-31,wk flu hosp rate change,2,2026-11-14,44,pmf,large_increase,0.08351108246882044
 2026-10-31,wk flu hosp rate change,3,2026-11-21,44,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,3,2026-11-21,44,pmf,decrease,0.054934089837825065
-2026-10-31,wk flu hosp rate change,3,2026-11-21,44,pmf,stable,0.462117414065575
-2026-10-31,wk flu hosp rate change,3,2026-11-21,44,pmf,increase,0.3668624398550111
-2026-10-31,wk flu hosp rate change,3,2026-11-21,44,pmf,large_increase,0.11608605624158885
+2026-10-31,wk flu hosp rate change,3,2026-11-21,44,pmf,decrease,0.054934040501578886
+2026-10-31,wk flu hosp rate change,3,2026-11-21,44,pmf,stable,0.46211798175484475
+2026-10-31,wk flu hosp rate change,3,2026-11-21,44,pmf,increase,0.36686216067869937
+2026-10-31,wk flu hosp rate change,3,2026-11-21,44,pmf,large_increase,0.11608581706487697
 2026-10-31,wk flu hosp rate change,0,2026-10-31,45,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,0,2026-10-31,45,pmf,decrease,0.08369195820935668
-2026-10-31,wk flu hosp rate change,0,2026-10-31,45,pmf,stable,0.2696847813493911
-2026-10-31,wk flu hosp rate change,0,2026-10-31,45,pmf,increase,0.4883598927975216
-2026-10-31,wk flu hosp rate change,0,2026-10-31,45,pmf,large_increase,0.1582633676437306
+2026-10-31,wk flu hosp rate change,0,2026-10-31,45,pmf,decrease,0.08369184712769558
+2026-10-31,wk flu hosp rate change,0,2026-10-31,45,pmf,stable,0.26968551686821146
+2026-10-31,wk flu hosp rate change,0,2026-10-31,45,pmf,increase,0.4883591493917645
+2026-10-31,wk flu hosp rate change,0,2026-10-31,45,pmf,large_increase,0.15826348661232847
 2026-10-31,wk flu hosp rate change,1,2026-11-07,45,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,1,2026-11-07,45,pmf,decrease,0.07636537279376947
-2026-10-31,wk flu hosp rate change,1,2026-11-07,45,pmf,stable,0.25059087941111696
-2026-10-31,wk flu hosp rate change,1,2026-11-07,45,pmf,increase,0.51603023108189
-2026-10-31,wk flu hosp rate change,1,2026-11-07,45,pmf,large_increase,0.15701351671322375
+2026-10-31,wk flu hosp rate change,1,2026-11-07,45,pmf,decrease,0.07636534302635113
+2026-10-31,wk flu hosp rate change,1,2026-11-07,45,pmf,stable,0.2505914380765738
+2026-10-31,wk flu hosp rate change,1,2026-11-07,45,pmf,increase,0.5160295595844674
+2026-10-31,wk flu hosp rate change,1,2026-11-07,45,pmf,large_increase,0.15701365931260783
 2026-10-31,wk flu hosp rate change,2,2026-11-14,45,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,2,2026-11-14,45,pmf,decrease,0.07201616228585364
-2026-10-31,wk flu hosp rate change,2,2026-11-14,45,pmf,stable,0.23989117544650493
-2026-10-31,wk flu hosp rate change,2,2026-11-14,45,pmf,increase,0.5154534298667907
-2026-10-31,wk flu hosp rate change,2,2026-11-14,45,pmf,large_increase,0.17263923240085077
+2026-10-31,wk flu hosp rate change,2,2026-11-14,45,pmf,decrease,0.07201624645249702
+2026-10-31,wk flu hosp rate change,2,2026-11-14,45,pmf,stable,0.23989102598382564
+2026-10-31,wk flu hosp rate change,2,2026-11-14,45,pmf,increase,0.5154532911279398
+2026-10-31,wk flu hosp rate change,2,2026-11-14,45,pmf,large_increase,0.17263943643573754
 2026-10-31,wk flu hosp rate change,3,2026-11-21,45,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,3,2026-11-21,45,pmf,decrease,0.03943195102624139
-2026-10-31,wk flu hosp rate change,3,2026-11-21,45,pmf,stable,0.28718349745110894
-2026-10-31,wk flu hosp rate change,3,2026-11-21,45,pmf,increase,0.47901956739921375
-2026-10-31,wk flu hosp rate change,3,2026-11-21,45,pmf,large_increase,0.19436498412343595
+2026-10-31,wk flu hosp rate change,3,2026-11-21,45,pmf,decrease,0.039432011487576614
+2026-10-31,wk flu hosp rate change,3,2026-11-21,45,pmf,stable,0.2871834199050947
+2026-10-31,wk flu hosp rate change,3,2026-11-21,45,pmf,increase,0.47901930627748157
+2026-10-31,wk flu hosp rate change,3,2026-11-21,45,pmf,large_increase,0.19436526232984708
 2026-10-31,wk flu hosp rate change,0,2026-10-31,46,pmf,large_decrease,0.0
 2026-10-31,wk flu hosp rate change,0,2026-10-31,46,pmf,decrease,0.0
-2026-10-31,wk flu hosp rate change,0,2026-10-31,46,pmf,stable,0.9616545669063777
-2026-10-31,wk flu hosp rate change,0,2026-10-31,46,pmf,increase,0.02502310319582579
-2026-10-31,wk flu hosp rate change,0,2026-10-31,46,pmf,large_increase,0.01332232989779647
+2026-10-31,wk flu hosp rate change,0,2026-10-31,46,pmf,stable,0.9616545833684873
+2026-10-31,wk flu hosp rate change,0,2026-10-31,46,pmf,increase,0.025023134197781238
+2026-10-31,wk flu hosp rate change,0,2026-10-31,46,pmf,large_increase,0.013322282433731458
 2026-10-31,wk flu hosp rate change,1,2026-11-07,46,pmf,large_decrease,0.0
 2026-10-31,wk flu hosp rate change,1,2026-11-07,46,pmf,decrease,0.0
-2026-10-31,wk flu hosp rate change,1,2026-11-07,46,pmf,stable,0.9130194034375763
-2026-10-31,wk flu hosp rate change,1,2026-11-07,46,pmf,increase,0.07678471245195773
-2026-10-31,wk flu hosp rate change,1,2026-11-07,46,pmf,large_increase,0.010195884110466014
+2026-10-31,wk flu hosp rate change,1,2026-11-07,46,pmf,stable,0.9130192237698503
+2026-10-31,wk flu hosp rate change,1,2026-11-07,46,pmf,increase,0.07678494992118545
+2026-10-31,wk flu hosp rate change,1,2026-11-07,46,pmf,large_increase,0.010195826308964206
 2026-10-31,wk flu hosp rate change,2,2026-11-14,46,pmf,large_decrease,0.0
 2026-10-31,wk flu hosp rate change,2,2026-11-14,46,pmf,decrease,0.0
-2026-10-31,wk flu hosp rate change,2,2026-11-14,46,pmf,stable,0.8278778111939034
-2026-10-31,wk flu hosp rate change,2,2026-11-14,46,pmf,increase,0.15534972251262213
-2026-10-31,wk flu hosp rate change,2,2026-11-14,46,pmf,large_increase,0.01677246629347451
+2026-10-31,wk flu hosp rate change,2,2026-11-14,46,pmf,stable,0.8278776020084491
+2026-10-31,wk flu hosp rate change,2,2026-11-14,46,pmf,increase,0.15534985868410112
+2026-10-31,wk flu hosp rate change,2,2026-11-14,46,pmf,large_increase,0.01677253930744982
 2026-10-31,wk flu hosp rate change,3,2026-11-21,46,pmf,large_decrease,0.0
 2026-10-31,wk flu hosp rate change,3,2026-11-21,46,pmf,decrease,0.0
-2026-10-31,wk flu hosp rate change,3,2026-11-21,46,pmf,stable,0.7419135600908889
-2026-10-31,wk flu hosp rate change,3,2026-11-21,46,pmf,increase,0.22746476594525222
-2026-10-31,wk flu hosp rate change,3,2026-11-21,46,pmf,large_increase,0.030621673963858842
+2026-10-31,wk flu hosp rate change,3,2026-11-21,46,pmf,stable,0.7419134892737088
+2026-10-31,wk flu hosp rate change,3,2026-11-21,46,pmf,increase,0.22746481821256936
+2026-10-31,wk flu hosp rate change,3,2026-11-21,46,pmf,large_increase,0.03062169251372182
 2026-10-31,wk flu hosp rate change,0,2026-10-31,47,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,0,2026-10-31,47,pmf,decrease,0.1452119080300376
-2026-10-31,wk flu hosp rate change,0,2026-10-31,47,pmf,stable,0.5178584860013891
-2026-10-31,wk flu hosp rate change,0,2026-10-31,47,pmf,increase,0.28890320968904915
-2026-10-31,wk flu hosp rate change,0,2026-10-31,47,pmf,large_increase,0.04802639627952421
+2026-10-31,wk flu hosp rate change,0,2026-10-31,47,pmf,decrease,0.1452117565318581
+2026-10-31,wk flu hosp rate change,0,2026-10-31,47,pmf,stable,0.5178590642926691
+2026-10-31,wk flu hosp rate change,0,2026-10-31,47,pmf,increase,0.2889028384304226
+2026-10-31,wk flu hosp rate change,0,2026-10-31,47,pmf,large_increase,0.04802634074505031
 2026-10-31,wk flu hosp rate change,1,2026-11-07,47,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,1,2026-11-07,47,pmf,decrease,0.08735319421290993
-2026-10-31,wk flu hosp rate change,1,2026-11-07,47,pmf,stable,0.4984944336893827
-2026-10-31,wk flu hosp rate change,1,2026-11-07,47,pmf,increase,0.3582412327083636
-2026-10-31,wk flu hosp rate change,1,2026-11-07,47,pmf,large_increase,0.05591113938934378
+2026-10-31,wk flu hosp rate change,1,2026-11-07,47,pmf,decrease,0.08735302625297948
+2026-10-31,wk flu hosp rate change,1,2026-11-07,47,pmf,stable,0.4984949295032126
+2026-10-31,wk flu hosp rate change,1,2026-11-07,47,pmf,increase,0.3582409079157166
+2026-10-31,wk flu hosp rate change,1,2026-11-07,47,pmf,large_increase,0.055911136328091304
 2026-10-31,wk flu hosp rate change,2,2026-11-14,47,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,2,2026-11-14,47,pmf,decrease,0.05023471982625811
-2026-10-31,wk flu hosp rate change,2,2026-11-14,47,pmf,stable,0.46376425452956255
-2026-10-31,wk flu hosp rate change,2,2026-11-14,47,pmf,increase,0.4161203547420115
-2026-10-31,wk flu hosp rate change,2,2026-11-14,47,pmf,large_increase,0.06988067090216787
+2026-10-31,wk flu hosp rate change,2,2026-11-14,47,pmf,decrease,0.050234793972470514
+2026-10-31,wk flu hosp rate change,2,2026-11-14,47,pmf,stable,0.4637639802315739
+2026-10-31,wk flu hosp rate change,2,2026-11-14,47,pmf,increase,0.41612051352775337
+2026-10-31,wk flu hosp rate change,2,2026-11-14,47,pmf,large_increase,0.06988071226820225
 2026-10-31,wk flu hosp rate change,3,2026-11-21,47,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,3,2026-11-21,47,pmf,decrease,0.021225115921955483
-2026-10-31,wk flu hosp rate change,3,2026-11-21,47,pmf,stable,0.4421589496787024
-2026-10-31,wk flu hosp rate change,3,2026-11-21,47,pmf,increase,0.44896593819126435
-2026-10-31,wk flu hosp rate change,3,2026-11-21,47,pmf,large_increase,0.08764999620807779
+2026-10-31,wk flu hosp rate change,3,2026-11-21,47,pmf,decrease,0.02122511390978444
+2026-10-31,wk flu hosp rate change,3,2026-11-21,47,pmf,stable,0.4421589559690605
+2026-10-31,wk flu hosp rate change,3,2026-11-21,47,pmf,increase,0.44896589963655786
+2026-10-31,wk flu hosp rate change,3,2026-11-21,47,pmf,large_increase,0.08765003048459719
 2026-10-31,wk flu hosp rate change,0,2026-10-31,48,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,0,2026-10-31,48,pmf,decrease,0.048370319139848184
-2026-10-31,wk flu hosp rate change,0,2026-10-31,48,pmf,stable,0.4307011863624568
-2026-10-31,wk flu hosp rate change,0,2026-10-31,48,pmf,increase,0.47834020122263016
-2026-10-31,wk flu hosp rate change,0,2026-10-31,48,pmf,large_increase,0.04258829327506486
+2026-10-31,wk flu hosp rate change,0,2026-10-31,48,pmf,decrease,0.04837014082213752
+2026-10-31,wk flu hosp rate change,0,2026-10-31,48,pmf,stable,0.4307007432376023
+2026-10-31,wk flu hosp rate change,0,2026-10-31,48,pmf,increase,0.47834074427848294
+2026-10-31,wk flu hosp rate change,0,2026-10-31,48,pmf,large_increase,0.0425883716617772
 2026-10-31,wk flu hosp rate change,1,2026-11-07,48,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,1,2026-11-07,48,pmf,decrease,0.03875517122387387
-2026-10-31,wk flu hosp rate change,1,2026-11-07,48,pmf,stable,0.38548871628069514
-2026-10-31,wk flu hosp rate change,1,2026-11-07,48,pmf,increase,0.5370342461948033
-2026-10-31,wk flu hosp rate change,1,2026-11-07,48,pmf,large_increase,0.03872186630062768
+2026-10-31,wk flu hosp rate change,1,2026-11-07,48,pmf,decrease,0.03875514145561573
+2026-10-31,wk flu hosp rate change,1,2026-11-07,48,pmf,stable,0.3854889002760302
+2026-10-31,wk flu hosp rate change,1,2026-11-07,48,pmf,increase,0.5370340962810964
+2026-10-31,wk flu hosp rate change,1,2026-11-07,48,pmf,large_increase,0.03872186198725769
 2026-10-31,wk flu hosp rate change,2,2026-11-14,48,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,2,2026-11-14,48,pmf,decrease,0.036998724258020456
-2026-10-31,wk flu hosp rate change,2,2026-11-14,48,pmf,stable,0.3863536106718635
-2026-10-31,wk flu hosp rate change,2,2026-11-14,48,pmf,increase,0.5378285157537493
-2026-10-31,wk flu hosp rate change,2,2026-11-14,48,pmf,large_increase,0.03881914931636677
+2026-10-31,wk flu hosp rate change,2,2026-11-14,48,pmf,decrease,0.03699877871691184
+2026-10-31,wk flu hosp rate change,2,2026-11-14,48,pmf,stable,0.386353362133126
+2026-10-31,wk flu hosp rate change,2,2026-11-14,48,pmf,increase,0.5378286755065114
+2026-10-31,wk flu hosp rate change,2,2026-11-14,48,pmf,large_increase,0.03881918364345083
 2026-10-31,wk flu hosp rate change,3,2026-11-21,48,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,3,2026-11-21,48,pmf,decrease,0.024697756722499062
-2026-10-31,wk flu hosp rate change,3,2026-11-21,48,pmf,stable,0.4090003131111088
-2026-10-31,wk flu hosp rate change,3,2026-11-21,48,pmf,increase,0.5220878671041094
-2026-10-31,wk flu hosp rate change,3,2026-11-21,48,pmf,large_increase,0.044214063062282705
+2026-10-31,wk flu hosp rate change,3,2026-11-21,48,pmf,decrease,0.024697691114298162
+2026-10-31,wk flu hosp rate change,3,2026-11-21,48,pmf,stable,0.40900028153304596
+2026-10-31,wk flu hosp rate change,3,2026-11-21,48,pmf,increase,0.5220878821971878
+2026-10-31,wk flu hosp rate change,3,2026-11-21,48,pmf,large_increase,0.044214145155468065
 2026-10-31,wk flu hosp rate change,0,2026-10-31,49,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,0,2026-10-31,49,pmf,decrease,0.10932810916366358
-2026-10-31,wk flu hosp rate change,0,2026-10-31,49,pmf,stable,0.6362677338122714
-2026-10-31,wk flu hosp rate change,0,2026-10-31,49,pmf,increase,0.24036797841141133
-2026-10-31,wk flu hosp rate change,0,2026-10-31,49,pmf,large_increase,0.014036178612653716
+2026-10-31,wk flu hosp rate change,0,2026-10-31,49,pmf,decrease,0.10932826600865224
+2026-10-31,wk flu hosp rate change,0,2026-10-31,49,pmf,stable,0.636267171759771
+2026-10-31,wk flu hosp rate change,0,2026-10-31,49,pmf,increase,0.24036837193632699
+2026-10-31,wk flu hosp rate change,0,2026-10-31,49,pmf,large_increase,0.014036190295249829
 2026-10-31,wk flu hosp rate change,1,2026-11-07,49,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,1,2026-11-07,49,pmf,decrease,0.06029505983047737
-2026-10-31,wk flu hosp rate change,1,2026-11-07,49,pmf,stable,0.6246097451732965
-2026-10-31,wk flu hosp rate change,1,2026-11-07,49,pmf,increase,0.3000778031582262
-2026-10-31,wk flu hosp rate change,1,2026-11-07,49,pmf,large_increase,0.015017391837999994
+2026-10-31,wk flu hosp rate change,1,2026-11-07,49,pmf,decrease,0.06029515929634999
+2026-10-31,wk flu hosp rate change,1,2026-11-07,49,pmf,stable,0.6246094487447235
+2026-10-31,wk flu hosp rate change,1,2026-11-07,49,pmf,increase,0.30007798316695733
+2026-10-31,wk flu hosp rate change,1,2026-11-07,49,pmf,large_increase,0.015017408791969222
 2026-10-31,wk flu hosp rate change,2,2026-11-14,49,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,2,2026-11-14,49,pmf,decrease,0.04366207874786546
-2026-10-31,wk flu hosp rate change,2,2026-11-14,49,pmf,stable,0.6127124980010759
-2026-10-31,wk flu hosp rate change,2,2026-11-14,49,pmf,increase,0.32641898702573613
-2026-10-31,wk flu hosp rate change,2,2026-11-14,49,pmf,large_increase,0.017206436225322586
+2026-10-31,wk flu hosp rate change,2,2026-11-14,49,pmf,decrease,0.04366210157743993
+2026-10-31,wk flu hosp rate change,2,2026-11-14,49,pmf,stable,0.6127122162249867
+2026-10-31,wk flu hosp rate change,2,2026-11-14,49,pmf,increase,0.3264191877550887
+2026-10-31,wk flu hosp rate change,2,2026-11-14,49,pmf,large_increase,0.017206494442484677
 2026-10-31,wk flu hosp rate change,3,2026-11-21,49,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,3,2026-11-21,49,pmf,decrease,0.02225524379992052
-2026-10-31,wk flu hosp rate change,3,2026-11-21,49,pmf,stable,0.5947507107881415
-2026-10-31,wk flu hosp rate change,3,2026-11-21,49,pmf,increase,0.36197447730975574
-2026-10-31,wk flu hosp rate change,3,2026-11-21,49,pmf,large_increase,0.021019568102182307
+2026-10-31,wk flu hosp rate change,3,2026-11-21,49,pmf,decrease,0.022255281031278065
+2026-10-31,wk flu hosp rate change,3,2026-11-21,49,pmf,stable,0.5947505158308312
+2026-10-31,wk flu hosp rate change,3,2026-11-21,49,pmf,increase,0.36197460891807653
+2026-10-31,wk flu hosp rate change,3,2026-11-21,49,pmf,large_increase,0.021019594219814253
 2026-10-31,wk flu hosp rate change,0,2026-10-31,50,pmf,large_decrease,0.0
 2026-10-31,wk flu hosp rate change,0,2026-10-31,50,pmf,decrease,0.0
-2026-10-31,wk flu hosp rate change,0,2026-10-31,50,pmf,stable,0.9390286488055162
-2026-10-31,wk flu hosp rate change,0,2026-10-31,50,pmf,increase,0.012532748906671998
-2026-10-31,wk flu hosp rate change,0,2026-10-31,50,pmf,large_increase,0.04843860228781183
+2026-10-31,wk flu hosp rate change,0,2026-10-31,50,pmf,stable,0.9390286623972488
+2026-10-31,wk flu hosp rate change,0,2026-10-31,50,pmf,increase,0.012532735017055097
+2026-10-31,wk flu hosp rate change,0,2026-10-31,50,pmf,large_increase,0.0484386025856961
 2026-10-31,wk flu hosp rate change,1,2026-11-07,50,pmf,large_decrease,0.0
 2026-10-31,wk flu hosp rate change,1,2026-11-07,50,pmf,decrease,0.0
-2026-10-31,wk flu hosp rate change,1,2026-11-07,50,pmf,stable,0.8594028347963152
-2026-10-31,wk flu hosp rate change,1,2026-11-07,50,pmf,increase,0.09314087187086417
-2026-10-31,wk flu hosp rate change,1,2026-11-07,50,pmf,large_increase,0.04745629333282064
+2026-10-31,wk flu hosp rate change,1,2026-11-07,50,pmf,stable,0.8594027025138032
+2026-10-31,wk flu hosp rate change,1,2026-11-07,50,pmf,increase,0.09314093475443008
+2026-10-31,wk flu hosp rate change,1,2026-11-07,50,pmf,large_increase,0.04745636273176668
 2026-10-31,wk flu hosp rate change,2,2026-11-14,50,pmf,large_decrease,0.0
 2026-10-31,wk flu hosp rate change,2,2026-11-14,50,pmf,decrease,0.0
-2026-10-31,wk flu hosp rate change,2,2026-11-14,50,pmf,stable,0.7641277702533034
-2026-10-31,wk flu hosp rate change,2,2026-11-14,50,pmf,increase,0.1806457946306691
-2026-10-31,wk flu hosp rate change,2,2026-11-14,50,pmf,large_increase,0.05522643511602754
+2026-10-31,wk flu hosp rate change,2,2026-11-14,50,pmf,stable,0.7641278443738108
+2026-10-31,wk flu hosp rate change,2,2026-11-14,50,pmf,increase,0.18064565354220474
+2026-10-31,wk flu hosp rate change,2,2026-11-14,50,pmf,large_increase,0.0552265020839845
 2026-10-31,wk flu hosp rate change,3,2026-11-21,50,pmf,large_decrease,0.0
 2026-10-31,wk flu hosp rate change,3,2026-11-21,50,pmf,decrease,0.0
-2026-10-31,wk flu hosp rate change,3,2026-11-21,50,pmf,stable,0.6438812191775425
-2026-10-31,wk flu hosp rate change,3,2026-11-21,50,pmf,increase,0.2820702573112257
-2026-10-31,wk flu hosp rate change,3,2026-11-21,50,pmf,large_increase,0.07404852351123181
+2026-10-31,wk flu hosp rate change,3,2026-11-21,50,pmf,stable,0.6438812804887036
+2026-10-31,wk flu hosp rate change,3,2026-11-21,50,pmf,increase,0.2820701973006592
+2026-10-31,wk flu hosp rate change,3,2026-11-21,50,pmf,large_increase,0.07404852221063718
 2026-10-31,wk flu hosp rate change,0,2026-10-31,51,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,0,2026-10-31,51,pmf,decrease,0.04321468693165921
-2026-10-31,wk flu hosp rate change,0,2026-10-31,51,pmf,stable,0.6766593321044603
-2026-10-31,wk flu hosp rate change,0,2026-10-31,51,pmf,increase,0.255674133634484
-2026-10-31,wk flu hosp rate change,0,2026-10-31,51,pmf,large_increase,0.024451847329396537
+2026-10-31,wk flu hosp rate change,0,2026-10-31,51,pmf,decrease,0.0432145798392503
+2026-10-31,wk flu hosp rate change,0,2026-10-31,51,pmf,stable,0.6766594791682539
+2026-10-31,wk flu hosp rate change,0,2026-10-31,51,pmf,increase,0.2556741003075349
+2026-10-31,wk flu hosp rate change,0,2026-10-31,51,pmf,large_increase,0.02445184068496098
 2026-10-31,wk flu hosp rate change,1,2026-11-07,51,pmf,large_decrease,0.0
 2026-10-31,wk flu hosp rate change,1,2026-11-07,51,pmf,decrease,0.0
-2026-10-31,wk flu hosp rate change,1,2026-11-07,51,pmf,stable,0.6125861768026543
-2026-10-31,wk flu hosp rate change,1,2026-11-07,51,pmf,increase,0.35231993252543103
-2026-10-31,wk flu hosp rate change,1,2026-11-07,51,pmf,large_increase,0.03509389067191471
+2026-10-31,wk flu hosp rate change,1,2026-11-07,51,pmf,stable,0.6125861975502365
+2026-10-31,wk flu hosp rate change,1,2026-11-07,51,pmf,increase,0.35231995534911753
+2026-10-31,wk flu hosp rate change,1,2026-11-07,51,pmf,large_increase,0.035093847100646
 2026-10-31,wk flu hosp rate change,2,2026-11-14,51,pmf,large_decrease,0.0
 2026-10-31,wk flu hosp rate change,2,2026-11-14,51,pmf,decrease,0.0
-2026-10-31,wk flu hosp rate change,2,2026-11-14,51,pmf,stable,0.5475717891678963
-2026-10-31,wk flu hosp rate change,2,2026-11-14,51,pmf,increase,0.40559411231179676
-2026-10-31,wk flu hosp rate change,2,2026-11-14,51,pmf,large_increase,0.046834098520306955
+2026-10-31,wk flu hosp rate change,2,2026-11-14,51,pmf,stable,0.547572335219103
+2026-10-31,wk flu hosp rate change,2,2026-11-14,51,pmf,increase,0.40559355660538965
+2026-10-31,wk flu hosp rate change,2,2026-11-14,51,pmf,large_increase,0.04683410817550737
 2026-10-31,wk flu hosp rate change,3,2026-11-21,51,pmf,large_decrease,0.0
 2026-10-31,wk flu hosp rate change,3,2026-11-21,51,pmf,decrease,0.0
-2026-10-31,wk flu hosp rate change,3,2026-11-21,51,pmf,stable,0.5174789620026287
-2026-10-31,wk flu hosp rate change,3,2026-11-21,51,pmf,increase,0.4164236343524992
-2026-10-31,wk flu hosp rate change,3,2026-11-21,51,pmf,large_increase,0.06609740364487215
+2026-10-31,wk flu hosp rate change,3,2026-11-21,51,pmf,stable,0.5174792686146481
+2026-10-31,wk flu hosp rate change,3,2026-11-21,51,pmf,increase,0.41642336760913257
+2026-10-31,wk flu hosp rate change,3,2026-11-21,51,pmf,large_increase,0.06609736377621933
 2026-10-31,wk flu hosp rate change,0,2026-10-31,53,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,0,2026-10-31,53,pmf,decrease,0.15351202181419787
-2026-10-31,wk flu hosp rate change,0,2026-10-31,53,pmf,stable,0.4515207293083888
-2026-10-31,wk flu hosp rate change,0,2026-10-31,53,pmf,increase,0.3510375487024924
-2026-10-31,wk flu hosp rate change,0,2026-10-31,53,pmf,large_increase,0.04392970017492093
+2026-10-31,wk flu hosp rate change,0,2026-10-31,53,pmf,decrease,0.15351268843911386
+2026-10-31,wk flu hosp rate change,0,2026-10-31,53,pmf,stable,0.4515213623227832
+2026-10-31,wk flu hosp rate change,0,2026-10-31,53,pmf,increase,0.35103627204617316
+2026-10-31,wk flu hosp rate change,0,2026-10-31,53,pmf,large_increase,0.04392967719192975
 2026-10-31,wk flu hosp rate change,1,2026-11-07,53,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,1,2026-11-07,53,pmf,decrease,0.17572159625025338
-2026-10-31,wk flu hosp rate change,1,2026-11-07,53,pmf,stable,0.47107996549796305
-2026-10-31,wk flu hosp rate change,1,2026-11-07,53,pmf,increase,0.3140344267134222
-2026-10-31,wk flu hosp rate change,1,2026-11-07,53,pmf,large_increase,0.039164011538361354
+2026-10-31,wk flu hosp rate change,1,2026-11-07,53,pmf,decrease,0.17572156272862224
+2026-10-31,wk flu hosp rate change,1,2026-11-07,53,pmf,stable,0.4710793642495954
+2026-10-31,wk flu hosp rate change,1,2026-11-07,53,pmf,increase,0.314034993387597
+2026-10-31,wk flu hosp rate change,1,2026-11-07,53,pmf,large_increase,0.039164079634185334
 2026-10-31,wk flu hosp rate change,2,2026-11-14,53,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,2,2026-11-14,53,pmf,decrease,0.16315038462691986
-2026-10-31,wk flu hosp rate change,2,2026-11-14,53,pmf,stable,0.4996795671709868
-2026-10-31,wk flu hosp rate change,2,2026-11-14,53,pmf,increase,0.2954469108052691
-2026-10-31,wk flu hosp rate change,2,2026-11-14,53,pmf,large_increase,0.041723137396824206
+2026-10-31,wk flu hosp rate change,2,2026-11-14,53,pmf,decrease,0.16315029378803902
+2026-10-31,wk flu hosp rate change,2,2026-11-14,53,pmf,stable,0.499679359076837
+2026-10-31,wk flu hosp rate change,2,2026-11-14,53,pmf,increase,0.295447187411198
+2026-10-31,wk flu hosp rate change,2,2026-11-14,53,pmf,large_increase,0.04172315972392593
 2026-10-31,wk flu hosp rate change,3,2026-11-21,53,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,3,2026-11-21,53,pmf,decrease,0.12506202602008462
-2026-10-31,wk flu hosp rate change,3,2026-11-21,53,pmf,stable,0.5434769509103711
-2026-10-31,wk flu hosp rate change,3,2026-11-21,53,pmf,increase,0.2895034480931655
-2026-10-31,wk flu hosp rate change,3,2026-11-21,53,pmf,large_increase,0.04195757497637875
+2026-10-31,wk flu hosp rate change,3,2026-11-21,53,pmf,decrease,0.12506200618181604
+2026-10-31,wk flu hosp rate change,3,2026-11-21,53,pmf,stable,0.5434766659907737
+2026-10-31,wk flu hosp rate change,3,2026-11-21,53,pmf,increase,0.2895036851562256
+2026-10-31,wk flu hosp rate change,3,2026-11-21,53,pmf,large_increase,0.041957642671184625
 2026-10-31,wk flu hosp rate change,0,2026-10-31,54,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,0,2026-10-31,54,pmf,decrease,0.018700784642090906
-2026-10-31,wk flu hosp rate change,0,2026-10-31,54,pmf,stable,0.7351894447004081
-2026-10-31,wk flu hosp rate change,0,2026-10-31,54,pmf,increase,0.16706446550449416
-2026-10-31,wk flu hosp rate change,0,2026-10-31,54,pmf,large_increase,0.07904530515300678
+2026-10-31,wk flu hosp rate change,0,2026-10-31,54,pmf,decrease,0.0187006937609515
+2026-10-31,wk flu hosp rate change,0,2026-10-31,54,pmf,stable,0.7351893369381285
+2026-10-31,wk flu hosp rate change,0,2026-10-31,54,pmf,increase,0.16706468980783162
+2026-10-31,wk flu hosp rate change,0,2026-10-31,54,pmf,large_increase,0.07904527949308837
 2026-10-31,wk flu hosp rate change,1,2026-11-07,54,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,1,2026-11-07,54,pmf,decrease,0.027545596336590396
-2026-10-31,wk flu hosp rate change,1,2026-11-07,54,pmf,stable,0.5998992591962238
-2026-10-31,wk flu hosp rate change,1,2026-11-07,54,pmf,increase,0.2907465307428111
-2026-10-31,wk flu hosp rate change,1,2026-11-07,54,pmf,large_increase,0.08180861372437476
+2026-10-31,wk flu hosp rate change,1,2026-11-07,54,pmf,decrease,0.027545798614043417
+2026-10-31,wk flu hosp rate change,1,2026-11-07,54,pmf,stable,0.5998996423517562
+2026-10-31,wk flu hosp rate change,1,2026-11-07,54,pmf,increase,0.290745987092795
+2026-10-31,wk flu hosp rate change,1,2026-11-07,54,pmf,large_increase,0.08180857194140545
 2026-10-31,wk flu hosp rate change,2,2026-11-14,54,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,2,2026-11-14,54,pmf,decrease,0.030804473532993436
-2026-10-31,wk flu hosp rate change,2,2026-11-14,54,pmf,stable,0.5593800969333808
-2026-10-31,wk flu hosp rate change,2,2026-11-14,54,pmf,increase,0.31709990945211397
-2026-10-31,wk flu hosp rate change,2,2026-11-14,54,pmf,large_increase,0.09271552008151185
+2026-10-31,wk flu hosp rate change,2,2026-11-14,54,pmf,decrease,0.03080379630034672
+2026-10-31,wk flu hosp rate change,2,2026-11-14,54,pmf,stable,0.5593802043598766
+2026-10-31,wk flu hosp rate change,2,2026-11-14,54,pmf,increase,0.31710045663285025
+2026-10-31,wk flu hosp rate change,2,2026-11-14,54,pmf,large_increase,0.0927155427069265
 2026-10-31,wk flu hosp rate change,3,2026-11-21,54,pmf,large_decrease,0.0
 2026-10-31,wk flu hosp rate change,3,2026-11-21,54,pmf,decrease,0.0
-2026-10-31,wk flu hosp rate change,3,2026-11-21,54,pmf,stable,0.5534265676513275
-2026-10-31,wk flu hosp rate change,3,2026-11-21,54,pmf,increase,0.32976460020335885
-2026-10-31,wk flu hosp rate change,3,2026-11-21,54,pmf,large_increase,0.11680883214531368
+2026-10-31,wk flu hosp rate change,3,2026-11-21,54,pmf,stable,0.5534265208578134
+2026-10-31,wk flu hosp rate change,3,2026-11-21,54,pmf,increase,0.3297646574474097
+2026-10-31,wk flu hosp rate change,3,2026-11-21,54,pmf,large_increase,0.11680882169477691
 2026-10-31,wk flu hosp rate change,0,2026-10-31,55,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,0,2026-10-31,55,pmf,decrease,0.08868229233864652
-2026-10-31,wk flu hosp rate change,0,2026-10-31,55,pmf,stable,0.5216682350907208
-2026-10-31,wk flu hosp rate change,0,2026-10-31,55,pmf,increase,0.34969942278108335
-2026-10-31,wk flu hosp rate change,0,2026-10-31,55,pmf,large_increase,0.0399500497895493
+2026-10-31,wk flu hosp rate change,0,2026-10-31,55,pmf,decrease,0.08868227796697739
+2026-10-31,wk flu hosp rate change,0,2026-10-31,55,pmf,stable,0.5216692274918909
+2026-10-31,wk flu hosp rate change,0,2026-10-31,55,pmf,increase,0.34969835761023527
+2026-10-31,wk flu hosp rate change,0,2026-10-31,55,pmf,large_increase,0.03995013693089644
 2026-10-31,wk flu hosp rate change,1,2026-11-07,55,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,1,2026-11-07,55,pmf,decrease,0.034994781107247894
-2026-10-31,wk flu hosp rate change,1,2026-11-07,55,pmf,stable,0.5077543666185557
-2026-10-31,wk flu hosp rate change,1,2026-11-07,55,pmf,increase,0.3975085142391783
-2026-10-31,wk flu hosp rate change,1,2026-11-07,55,pmf,large_increase,0.05974233803501816
+2026-10-31,wk flu hosp rate change,1,2026-11-07,55,pmf,decrease,0.034994537092576855
+2026-10-31,wk flu hosp rate change,1,2026-11-07,55,pmf,stable,0.5077550574532069
+2026-10-31,wk flu hosp rate change,1,2026-11-07,55,pmf,increase,0.3975082441779977
+2026-10-31,wk flu hosp rate change,1,2026-11-07,55,pmf,large_increase,0.059742161276218564
 2026-10-31,wk flu hosp rate change,2,2026-11-14,55,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,2,2026-11-14,55,pmf,decrease,0.018432361913131842
-2026-10-31,wk flu hosp rate change,2,2026-11-14,55,pmf,stable,0.4618163378378064
-2026-10-31,wk flu hosp rate change,2,2026-11-14,55,pmf,increase,0.42906824510450586
-2026-10-31,wk flu hosp rate change,2,2026-11-14,55,pmf,large_increase,0.09068305514455588
+2026-10-31,wk flu hosp rate change,2,2026-11-14,55,pmf,decrease,0.01843232512259168
+2026-10-31,wk flu hosp rate change,2,2026-11-14,55,pmf,stable,0.4618163778911249
+2026-10-31,wk flu hosp rate change,2,2026-11-14,55,pmf,increase,0.4290683994830191
+2026-10-31,wk flu hosp rate change,2,2026-11-14,55,pmf,large_increase,0.0906828975032643
 2026-10-31,wk flu hosp rate change,3,2026-11-21,55,pmf,large_decrease,0.0
 2026-10-31,wk flu hosp rate change,3,2026-11-21,55,pmf,decrease,0.0
-2026-10-31,wk flu hosp rate change,3,2026-11-21,55,pmf,stable,0.42993006217991975
-2026-10-31,wk flu hosp rate change,3,2026-11-21,55,pmf,increase,0.42972827932561525
-2026-10-31,wk flu hosp rate change,3,2026-11-21,55,pmf,large_increase,0.140341658494465
+2026-10-31,wk flu hosp rate change,3,2026-11-21,55,pmf,stable,0.42993030525909803
+2026-10-31,wk flu hosp rate change,3,2026-11-21,55,pmf,increase,0.4297283272037222
+2026-10-31,wk flu hosp rate change,3,2026-11-21,55,pmf,large_increase,0.14034136753717974
 2026-10-31,wk flu hosp rate change,0,2026-10-31,56,pmf,large_decrease,0.0
 2026-10-31,wk flu hosp rate change,0,2026-10-31,56,pmf,decrease,0.0
-2026-10-31,wk flu hosp rate change,0,2026-10-31,56,pmf,stable,0.9294816755359346
+2026-10-31,wk flu hosp rate change,0,2026-10-31,56,pmf,stable,0.9294816791189464
 2026-10-31,wk flu hosp rate change,0,2026-10-31,56,pmf,increase,0.0
-2026-10-31,wk flu hosp rate change,0,2026-10-31,56,pmf,large_increase,0.07051832446406536
+2026-10-31,wk flu hosp rate change,0,2026-10-31,56,pmf,large_increase,0.07051832088105359
 2026-10-31,wk flu hosp rate change,1,2026-11-07,56,pmf,large_decrease,0.0
 2026-10-31,wk flu hosp rate change,1,2026-11-07,56,pmf,decrease,0.0
-2026-10-31,wk flu hosp rate change,1,2026-11-07,56,pmf,stable,0.8635499071717757
-2026-10-31,wk flu hosp rate change,1,2026-11-07,56,pmf,increase,0.08053798949020019
-2026-10-31,wk flu hosp rate change,1,2026-11-07,56,pmf,large_increase,0.0559121033380241
+2026-10-31,wk flu hosp rate change,1,2026-11-07,56,pmf,stable,0.8635500362910351
+2026-10-31,wk flu hosp rate change,1,2026-11-07,56,pmf,increase,0.08053791078279704
+2026-10-31,wk flu hosp rate change,1,2026-11-07,56,pmf,large_increase,0.055912052926167854
 2026-10-31,wk flu hosp rate change,2,2026-11-14,56,pmf,large_decrease,0.0
 2026-10-31,wk flu hosp rate change,2,2026-11-14,56,pmf,decrease,0.0
-2026-10-31,wk flu hosp rate change,2,2026-11-14,56,pmf,stable,0.7696682347521714
-2026-10-31,wk flu hosp rate change,2,2026-11-14,56,pmf,increase,0.15345453120585262
-2026-10-31,wk flu hosp rate change,2,2026-11-14,56,pmf,large_increase,0.076877234041976
+2026-10-31,wk flu hosp rate change,2,2026-11-14,56,pmf,stable,0.7696682353863004
+2026-10-31,wk flu hosp rate change,2,2026-11-14,56,pmf,increase,0.1534544819340068
+2026-10-31,wk flu hosp rate change,2,2026-11-14,56,pmf,large_increase,0.07687728267969285
 2026-10-31,wk flu hosp rate change,3,2026-11-21,56,pmf,large_decrease,0.0
 2026-10-31,wk flu hosp rate change,3,2026-11-21,56,pmf,decrease,0.0
-2026-10-31,wk flu hosp rate change,3,2026-11-21,56,pmf,stable,0.6610310635956433
-2026-10-31,wk flu hosp rate change,3,2026-11-21,56,pmf,increase,0.24050766908250998
-2026-10-31,wk flu hosp rate change,3,2026-11-21,56,pmf,large_increase,0.09846126732184668
-2026-10-31,wk flu hosp rate change,0,2026-10-31,72,pmf,large_decrease,0.12588094323523763
-2026-10-31,wk flu hosp rate change,0,2026-10-31,72,pmf,decrease,0.23319404336130872
-2026-10-31,wk flu hosp rate change,0,2026-10-31,72,pmf,stable,0.1556951851396704
-2026-10-31,wk flu hosp rate change,0,2026-10-31,72,pmf,increase,0.24812406452604507
-2026-10-31,wk flu hosp rate change,0,2026-10-31,72,pmf,large_increase,0.23710576373773817
-2026-10-31,wk flu hosp rate change,1,2026-11-07,72,pmf,large_decrease,0.06058824903514486
-2026-10-31,wk flu hosp rate change,1,2026-11-07,72,pmf,decrease,0.26677399027999793
-2026-10-31,wk flu hosp rate change,1,2026-11-07,72,pmf,stable,0.16115800982600909
-2026-10-31,wk flu hosp rate change,1,2026-11-07,72,pmf,increase,0.3119803915621824
-2026-10-31,wk flu hosp rate change,1,2026-11-07,72,pmf,large_increase,0.19949935929666573
-2026-10-31,wk flu hosp rate change,2,2026-11-14,72,pmf,large_decrease,0.036012591190743425
-2026-10-31,wk flu hosp rate change,2,2026-11-14,72,pmf,decrease,0.27047563866622043
-2026-10-31,wk flu hosp rate change,2,2026-11-14,72,pmf,stable,0.1787626573726973
-2026-10-31,wk flu hosp rate change,2,2026-11-14,72,pmf,increase,0.32827229367386546
-2026-10-31,wk flu hosp rate change,2,2026-11-14,72,pmf,large_increase,0.1864768190964734
-2026-10-31,wk flu hosp rate change,3,2026-11-21,72,pmf,large_decrease,0.02152519468437765
-2026-10-31,wk flu hosp rate change,3,2026-11-21,72,pmf,decrease,0.2705657325095926
-2026-10-31,wk flu hosp rate change,3,2026-11-21,72,pmf,stable,0.22744020244526153
-2026-10-31,wk flu hosp rate change,3,2026-11-21,72,pmf,increase,0.3084365065600755
-2026-10-31,wk flu hosp rate change,3,2026-11-21,72,pmf,large_increase,0.17203236380069276
+2026-10-31,wk flu hosp rate change,3,2026-11-21,56,pmf,stable,0.6610309224215255
+2026-10-31,wk flu hosp rate change,3,2026-11-21,56,pmf,increase,0.24050781048236392
+2026-10-31,wk flu hosp rate change,3,2026-11-21,56,pmf,large_increase,0.09846126709611058
+2026-10-31,wk flu hosp rate change,0,2026-10-31,72,pmf,large_decrease,0.12588146542188922
+2026-10-31,wk flu hosp rate change,0,2026-10-31,72,pmf,decrease,0.23319347001099378
+2026-10-31,wk flu hosp rate change,0,2026-10-31,72,pmf,stable,0.1556949699614894
+2026-10-31,wk flu hosp rate change,0,2026-10-31,72,pmf,increase,0.2481244646115931
+2026-10-31,wk flu hosp rate change,0,2026-10-31,72,pmf,large_increase,0.2371056299940345
+2026-10-31,wk flu hosp rate change,1,2026-11-07,72,pmf,large_decrease,0.06058813585324636
+2026-10-31,wk flu hosp rate change,1,2026-11-07,72,pmf,decrease,0.26677370675455636
+2026-10-31,wk flu hosp rate change,1,2026-11-07,72,pmf,stable,0.1611577439683789
+2026-10-31,wk flu hosp rate change,1,2026-11-07,72,pmf,increase,0.31198085416456495
+2026-10-31,wk flu hosp rate change,1,2026-11-07,72,pmf,large_increase,0.19949955925925345
+2026-10-31,wk flu hosp rate change,2,2026-11-14,72,pmf,large_decrease,0.03601258638977914
+2026-10-31,wk flu hosp rate change,2,2026-11-14,72,pmf,decrease,0.27047509056964836
+2026-10-31,wk flu hosp rate change,2,2026-11-14,72,pmf,stable,0.17876302414407824
+2026-10-31,wk flu hosp rate change,2,2026-11-14,72,pmf,increase,0.32827215289472245
+2026-10-31,wk flu hosp rate change,2,2026-11-14,72,pmf,large_increase,0.1864771460017718
+2026-10-31,wk flu hosp rate change,3,2026-11-21,72,pmf,large_decrease,0.021525185488410592
+2026-10-31,wk flu hosp rate change,3,2026-11-21,72,pmf,decrease,0.27056540229604026
+2026-10-31,wk flu hosp rate change,3,2026-11-21,72,pmf,stable,0.22744009062884918
+2026-10-31,wk flu hosp rate change,3,2026-11-21,72,pmf,increase,0.3084366995730444
+2026-10-31,wk flu hosp rate change,3,2026-11-21,72,pmf,large_increase,0.17203262201365555
 2026-10-31,wk flu hosp rate change,0,2026-10-31,US,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,0,2026-10-31,US,pmf,decrease,0.041093865609214145
-2026-10-31,wk flu hosp rate change,0,2026-10-31,US,pmf,stable,0.31232701675281466
-2026-10-31,wk flu hosp rate change,0,2026-10-31,US,pmf,increase,0.6101636407021866
-2026-10-31,wk flu hosp rate change,0,2026-10-31,US,pmf,large_increase,0.03641547693578451
+2026-10-31,wk flu hosp rate change,0,2026-10-31,US,pmf,decrease,0.04109390200858272
+2026-10-31,wk flu hosp rate change,0,2026-10-31,US,pmf,stable,0.31232607261583684
+2026-10-31,wk flu hosp rate change,0,2026-10-31,US,pmf,increase,0.6101645017766312
+2026-10-31,wk flu hosp rate change,0,2026-10-31,US,pmf,large_increase,0.036415523598949284
 2026-10-31,wk flu hosp rate change,1,2026-11-07,US,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,1,2026-11-07,US,pmf,decrease,0.01842575355324513
-2026-10-31,wk flu hosp rate change,1,2026-11-07,US,pmf,stable,0.2654726188861853
-2026-10-31,wk flu hosp rate change,1,2026-11-07,US,pmf,increase,0.6527867881041606
-2026-10-31,wk flu hosp rate change,1,2026-11-07,US,pmf,large_increase,0.06331483945640903
+2026-10-31,wk flu hosp rate change,1,2026-11-07,US,pmf,decrease,0.018425699963052728
+2026-10-31,wk flu hosp rate change,1,2026-11-07,US,pmf,stable,0.26547141955142095
+2026-10-31,wk flu hosp rate change,1,2026-11-07,US,pmf,increase,0.6527879552907849
+2026-10-31,wk flu hosp rate change,1,2026-11-07,US,pmf,large_increase,0.06331492519474136
 2026-10-31,wk flu hosp rate change,2,2026-11-14,US,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,2,2026-11-14,US,pmf,decrease,0.016142626910879174
-2026-10-31,wk flu hosp rate change,2,2026-11-14,US,pmf,stable,0.23301386484841866
-2026-10-31,wk flu hosp rate change,2,2026-11-14,US,pmf,increase,0.6553174191816886
-2026-10-31,wk flu hosp rate change,2,2026-11-14,US,pmf,large_increase,0.09552608905901361
+2026-10-31,wk flu hosp rate change,2,2026-11-14,US,pmf,decrease,0.01614259868990091
+2026-10-31,wk flu hosp rate change,2,2026-11-14,US,pmf,stable,0.2330132549814216
+2026-10-31,wk flu hosp rate change,2,2026-11-14,US,pmf,increase,0.6553177102517119
+2026-10-31,wk flu hosp rate change,2,2026-11-14,US,pmf,large_increase,0.09552643607696554
 2026-10-31,wk flu hosp rate change,3,2026-11-21,US,pmf,large_decrease,0.0
-2026-10-31,wk flu hosp rate change,3,2026-11-21,US,pmf,decrease,0.012406623059376608
-2026-10-31,wk flu hosp rate change,3,2026-11-21,US,pmf,stable,0.2367726545429514
-2026-10-31,wk flu hosp rate change,3,2026-11-21,US,pmf,increase,0.6268092200386358
-2026-10-31,wk flu hosp rate change,3,2026-11-21,US,pmf,large_increase,0.12401150235903613
+2026-10-31,wk flu hosp rate change,3,2026-11-21,US,pmf,decrease,0.012406590861666027
+2026-10-31,wk flu hosp rate change,3,2026-11-21,US,pmf,stable,0.23677189324508205
+2026-10-31,wk flu hosp rate change,3,2026-11-21,US,pmf,increase,0.6268096012834035
+2026-10-31,wk flu hosp rate change,3,2026-11-21,US,pmf,large_increase,0.1240119146098484
 2026-10-31,wk inc flu hosp,-1,2026-10-24,01,quantile,0.01,64.0
 2026-10-31,wk inc flu hosp,-1,2026-10-24,01,quantile,0.025,66.0
 2026-10-31,wk inc flu hosp,-1,2026-10-24,01,quantile,0.05,69.0
@@ -10173,7 +10173,7 @@ reference_date,target,horizon,target_end_date,location,output_type,output_type_i
 2026-10-31,wk inc flu hosp,3,2026-11-21,US,quantile,0.85,22034.0
 2026-10-31,wk inc flu hosp,3,2026-11-21,US,quantile,0.9,24955.0
 2026-10-31,wk inc flu hosp,3,2026-11-21,US,quantile,0.95,29816.0
-2026-10-31,wk inc flu hosp,3,2026-11-21,US,quantile,0.975,35579.0
+2026-10-31,wk inc flu hosp,3,2026-11-21,US,quantile,0.975,35580.0
 2026-10-31,wk inc flu hosp,3,2026-11-21,US,quantile,0.99,42281.0
 2026-10-31,wk inc flu prop ed visits,-1,2026-10-24,01,quantile,0.01,0.013653
 2026-10-31,wk inc flu prop ed visits,-1,2026-10-24,01,quantile,0.025,0.013913
@@ -10265,7 +10265,7 @@ reference_date,target,horizon,target_end_date,location,output_type,output_type_i
 2026-10-31,wk inc flu prop ed visits,2,2026-11-14,01,quantile,0.85,0.034915
 2026-10-31,wk inc flu prop ed visits,2,2026-11-14,01,quantile,0.9,0.039734
 2026-10-31,wk inc flu prop ed visits,2,2026-11-14,01,quantile,0.95,0.046876
-2026-10-31,wk inc flu prop ed visits,2,2026-11-14,01,quantile,0.975,0.05307
+2026-10-31,wk inc flu prop ed visits,2,2026-11-14,01,quantile,0.975,0.053071
 2026-10-31,wk inc flu prop ed visits,2,2026-11-14,01,quantile,0.99,0.060273
 2026-10-31,wk inc flu prop ed visits,3,2026-11-21,01,quantile,0.01,0.002043
 2026-10-31,wk inc flu prop ed visits,3,2026-11-21,01,quantile,0.025,0.004689
@@ -10736,7 +10736,7 @@ reference_date,target,horizon,target_end_date,location,output_type,output_type_i
 2026-10-31,wk inc flu prop ed visits,3,2026-11-21,06,quantile,0.25,0.030366
 2026-10-31,wk inc flu prop ed visits,3,2026-11-21,06,quantile,0.3,0.032767
 2026-10-31,wk inc flu prop ed visits,3,2026-11-21,06,quantile,0.35,0.034893
-2026-10-31,wk inc flu prop ed visits,3,2026-11-21,06,quantile,0.4,0.036927
+2026-10-31,wk inc flu prop ed visits,3,2026-11-21,06,quantile,0.4,0.036928
 2026-10-31,wk inc flu prop ed visits,3,2026-11-21,06,quantile,0.45,0.038818
 2026-10-31,wk inc flu prop ed visits,3,2026-11-21,06,quantile,0.5,0.040719
 2026-10-31,wk inc flu prop ed visits,3,2026-11-21,06,quantile,0.55,0.042645
@@ -10941,7 +10941,7 @@ reference_date,target,horizon,target_end_date,location,output_type,output_type_i
 2026-10-31,wk inc flu prop ed visits,2,2026-11-14,09,quantile,0.15,0.004292
 2026-10-31,wk inc flu prop ed visits,2,2026-11-14,09,quantile,0.2,0.005133
 2026-10-31,wk inc flu prop ed visits,2,2026-11-14,09,quantile,0.25,0.005698
-2026-10-31,wk inc flu prop ed visits,2,2026-11-14,09,quantile,0.3,0.006236
+2026-10-31,wk inc flu prop ed visits,2,2026-11-14,09,quantile,0.3,0.006235
 2026-10-31,wk inc flu prop ed visits,2,2026-11-14,09,quantile,0.35,0.006826
 2026-10-31,wk inc flu prop ed visits,2,2026-11-14,09,quantile,0.4,0.00743
 2026-10-31,wk inc flu prop ed visits,2,2026-11-14,09,quantile,0.45,0.008062
@@ -11258,7 +11258,7 @@ reference_date,target,horizon,target_end_date,location,output_type,output_type_i
 2026-10-31,wk inc flu prop ed visits,0,2026-10-31,12,quantile,0.99,0.045158
 2026-10-31,wk inc flu prop ed visits,1,2026-11-07,12,quantile,0.01,0.01488
 2026-10-31,wk inc flu prop ed visits,1,2026-11-07,12,quantile,0.025,0.017642
-2026-10-31,wk inc flu prop ed visits,1,2026-11-07,12,quantile,0.05,0.020312
+2026-10-31,wk inc flu prop ed visits,1,2026-11-07,12,quantile,0.05,0.020313
 2026-10-31,wk inc flu prop ed visits,1,2026-11-07,12,quantile,0.1,0.023187
 2026-10-31,wk inc flu prop ed visits,1,2026-11-07,12,quantile,0.15,0.025113
 2026-10-31,wk inc flu prop ed visits,1,2026-11-07,12,quantile,0.2,0.026349
@@ -11529,7 +11529,7 @@ reference_date,target,horizon,target_end_date,location,output_type,output_type_i
 2026-10-31,wk inc flu prop ed visits,2,2026-11-14,15,quantile,0.8,0.07608
 2026-10-31,wk inc flu prop ed visits,2,2026-11-14,15,quantile,0.85,0.079847
 2026-10-31,wk inc flu prop ed visits,2,2026-11-14,15,quantile,0.9,0.084847
-2026-10-31,wk inc flu prop ed visits,2,2026-11-14,15,quantile,0.95,0.093995
+2026-10-31,wk inc flu prop ed visits,2,2026-11-14,15,quantile,0.95,0.093994
 2026-10-31,wk inc flu prop ed visits,2,2026-11-14,15,quantile,0.975,0.103579
 2026-10-31,wk inc flu prop ed visits,2,2026-11-14,15,quantile,0.99,0.114723
 2026-10-31,wk inc flu prop ed visits,3,2026-11-21,15,quantile,0.01,0.017715
@@ -12014,7 +12014,7 @@ reference_date,target,horizon,target_end_date,location,output_type,output_type_i
 2026-10-31,wk inc flu prop ed visits,3,2026-11-21,20,quantile,0.9,0.016834
 2026-10-31,wk inc flu prop ed visits,3,2026-11-21,20,quantile,0.95,0.024798
 2026-10-31,wk inc flu prop ed visits,3,2026-11-21,20,quantile,0.975,0.034532
-2026-10-31,wk inc flu prop ed visits,3,2026-11-21,20,quantile,0.99,0.043737
+2026-10-31,wk inc flu prop ed visits,3,2026-11-21,20,quantile,0.99,0.043736
 2026-10-31,wk inc flu prop ed visits,-1,2026-10-24,21,quantile,0.01,0.010868
 2026-10-31,wk inc flu prop ed visits,-1,2026-10-24,21,quantile,0.025,0.011086
 2026-10-31,wk inc flu prop ed visits,-1,2026-10-24,21,quantile,0.05,0.011276
@@ -12123,7 +12123,7 @@ reference_date,target,horizon,target_end_date,location,output_type,output_type_i
 2026-10-31,wk inc flu prop ed visits,3,2026-11-21,21,quantile,0.6,0.029731
 2026-10-31,wk inc flu prop ed visits,3,2026-11-21,21,quantile,0.65,0.032172
 2026-10-31,wk inc flu prop ed visits,3,2026-11-21,21,quantile,0.7,0.034901
-2026-10-31,wk inc flu prop ed visits,3,2026-11-21,21,quantile,0.75,0.038034
+2026-10-31,wk inc flu prop ed visits,3,2026-11-21,21,quantile,0.75,0.038035
 2026-10-31,wk inc flu prop ed visits,3,2026-11-21,21,quantile,0.8,0.041792
 2026-10-31,wk inc flu prop ed visits,3,2026-11-21,21,quantile,0.85,0.047135
 2026-10-31,wk inc flu prop ed visits,3,2026-11-21,21,quantile,0.9,0.054258
@@ -12332,10 +12332,10 @@ reference_date,target,horizon,target_end_date,location,output_type,output_type_i
 2026-10-31,wk inc flu prop ed visits,2,2026-11-14,23,quantile,0.7,0.010163
 2026-10-31,wk inc flu prop ed visits,2,2026-11-14,23,quantile,0.75,0.011106
 2026-10-31,wk inc flu prop ed visits,2,2026-11-14,23,quantile,0.8,0.012367
-2026-10-31,wk inc flu prop ed visits,2,2026-11-14,23,quantile,0.85,0.014299
+2026-10-31,wk inc flu prop ed visits,2,2026-11-14,23,quantile,0.85,0.0143
 2026-10-31,wk inc flu prop ed visits,2,2026-11-14,23,quantile,0.9,0.017353
 2026-10-31,wk inc flu prop ed visits,2,2026-11-14,23,quantile,0.95,0.022802
-2026-10-31,wk inc flu prop ed visits,2,2026-11-14,23,quantile,0.975,0.029677
+2026-10-31,wk inc flu prop ed visits,2,2026-11-14,23,quantile,0.975,0.029676
 2026-10-31,wk inc flu prop ed visits,2,2026-11-14,23,quantile,0.99,0.035604
 2026-10-31,wk inc flu prop ed visits,3,2026-11-21,23,quantile,0.01,0.0
 2026-10-31,wk inc flu prop ed visits,3,2026-11-21,23,quantile,0.025,0.000323
@@ -13000,7 +13000,7 @@ reference_date,target,horizon,target_end_date,location,output_type,output_type_i
 2026-10-31,wk inc flu prop ed visits,1,2026-11-07,29,quantile,0.75,0.007047
 2026-10-31,wk inc flu prop ed visits,1,2026-11-07,29,quantile,0.8,0.007807
 2026-10-31,wk inc flu prop ed visits,1,2026-11-07,29,quantile,0.85,0.009506
-2026-10-31,wk inc flu prop ed visits,1,2026-11-07,29,quantile,0.9,0.011831
+2026-10-31,wk inc flu prop ed visits,1,2026-11-07,29,quantile,0.9,0.011832
 2026-10-31,wk inc flu prop ed visits,1,2026-11-07,29,quantile,0.95,0.015987
 2026-10-31,wk inc flu prop ed visits,1,2026-11-07,29,quantile,0.975,0.021242
 2026-10-31,wk inc flu prop ed visits,1,2026-11-07,29,quantile,0.99,0.027352
@@ -13555,7 +13555,7 @@ reference_date,target,horizon,target_end_date,location,output_type,output_type_i
 2026-10-31,wk inc flu prop ed visits,0,2026-10-31,34,quantile,0.9,0.015147
 2026-10-31,wk inc flu prop ed visits,0,2026-10-31,34,quantile,0.95,0.017092
 2026-10-31,wk inc flu prop ed visits,0,2026-10-31,34,quantile,0.975,0.020055
-2026-10-31,wk inc flu prop ed visits,0,2026-10-31,34,quantile,0.99,0.0235
+2026-10-31,wk inc flu prop ed visits,0,2026-10-31,34,quantile,0.99,0.023501
 2026-10-31,wk inc flu prop ed visits,1,2026-11-07,34,quantile,0.01,0.004527
 2026-10-31,wk inc flu prop ed visits,1,2026-11-07,34,quantile,0.025,0.005964
 2026-10-31,wk inc flu prop ed visits,1,2026-11-07,34,quantile,0.05,0.007188
@@ -13598,7 +13598,7 @@ reference_date,target,horizon,target_end_date,location,output_type,output_type_i
 2026-10-31,wk inc flu prop ed visits,2,2026-11-14,34,quantile,0.75,0.025774
 2026-10-31,wk inc flu prop ed visits,2,2026-11-14,34,quantile,0.8,0.028337
 2026-10-31,wk inc flu prop ed visits,2,2026-11-14,34,quantile,0.85,0.031683
-2026-10-31,wk inc flu prop ed visits,2,2026-11-14,34,quantile,0.9,0.036469
+2026-10-31,wk inc flu prop ed visits,2,2026-11-14,34,quantile,0.9,0.03647
 2026-10-31,wk inc flu prop ed visits,2,2026-11-14,34,quantile,0.95,0.044624
 2026-10-31,wk inc flu prop ed visits,2,2026-11-14,34,quantile,0.975,0.052561
 2026-10-31,wk inc flu prop ed visits,2,2026-11-14,34,quantile,0.99,0.06179
@@ -13673,7 +13673,7 @@ reference_date,target,horizon,target_end_date,location,output_type,output_type_i
 2026-10-31,wk inc flu prop ed visits,0,2026-10-31,35,quantile,0.99,0.034416
 2026-10-31,wk inc flu prop ed visits,1,2026-11-07,35,quantile,0.01,0.002176
 2026-10-31,wk inc flu prop ed visits,1,2026-11-07,35,quantile,0.025,0.003585
-2026-10-31,wk inc flu prop ed visits,1,2026-11-07,35,quantile,0.05,0.004796
+2026-10-31,wk inc flu prop ed visits,1,2026-11-07,35,quantile,0.05,0.004797
 2026-10-31,wk inc flu prop ed visits,1,2026-11-07,35,quantile,0.1,0.0064
 2026-10-31,wk inc flu prop ed visits,1,2026-11-07,35,quantile,0.15,0.007679
 2026-10-31,wk inc flu prop ed visits,1,2026-11-07,35,quantile,0.2,0.008746
@@ -13715,7 +13715,7 @@ reference_date,target,horizon,target_end_date,location,output_type,output_type_i
 2026-10-31,wk inc flu prop ed visits,2,2026-11-14,35,quantile,0.85,0.036087
 2026-10-31,wk inc flu prop ed visits,2,2026-11-14,35,quantile,0.9,0.042427
 2026-10-31,wk inc flu prop ed visits,2,2026-11-14,35,quantile,0.95,0.054466
-2026-10-31,wk inc flu prop ed visits,2,2026-11-14,35,quantile,0.975,0.067366
+2026-10-31,wk inc flu prop ed visits,2,2026-11-14,35,quantile,0.975,0.067365
 2026-10-31,wk inc flu prop ed visits,2,2026-11-14,35,quantile,0.99,0.082364
 2026-10-31,wk inc flu prop ed visits,3,2026-11-21,35,quantile,0.01,0.0
 2026-10-31,wk inc flu prop ed visits,3,2026-11-21,35,quantile,0.025,0.001131
@@ -14168,7 +14168,7 @@ reference_date,target,horizon,target_end_date,location,output_type,output_type_i
 2026-10-31,wk inc flu prop ed visits,2,2026-11-14,39,quantile,0.5,0.009435
 2026-10-31,wk inc flu prop ed visits,2,2026-11-14,39,quantile,0.55,0.01015
 2026-10-31,wk inc flu prop ed visits,2,2026-11-14,39,quantile,0.6,0.010904
-2026-10-31,wk inc flu prop ed visits,2,2026-11-14,39,quantile,0.65,0.011784
+2026-10-31,wk inc flu prop ed visits,2,2026-11-14,39,quantile,0.65,0.011785
 2026-10-31,wk inc flu prop ed visits,2,2026-11-14,39,quantile,0.7,0.012908
 2026-10-31,wk inc flu prop ed visits,2,2026-11-14,39,quantile,0.75,0.014313
 2026-10-31,wk inc flu prop ed visits,2,2026-11-14,39,quantile,0.8,0.016155
@@ -14194,7 +14194,7 @@ reference_date,target,horizon,target_end_date,location,output_type,output_type_i
 2026-10-31,wk inc flu prop ed visits,3,2026-11-21,39,quantile,0.65,0.015987
 2026-10-31,wk inc flu prop ed visits,3,2026-11-21,39,quantile,0.7,0.017803
 2026-10-31,wk inc flu prop ed visits,3,2026-11-21,39,quantile,0.75,0.019938
-2026-10-31,wk inc flu prop ed visits,3,2026-11-21,39,quantile,0.8,0.022905
+2026-10-31,wk inc flu prop ed visits,3,2026-11-21,39,quantile,0.8,0.022906
 2026-10-31,wk inc flu prop ed visits,3,2026-11-21,39,quantile,0.85,0.026919
 2026-10-31,wk inc flu prop ed visits,3,2026-11-21,39,quantile,0.9,0.032756
 2026-10-31,wk inc flu prop ed visits,3,2026-11-21,39,quantile,0.95,0.044312
@@ -14377,7 +14377,7 @@ reference_date,target,horizon,target_end_date,location,output_type,output_type_i
 2026-10-31,wk inc flu prop ed visits,1,2026-11-07,41,quantile,0.6,0.017841
 2026-10-31,wk inc flu prop ed visits,1,2026-11-07,41,quantile,0.65,0.018717
 2026-10-31,wk inc flu prop ed visits,1,2026-11-07,41,quantile,0.7,0.019759
-2026-10-31,wk inc flu prop ed visits,1,2026-11-07,41,quantile,0.75,0.020923
+2026-10-31,wk inc flu prop ed visits,1,2026-11-07,41,quantile,0.75,0.020922
 2026-10-31,wk inc flu prop ed visits,1,2026-11-07,41,quantile,0.8,0.022334
 2026-10-31,wk inc flu prop ed visits,1,2026-11-07,41,quantile,0.85,0.024672
 2026-10-31,wk inc flu prop ed visits,1,2026-11-07,41,quantile,0.9,0.02801
@@ -14424,7 +14424,7 @@ reference_date,target,horizon,target_end_date,location,output_type,output_type_i
 2026-10-31,wk inc flu prop ed visits,3,2026-11-21,41,quantile,0.65,0.025808
 2026-10-31,wk inc flu prop ed visits,3,2026-11-21,41,quantile,0.7,0.027828
 2026-10-31,wk inc flu prop ed visits,3,2026-11-21,41,quantile,0.75,0.030159
-2026-10-31,wk inc flu prop ed visits,3,2026-11-21,41,quantile,0.8,0.033028
+2026-10-31,wk inc flu prop ed visits,3,2026-11-21,41,quantile,0.8,0.033027
 2026-10-31,wk inc flu prop ed visits,3,2026-11-21,41,quantile,0.85,0.037418
 2026-10-31,wk inc flu prop ed visits,3,2026-11-21,41,quantile,0.9,0.043275
 2026-10-31,wk inc flu prop ed visits,3,2026-11-21,41,quantile,0.95,0.053781
@@ -15488,7 +15488,7 @@ reference_date,target,horizon,target_end_date,location,output_type,output_type_i
 2026-10-31,wk inc flu prop ed visits,-1,2026-10-24,53,quantile,0.95,0.02072
 2026-10-31,wk inc flu prop ed visits,-1,2026-10-24,53,quantile,0.975,0.021034
 2026-10-31,wk inc flu prop ed visits,-1,2026-10-24,53,quantile,0.99,0.021405
-2026-10-31,wk inc flu prop ed visits,0,2026-10-31,53,quantile,0.01,0.014228
+2026-10-31,wk inc flu prop ed visits,0,2026-10-31,53,quantile,0.01,0.014227
 2026-10-31,wk inc flu prop ed visits,0,2026-10-31,53,quantile,0.025,0.015544
 2026-10-31,wk inc flu prop ed visits,0,2026-10-31,53,quantile,0.05,0.016617
 2026-10-31,wk inc flu prop ed visits,0,2026-10-31,53,quantile,0.1,0.017656
@@ -15510,11 +15510,11 @@ reference_date,target,horizon,target_end_date,location,output_type,output_type_i
 2026-10-31,wk inc flu prop ed visits,0,2026-10-31,53,quantile,0.9,0.025609
 2026-10-31,wk inc flu prop ed visits,0,2026-10-31,53,quantile,0.95,0.027245
 2026-10-31,wk inc flu prop ed visits,0,2026-10-31,53,quantile,0.975,0.030516
-2026-10-31,wk inc flu prop ed visits,0,2026-10-31,53,quantile,0.99,0.035134
+2026-10-31,wk inc flu prop ed visits,0,2026-10-31,53,quantile,0.99,0.035135
 2026-10-31,wk inc flu prop ed visits,1,2026-11-07,53,quantile,0.01,0.010566
 2026-10-31,wk inc flu prop ed visits,1,2026-11-07,53,quantile,0.025,0.012946
 2026-10-31,wk inc flu prop ed visits,1,2026-11-07,53,quantile,0.05,0.014992
-2026-10-31,wk inc flu prop ed visits,1,2026-11-07,53,quantile,0.1,0.017016
+2026-10-31,wk inc flu prop ed visits,1,2026-11-07,53,quantile,0.1,0.017015
 2026-10-31,wk inc flu prop ed visits,1,2026-11-07,53,quantile,0.15,0.018369
 2026-10-31,wk inc flu prop ed visits,1,2026-11-07,53,quantile,0.2,0.019397
 2026-10-31,wk inc flu prop ed visits,1,2026-11-07,53,quantile,0.25,0.020146
@@ -15783,7 +15783,7 @@ reference_date,target,horizon,target_end_date,location,output_type,output_type_i
 2026-10-31,wk inc flu prop ed visits,2,2026-11-14,55,quantile,0.75,0.010455
 2026-10-31,wk inc flu prop ed visits,2,2026-11-14,55,quantile,0.8,0.012035
 2026-10-31,wk inc flu prop ed visits,2,2026-11-14,55,quantile,0.85,0.01466
-2026-10-31,wk inc flu prop ed visits,2,2026-11-14,55,quantile,0.9,0.018419
+2026-10-31,wk inc flu prop ed visits,2,2026-11-14,55,quantile,0.9,0.01842
 2026-10-31,wk inc flu prop ed visits,2,2026-11-14,55,quantile,0.95,0.025029
 2026-10-31,wk inc flu prop ed visits,2,2026-11-14,55,quantile,0.975,0.02924
 2026-10-31,wk inc flu prop ed visits,2,2026-11-14,55,quantile,0.99,0.034135
@@ -15881,7 +15881,7 @@ reference_date,target,horizon,target_end_date,location,output_type,output_type_i
 2026-10-31,wk inc flu prop ed visits,1,2026-11-07,56,quantile,0.99,0.05089
 2026-10-31,wk inc flu prop ed visits,2,2026-11-14,56,quantile,0.01,0.004027
 2026-10-31,wk inc flu prop ed visits,2,2026-11-14,56,quantile,0.025,0.005978
-2026-10-31,wk inc flu prop ed visits,2,2026-11-14,56,quantile,0.05,0.007983
+2026-10-31,wk inc flu prop ed visits,2,2026-11-14,56,quantile,0.05,0.007982
 2026-10-31,wk inc flu prop ed visits,2,2026-11-14,56,quantile,0.1,0.010561
 2026-10-31,wk inc flu prop ed visits,2,2026-11-14,56,quantile,0.15,0.012064
 2026-10-31,wk inc flu prop ed visits,2,2026-11-14,56,quantile,0.2,0.013262
@@ -15901,7 +15901,7 @@ reference_date,target,horizon,target_end_date,location,output_type,output_type_i
 2026-10-31,wk inc flu prop ed visits,2,2026-11-14,56,quantile,0.9,0.041379
 2026-10-31,wk inc flu prop ed visits,2,2026-11-14,56,quantile,0.95,0.048707
 2026-10-31,wk inc flu prop ed visits,2,2026-11-14,56,quantile,0.975,0.055063
-2026-10-31,wk inc flu prop ed visits,2,2026-11-14,56,quantile,0.99,0.06313
+2026-10-31,wk inc flu prop ed visits,2,2026-11-14,56,quantile,0.99,0.063131
 2026-10-31,wk inc flu prop ed visits,3,2026-11-21,56,quantile,0.01,0.003469
 2026-10-31,wk inc flu prop ed visits,3,2026-11-21,56,quantile,0.025,0.006218
 2026-10-31,wk inc flu prop ed visits,3,2026-11-21,56,quantile,0.05,0.008382
@@ -15919,7 +15919,7 @@ reference_date,target,horizon,target_end_date,location,output_type,output_type_i
 2026-10-31,wk inc flu prop ed visits,3,2026-11-21,56,quantile,0.65,0.029296
 2026-10-31,wk inc flu prop ed visits,3,2026-11-21,56,quantile,0.7,0.032029
 2026-10-31,wk inc flu prop ed visits,3,2026-11-21,56,quantile,0.75,0.035621
-2026-10-31,wk inc flu prop ed visits,3,2026-11-21,56,quantile,0.8,0.039629
+2026-10-31,wk inc flu prop ed visits,3,2026-11-21,56,quantile,0.8,0.03963
 2026-10-31,wk inc flu prop ed visits,3,2026-11-21,56,quantile,0.85,0.044421
 2026-10-31,wk inc flu prop ed visits,3,2026-11-21,56,quantile,0.9,0.050451
 2026-10-31,wk inc flu prop ed visits,3,2026-11-21,56,quantile,0.95,0.059387

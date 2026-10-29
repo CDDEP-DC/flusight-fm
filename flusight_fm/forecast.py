@@ -380,10 +380,28 @@ def run(ref_date: dt.date, frames: dict, locations: pd.DataFrame, models, target
                   components, ensembles, horizon_q, peaks)
 
 
+def archive(root: Path, ref) -> Path | None:
+    """Move an earlier run's outputs for `ref` to root/archive/<ref>/<timestamp>/, keeping their layout."""
+    root = Path(root)
+    old = [root / "components" / str(ref), root / "model-output" / C.model_id() / f"{ref}-{C.model_id()}.csv",
+           *(root / "nowcasts").glob(f"{ref}-*"), *(root / "reports").glob(f"{ref}-*")]
+    old = [p for p in old if p.exists()]
+    if not old:
+        return None
+    dest = root / "archive" / str(ref) / dt.datetime.now().strftime("%Y%m%d-%H%M%S")
+    for p in old:
+        target = dest / p.relative_to(root)
+        target.parent.mkdir(parents=True, exist_ok=True)
+        p.rename(target)
+    log.info("Moved the earlier run for %s to %s", ref, dest)
+    return dest
+
+
 def save(result: Result, root: Path) -> Path | None:
-    """Write the submission (if valid), component forecasts and nowcasts under `root`."""
+    """Write the submission (if valid), component forecasts and nowcasts under `root`, archiving any earlier run."""
     root = Path(root)
     ref = result.ref_date
+    archive(root, ref)
     for key, comps in result.components.items():
         rows = []
         for name, preds in comps.items():
