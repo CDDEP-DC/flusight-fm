@@ -152,7 +152,7 @@ def relative_summary(scores: pd.DataFrame, by=("target", "horizon")) -> pd.DataF
 def load_components(root: Path) -> pd.DataFrame:
     frames = []
     for f in sorted((Path(root) / "components").glob("*/*.parquet")):
-        ref, key = pd.Timestamp(f.parent.name), f.stem
+        ref, key = pd.Timestamp(f.parent.name).as_unit("ns"), f.stem  # parsed strings are [s]; see _stack
         df = pd.read_parquet(f)
         df["target_end_date"] = pd.to_datetime(df["target_end_date"])
         frames.append(df.assign(reference_date=ref, target=C.TARGET_NAMES[key]))
