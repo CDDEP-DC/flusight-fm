@@ -163,6 +163,7 @@ The cron and Task Scheduler times are the machine's local time; 16:30 assumes it
 ```bash
 flusight season-test                 # all of last season (2025-26), every week
 flusight season-test --every 2 --models chronos2 timesfm moirai2    # quicker first pass
+flusight season-test --targets hosp rate_change ed peak             # all targets (default: hosp rate_change)
 ```
 
 This replays each week of the season. It uses only the data that was available at that
@@ -176,8 +177,12 @@ per week plus a season total:
 - nowcast error vs the raw report
 - each model's own score
 - the national forecast vs what happened
+- if run with those targets: ED relative WIS and coverage, rate-change Brier score and hit rate,
+  and peak incidence WIS/coverage and peak week log score (peaks are scored only once the season is over)
 
-The test resumes where it left off if interrupted. A full season is roughly 30 weekly runs,
+The test resumes where it left off if interrupted. It skips weeks that already have every
+requested target, and reruns weeks that are missing any of them (the earlier run is moved to
+`backtests/<name>/archive/`). A full season is roughly 30 weekly runs,
 so expect a few hours on CPU.
 
 Pretraining caveat: the foundation models' training data may overlap the test season. That

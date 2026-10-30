@@ -18,6 +18,16 @@ from . import data, evaluate, forecast
 from .models import ModelPool
 
 log = logging.getLogger(__name__)
+HUB_TARGETS = {"hosp": [C.HOSP_TARGET], "rate_change": [C.RATE_TARGET], "ed": [C.ED_TARGET],
+               "peak": [C.PEAK_WEEK_TARGET, C.PEAK_INC_TARGET]}
+
+
+def _has_targets(path, targets) -> bool:
+    """Whether an earlier submission file already covers every requested target."""
+    if not path.exists():
+        return False
+    have = set(pd.read_csv(path, usecols=["target"])["target"])
+    return all(t in have for key in targets for t in HUB_TARGETS[key])
 
 
 def run(start: dt.date, end: dt.date, name: str, models, targets, every: int = 1, resume: bool = True) -> dict:
@@ -30,9 +40,11 @@ def run(start: dt.date, end: dt.date, name: str, models, targets, every: int = 1
     refs = pd.date_range(data.reference_date_for(start), end, freq=f"{7 * every}D")
     for ref in (r.date() for r in refs):
         done = root / "model-output" / C.model_id() / f"{ref}-{C.model_id()}.csv"
-        if resume and done.exists():
+        if resume and _has_targets(done, targets):
             log.info("Backtest %s: %s already done; skipping", name, ref)
             continue
+        if resume and done.exists():
+            log.info("Backtest %s: %s lacks some of %s; rerunning", name, ref, ", ".join(sorted(targets)))
         frames = {key: data.vintage_for(vintages[key], ref) for key in keys}
         if frames["hosp"] is None:
             log.warning("No hospital data version for %s; skipping", ref)

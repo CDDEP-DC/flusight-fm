@@ -61,15 +61,35 @@ def _summarize(g: pd.DataFrame, comps: pd.DataFrame) -> dict:
     return row
 
 
+def _other_targets(ed: pd.DataFrame, rc: pd.DataFrame, peak: pd.DataFrame) -> dict:
+    """ED, rate-change and peak scores for one week (or the whole season); empty frames give no columns."""
+    row = {}
+    if len(ed):
+        both = ed.dropna(subset=["wis_log_base"])
+        row |= {"ed_rel_wis_log": _rel(both["wis_log"], both["wis_log_base"]), "ed_cov95": ed["cov95"].mean()}
+    if len(rc):
+        row |= {"rate_brier": rc["brier"].mean(), "rate_hit": rc["hit"].mean()}
+    for col in ("peak_inc_wis_log", "peak_inc_cov95", "peak_week_log", "peak_week_pm1"):
+        if col in peak:
+            row[col] = peak[col].mean()
+    return row
+
+
 def weekly_table(root: Path, ev: dict) -> pd.DataFrame:
     me, base_name = C.model_id(), C.BASELINE_MODEL
     keys = evaluate.KEYS[1:]
     s = ev["scores"]
-    s = s[s["target"] == C.HOSP_TARGET]
     base = s[s["model"] == base_name][keys + ["wis", "wis_log"]]
-    with_base = s.merge(base, on=keys, how="left", suffixes=("", "_base"))
+    s = s.merge(base, on=keys, how="left", suffixes=("", "_base"))
+    with_base = s[s["target"] == C.HOSP_TARGET]
     ours = with_base[with_base["model"] == me]
     comps = with_base[~with_base["model"].isin([me, base_name])]
+    ed = s[(s["target"] == C.ED_TARGET) & (s["model"] == me) & (s["horizon"] >= 0)]
+    rc = ev.get("rate_change_scores", pd.DataFrame(columns=["model", "reference_date"]))
+    rc = rc[rc["model"] == me]
+    peak = ev.get("peak_scores", pd.DataFrame(columns=["model", "reference_date"]))
+    peak = peak[peak["model"] == me]
+    at = lambda df, ref: df[df["reference_date"] == ref]
     truth = evaluate.truth_table()
     truth = truth[truth["target"] == C.HOSP_TARGET].set_index(["location", "target_end_date"])["truth"]
 
@@ -91,10 +111,10 @@ def weekly_table(root: Path, ev: dict) -> pd.DataFrame:
         us = g[(g["location"] == "US") & (g["horizon"] == 1)]
         if len(us):
             row["US h1 median"], row["US h1 observed"] = float(us["median"].iloc[0]), float(us["truth"].iloc[0])
-        rows.append(row | _summarize(g, comps[comps["reference_date"] == ref]))
+        rows.append(row | _summarize(g, at(comps, ref)) | _other_targets(at(ed, ref), at(rc, ref), at(peak, ref)))
     table = pd.DataFrame(rows)
     if len(table):
-        season = {"reference_date": "SEASON"} | _summarize(ours, comps)
+        season = {"reference_date": "SEASON"} | _summarize(ours, comps) | _other_targets(ed, rc, peak)
         if {"report_err", "nowcast_err"} <= set(table):
             season["report_err"], season["nowcast_err"] = table["report_err"].mean(), table["nowcast_err"].mean()
         table = pd.concat([table, pd.DataFrame([season])], ignore_index=True)
@@ -113,6 +133,10 @@ COLUMN_NOTES = {
     "h-1_wis": "WIS of the horizon -1 (nowcast) forecast",
     "report_err / nowcast_err": "mean |log error| vs final data of the latest week as reported vs as nowcast",
     "rel_wis_log <model>": "each component model alone, relative to baseline",
+    "ed_rel_wis_log / ed_cov95": "ED visit share: log-scale WIS relative to baseline, and 95% coverage",
+    "rate_brier / rate_hit": "rate change: Brier score (0 best, 2 worst), share where the likeliest category happened",
+    "peak_inc_wis_log / peak_inc_cov95": "season peak incidence: log-scale WIS, and whether the 95% interval held it",
+    "peak_week_log / peak_week_pm1": "peak week: log probability given to it (floor -10), probability within 1 week",
 }
 
 
@@ -121,9 +145,9 @@ def _fmt(col: str, v) -> str:
         return "–"
     if not isinstance(v, (int, float, np.number)):
         return str(v)
-    if col.startswith("cov"):
+    if col.startswith("cov") or "_cov" in col or col.endswith(("_hit", "_pm1")):
         return f"{v * 100:.0f}%"
-    if col.startswith("rel_") or col.endswith("_err"):
+    if "rel_" in col or col.endswith(("_err", "_brier", "_log")):
         return f"{v:.2f}"
     if col == "locations":
         return f"{int(v)}"

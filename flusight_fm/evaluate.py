@@ -5,6 +5,7 @@
 - 50% and 95% interval coverage.
 - Relative WIS against the hub's FluSight-baseline on the same forecasts.
 - Brier score for the rate-change target.
+- Peak incidence (WIS, coverage) and peak week (log score, Brier) once a season is over.
 - Scores for each component model, and for every combination of components,
   from the component forecasts saved alongside each submission.
 """
@@ -20,6 +21,7 @@ import requests
 
 from . import config as C
 from . import data
+from .forecast import season_bounds
 
 log = logging.getLogger(__name__)
 KEYS = ["model", "reference_date", "target", "horizon", "location"]
@@ -123,8 +125,61 @@ def score_rate_change(fc: pd.DataFrame, truth: pd.DataFrame, locations: pd.DataF
                ("large_" if abs(diff) >= large else "") + ("increase" if diff > 0 else "decrease"))
         probs = g.set_index("output_type_id")["value"].reindex(C.RATE_CHANGE_CATEGORIES).fillna(0)
         outcome = (probs.index == cat).astype(float)
-        rows.append((model, ref, C.RATE_TARGET, h, loc, float(((probs - outcome) ** 2).sum()), cat))
-    return pd.DataFrame(rows, columns=KEYS + ["brier", "observed"])
+        rows.append((model, ref, C.RATE_TARGET, h, loc, float(((probs - outcome) ** 2).sum()),
+                     float(probs.idxmax() == cat), cat))
+    return pd.DataFrame(rows, columns=KEYS + ["brier", "hit", "observed"])
+
+
+LOG_SCORE_FLOOR = -10.0  # as in CDC's past FluSight scoring, so one zero-probability week can't dominate
+
+
+def score_peak(fc: pd.DataFrame, truth: pd.DataFrame) -> pd.DataFrame:
+    """One row per (model, reference_date, location) for seasons over in the current data.
+
+    Peak incidence: WIS (natural and log scale) and 50%/95% coverage of the season's highest week.
+    Peak week: log score and Brier score of the pmf, and the probability within one week of the peak.
+    Tied peak weeks share the outcome.
+    """
+    p = fc[fc["target"].isin([C.PEAK_INC_TARGET, C.PEAK_WEEK_TARGET])]
+    if p.empty:
+        return pd.DataFrame()
+    hosp = truth[truth["target"] == C.HOSP_TARGET].set_index(["location", "target_end_date"])["truth"]
+    last = hosp.index.get_level_values("target_end_date").max()
+    off = _offsets()[C.HOSP_TARGET]
+    rows = []
+    for (model, ref, loc), g in p.groupby(["model", "reference_date", "location"]):
+        start, end = map(pd.Timestamp, season_bounds(ref.date()))
+        if last < end or loc not in hosp.index.get_level_values("location"):
+            continue
+        obs = hosp[loc].loc[start:end]
+        if obs.empty:
+            continue
+        peak = obs.max()
+        weeks = obs.index[obs == peak]
+        row = {"model": model, "reference_date": ref, "location": loc,
+               "observed_peak": peak, "observed_peak_week": weeks[0]}
+        inc = g[g["target"] == C.PEAK_INC_TARGET]
+        if len(inc):
+            tau, q = inc["output_type_id"].astype(float).to_numpy(), inc["value"].astype(float).to_numpy()
+            level = lambda x: q[np.argmin(np.abs(tau - x))]
+            row |= {"peak_inc_wis": 2 * _pinball(q, peak, tau).mean(),
+                    "peak_inc_wis_log": 2 * _pinball(np.log(q.clip(min=0) + off), np.log(peak + off), tau).mean(),
+                    "peak_inc_median": level(0.5),
+                    "peak_inc_cov50": float(level(0.25) <= peak <= level(0.75)),
+                    "peak_inc_cov95": float(level(0.025) <= peak <= level(0.975))}
+        wk = g[g["target"] == C.PEAK_WEEK_TARGET]
+        if len(wk):
+            probs = wk.set_index(pd.to_datetime(wk["output_type_id"]))["value"].astype(float)
+            probs = probs.reindex(probs.index.union(weeks), fill_value=0.0)
+            outcome = probs.index.isin(weeks) / len(weeks)
+            near = np.abs((probs.index.to_numpy()[:, None] - weeks.to_numpy()[None, :])).min(axis=1)
+            p_obs = probs[probs.index.isin(weeks)].sum()
+            row |= {"peak_week_log": max(np.log(p_obs), LOG_SCORE_FLOOR) if p_obs > 0 else LOG_SCORE_FLOOR,
+                    "peak_week_brier": float(((probs - outcome) ** 2).sum()),
+                    "peak_week_pm1": float(probs[near <= pd.Timedelta(weeks=1)].sum()),
+                    "peak_week_mode": probs.idxmax()}
+        rows.append(row)
+    return pd.DataFrame(rows)
 
 
 def relative_summary(scores: pd.DataFrame, by=("target", "horizon")) -> pd.DataFrame:
@@ -220,6 +275,13 @@ def evaluate(root: Path, combinations: bool = False) -> dict[str, pd.DataFrame]:
     rc = score_rate_change(pd.concat([subs, base], ignore_index=True), truth, locations)
     if not rc.empty:
         out["rate_change"] = rc.groupby(["model", "horizon"])["brier"].agg(["mean", "count"]).reset_index()
+        out["rate_change_scores"] = rc
+    peak = score_peak(subs, truth)
+    if not peak.empty:
+        out["peak_scores"] = peak
+        cols = [c for c in peak if c.startswith(("peak_inc_wis", "peak_inc_cov", "peak_week_log", "peak_week_brier",
+                                                  "peak_week_pm1"))]
+        out["peak"] = peak.groupby("model")[cols].mean().reset_index().assign(n=peak.groupby("model").size().values)
     if combinations:
         out["combinations"] = combination_scores(comps, truth, scores[scores["model"] == C.BASELINE_MODEL])
     d = root / "evaluation"
