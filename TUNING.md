@@ -10,7 +10,7 @@ can keep with its results.
 1. **Out-of-sample only.** A setting is judged only on forecasts made with data
    available at the time. `flusight backtest` enforces this. Each week uses the
    hub data as it stood then (rebuilt from the hub's git history), revision
-   history up to then, and its own earlier forecasts as the nowcast prior.
+   history up to then, and (if `prior_weight` > 0) its own earlier forecasts as the nowcast prior.
    Fine-tuned models need a training `--cutoff` before the season being scored.
 2. **Tune on one season, confirm on another.**
    - Tuning season: **2024-25** (reference dates 2024-11-23 to 2025-05-31).
@@ -110,7 +110,7 @@ every model. Judge it directly first.
 | `nowcast_model` | per dataset: `none`, `constant`, `size`, `size+growth` | Compare in `flusight revisions` |
 | `nowcast_variance` | `power`, `constant` | Power: s.d. shrinks with report size |
 | `nowcast_weeks` | 1, 2, 3 | The replay found no gain from revising weeks 2+ in a typical state |
-| `prior_weight` | 0, 0.5, 1 | Weight on our previous forecast |
+| `prior_weight` | 0, 0.5, 1 | Weight on our previous forecast. 0 since Nov 2026: replays with the FluSight ensemble as the prior (2024-25 to 2026) showed no gain for hosp or ED |
 | `revision_shrink` | 2, 5, 20 | Low = trust each location's own revision history |
 | `revision_settle_weeks` | 4, 8, 12 | 4 scored best in the replay |
 | `revision_start` | 2024-11-01, 2025-08-01 | Use only the current reporting regime? |

@@ -168,7 +168,7 @@ flusight season-test --targets hosp rate_change ed peak             # all target
 
 This replays each week of the season. It uses only the data that was available at that
 week's Wednesday deadline: the hub's data as committed that week, revision history up to then,
-and its own earlier forecasts as the nowcast prior. Each week is then scored against today's
+and (if `prior_weight` > 0; off by default) its own earlier forecasts as the nowcast prior. Each week is then scored against today's
 data. The weekly results table goes to
 `backtests/season-2025-26/evaluation/weekly_results.html` (also `.csv` and `.md`), with one row
 per week plus a season total:

@@ -86,7 +86,7 @@ REVISION_SETTLE_WEEKS = 4   # a week counts as "final" once it is this many week
 REVISION_SHRINK = 5.0       # pseudo-count pulling each location's revision stats toward all locations
 REVISION_MIN_SD = 0.01      # floor on revision s.d. (log scale)
 NOWCAST_FALLBACK_SD = 0.05  # revision s.d. (log scale) when there is no revision history
-PRIOR_WEIGHT = 1.0          # weight on our own earlier forecast for a week (0 disables)
+PRIOR_WEIGHT = 0.0          # weight on our own earlier forecast for a week (0 disables; off since 2026-11, no gain in replays)
 LOG_OFFSET = {"hosp": 1.0, "ed": 1e-4}  # offset in log(value + offset) for each dataset
 
 # ------------------------------------------------------------------------ peak

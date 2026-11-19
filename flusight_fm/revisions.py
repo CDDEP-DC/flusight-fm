@@ -53,8 +53,8 @@ def weekly_versions(key: str) -> tuple[dict[dt.date, pd.DataFrame], dict[dt.date
     """The last version committed before each forecast deadline, and how many commits each week had."""
     versions = data.load_versions(key)
     weekly, commits = {}, {}
-    for _, when, df in versions:
-        ref = data.availability_date(str(when))
+    refs = data.version_dates([str(when) for _, when, _ in versions])
+    for ref, (_, _, df) in zip(refs, versions):
         weekly[ref] = df.dropna(subset=["value"]).drop_duplicates(["location", "date"], keep="last")
         commits[ref] = commits.get(ref, 0) + 1
     return dict(sorted(weekly.items())), commits
